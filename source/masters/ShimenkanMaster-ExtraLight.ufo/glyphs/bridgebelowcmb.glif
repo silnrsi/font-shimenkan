@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bridgebelowcmb" format="1">
+<glyph name="bridgebelowcmb" format="2">
   <unicode hex="032A"/>
+  <anchor x="0" y="-22" name="_belowLC"/>
   <outline>
     <contour>
       <point x="90" y="-230" type="line"/>
@@ -11,9 +12,6 @@
       <point x="-90" y="-230" type="line"/>
       <point x="-90" y="-114" type="line"/>
       <point x="90" y="-114" type="line"/>
-    </contour>
-    <contour>
-      <point x="0" y="-22" type="move" name="_belowLC"/>
     </contour>
   </outline>
 </glyph>

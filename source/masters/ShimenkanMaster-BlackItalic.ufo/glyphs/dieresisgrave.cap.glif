@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresisgrave.cap" format="1">
+<glyph name="dieresisgrave.cap" format="2">
+  <anchor x="136" y="682" name="_aboveUC"/>
   <outline>
     <contour>
       <point x="24" y="696" type="curve" smooth="yes"/>
@@ -34,9 +35,6 @@
       <point x="212" y="862" type="line"/>
       <point x="144" y="1022" type="line"/>
       <point x="26" y="968" type="line"/>
-    </contour>
-    <contour>
-      <point x="136" y="682" type="move" name="_aboveUC"/>
     </contour>
   </outline>
   <lib>

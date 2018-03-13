@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="e" format="1">
+<glyph name="e" format="2">
   <advance width="526"/>
   <unicode hex="0065"/>
+  <anchor x="272" y="522" name="aboveLC"/>
+  <anchor x="272" y="-22" name="belowLC"/>
+  <anchor x="400" y="0" name="ogonekLC"/>
   <outline>
     <contour>
       <point x="290" y="-12" type="curve" smooth="yes"/>
@@ -36,15 +39,6 @@
       <point x="328" y="382"/>
       <point x="344" y="348"/>
       <point x="344" y="310" type="curve"/>
-    </contour>
-    <contour>
-      <point x="272" y="522" type="move" name="aboveLC"/>
-    </contour>
-    <contour>
-      <point x="272" y="-22" type="move" name="belowLC"/>
-    </contour>
-    <contour>
-      <point x="400" y="0" type="move" name="ogonekLC"/>
     </contour>
   </outline>
 </glyph>

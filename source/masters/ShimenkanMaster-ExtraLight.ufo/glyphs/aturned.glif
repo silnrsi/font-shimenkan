@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="aturned" format="1">
+<glyph name="aturned" format="2">
   <advance width="494"/>
   <unicode hex="0250"/>
+  <anchor x="270" y="502" name="aboveLC"/>
+  <anchor x="272" y="-22" name="belowLC"/>
+  <anchor x="324" y="0" name="ogonekLC"/>
   <outline>
     <contour>
       <point x="264" y="-12" type="curve" smooth="yes"/>
@@ -42,15 +45,6 @@
       <point x="400" y="370" type="curve" smooth="yes"/>
       <point x="400" y="283"/>
       <point x="328" y="232"/>
-    </contour>
-    <contour>
-      <point x="270" y="502" type="move" name="aboveLC"/>
-    </contour>
-    <contour>
-      <point x="272" y="-22" type="move" name="belowLC"/>
-    </contour>
-    <contour>
-      <point x="324" y="0" type="move" name="ogonekLC"/>
     </contour>
   </outline>
 </glyph>

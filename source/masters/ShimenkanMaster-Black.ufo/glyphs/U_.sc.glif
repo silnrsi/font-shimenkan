@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="U.sc" format="1">
+<glyph name="U.sc" format="2">
   <advance width="616"/>
+  <anchor x="308" y="564" name="aboveUC"/>
+  <anchor x="308" y="-22" name="belowLC"/>
+  <anchor x="496" y="542" name="hornLC"/>
+  <anchor x="308" y="0" name="ogonekUC"/>
   <outline>
     <contour>
       <point x="310" y="-12" type="curve" smooth="yes"/>
@@ -21,18 +25,6 @@
       <point x="68" y="256" type="line" smooth="yes"/>
       <point x="68" y="70"/>
       <point x="147" y="-12"/>
-    </contour>
-    <contour>
-      <point x="308" y="564" type="move" name="aboveUC"/>
-    </contour>
-    <contour>
-      <point x="308" y="-22" type="move" name="belowLC"/>
-    </contour>
-    <contour>
-      <point x="496" y="542" type="move" name="hornLC"/>
-    </contour>
-    <contour>
-      <point x="308" y="0" type="move" name="ogonekUC"/>
     </contour>
   </outline>
 </glyph>

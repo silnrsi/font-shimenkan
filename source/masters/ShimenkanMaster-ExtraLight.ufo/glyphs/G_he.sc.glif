@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ghe.sc" format="1">
+<glyph name="Ghe.sc" format="2">
   <advance width="428"/>
+  <anchor x="266" y="532" name="aboveUC"/>
   <outline>
     <component base="Gamma.sc"/>
-    <contour>
-      <point x="266" y="532" type="move" name="aboveUC"/>
-    </contour>
   </outline>
   <lib>
     <dict>

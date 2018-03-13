@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Yeru" format="1">
+<glyph name="Yeru" format="2">
   <advance width="754"/>
   <unicode hex="042B"/>
+  <anchor x="388" y="682" name="aboveUC"/>
   <outline>
     <contour>
       <point x="100" y="0" type="line"/>
@@ -32,9 +33,6 @@
       <point x="654" y="0" type="line"/>
       <point x="654" y="660" type="line"/>
       <point x="622" y="660" type="line"/>
-    </contour>
-    <contour>
-      <point x="388" y="682" type="move" name="aboveUC"/>
     </contour>
   </outline>
 </glyph>

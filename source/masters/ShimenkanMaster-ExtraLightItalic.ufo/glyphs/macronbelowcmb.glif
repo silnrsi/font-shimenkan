@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macronbelowcmb" format="1">
+<glyph name="macronbelowcmb" format="2">
   <unicode hex="0331"/>
+  <anchor x="-6" y="-30" name="_belowLC"/>
   <outline>
     <component base="macroncmb" xOffset="-150" yOffset="-770"/>
-    <contour>
-      <point x="-6" y="-30" type="move" name="_belowLC"/>
-    </contour>
   </outline>
   <lib>
     <dict>

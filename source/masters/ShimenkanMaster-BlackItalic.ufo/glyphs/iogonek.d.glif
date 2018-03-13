@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iogonek.d" format="1">
+<glyph name="iogonek.d" format="2">
   <advance width="276"/>
+  <anchor x="198" y="522" name="aboveLC"/>
   <outline>
     <contour>
       <point x="52" y="-212" type="curve" smooth="yes"/>
@@ -26,9 +27,6 @@
       <point x="-38" y="-136" type="curve" smooth="yes"/>
       <point x="-38" y="-186"/>
       <point x="0" y="-212"/>
-    </contour>
-    <contour>
-      <point x="198" y="522" type="move" name="aboveLC"/>
     </contour>
   </outline>
 </glyph>

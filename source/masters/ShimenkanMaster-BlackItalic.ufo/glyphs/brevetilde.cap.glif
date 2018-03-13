@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brevetilde.cap" format="1">
+<glyph name="brevetilde.cap" format="2">
+  <anchor x="136" y="682" name="_aboveUC"/>
   <outline>
     <contour>
       <point x="128" y="700" type="curve" smooth="yes"/>
@@ -38,9 +39,6 @@
       <point x="114" y="890" type="curve" smooth="yes"/>
       <point x="136" y="890"/>
       <point x="160" y="848"/>
-    </contour>
-    <contour>
-      <point x="136" y="682" type="move" name="_aboveUC"/>
     </contour>
   </outline>
   <lib>

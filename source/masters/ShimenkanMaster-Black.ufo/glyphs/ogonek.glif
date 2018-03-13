@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ogonek" format="1">
+<glyph name="ogonek" format="2">
   <advance width="560"/>
   <unicode hex="02DB"/>
+  <anchor x="280" y="0" name="_ogonekLC"/>
   <outline>
     <component base="ogonekcmb" xOffset="280"/>
-    <contour>
-      <point x="280" y="0" type="move" name="_ogonekLC"/>
-    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflexcmb.cap" format="1">
+<glyph name="circumflexcmb.cap" format="2">
+  <anchor x="136" y="682" name="_aboveUC"/>
   <outline>
     <contour>
       <point x="16" y="680" type="line"/>
@@ -10,9 +11,6 @@
       <point x="242" y="834" type="line"/>
       <point x="54" y="834" type="line"/>
       <point x="-50" y="730" type="line"/>
-    </contour>
-    <contour>
-      <point x="136" y="682" type="move" name="_aboveUC"/>
     </contour>
   </outline>
   <lib>

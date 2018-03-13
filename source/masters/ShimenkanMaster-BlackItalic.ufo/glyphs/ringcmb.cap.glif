@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ringcmb.cap" format="1">
+<glyph name="ringcmb.cap" format="2">
+  <anchor x="136" y="682" name="_aboveUC"/>
   <outline>
     <contour>
       <point x="132" y="696" type="curve" smooth="yes"/>
@@ -28,9 +29,6 @@
       <point x="178" y="804" type="curve" smooth="yes"/>
       <point x="178" y="778"/>
       <point x="157" y="756"/>
-    </contour>
-    <contour>
-      <point x="136" y="682" type="move" name="_aboveUC"/>
     </contour>
   </outline>
   <lib>

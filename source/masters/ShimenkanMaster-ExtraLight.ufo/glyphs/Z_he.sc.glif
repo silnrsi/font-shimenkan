@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Zhe.sc" format="1">
+<glyph name="Zhe.sc" format="2">
   <advance width="642"/>
+  <anchor x="546" y="682" name="aboveUC"/>
   <outline>
     <contour>
       <point x="306" y="0" type="line"/>
@@ -55,9 +56,6 @@
       <point x="86" y="482"/>
       <point x="118" y="414" type="curve" smooth="yes"/>
       <point x="188" y="270" type="line"/>
-    </contour>
-    <contour>
-      <point x="546" y="682" type="move" name="aboveUC"/>
     </contour>
   </outline>
 </glyph>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="C.sc" format="1">
+<glyph name="C.sc" format="2">
   <advance width="526"/>
+  <anchor x="312" y="564" name="aboveUC"/>
+  <anchor x="312" y="0" name="baseLC"/>
+  <anchor x="312" y="-22" name="belowLC"/>
   <outline>
     <contour>
       <point x="317" y="-12" type="curve" smooth="yes"/>
@@ -29,15 +32,6 @@
       <point x="44" y="261" type="curve" smooth="yes"/>
       <point x="44" y="74"/>
       <point x="172" y="-12"/>
-    </contour>
-    <contour>
-      <point x="312" y="564" type="move" name="aboveUC"/>
-    </contour>
-    <contour>
-      <point x="312" y="0" type="move" name="baseLC"/>
-    </contour>
-    <contour>
-      <point x="312" y="-22" type="move" name="belowLC"/>
     </contour>
   </outline>
 </glyph>

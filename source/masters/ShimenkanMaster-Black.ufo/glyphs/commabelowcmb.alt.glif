@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="commabelowcmb.alt" format="1">
+<glyph name="commabelowcmb.alt" format="2">
+  <anchor x="0" y="522" name="_aboveLC"/>
   <outline>
     <contour>
       <point x="48" y="566" type="curve"/>
@@ -16,9 +17,6 @@
       <point x="-102" y="652" type="curve" smooth="yes"/>
       <point x="-102" y="602"/>
       <point x="-66" y="574"/>
-    </contour>
-    <contour>
-      <point x="0" y="522" type="move" name="_aboveLC"/>
     </contour>
   </outline>
 </glyph>

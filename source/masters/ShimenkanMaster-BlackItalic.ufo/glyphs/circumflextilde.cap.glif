@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflextilde.cap" format="1">
+<glyph name="circumflextilde.cap" format="2">
+  <anchor x="135" y="682" name="_aboveUC"/>
   <outline>
     <contour>
       <point x="26" y="680" type="line"/>
@@ -32,9 +33,6 @@
       <point x="110" y="880" type="curve" smooth="yes"/>
       <point x="132" y="880"/>
       <point x="154" y="838"/>
-    </contour>
-    <contour>
-      <point x="135" y="682" type="move" name="_aboveUC"/>
     </contour>
   </outline>
   <lib>

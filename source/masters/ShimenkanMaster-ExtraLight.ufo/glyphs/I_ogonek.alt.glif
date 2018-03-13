@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Iogonek.alt" format="1">
+<glyph name="Iogonek.alt" format="2">
   <advance width="300"/>
+  <anchor x="150" y="682" name="aboveUC"/>
   <outline>
     <contour>
       <point x="156" y="-202" type="curve" smooth="yes"/>
@@ -35,9 +36,6 @@
       <point x="76" y="-122" type="curve" smooth="yes"/>
       <point x="76" y="-176"/>
       <point x="112" y="-202"/>
-    </contour>
-    <contour>
-      <point x="150" y="682" type="move" name="aboveUC"/>
     </contour>
   </outline>
 </glyph>

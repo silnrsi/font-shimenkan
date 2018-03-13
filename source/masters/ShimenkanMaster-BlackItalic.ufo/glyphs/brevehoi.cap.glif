@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brevehoi.cap" format="1">
+<glyph name="brevehoi.cap" format="2">
+  <anchor x="135" y="682" name="_aboveUC"/>
   <outline>
     <contour>
       <point x="122" y="694" type="curve" smooth="yes"/>
@@ -32,9 +33,6 @@
       <point x="136" y="868"/>
       <point x="123" y="863"/>
       <point x="106" y="860" type="curve"/>
-    </contour>
-    <contour>
-      <point x="135" y="682" type="move" name="_aboveUC"/>
     </contour>
   </outline>
   <lib>

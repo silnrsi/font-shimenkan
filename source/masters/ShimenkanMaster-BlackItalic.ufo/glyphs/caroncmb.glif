@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="caroncmb" format="1">
+<glyph name="caroncmb" format="2">
   <unicode hex="030C"/>
+  <anchor x="114" y="522" name="_aboveLC"/>
   <outline>
     <contour>
       <point x="14" y="580" type="line"/>
@@ -11,9 +12,6 @@
       <point x="110" y="680" type="line"/>
       <point x="0" y="768" type="line"/>
       <point x="-70" y="708" type="line"/>
-    </contour>
-    <contour>
-      <point x="114" y="522" type="move" name="_aboveLC"/>
     </contour>
   </outline>
   <lib>

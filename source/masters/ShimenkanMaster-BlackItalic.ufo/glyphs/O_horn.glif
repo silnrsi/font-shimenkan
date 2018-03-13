@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ohorn" format="1">
+<glyph name="Ohorn" format="2">
   <advance width="670"/>
   <unicode hex="01A0"/>
+  <anchor x="420" y="682" name="aboveUC"/>
+  <anchor x="304" y="-22" name="belowLC"/>
   <outline>
     <contour>
       <point x="579" y="579" type="line"/>
@@ -20,12 +22,6 @@
       <point x="511" y="633" type="curve"/>
     </contour>
     <component base="O"/>
-    <contour>
-      <point x="420" y="682" type="move" name="aboveUC"/>
-    </contour>
-    <contour>
-      <point x="304" y="-22" type="move" name="belowLC"/>
-    </contour>
   </outline>
   <lib>
     <dict>

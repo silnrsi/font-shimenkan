@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="R" format="1">
+<glyph name="R" format="2">
   <advance width="630"/>
   <unicode hex="0052"/>
+  <anchor x="316" y="672" name="aboveUC"/>
+  <anchor x="334" y="-22" name="belowLC"/>
   <outline>
     <contour>
       <point x="72" y="0" type="line"/>
@@ -32,12 +34,6 @@
       <point x="614" y="0" type="line"/>
       <point x="403" y="377" type="line"/>
       <point x="287" y="263" type="line"/>
-    </contour>
-    <contour>
-      <point x="316" y="672" type="move" name="aboveUC"/>
-    </contour>
-    <contour>
-      <point x="334" y="-22" type="move" name="belowLC"/>
     </contour>
   </outline>
 </glyph>

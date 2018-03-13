@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brevecmb.cap" format="1">
+<glyph name="brevecmb.cap" format="2">
+  <anchor x="0" y="682" name="_aboveUC"/>
   <outline>
     <contour>
       <point x="0" y="712" type="curve" smooth="yes"/>
@@ -16,9 +17,6 @@
       <point x="-132" y="834" type="line"/>
       <point x="-125" y="779"/>
       <point x="-87" y="712"/>
-    </contour>
-    <contour>
-      <point x="0" y="682" type="move" name="_aboveUC"/>
     </contour>
   </outline>
   <lib>

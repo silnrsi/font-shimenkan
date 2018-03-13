@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ringbelowcmb" format="1">
+<glyph name="ringbelowcmb" format="2">
   <unicode hex="0325"/>
+  <anchor x="0" y="-22" name="_belowLC"/>
   <outline>
     <component base="ringcmb" yOffset="-804"/>
-    <contour>
-      <point x="0" y="-22" type="move" name="_belowLC"/>
-    </contour>
   </outline>
   <lib>
     <dict>

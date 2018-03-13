@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cedillacmb" format="1">
+<glyph name="cedillacmb" format="2">
   <unicode hex="0327"/>
+  <anchor x="0" y="0" name="_baseLC"/>
   <outline>
     <contour>
       <point x="-122" y="-216" type="line"/>
@@ -19,9 +20,6 @@
       <point x="0" y="-165"/>
       <point x="-42" y="-190"/>
       <point x="-124" y="-192" type="curve"/>
-    </contour>
-    <contour>
-      <point x="0" y="0" type="move" name="_baseLC"/>
     </contour>
   </outline>
   <lib>

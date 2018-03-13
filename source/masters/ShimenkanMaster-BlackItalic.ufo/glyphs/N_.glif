@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="N" format="1">
+<glyph name="N" format="2">
   <advance width="652"/>
   <unicode hex="004E"/>
+  <anchor x="432" y="682" name="aboveUC"/>
+  <anchor x="308" y="-30" name="belowLC"/>
   <outline>
     <contour>
       <point x="26" y="0" type="line"/>
@@ -24,12 +26,6 @@
       <point x="400" y="342" type="line"/>
       <point x="310" y="650" type="line"/>
       <point x="156" y="650" type="line"/>
-    </contour>
-    <contour>
-      <point x="432" y="682" type="move" name="aboveUC"/>
-    </contour>
-    <contour>
-      <point x="308" y="-30" type="move" name="belowLC"/>
     </contour>
   </outline>
 </glyph>

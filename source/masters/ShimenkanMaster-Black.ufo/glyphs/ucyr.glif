@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ucyr" format="1">
+<glyph name="ucyr" format="2">
   <advance width="542"/>
   <unicode hex="0443"/>
+  <anchor x="276" y="522" name="aboveLC"/>
   <outline>
     <component base="y"/>
-    <contour>
-      <point x="276" y="522" type="move" name="aboveLC"/>
-    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uhorn" format="1">
+<glyph name="Uhorn" format="2">
   <advance width="680"/>
   <unicode hex="01AF"/>
+  <anchor x="428" y="682" name="aboveUC"/>
+  <anchor x="296" y="-22" name="belowLC"/>
   <outline>
     <contour>
       <point x="642" y="592" type="line"/>
@@ -20,12 +22,6 @@
       <point x="591" y="649" type="curve"/>
     </contour>
     <component base="U"/>
-    <contour>
-      <point x="428" y="682" type="move" name="aboveUC"/>
-    </contour>
-    <contour>
-      <point x="296" y="-22" type="move" name="belowLC"/>
-    </contour>
   </outline>
   <lib>
     <dict>
