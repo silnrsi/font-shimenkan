@@ -11,11 +11,11 @@
   <key>descender</key>
   <integer>-234</integer>
   <key>familyName</key>
-  <string>Shimenkan</string>
+  <string>Shimenkan Master</string>
   <key>italicAngle</key>
   <integer>-11</integer>
   <key>openTypeHeadCreated</key>
-  <string>2018/03/14 12:45:23</string>
+  <string>2018/03/14 13:59:18</string>
   <key>openTypeHheaAscender</key>
   <integer>1024</integer>
   <key>openTypeHheaDescender</key>
@@ -79,11 +79,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameManufacturerURL</key>
   <string>http://scripts.sil.org</string>
   <key>openTypeNamePreferredFamilyName</key>
-  <string>Shimenkan</string>
+  <string>Shimenkan Master</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Black Italic</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Shimenkan Black Italic: 2018</string>
+  <string>SIL International: Shimenkan Master Black Italic: 2018</string>
   <key>openTypeNameVersion</key>
   <string>Version 0.100</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -172,9 +172,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>-205</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>Shimenkan-BlackItalic</string>
+  <string>ShimenkanMaster-BlackItalic</string>
   <key>postscriptFullName</key>
-  <string>Shimenkan Black Italic</string>
+  <string>Shimenkan Master Black Italic</string>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-188</integer>
@@ -195,7 +195,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>postscriptUnderlineThickness</key>
   <integer>50</integer>
   <key>styleMapFamilyName</key>
-  <string>Shimenkan Book</string>
+  <string>Shimenkan Extra Light</string>
   <key>styleMapStyleName</key>
   <string>bold italic</string>
   <key>styleName</key>
