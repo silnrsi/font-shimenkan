@@ -10,15 +10,4 @@
     </contour>
     <component base="Ka.b" xOffset="124"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>1</integer>
-        <real>0.4</real>
-        <real>0.4</real>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>
