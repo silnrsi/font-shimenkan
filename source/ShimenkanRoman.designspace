@@ -16,7 +16,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Shimenkan Master" filename="masters/ShimenkanMaster-ExtraLight.ufo" name="Shimenkan Extra Light" stylename="Extra Light">
+        <source familyname="Shimenkan Master" filename="masters/ShimenkanMaster-ExtraLight.ufo" name="Shimenkan Master Extra Light" stylename="Extra Light">
             <lib copy="1" />
             <groups copy="1" />
             <info copy="1" />
@@ -26,7 +26,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Shimenkan Master" filename="masters/ShimenkanMaster-Black.ufo" name="Shimenkan Black" stylename="Black">
+        <source familyname="Shimenkan Master" filename="masters/ShimenkanMaster-Black.ufo" name="Shimenkan Master Black" stylename="Black">
             <location>
                 <dimension name="weight" xvalue="1000.000000" />
                 <dimension name="width" xvalue="100.000000" />

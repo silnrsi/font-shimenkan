@@ -16,7 +16,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Shimenkan Master" filename="masters/ShimenkanMaster-ExtraLightItalic.ufo" name="Shimenkan Extra Light Italic" stylename="Extra Light Italic">
+        <source familyname="Shimenkan Master" filename="masters/ShimenkanMaster-ExtraLightItalic.ufo" name="Shimenkan Master Extra Light Italic" stylename="Extra Light Italic">
             <lib copy="1" />
             <groups copy="1" />
             <info copy="1" />
@@ -26,7 +26,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Shimenkan Master" filename="masters/ShimenkanMaster-BlackItalic.ufo" name="Shimenkan Black Italic" stylename="Black Italic">
+        <source familyname="Shimenkan Master" filename="masters/ShimenkanMaster-BlackItalic.ufo" name="Shimenkan Master Black Italic" stylename="Black Italic">
             <location>
                 <dimension name="weight" xvalue="1000.000000" />
                 <dimension name="width" xvalue="100.000000" />
