@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Shimenkan</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/03/13 21:50:50</string>
+  <string>2018/03/14 12:25:49</string>
   <key>openTypeHheaAscender</key>
   <integer>1024</integer>
   <key>openTypeHheaDescender</key>
@@ -78,6 +78,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>http://scripts.sil.org</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Shimenkan</string>
+  <key>openTypeNamePreferredSubfamilyName</key>
+  <string>Black</string>
+  <key>openTypeNameUniqueID</key>
+  <string>SIL International: Shimenkan Black: 2018</string>
   <key>openTypeNameVersion</key>
   <string>Version 0.100</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -91,6 +95,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>8</integer>
     <integer>29</integer>
   </array>
+  <key>openTypeOS2Type</key>
+  <array/>
   <key>openTypeOS2TypoAscender</key>
   <integer>1024</integer>
   <key>openTypeOS2TypoDescender</key>
@@ -164,7 +170,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>-205</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>SourceSans_Black</string>
+  <string>Shimenkan-Black</string>
+  <key>postscriptFullName</key>
+  <string>Shimenkan Black</string>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-188</integer>
