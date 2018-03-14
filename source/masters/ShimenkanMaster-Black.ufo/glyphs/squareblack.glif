@@ -10,10 +10,4 @@
       <point x="45" y="720" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array/>
-    </dict>
-  </lib>
 </glyph>

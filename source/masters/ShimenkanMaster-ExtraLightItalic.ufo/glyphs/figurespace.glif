@@ -2,4 +2,5 @@
 <glyph name="figurespace" format="2">
   <advance width="456"/>
   <unicode hex="2007"/>
+  <outline/>
 </glyph>
