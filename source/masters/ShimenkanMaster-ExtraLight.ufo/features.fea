@@ -1,0 +1,8 @@
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Aogonek AE Eogonek Iogonek Oslash OE Ohorn Oogonek Uogonek Uhorn Schwa Eng aogonek ae eogonek iogonek.d dotlessi oslash oe ohorn oogonek uogonek uhorn thorn eng dotlessj aturned alphalatinturned bhook ccurl dhook ereversed alphalatin Bsmall schwa schwahookrhotic eopen eopenreversed eopenreversedclosed dotlessjstroke ghook gscript Gsmall gammalatin hturned hhook Ismall Lsmall mturned mlonglegturned mhook nhookleft nretroflex Nsmall obar OEsmall rturned rlonglegturned rhookturned rtail rfishhook Rsmall Rsmallinverted shook tretroflex ubar upsilonlatin vhook vturned wturned yturned Ysmall zretroflex zcurl ezh I.alt Iogonek.alt a.alt acircumflexacute.alt aogonek.alt g.alt l.alt alpha epsilon eta iota omicron rho upsilon omega koppa digamma Acyr Ghe Ie Zhe Icyr Ka Ocyr Ucyr Tse Che Yeru Ecyr Yu Ya Fita Ustraight Ustraightstroke Obarcyr acyr ghe ie zhe icyr ka ocyr ucyr tse che yeru ecyr yu ya ieukran fita ustraight ustraightstroke obarcyr A.sc B.sc C.sc D.sc E.sc F.sc G.sc H.sc I.sc J.sc K.sc L.sc M.sc N.sc O.sc P.sc Q.sc R.sc S.sc T.sc U.sc V.sc W.sc X.sc Y.sc Z.sc Aogonek.sc AE.sc Eogonek.sc Iogonek.sc Ohorn.sc Oogonek.sc Tbar.sc Uogonek.sc Uhorn.sc Eng.sc Alpha.sc Beta.sc Epsilon.sc Zeta.sc Eta.sc Iota.sc Kappa.sc Mu.sc Nu.sc Omicron.sc Rho.sc Tau.sc Upsilon.sc Chi.sc Ghe.sc Ie.sc Zhe.sc Icyr.sc Ka.sc Ucyr.sc circumflex breve circledotted circumflexcmb dotaccentcmb dieresiscmb], # Base
+    , # Liga
+    , # Mark
+    ;
+} GDEF;
