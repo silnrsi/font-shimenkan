@@ -12,10 +12,8 @@
   <integer>-234</integer>
   <key>familyName</key>
   <string>Shimenkan Master</string>
-  <key>guidelines</key>
-  <array/>
   <key>openTypeHeadCreated</key>
-  <string>2018/03/14 22:54:57</string>
+  <string>2018/03/29 16:33:14</string>
   <key>openTypeHheaAscender</key>
   <integer>1024</integer>
   <key>openTypeHheaDescender</key>
@@ -136,6 +134,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>SIL </string>
   <key>openTypeOS2WeightClass</key>
   <integer>1000</integer>
+  <key>openTypeOS2WidthClass</key>
+  <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
   <integer>1024</integer>
   <key>openTypeOS2WinDescent</key>
@@ -157,10 +157,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>696</integer>
     <integer>708</integer>
   </array>
-  <key>postscriptFamilyBlues</key>
-  <array/>
-  <key>postscriptFamilyOtherBlues</key>
-  <array/>
   <key>postscriptFontName</key>
   <string>ShimenkanMaster-Black</string>
   <key>postscriptFullName</key>
