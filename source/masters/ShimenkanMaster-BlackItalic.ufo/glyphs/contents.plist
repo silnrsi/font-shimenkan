@@ -608,6 +608,8 @@
   <string>checkbox.glif</string>
   <key>checkedbox</key>
   <string>checkedbox.glif</string>
+  <key>circledotted</key>
+  <string>circledotted.glif</string>
   <key>circumflex</key>
   <string>circumflex.glif</string>
   <key>circumflexacute</key>
@@ -638,6 +640,10 @@
   <string>colon.glif</string>
   <key>colonmonetary</key>
   <string>colonmonetary.glif</string>
+  <key>colontriangularhalfmod</key>
+  <string>colontriangularhalfmod.glif</string>
+  <key>colontriangularmod</key>
+  <string>colontriangularmod.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
   <key>comma.dnom</key>

@@ -1,8 +1,0 @@
-table GDEF {
-  # automatic
-  GlyphClassDef
-    [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Aogonek AE Eogonek Iogonek Oslash OE Ohorn Oogonek Uogonek Uhorn Schwa aogonek eogonek iogonek.d dotlessi oslash oe ohorn oogonek uogonek uhorn thorn dotlessj I.alt Iogonek.alt a.alt aogonek.alt g.alt l.alt circumflexcmb dotaccentcmb dieresiscmb hoicmb], # Base
-    , # Liga
-    , # Mark
-    ;
-} GDEF;
