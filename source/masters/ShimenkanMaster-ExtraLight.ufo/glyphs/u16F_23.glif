@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F23" format="2">
+  <advance width="646"/>
+  <unicode hex="16F23"/>
+  <anchor x="316" y="682" name="aboveUC"/>
+  <anchor x="338" y="0" name="baseLC"/>
+  <anchor x="316" y="-22" name="belowLC"/>
+  <outline>
+    <component base="C"/>
+    <component base="D"/>
+    <component base="H"/>
+  </outline>
+</glyph>

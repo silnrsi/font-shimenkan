@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F6D" format="2">
+  <advance width="240"/>
+  <unicode hex="16F6D"/>
+  <outline>
+    <component base="brackhalfbotleft"/>
+    <component base="brackhalfbotright"/>
+  </outline>
+</glyph>

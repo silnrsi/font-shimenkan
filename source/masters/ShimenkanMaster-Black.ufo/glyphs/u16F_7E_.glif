@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F7E" format="2">
+  <advance width="420"/>
+  <unicode hex="16F7E"/>
+  <outline>
+    <component base="brackhalfbotleft"/>
+    <component base="brackhalfbotright"/>
+  </outline>
+</glyph>
