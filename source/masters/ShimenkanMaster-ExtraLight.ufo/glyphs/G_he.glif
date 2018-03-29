@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ghe" format="2">
-  <advance width="480"/>
-  <unicode hex="0413"/>
-  <anchor x="286" y="682" name="aboveUC"/>
-  <outline>
-    <component base="Gamma"/>
-  </outline>
-</glyph>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Alpha.sc" format="2">
-  <advance width="516"/>
-  <anchor x="254" y="564" name="aboveLC"/>
-  <anchor x="254" y="-22" name="belowLC"/>
-  <outline>
-    <component base="A.sc"/>
-  </outline>
-</glyph>

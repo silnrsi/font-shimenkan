@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Iota.sc" format="2">
-  <advance width="232"/>
-  <anchor x="116" y="562" name="aboveLC"/>
-  <anchor x="116" y="-22" name="belowLC"/>
-  <outline>
-    <component base="I.sc"/>
-  </outline>
-</glyph>

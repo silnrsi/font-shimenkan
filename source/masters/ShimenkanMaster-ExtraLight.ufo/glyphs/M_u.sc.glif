@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Mu.sc" format="2">
-  <advance width="616"/>
-  <anchor x="308" y="562" name="aboveLC"/>
-  <anchor x="308" y="-22" name="belowLC"/>
-  <outline>
-    <component base="M.sc"/>
-  </outline>
-</glyph>

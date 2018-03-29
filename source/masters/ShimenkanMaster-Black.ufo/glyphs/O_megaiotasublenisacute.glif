@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omegaiotasublenisacute" format="2">
-  <advance width="1360"/>
-  <unicode hex="1FAC"/>
-  <outline>
-    <component base="Omegalenisacute"/>
-    <component base="iotaadscript" xOffset="1048"/>
-  </outline>
-</glyph>

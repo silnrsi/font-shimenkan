@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Alphalenistilde" format="2">
-  <advance width="704"/>
-  <unicode hex="1F0E"/>
-  <outline>
-    <component base="Alpha" xOffset="120"/>
-    <component base="lenistilde.cap"/>
-  </outline>
-</glyph>

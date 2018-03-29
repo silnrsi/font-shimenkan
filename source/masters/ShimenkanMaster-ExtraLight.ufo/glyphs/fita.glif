@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="fita" format="2">
-  <advance width="532"/>
-  <unicode hex="0473"/>
-  <anchor x="266" y="502" name="aboveLC"/>
-  <outline>
-    <component base="obar"/>
-  </outline>
-</glyph>

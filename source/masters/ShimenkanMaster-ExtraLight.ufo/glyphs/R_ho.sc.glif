@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Rho.sc" format="2">
-  <advance width="492"/>
-  <anchor x="274" y="562" name="aboveLC"/>
-  <anchor x="118" y="-22" name="belowLC"/>
-  <outline>
-    <component base="P.sc"/>
-  </outline>
-</glyph>

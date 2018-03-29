@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dialytikagrave" format="2">
-  <advance width="532"/>
-  <unicode hex="1FED"/>
-  <anchor x="266" y="502" name="_aboveLC"/>
-  <outline>
-    <component base="dialytikagravecmb" xOffset="266"/>
-  </outline>
-</glyph>

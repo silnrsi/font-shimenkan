@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="omegaiotasubacute" format="2">
-  <advance width="764"/>
-  <unicode hex="1FF4"/>
-  <outline>
-    <component base="omegaiotasub"/>
-    <component base="acutecmb" xOffset="382"/>
-  </outline>
-</glyph>

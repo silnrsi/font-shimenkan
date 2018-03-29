@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Iotalenis" format="2">
-  <advance width="314"/>
-  <unicode hex="1F38"/>
-  <outline>
-    <component base="Iota" xOffset="82"/>
-    <component base="lenis.cap"/>
-  </outline>
-</glyph>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Beta.sc" format="2">
-  <advance width="509"/>
-  <anchor x="265" y="562" name="aboveLC"/>
-  <anchor x="276" y="-22" name="belowLC"/>
-  <outline>
-    <component base="B.sc"/>
-  </outline>
-</glyph>

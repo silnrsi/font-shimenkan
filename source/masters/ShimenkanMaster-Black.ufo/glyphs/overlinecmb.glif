@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="overlinecmb" format="2">
-  <unicode hex="0305"/>
-  <anchor x="0" y="522" name="_aboveLC"/>
-  <outline>
-    <component base="macroncmb"/>
-  </outline>
-</glyph>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Etaiotasub" format="2">
-  <advance width="990"/>
-  <unicode hex="1FCC"/>
-  <outline>
-    <component base="Eta"/>
-    <component base="iotaadscript" xOffset="678"/>
-  </outline>
-</glyph>

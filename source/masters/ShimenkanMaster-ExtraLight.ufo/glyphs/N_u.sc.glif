@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Nu.sc" format="2">
-  <advance width="568"/>
-  <anchor x="292" y="562" name="aboveLC"/>
-  <anchor x="292" y="-22" name="belowLC"/>
-  <outline>
-    <component base="N.sc"/>
-  </outline>
-</glyph>

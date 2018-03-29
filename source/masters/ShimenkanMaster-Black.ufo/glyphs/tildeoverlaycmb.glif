@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildeoverlaycmb" format="2">
-  <unicode hex="0334"/>
-  <anchor x="0" y="250" name="_center"/>
-  <outline>
-    <component base="tildecmb" yOffset="-398"/>
-  </outline>
-</glyph>

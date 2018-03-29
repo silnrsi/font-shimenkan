@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Alphalenisgrave" format="2">
-  <advance width="864"/>
-  <unicode hex="1F0A"/>
-  <outline>
-    <component base="Alpha" xOffset="280"/>
-    <component base="lenisgrave.cap"/>
-  </outline>
-</glyph>

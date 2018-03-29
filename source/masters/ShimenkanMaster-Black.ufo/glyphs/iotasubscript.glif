@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iotasubscript" format="2">
-  <advance width="560"/>
-  <unicode hex="037A"/>
-  <anchor x="280" y="-22" name="_belowLC"/>
-  <outline>
-    <component base="iotasubscriptcmb" xOffset="280"/>
-  </outline>
-</glyph>

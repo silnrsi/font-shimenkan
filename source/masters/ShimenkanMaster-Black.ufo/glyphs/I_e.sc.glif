@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ie.sc" format="2">
-  <advance width="508"/>
-  <anchor x="271" y="564" name="aboveUC"/>
-  <anchor x="272" y="-22" name="belowLC"/>
-  <outline>
-    <component base="E.sc"/>
-  </outline>
-</glyph>

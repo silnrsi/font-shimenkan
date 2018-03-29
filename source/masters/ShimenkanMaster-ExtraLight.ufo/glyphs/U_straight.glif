@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ustraight" format="2">
-  <advance width="436"/>
-  <unicode hex="04AE"/>
-  <anchor x="218" y="682" name="aboveUC"/>
-  <outline>
-    <component base="Y"/>
-  </outline>
-</glyph>

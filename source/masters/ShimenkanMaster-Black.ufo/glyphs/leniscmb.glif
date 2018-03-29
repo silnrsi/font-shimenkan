@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="leniscmb" format="2">
-  <anchor x="0" y="522" name="_aboveLC"/>
-  <outline>
-    <component base="hoicmb"/>
-  </outline>
-</glyph>

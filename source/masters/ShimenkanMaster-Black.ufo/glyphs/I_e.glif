@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ie" format="2">
-  <advance width="556"/>
-  <unicode hex="0415"/>
-  <anchor x="290" y="672" name="aboveUC"/>
-  <outline>
-    <component base="E"/>
-  </outline>
-</glyph>

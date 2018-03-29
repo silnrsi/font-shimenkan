@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iotamacron" format="2">
-  <advance width="316"/>
-  <unicode hex="1FD1"/>
-  <outline>
-    <component base="iota"/>
-    <component base="macroncmb" xOffset="144"/>
-  </outline>
-</glyph>

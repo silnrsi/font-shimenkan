@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="omegaiotasubasper" format="2">
-  <advance width="664"/>
-  <unicode hex="1FA1"/>
-  <outline>
-    <component base="omegaiotasub"/>
-    <component base="aspercmb" xOffset="332"/>
-  </outline>
-</glyph>
