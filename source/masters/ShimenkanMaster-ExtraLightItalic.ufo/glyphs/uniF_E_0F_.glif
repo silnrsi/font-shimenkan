@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniFE0F" format="2">
-  <advance width="592"/>
   <unicode hex="FE0F"/>
-  <anchor x="410" y="478" name="hornLC"/>
-  <anchor x="296" y="240" name="center"/>
-  <anchor x="474" y="502" name="aboverightLC"/>
-  <anchor x="296" y="0" name="ogonekLC"/>
   <anchor x="296" y="502" name="aboveLC"/>
+  <anchor x="474" y="502" name="aboverightLC"/>
   <anchor x="296" y="0" name="baseLC"/>
   <anchor x="296" y="-22" name="belowLC"/>
+  <anchor x="296" y="240" name="center"/>
+  <anchor x="410" y="478" name="hornLC"/>
+  <anchor x="296" y="0" name="ogonekLC"/>
   <outline>
     <component base="circledotted"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>592</integer>
+    </dict>
+  </lib>
 </glyph>
