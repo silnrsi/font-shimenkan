@@ -730,6 +730,8 @@
   <string>dollar.glif</string>
   <key>dong</key>
   <string>dong.glif</string>
+  <key>dot</key>
+  <string>dot.glif</string>
   <key>dotaccent</key>
   <string>dotaccent.glif</string>
   <key>dotaccentcmb</key>

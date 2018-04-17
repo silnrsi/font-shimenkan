@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F3A" format="2">
-  <advance width="714"/>
+  <advance width="538"/>
   <unicode hex="16F3A"/>
-  <anchor x="420" y="682" name="aboveUC"/>
-  <anchor x="294" y="0" name="baseLC"/>
-  <anchor x="290" y="-22" name="belowLC"/>
+  <anchor x="376" y="690" name="aboveUC"/>
+  <anchor x="254" y="0" name="baseLC"/>
+  <anchor x="248" y="-30" name="belowLC"/>
   <outline>
-    <component base="C"/>
-    <component base="D"/>
-    <component base="H"/>
+    <component base="S"/>
   </outline>
 </glyph>

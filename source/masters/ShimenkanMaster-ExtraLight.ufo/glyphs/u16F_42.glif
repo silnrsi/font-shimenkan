@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F42" format="2">
-  <advance width="646"/>
+  <advance width="630"/>
   <unicode hex="16F42"/>
-  <anchor x="316" y="682" name="aboveUC"/>
-  <anchor x="338" y="0" name="baseLC"/>
-  <anchor x="316" y="-22" name="belowLC"/>
+  <anchor x="314" y="682" name="aboveUC"/>
+  <anchor x="510" y="670" name="hornLC"/>
+  <anchor x="314" y="0" name="ogonekUC"/>
+  <anchor x="314" y="-22" name="belowLC"/>
   <outline>
-    <component base="C"/>
-    <component base="D"/>
-    <component base="H"/>
+    <component base="U"/>
   </outline>
 </glyph>
