@@ -11,7 +11,7 @@ psfnormalize -p checkfix=fix source/masters/ShimenkanMaster-ExtraLightItalic.ufo
 psfnormalize -p checkfix=fix source/masters/ShimenkanMaster-BlackItalic.ufo -l source/logs/normKI.log
 
 psfsetpsnames -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight.ufo
-psfsetglyphorder --header sort_design -i source/glyph_data.csv source/ShimenkanMaster-ExtraLight.ufo
+psfsetglyphorder --header sort_design -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight.ufo
 
 # Following sync will copy psnames and glyphorder updates to all fonts
 psfsyncmasters source/ShimenkanRoman.designspace source/ShimenkanItalic.designspace  -l source/logs/sync.log
