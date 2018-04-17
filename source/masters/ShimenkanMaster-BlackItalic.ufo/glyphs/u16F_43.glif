@@ -2,8 +2,6 @@
 <glyph name="u16F43" format="2">
   <advance width="528"/>
   <unicode hex="16F43"/>
-  <anchor x="356" y="682" name="aboveUC"/>
-  <anchor x="214" y="-30" name="belowLC"/>
   <outline>
     <component base="Y"/>
   </outline>

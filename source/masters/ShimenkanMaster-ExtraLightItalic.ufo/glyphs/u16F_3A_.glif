@@ -2,9 +2,6 @@
 <glyph name="u16F3A" format="2">
   <advance width="488"/>
   <unicode hex="16F3A"/>
-  <anchor x="352" y="682" name="aboveUC"/>
-  <anchor x="218" y="0" name="baseLC"/>
-  <anchor x="212" y="-30" name="belowLC"/>
   <outline>
     <component base="S"/>
   </outline>

@@ -2,10 +2,6 @@
 <glyph name="u16F42" format="2">
   <advance width="594"/>
   <unicode hex="16F42"/>
-  <anchor x="394" y="682" name="aboveUC"/>
-  <anchor x="570" y="670" name="hornLC"/>
-  <anchor x="260" y="0" name="ogonekUC"/>
-  <anchor x="248" y="-22" name="belowLC"/>
   <outline>
     <component base="U"/>
   </outline>
