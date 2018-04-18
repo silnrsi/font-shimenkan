@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F1E" format="2">
-  <advance width="760"/>
+  <advance width="556"/>
   <unicode hex="16F1E"/>
   <outline>
-    <component base="C"/>
-    <component base="D"/>
-    <component base="H"/>
+    <contour>
+      <point x="484" y="0" type="line"/>
+      <point x="484" y="650" type="line"/>
+      <point x="64" y="650" type="line"/>
+      <point x="64" y="506" type="line"/>
+      <point x="312" y="506" type="line"/>
+      <point x="312" y="144" type="line"/>
+      <point x="54" y="144" type="line"/>
+      <point x="54" y="0" type="line"/>
+    </contour>
   </outline>
 </glyph>
