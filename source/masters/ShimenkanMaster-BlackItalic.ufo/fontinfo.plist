@@ -15,7 +15,7 @@
   <key>italicAngle</key>
   <integer>-11</integer>
   <key>openTypeHeadCreated</key>
-  <string>2018/04/17 21:26:52</string>
+  <string>2018/04/18 23:56:46</string>
   <key>openTypeHheaAscender</key>
   <integer>1024</integer>
   <key>openTypeHheaDescender</key>
@@ -148,16 +148,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>0</integer>
     <integer>500</integer>
     <integer>512</integer>
-    <integer>532</integer>
-    <integer>544</integer>
-    <integer>580</integer>
-    <integer>592</integer>
-    <integer>634</integer>
-    <integer>646</integer>
     <integer>650</integer>
     <integer>662</integer>
-    <integer>696</integer>
-    <integer>708</integer>
   </array>
   <key>postscriptFontName</key>
   <string>ShimenkanMaster-BlackItalic</string>
