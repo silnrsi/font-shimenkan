@@ -41,7 +41,6 @@
     <string>u16F1A</string>
     <string>u16F1E</string>
     <string>u16F2A</string>
-    <string>u16F2F</string>
     <string>u16F3D</string>
     <string>u16F02</string>
     <string>u16F07</string>
@@ -51,7 +50,6 @@
     <string>u16F20</string>
     <string>u16F21</string>
     <string>u16F26</string>
-    <string>u16F2C</string>
     <string>u16F31</string>
     <string>u16F32</string>
     <string>u16F37</string>
@@ -59,11 +57,13 @@
     <string>u16F48</string>
     <string>u16F49</string>
     <string>u16F4A</string>
+    <string>u16F2E</string>
+    <string>u16F30</string>
     <string>u16F12</string>
-    <string>u16F2D</string>
     <string>u16F33</string>
     <string>u16F3B</string>
     <string>u16F50</string>
+    <string>u16F2C</string>
     <string>u16F1C</string>
     <string>u16F34</string>
     <string>u16F55</string>
@@ -116,8 +116,8 @@
     <string>u16F24</string>
     <string>u16F29</string>
     <string>u16F2B</string>
-    <string>u16F2E</string>
-    <string>u16F30</string>
+    <string>u16F2F</string>
+    <string>u16F2D</string>
     <string>u16F36</string>
     <string>u16F38</string>
     <string>u16F3C</string>
