@@ -35,7 +35,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Shimenkan" filename="instances/Shimenkan-ExtraLightItalic.ufo" name="Shimenkan Extra Light Italic" stylemapfamilyname="Shimenkan Extra Light" stylemapstylename="italic" stylename="Italic">
+        <instance familyname="Shimenkan Extra Light" filename="instances/Shimenkan-ExtraLightItalic.ufo" name="Shimenkan Extra Light Italic" stylemapfamilyname="Shimenkan Extra Light" stylemapstylename="italic" stylename="Italic">
             <location>
                 <dimension name="weight" xvalue="0.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -44,7 +44,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan" filename="instances/Shimenkan-LightItalic.ufo" name="Shimenkan Light Italic" stylemapfamilyname="Shimenkan Light" stylemapstylename="italic" stylename="Italic">
+        <instance familyname="Shimenkan Light" filename="instances/Shimenkan-LightItalic.ufo" name="Shimenkan Light Italic" stylemapfamilyname="Shimenkan Light" stylemapstylename="italic" stylename="Italic">
             <location>
                 <dimension name="weight" xvalue="100.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -62,7 +62,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan" filename="instances/Shimenkan-SemiboldItalic.ufo" name="Shimenkan Semibold Italic" stylemapfamilyname="Shimenkan Book" stylemapstylename="italic" stylename="Italic">
+        <instance familyname="Shimenkan Book" filename="instances/Shimenkan-SemiboldItalic.ufo" name="Shimenkan Semibold Italic" stylemapfamilyname="Shimenkan Book" stylemapstylename="italic" stylename="Italic">
             <location>
                 <dimension name="weight" xvalue="600.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -80,7 +80,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan" filename="instances/Shimenkan-BlackItalic.ufo" name="Shimenkan Black Italic" stylemapfamilyname="Shimenkan Book" stylemapstylename="bold italic" stylename="Bold Italic">
+        <instance familyname="Shimenkan Book" filename="instances/Shimenkan-BlackItalic.ufo" name="Shimenkan Black Italic" stylemapfamilyname="Shimenkan Book" stylemapstylename="bold italic" stylename="Bold Italic">
             <location>
                 <dimension name="weight" xvalue="1000.000000" />
                 <dimension name="width" xvalue="100.000000" />

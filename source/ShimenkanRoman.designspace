@@ -35,7 +35,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Shimenkan" filename="instances/Shimenkan-ExtraLight.ufo" name="Shimenkan Extra Light" stylemapfamilyname="Shimenkan Extra Light" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Shimenkan Extra Light" filename="instances/Shimenkan-ExtraLight.ufo" name="Shimenkan Extra Light" stylemapfamilyname="Shimenkan Extra Light" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="weight" xvalue="0.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -44,7 +44,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan" filename="instances/Shimenkan-Light.ufo" name="Shimenkan Light" stylemapfamilyname="Shimenkan Light" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Shimenkan Light" filename="instances/Shimenkan-Light.ufo" name="Shimenkan Light" stylemapfamilyname="Shimenkan Light" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="weight" xvalue="100.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -62,7 +62,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan" filename="instances/Shimenkan-Semibold.ufo" name="Shimenkan Semibold" stylemapfamilyname="Shimenkan Book" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Shimenkan Book" filename="instances/Shimenkan-Semibold.ufo" name="Shimenkan Semibold" stylemapfamilyname="Shimenkan Book" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="weight" xvalue="600.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -80,7 +80,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan" filename="instances/Shimenkan-Black.ufo" name="Shimenkan Black" stylemapfamilyname="Shimenkan Book" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Shimenkan Book" filename="instances/Shimenkan-Black.ufo" name="Shimenkan Black" stylemapfamilyname="Shimenkan Book" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="weight" xvalue="1000.000000" />
                 <dimension name="width" xvalue="100.000000" />
