@@ -2,8 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>u16F03</key>
+  <string>u16F_03.glif</string>
   <key>u16F12</key>
   <string>u16F_12.glif</string>
+  <key>u16F14</key>
+  <string>u16F_14.glif</string>
+  <key>u16F18</key>
+  <string>u16F_18.glif</string>
+  <key>u16F23</key>
+  <string>u16F_23.glif</string>
   <key>u16F2C</key>
   <string>u16F_2C_.glif</string>
   <key>u16F34</key>
