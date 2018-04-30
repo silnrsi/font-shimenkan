@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F31" format="2">
-  <advance width="760"/>
+  <advance width="566"/>
   <unicode hex="16F31"/>
   <outline>
-    <component base="C"/>
-    <component base="D"/>
-    <component base="H"/>
+    <contour>
+      <point x="72" y="0" type="line"/>
+      <point x="512" y="0" type="line"/>
+      <point x="512" y="144" type="line"/>
+      <point x="244" y="144" type="line"/>
+      <point x="244" y="506" type="line"/>
+      <point x="502" y="506" type="line"/>
+      <point x="502" y="650" type="line"/>
+      <point x="72" y="650" type="line"/>
+    </contour>
+    <contour>
+      <point x="350" y="650" type="line"/>
+      <point x="350" y="362" type="line"/>
+      <point x="502" y="362" type="line"/>
+      <point x="502" y="650" type="line"/>
+    </contour>
   </outline>
 </glyph>

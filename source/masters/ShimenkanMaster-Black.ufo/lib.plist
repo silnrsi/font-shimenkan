@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>com.schriftgestaltung.DisplayStrings</key>
+  <array>
+    <string>/u16F08/u16F0A/u16F16/u16F28/u16F35/u16F2C/u16F3A/u16F40/u16F42/u16F43 
+H/u16F00 H/u16F04 H/u16F10 H/u16F1A H/u16F1E H/u16F2A H/u16F2F H/u16F3D H
+H/u16F02 H/u16F07 H/u16F0C H/u16F0D H/u16F0E H/u16F20 H/u16F21 H/u16F26 H/u16F2C 
+H/u16F31 H/u16F32 H/u16F37 H/u16F39 H/u16F48 H/u16F49 H/u16F4A H
+H/u16F12 H/u16F2C H/u16F33 H/u16F3B H/u16F50 H/u16F1C H/u16F34 H</string>
+    <string>/u16F3B/u16F55/u16F3B/u16F59/u16F3B/u16F5D/u16F3B/u16F61/u16F3B/u16F62/u16F3B/u16F6A/u16F3B 
+/u16F3B/u16F6B/u16F3B/u16F5C/u16F71/u16F3B/u16F75/u16F3B/u16F77/u16F3B/u16F79/u16F3B/u16F57/u16F3B 
+/u16F3B/u16F58/u16F3B/u16F5C/u16F3B/u16F5E/u16F3B/u16F60/u16F3B/u16F63/u16F3B/u16F64/u16F3B/u16F66/u16F3B 
+/u16F3B/u16F68/u16F3B/u16F69/u16F3B/u16F73/u16F3B/u16F74/u16F3B/u16F7B/u16F3B/u16F4F/u16F3B/u16F6C/u16F3B/u16F6D/u16F3B</string>
+  </array>
   <key>com.schriftgestaltung.customName</key>
   <string>Black</string>
   <key>com.schriftgestaltung.customValue</key>
@@ -23,7 +35,7 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>100</integer>
   <key>org.sil.glyphsappversion</key>
-  <string>1131</string>
+  <string>1134</string>
   <key>public.glyphOrder</key>
   <array>
     <string>u16F08</string>

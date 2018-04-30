@@ -2,16 +2,5 @@
 <glyph name="u16F2F" format="2">
   <advance width="556"/>
   <unicode hex="16F2F"/>
-  <outline>
-    <contour>
-      <point x="72" y="0" type="line"/>
-      <point x="502" y="0" type="line"/>
-      <point x="502" y="144" type="line"/>
-      <point x="244" y="144" type="line"/>
-      <point x="244" y="506" type="line"/>
-      <point x="492" y="506" type="line"/>
-      <point x="492" y="650" type="line"/>
-      <point x="72" y="650" type="line"/>
-    </contour>
-  </outline>
+  <outline/>
 </glyph>

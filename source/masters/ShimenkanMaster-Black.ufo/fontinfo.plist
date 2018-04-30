@@ -12,8 +12,67 @@
   <integer>-234</integer>
   <key>familyName</key>
   <string>Shimenkan Master</string>
+  <key>guidelines</key>
+  <array>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>-22</integer>
+      <key>y</key>
+      <integer>650</integer>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>-14</integer>
+      <key>y</key>
+      <integer>506</integer>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>452</integer>
+      <key>y</key>
+      <integer>662</integer>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>553</integer>
+      <key>y</key>
+      <integer>0</integer>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>544</integer>
+      <key>y</key>
+      <integer>-12</integer>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>98</integer>
+      <key>y</key>
+      <integer>288</integer>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>-47</integer>
+      <key>y</key>
+      <integer>276</integer>
+    </dict>
+  </array>
   <key>openTypeHeadCreated</key>
-  <string>2018/04/18 23:56:43</string>
+  <string>2018/04/30 12:16:55</string>
   <key>openTypeHheaAscender</key>
   <integer>1024</integer>
   <key>openTypeHheaDescender</key>
