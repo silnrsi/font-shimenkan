@@ -70,9 +70,17 @@
       <key>y</key>
       <integer>276</integer>
     </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>10</integer>
+      <key>y</key>
+      <integer>332</integer>
+    </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2018/04/30 21:18:16</string>
+  <string>2018/05/01 23:16:23</string>
   <key>openTypeHheaAscender</key>
   <integer>1024</integer>
   <key>openTypeHheaDescender</key>
