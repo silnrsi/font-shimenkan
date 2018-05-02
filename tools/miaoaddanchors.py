@@ -1,0 +1,74 @@
+#!/usr/bin/env python
+'''Adds anchors to Miao fonts based on a csv spec (glyphname, anchorset). Based on psfaddanchors.
+Deletes all anchors in listed glyphs and adds those appropriate for the names anchorset.'''
+__url__ = 'http://github.com/silnrsi/font-shimenkan'
+__copyright__ = 'Copyright (c) 2018 SIL International (http://www.sil.org)'
+__license__ = 'Released under the MIT License (http://opensource.org/licenses/MIT)'
+__author__ = 'Victor Gaultney'
+
+from silfont.core import execute
+
+argspec = [
+    ('ifont', {'help': 'Input font file'}, {'type': 'infont'}),
+    ('ofont', {'help': 'Output font file', 'nargs': '?'}, {'type': 'outfont'}),
+    ('-i', '--input', {'help': 'Input anchors spec in csv'}, {'type': 'incsv'}),
+    ('-l','--log',{'help': 'Log file'}, {'type': 'outfile', 'def': 'addedanchors.log'})]
+
+# set height levels
+ancparas = {
+    'Extra Light': { 'W': 350, 'D': 646, '_S': 170, '_W': 110, '_L': 250 },
+    'Black': {'W': 345, 'D': 578, '_S': 200, '_W': 138, '_L': 306 }
+}
+
+hlevel = 690
+slevel = 660
+llevel = -30
+hmarklevel = -30
+
+def doit(args) :
+    font = args.ifont
+    listinput = args.input
+    logger = args.logger
+
+    style = font.fontinfo.getval('styleName')
+    #style = "Extra Light"
+
+    for line in listinput:
+        glyphname = line[0]
+        anchorset = line[1]  # could be con, vow, mark
+
+        glyph = font.deflayer[glyphname]
+        adv = int(glyph['advance'].width)
+
+        while len(glyph['anchor'])>0:
+            glyph.remove('anchor', 0)
+
+        if anchorset == "con":
+            glyph.add('anchor', {'name': 'H', 'x': ( adv/2 ), 'y': hlevel})
+            glyph.add('anchor', {'name': 'S', 'x': adv, 'y': slevel})
+            glyph.add('anchor', {'name': 'W', 'x': adv, 'y': ancparas[style]['W']})
+            glyph.add('anchor', {'name': 'E', 'x': adv, 'y': (ancparas[style]['W'] + ((hlevel-ancparas[style]['W'])/3))})
+            glyph.add('anchor', {'name': 'K', 'x': adv, 'y': (ancparas[style]['W'] - ((hlevel-ancparas[style]['W'])/3))})
+            glyph.add('anchor', {'name': 'D', 'x': adv, 'y': ancparas[style]['D']})
+            glyph.add('anchor', {'name': 'L', 'x': ( adv/2 ), 'y': llevel})
+
+        if anchorset == "vow":
+            glyph.add('anchor', {'name': '_S', 'x': 0, 'y': ancparas[style]['_S']})
+            glyph.add('anchor', {'name': '_W', 'x': 0, 'y': ancparas[style]['_W']})
+            glyph.add('anchor', {'name': 'S', 'x': adv, 'y': ancparas[style]['_S']})
+            glyph.add('anchor', {'name': 'W', 'x': adv, 'y': ancparas[style]['_W']})
+
+        if anchorset == "mark":
+            glyph.add('anchor', {'name': '_H', 'x': ( adv/2 ), 'y': hmarklevel})
+            glyph.add('anchor', {'name': '_HL', 'x': 0, 'y': hmarklevel})
+            glyph.add('anchor', {'name': '_HR', 'x': adv, 'y': hmarklevel})
+            glyph.add('anchor', {'name': '_L', 'x': ( adv/2 ), 'y': ancparas[style]['_L']})
+            glyph.add('anchor', {'name': '_LL', 'x': 0, 'y': ancparas[style]['_L']})
+            glyph.add('anchor', {'name': '_LR', 'x': adv, 'y': ancparas[style]['_L']})
+
+    return font
+
+
+def cmd() : execute("UFO",doit,argspec)
+if __name__ == "__main__": cmd()
+

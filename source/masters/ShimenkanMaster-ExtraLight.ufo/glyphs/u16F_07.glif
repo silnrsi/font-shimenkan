@@ -2,6 +2,13 @@
 <glyph name="u16F07" format="2">
   <advance width="460"/>
   <unicode hex="16F07"/>
+  <anchor x="230" y="690" name="H"/>
+  <anchor x="460" y="660" name="S"/>
+  <anchor x="460" y="350" name="W"/>
+  <anchor x="460" y="463" name="E"/>
+  <anchor x="460" y="237" name="K"/>
+  <anchor x="460" y="646" name="D"/>
+  <anchor x="230" y="-30" name="L"/>
   <outline>
     <contour>
       <point x="100" y="660" type="line"/>

@@ -2,6 +2,10 @@
 <glyph name="u16F79" format="2">
   <advance width="208"/>
   <unicode hex="16F79"/>
+  <anchor x="0" y="200" name="_S"/>
+  <anchor x="0" y="138" name="_W"/>
+  <anchor x="208" y="200" name="S"/>
+  <anchor x="208" y="138" name="W"/>
   <outline>
     <contour>
       <point x="154" y="276" type="line"/>

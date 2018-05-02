@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F70.mark" format="2">
   <advance width="527"/>
+  <anchor x="263" y="-30" name="_H"/>
+  <anchor x="0" y="-30" name="_HL"/>
+  <anchor x="527" y="-30" name="_HR"/>
+  <anchor x="263" y="306" name="_L"/>
+  <anchor x="0" y="306" name="_LL"/>
+  <anchor x="527" y="306" name="_LR"/>
   <outline>
     <component base="u16F70"/>
   </outline>
