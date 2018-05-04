@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F8F" format="2">
-  <advance width="592"/>
   <unicode hex="16F8F"/>
-  <anchor x="296" y="690" name="H"/>
-  <anchor x="592" y="660" name="S"/>
-  <anchor x="592" y="350" name="W"/>
-  <anchor x="592" y="463" name="E"/>
-  <anchor x="592" y="237" name="K"/>
-  <anchor x="592" y="646" name="D"/>
-  <anchor x="296" y="-30" name="L"/>
-  <outline>
-    <component base="circledotted"/>
-  </outline>
+  <anchor x="0" y="350" name="_T"/>
+  <outline/>
 </glyph>
