@@ -2,8 +2,8 @@
 <glyph name="u16F6D" format="2">
   <advance width="674"/>
   <unicode hex="16F6D"/>
-  <anchor x="0" y="200" name="_S"/>
-  <anchor x="0" y="138" name="_W"/>
+  <anchor x="0" y="200" name="SB"/>
+  <anchor x="0" y="138" name="WB"/>
   <anchor x="674" y="200" name="S"/>
   <anchor x="674" y="138" name="W"/>
   <outline>

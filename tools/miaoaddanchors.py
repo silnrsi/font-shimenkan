@@ -31,7 +31,6 @@ def doit(args) :
     logger = args.logger
 
     style = font.fontinfo.getval('styleName')
-    #style = "Extra Light"
 
     for line in listinput:
         glyphname = line[0]
@@ -52,13 +51,13 @@ def doit(args) :
             glyph.add('anchor', {'name': 'D', 'x': adv, 'y': ancparas[style]['D']})
             glyph.add('anchor', {'name': 'L', 'x': ( adv/2 ), 'y': llevel})
 
-        if anchorset == "vow":
-            glyph.add('anchor', {'name': '_S', 'x': 0, 'y': ancparas[style]['_S']})
-            glyph.add('anchor', {'name': '_W', 'x': 0, 'y': ancparas[style]['_W']})
+        if anchorset == "vow":   # vowels used as bases
+            glyph.add('anchor', {'name': 'SB', 'x': 0, 'y': ancparas[style]['_S']})
+            glyph.add('anchor', {'name': 'WB', 'x': 0, 'y': ancparas[style]['_W']})
             glyph.add('anchor', {'name': 'S', 'x': adv, 'y': ancparas[style]['_S']})
             glyph.add('anchor', {'name': 'W', 'x': adv, 'y': ancparas[style]['_W']})
 
-        if anchorset == "mark":
+        if anchorset == "mark":   # vowels used as marks
             glyph.add('anchor', {'name': '_H', 'x': ( adv/2 ), 'y': hmarklevel})
             glyph.add('anchor', {'name': '_HL', 'x': 0, 'y': hmarklevel})
             glyph.add('anchor', {'name': '_HR', 'x': adv, 'y': hmarklevel})
