@@ -2,10 +2,10 @@
 <glyph name="u16F7E" format="2">
   <advance width="314"/>
   <unicode hex="16F7E"/>
-  <anchor x="0" y="200" name="SB"/>
-  <anchor x="0" y="138" name="WB"/>
   <anchor x="314" y="200" name="S"/>
+  <anchor x="0" y="200" name="SB"/>
   <anchor x="314" y="138" name="W"/>
+  <anchor x="0" y="138" name="WB"/>
   <outline>
     <contour>
       <point x="105" y="170" type="curve"/>

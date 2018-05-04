@@ -2,13 +2,13 @@
 <glyph name="u16F28" format="2">
   <advance width="232"/>
   <unicode hex="16F28"/>
+  <anchor x="232" y="646" name="D"/>
+  <anchor x="232" y="463" name="E"/>
   <anchor x="116" y="690" name="H"/>
+  <anchor x="232" y="237" name="K"/>
+  <anchor x="116" y="-30" name="L"/>
   <anchor x="232" y="660" name="S"/>
   <anchor x="232" y="350" name="W"/>
-  <anchor x="232" y="463" name="E"/>
-  <anchor x="232" y="237" name="K"/>
-  <anchor x="232" y="646" name="D"/>
-  <anchor x="116" y="-30" name="L"/>
   <outline>
     <contour>
       <point x="100" y="0" type="line"/>
