@@ -1,0 +1,46 @@
+lookup front_8f {
+    sub @cno_mark by u16F8F @cno_mark u16F8F;
+} front_8f;
+
+lookup front_short_8f {
+    sub @cno_mark by u16F8F @cno_mark;
+} front_short_8f;
+
+lookup del_8f {
+    sub @cno_mark u16F8F by @cno_mark;
+} del_8f;
+
+lookup tone_reorder {
+    sub @cno_mark' lookup front_8f @cno_mark' lookup del_8f @cno_mark' u16F8F' lookup del_8f;
+    sub @cno_mark' lookup front_8f @cno_mark' lookup del_8f u16F8F' lookup del_8f;
+    sub @cno_mark' lookup front_short_8f u16F8F' lookup del_8f;
+} tone_reorder;
+
+feature clig {
+  script DFLT;
+    language dflt;
+        lookup tone_reorder;
+} clig;
+
+######################
+# Attaching
+######################
+
+lookup cursive_attach_W {
+    lookupflag 8;
+    pos cursive @WB @W;
+} cursive_attach_W;
+
+lookup vowel_attach {
+    pos @W' lookup cursive_attach_W u16F8F @WB ;
+} vowel_attach;
+
+feature kern {
+  script DFLT;
+    language dflt;
+        lookup vowel_attach;
+} kern;
+
+table GDEF {
+    GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
+} GDEF;
