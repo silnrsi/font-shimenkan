@@ -1,40 +1,19 @@
-lookup front_90 {
-    sub @cno_mark by u16F90 @cno_mark u16F8F;
-} front_90;
+@MARKTONES = [\u16F91 \u16F92];
 
-lookup front_short_90 {
-    sub @cno_mark by u16F90 @cno_mark;
-} front_short_90;
+lookup vowel_marks {
+    sub @cno_mark by @c_mark;
+} vowel_marks;
 
-lookup del_90 {
-    sub @cno_mark u16F90 by @cno_mark;
-} del_90;
-
-lookup front_8f {
-    sub @cno_mark by u16F8F @cno_mark u16F8F;
-} front_8f;
-
-lookup front_short_8f {
-    sub @cno_mark by u16F8F @cno_mark;
-} front_short_8f;
-
-lookup del_8f {
-    sub @cno_mark u16F8F by @cno_mark;
-} del_8f;
-
-lookup tone_reorder {
-    sub @cno_mark' lookup front_8f @cno_mark' lookup del_8f @cno_mark' u16F8F' lookup del_8f;
-    sub @cno_mark' lookup front_8f @cno_mark' lookup del_8f u16F8F' lookup del_8f;
-    sub @cno_mark' lookup front_short_8f u16F8F' lookup del_8f;
-    sub @cno_mark' lookup front_90 @cno_mark' lookup del_90 @cno_mark' u16F90' lookup del_90;
-    sub @cno_mark' lookup front_90 @cno_mark' lookup del_90 u16F90' lookup del_90;
-    sub @cno_mark' lookup front_short_90 u16F90' lookup del_90;
-} tone_reorder;
+lookup choose_vowel_marks {
+    sub @cno_mark' lookup vowel_marks @cno_mark' lookup vowel_marks @cno_mark' lookup vowel_marks @MARKTONES;
+    sub @cno_mark' lookup vowel_marks @cno_mark' lookup vowel_marks @MARKTONES;
+    sub @cno_mark' lookup vowel_marks @MARKTONES;
+} choose_vowel_marks;
 
 feature clig {
   script DFLT;
     language dflt;
-        lookup tone_reorder;
+        lookup choose_vowel_marks;
 } clig;
 
 ######################
@@ -51,13 +30,41 @@ lookup cursive_attach_S {
     pos cursive @SB @S;
 } cursive_attach_S;
 
+lookup attach_head {
+    pos base @H mark @_H;
+} attach_head;
+
+lookup attach_head_L {
+    pos base @H mark @_HR;
+} attach_head_L;
+
+lookup attach_vowel_H {
+    pos mark @_HR mark @_HL;
+} attach_vowel_H;
+
+lookup attach_foot {
+    pos base @L mark @_L;
+} attach_foot;
+
+lookup attach_foot_L {
+    pos base @L mark @_LR;
+} attach_foot_L;
+
+lookup attach_vowel_L {
+    pos mark @_LR mark @_LL;
+} attach_vowel_L;
+
 lookup vowel_attach {
-    pos @W' lookup cursive_attach_W u16F8F @WB ;
-    pos u16F8F @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB;
-    pos u16F8F @WB' lookup cursive_attach_W @WB;
-    pos @S' lookup cursive_attach_S u16F90 @SB ;
-    pos u16F90 @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB;
-    pos u16F90 @SB' lookup cursive_attach_S @SB;
+    pos @W' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB u16F8F;
+    pos @W' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB u16F8F;
+    pos @W' lookup cursive_attach_W @WB u16F8F;
+    pos @S' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB u16F90;
+    pos @S' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB u16F90;
+    pos @S' lookup cursive_attach_S @SB u16F90;
+    pos @H @_H' lookup attach_head_L @_H' lookup attach_vowel_H u16F91;
+    pos @H @_H' lookup attach_head u16F91;
+    pos @L @_L' lookup attach_foot_L @_L' lookup attach_vowel_L u16F92;
+    pos @L @_L' lookup attach_foot u16F92;
 } vowel_attach;
 
 feature kern {
