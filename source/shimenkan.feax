@@ -1,3 +1,15 @@
+lookup front_90 {
+    sub @cno_mark by u16F90 @cno_mark u16F8F;
+} front_90;
+
+lookup front_short_90 {
+    sub @cno_mark by u16F90 @cno_mark;
+} front_short_90;
+
+lookup del_90 {
+    sub @cno_mark u16F90 by @cno_mark;
+} del_90;
+
 lookup front_8f {
     sub @cno_mark by u16F8F @cno_mark u16F8F;
 } front_8f;
@@ -14,6 +26,9 @@ lookup tone_reorder {
     sub @cno_mark' lookup front_8f @cno_mark' lookup del_8f @cno_mark' u16F8F' lookup del_8f;
     sub @cno_mark' lookup front_8f @cno_mark' lookup del_8f u16F8F' lookup del_8f;
     sub @cno_mark' lookup front_short_8f u16F8F' lookup del_8f;
+    sub @cno_mark' lookup front_90 @cno_mark' lookup del_90 @cno_mark' u16F90' lookup del_90;
+    sub @cno_mark' lookup front_90 @cno_mark' lookup del_90 u16F90' lookup del_90;
+    sub @cno_mark' lookup front_short_90 u16F90' lookup del_90;
 } tone_reorder;
 
 feature clig {
@@ -31,8 +46,18 @@ lookup cursive_attach_W {
     pos cursive @WB @W;
 } cursive_attach_W;
 
+lookup cursive_attach_S {
+    lookupflag 8;
+    pos cursive @SB @S;
+} cursive_attach_S;
+
 lookup vowel_attach {
     pos @W' lookup cursive_attach_W u16F8F @WB ;
+    pos u16F8F @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB;
+    pos u16F8F @WB' lookup cursive_attach_W @WB;
+    pos @S' lookup cursive_attach_S u16F90 @SB ;
+    pos u16F90 @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB;
+    pos u16F90 @SB' lookup cursive_attach_S @SB;
 } vowel_attach;
 
 feature kern {
