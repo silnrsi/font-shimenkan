@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="u16F53" format="2">
+<glyph name="u16F51.mark" format="2">
   <advance width="235"/>
-  <unicode hex="16F53"/>
   <outline>
     <component base="u16F51"/>
   </outline>
