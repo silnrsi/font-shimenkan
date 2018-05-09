@@ -1,4 +1,5 @@
 @MARKTONES = [\u16F91 \u16F92];
+@VOWELS = @cno_mark;
 
 lookup vowel_marks {
     sub @cno_mark by @c_mark;
@@ -9,6 +10,22 @@ lookup choose_vowel_marks {
     sub @cno_mark' lookup vowel_marks @cno_mark' lookup vowel_marks @MARKTONES;
     sub @cno_mark' lookup vowel_marks @MARKTONES;
 } choose_vowel_marks;
+
+#do  for l = @c_mark;
+#    let n = "reorder_xy_"+l;
+#    {
+#        lookup $n {
+#            sub @c_mark $l by @c_mark;
+#        } $n;
+#    }
+
+#lookup reorder_headfoot3 {
+#do  for l = @c_mark;
+#    let n = "reorder_xy_"+l;
+#    {
+#        sub @c_mark' lookup $n $l @c_mark @MARKTONES;
+#    }
+#} reorder_headfoot3;
 
 feature clig {
   script DFLT;
@@ -38,9 +55,13 @@ lookup attach_head_L {
     pos base @H mark @_HR;
 } attach_head_L;
 
-lookup attach_vowel_H {
+lookup attach_vowel_HR {
+    pos mark @_HL mark @_HR;
+} attach_vowel_HR;  
+
+lookup attach_vowel_HL {
     pos mark @_HR mark @_HL;
-} attach_vowel_H;
+} attach_vowel_HL;
 
 lookup attach_foot {
     pos base @L mark @_L;
@@ -50,9 +71,24 @@ lookup attach_foot_L {
     pos base @L mark @_LR;
 } attach_foot_L;
 
-lookup attach_vowel_L {
+lookup attach_vowel_LL {
     pos mark @_LR mark @_LL;
-} attach_vowel_L;
+} attach_vowel_LL;
+
+do  let a = -int(ADVx("u16F61") / 2);
+    {
+        lookup left_shift_vowel {
+            pos @_H <$a 0 0 0>;
+        } left_shift_vowel;
+    }
+
+lookup advance_base {
+do  for g = @H;
+    let a = APx(g, "H") - ADVx(g) + ADVx("u16F61")/2 + ADVx("u16F67");
+    {
+        pos $g <0 0 $a 0>;
+    }
+} advance_base;
 
 lookup vowel_attach {
     pos @W' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB u16F8F;
@@ -61,16 +97,24 @@ lookup vowel_attach {
     pos @S' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB u16F90;
     pos @S' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB u16F90;
     pos @S' lookup cursive_attach_S @SB u16F90;
-    pos @H @_H' lookup attach_head_L @_H' lookup attach_vowel_H u16F91;
+    pos @H @_H' lookup attach_head_L @_H @_H u16F91;
+    pos @H @_H' lookup attach_head_L @_H' lookup attach_vowel_HL u16F91;
     pos @H @_H' lookup attach_head u16F91;
-    pos @L @_L' lookup attach_foot_L @_L' lookup attach_vowel_L u16F92;
+    pos @L @_L' lookup attach_foot_L @_L @_L u16F92;
+    pos @L @_L' lookup attach_foot_L @_L' lookup attach_vowel_LL u16F92;
     pos @L @_L' lookup attach_foot u16F92;
 } vowel_attach;
+
+lookup headfoot_vowels {
+    pos @H' lookup advance_base @_H' lookup left_shift_vowel @_H' lookup attach_vowel_HL @_H' lookup attach_vowel_HL u16F91;
+    pos @L' lookup advance_base @_L' lookup left_shift_vowel @_L' lookup attach_vowel_LL @_H' lookup attach_vowel_LL u16F92;
+} headfoot_vowels;
 
 feature kern {
   script DFLT;
     language dflt;
         lookup vowel_attach;
+        lookup headfoot_vowels;
 } kern;
 
 table GDEF {
