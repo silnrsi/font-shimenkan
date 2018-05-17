@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F28" format="2">
-  <advance width="316"/>
+  <advance width="332"/>
   <unicode hex="16F28"/>
-  <anchor x="316" y="578" name="D"/>
-  <anchor x="316" y="460" name="E"/>
-  <anchor x="158" y="690" name="H"/>
-  <anchor x="316" y="230" name="K"/>
-  <anchor x="158" y="-30" name="L"/>
-  <anchor x="316" y="660" name="S"/>
-  <anchor x="316" y="345" name="W"/>
+  <anchor x="324" y="578" name="D"/>
+  <anchor x="324" y="460" name="E"/>
+  <anchor x="166" y="690" name="H"/>
+  <anchor x="324" y="230" name="K"/>
+  <anchor x="166" y="-30" name="L"/>
+  <anchor x="324" y="660" name="S"/>
+  <anchor x="324" y="345" name="W"/>
   <outline>
     <contour>
-      <point x="72" y="0" type="line"/>
-      <point x="244" y="0" type="line"/>
-      <point x="244" y="650" type="line"/>
-      <point x="72" y="650" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="252" y="0" type="line"/>
+      <point x="252" y="650" type="line"/>
+      <point x="80" y="650" type="line"/>
     </contour>
   </outline>
 </glyph>

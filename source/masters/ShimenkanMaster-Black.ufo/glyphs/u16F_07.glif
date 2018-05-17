@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F07" format="2">
-  <advance width="530"/>
+  <advance width="523"/>
   <unicode hex="16F07"/>
-  <anchor x="530" y="578" name="D"/>
-  <anchor x="530" y="460" name="E"/>
-  <anchor x="265" y="690" name="H"/>
-  <anchor x="530" y="230" name="K"/>
-  <anchor x="265" y="-30" name="L"/>
-  <anchor x="530" y="660" name="S"/>
-  <anchor x="530" y="345" name="W"/>
+  <anchor x="523" y="578" name="D"/>
+  <anchor x="523" y="460" name="E"/>
+  <anchor x="258" y="690" name="H"/>
+  <anchor x="523" y="230" name="K"/>
+  <anchor x="258" y="-30" name="L"/>
+  <anchor x="523" y="660" name="S"/>
+  <anchor x="523" y="345" name="W"/>
   <outline>
     <contour>
-      <point x="72" y="650" type="line"/>
-      <point x="72" y="0" type="line"/>
-      <point x="244" y="0" type="line"/>
-      <point x="244" y="506" type="line"/>
-      <point x="490" y="506" type="line"/>
-      <point x="490" y="650" type="line"/>
+      <point x="65" y="650" type="line"/>
+      <point x="65" y="0" type="line"/>
+      <point x="237" y="0" type="line"/>
+      <point x="237" y="506" type="line"/>
+      <point x="483" y="506" type="line"/>
+      <point x="483" y="650" type="line"/>
     </contour>
   </outline>
 </glyph>

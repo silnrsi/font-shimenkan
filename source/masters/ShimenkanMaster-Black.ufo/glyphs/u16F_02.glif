@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F02" format="2">
-  <advance width="590"/>
+  <advance width="606"/>
   <unicode hex="16F02"/>
   <anchor x="590" y="578" name="D"/>
   <anchor x="590" y="460" name="E"/>
