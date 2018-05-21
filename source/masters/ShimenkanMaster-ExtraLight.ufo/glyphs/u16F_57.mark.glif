@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F57.mark" format="2">
-  <advance width="293"/>
-  <anchor x="146" y="-40" name="_H"/>
+  <advance width="290"/>
+  <anchor x="145" y="-40" name="_H"/>
   <anchor x="0" y="-40" name="_HL"/>
-  <anchor x="293" y="-40" name="_HR"/>
-  <anchor x="146" y="260" name="_L"/>
+  <anchor x="290" y="-40" name="_HR"/>
+  <anchor x="145" y="260" name="_L"/>
   <anchor x="0" y="260" name="_LL"/>
-  <anchor x="293" y="260" name="_LR"/>
+  <anchor x="290" y="260" name="_LR"/>
   <outline>
     <component base="u16F57"/>
   </outline>

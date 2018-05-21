@@ -5,8 +5,8 @@
   <anchor x="192" y="700" name="H"/>
   <anchor x="384" y="660" name="S"/>
   <anchor x="384" y="345" name="W"/>
-  <anchor x="384" y="463" name="E"/>
-  <anchor x="384" y="227" name="K"/>
+  <anchor x="384" y="450" name="E"/>
+  <anchor x="384" y="240" name="K"/>
   <anchor x="384" y="0" name="F"/>
   <anchor x="384" y="646" name="D"/>
   <anchor x="192" y="-40" name="L"/>

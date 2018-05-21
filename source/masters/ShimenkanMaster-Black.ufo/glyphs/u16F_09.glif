@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F09" format="2">
-  <advance width="572"/>
+  <advance width="652"/>
   <unicode hex="16F09"/>
-  <anchor x="286" y="700" name="H"/>
-  <anchor x="572" y="660" name="S"/>
-  <anchor x="572" y="340" name="W"/>
-  <anchor x="572" y="460" name="E"/>
-  <anchor x="572" y="220" name="K"/>
-  <anchor x="572" y="0" name="F"/>
-  <anchor x="572" y="578" name="D"/>
-  <anchor x="286" y="-40" name="L"/>
+  <anchor x="326" y="700" name="H"/>
+  <anchor x="652" y="660" name="S"/>
+  <anchor x="652" y="340" name="W"/>
+  <anchor x="652" y="446" name="E"/>
+  <anchor x="652" y="234" name="K"/>
+  <anchor x="652" y="0" name="F"/>
+  <anchor x="652" y="578" name="D"/>
+  <anchor x="326" y="-40" name="L"/>
   <outline>
     <component base="u16F08"/>
   </outline>
