@@ -16,14 +16,14 @@ argspec = [
 
 # set height levels
 ancparas = {
-    'Extra Light': { 'W': 350, 'D': 646, '_S': 170, '_W': 110, '_L': 250 },
-    'Black': {'W': 345, 'D': 578, '_S': 200, '_W': 138, '_L': 306 }
+    'Extra Light': { 'W': 350, 'D': 646, '_S': 170, '_W': 110, '_L': 260 },
+    'Black': {'W': 345, 'D': 578, '_S': 200, '_W': 138, '_L': 316 }
 }
 
-hlevel = 690
+hlevel = 700
 slevel = 660
-llevel = -30
-hmarklevel = -30
+llevel = -40
+hmarklevel = -40
 
 def doit(args) :
     font = args.ifont
@@ -48,14 +48,17 @@ def doit(args) :
             glyph.add('anchor', {'name': 'W', 'x': adv, 'y': ancparas[style]['W']})
             glyph.add('anchor', {'name': 'E', 'x': adv, 'y': (ancparas[style]['W'] + ((hlevel-ancparas[style]['W'])/3))})
             glyph.add('anchor', {'name': 'K', 'x': adv, 'y': (ancparas[style]['W'] - ((hlevel-ancparas[style]['W'])/3))})
+            glyph.add('anchor', {'name': 'F', 'x': adv, 'y': 0})
             glyph.add('anchor', {'name': 'D', 'x': adv, 'y': ancparas[style]['D']})
             glyph.add('anchor', {'name': 'L', 'x': ( adv/2 ), 'y': llevel})
 
         if anchorset == "vow":   # vowels used as bases
             glyph.add('anchor', {'name': 'SB', 'x': 0, 'y': ancparas[style]['_S']})
             glyph.add('anchor', {'name': 'WB', 'x': 0, 'y': ancparas[style]['_W']})
+            glyph.add('anchor', {'name': 'FB', 'x': 0, 'y': 0})
             glyph.add('anchor', {'name': 'S', 'x': adv, 'y': ancparas[style]['_S']})
             glyph.add('anchor', {'name': 'W', 'x': adv, 'y': ancparas[style]['_W']})
+            glyph.add('anchor', {'name': 'F', 'x': adv, 'y': 0})
 
         if anchorset == "mark":   # vowels used as marks
             glyph.add('anchor', {'name': '_H', 'x': ( adv/2 ), 'y': hmarklevel})
