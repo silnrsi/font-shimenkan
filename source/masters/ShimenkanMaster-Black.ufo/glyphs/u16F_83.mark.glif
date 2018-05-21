@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F83.mark" format="2">
   <advance width="360"/>
-  <anchor x="180" y="-30" name="_H"/>
-  <anchor x="0" y="-30" name="_HL"/>
-  <anchor x="360" y="-30" name="_HR"/>
-  <anchor x="180" y="306" name="_L"/>
-  <anchor x="0" y="306" name="_LL"/>
-  <anchor x="360" y="306" name="_LR"/>
+  <anchor x="180" y="-40" name="_H"/>
+  <anchor x="0" y="-40" name="_HL"/>
+  <anchor x="360" y="-40" name="_HR"/>
+  <anchor x="180" y="316" name="_L"/>
+  <anchor x="0" y="316" name="_LL"/>
+  <anchor x="360" y="316" name="_LR"/>
   <outline>
     <component base="u16F83"/>
   </outline>
