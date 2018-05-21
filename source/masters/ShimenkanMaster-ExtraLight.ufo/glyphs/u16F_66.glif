@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F66" format="2">
-  <advance width="228"/>
+  <advance width="240"/>
   <unicode hex="16F66"/>
-  <anchor x="228" y="170" name="S"/>
-  <anchor x="0" y="170" name="SB"/>
-  <anchor x="228" y="110" name="W"/>
-  <anchor x="0" y="110" name="WB"/>
+  <anchor x="234" y="170" name="S"/>
+  <anchor x="6" y="170" name="SB"/>
+  <anchor x="234" y="110" name="W"/>
+  <anchor x="6" y="110" name="WB"/>
   <outline>
     <contour>
-      <point x="24" y="180" type="line"/>
-      <point x="24" y="152" type="line"/>
-      <point x="204" y="152" type="line"/>
-      <point x="204" y="180" type="line"/>
+      <point x="30" y="180" type="line"/>
+      <point x="30" y="152" type="line"/>
+      <point x="210" y="152" type="line"/>
+      <point x="210" y="180" type="line"/>
     </contour>
     <contour>
-      <point x="24" y="68" type="line"/>
-      <point x="24" y="40" type="line"/>
-      <point x="204" y="40" type="line"/>
-      <point x="204" y="68" type="line"/>
+      <point x="30" y="68" type="line"/>
+      <point x="30" y="40" type="line"/>
+      <point x="210" y="40" type="line"/>
+      <point x="210" y="68" type="line"/>
     </contour>
   </outline>
 </glyph>

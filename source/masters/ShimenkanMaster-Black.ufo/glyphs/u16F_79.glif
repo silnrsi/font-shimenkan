@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F79" format="2">
-  <advance width="208"/>
+  <advance width="220"/>
   <unicode hex="16F79"/>
-  <anchor x="208" y="200" name="S"/>
-  <anchor x="0" y="200" name="SB"/>
-  <anchor x="208" y="138" name="W"/>
-  <anchor x="0" y="138" name="WB"/>
+  <anchor x="214" y="200" name="S"/>
+  <anchor x="6" y="200" name="SB"/>
+  <anchor x="214" y="138" name="W"/>
+  <anchor x="6" y="138" name="WB"/>
   <outline>
     <contour>
-      <point x="154" y="276" type="line"/>
-      <point x="54" y="276" type="line"/>
-      <point x="54" y="0" type="line"/>
-      <point x="154" y="0" type="line"/>
+      <point x="160" y="276" type="line"/>
+      <point x="60" y="276" type="line"/>
+      <point x="60" y="0" type="line"/>
+      <point x="160" y="0" type="line"/>
     </contour>
   </outline>
 </glyph>

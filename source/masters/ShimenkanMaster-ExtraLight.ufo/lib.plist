@@ -14,6 +14,11 @@
 /u16F42/u16F42/u16F42/u16F04/u16F42/u16F42/u16F3A/u16F42/u16F2D/u16F42/u16F23/u16F42/u16F35/u16F42/u16F40/u16F42/u16F42 
 /u16F1E/u16F42/u16F2F/u16F1E/u16F40/u16F2F/u16F1E/u16F08/u16F2F/u16F1E/u16F35/u16F2F</string>
     <string>/u16F42/u16F42/u16F42/u16F1E/wart/u16F2E/u16F42/u16F42/u16F42</string>
+    <string>/u16F59/u16F5D/u16F61/u16F6A/u16F75/u16F6A/u16F77/u16F6A/u16F61/u16F71/u16F59</string>
+    <string>/u16F55/u16F59/u16F5D/u16F61/u16F62/u16F6A/u16F6B/u16F71/u16F75/u16F77/u16F79/u16F57/u16F58/u16F5C/u16F5E/u16F60/u16F63/u16F64/u16F66/u16F68/u16F69/u16F73/u16F74/u16F7B/u16F4F</string>
+    <string>/u16F64/u16F75/u16F61/u16F6A/u16F75/u16F59/u16F77/u16F6A/u16F61/u16F71/u16F59</string>
+    <string>/u16F59/u16F5D/u16F61/u16F62/u16F6A/u16F6B/u16F71/u16F75/u16F77/u16F79/u16F57/u16F58/u16F5C/u16F5E/u16F60/u16F63/u16F64/u16F66/u16F68/u16F69/u16F73/u16F74/u16F7B/u16F4F</string>
+    <string>/u16F75/u16F83/u16F77/u16F71/u16F6A/u16F75/u16F59/u16F77/u16F5D/u16F6A</string>
   </array>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
@@ -36,7 +41,7 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>100</integer>
   <key>org.sil.glyphsappversion</key>
-  <string>1140</string>
+  <string>1143</string>
   <key>public.glyphOrder</key>
   <array>
     <string>u16F08</string>
