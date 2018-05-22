@@ -2,14 +2,14 @@
 <glyph name="u16F00" format="2">
   <advance width="447"/>
   <unicode hex="16F00"/>
+  <anchor x="447" y="646" name="D"/>
+  <anchor x="447" y="450" name="E"/>
+  <anchor x="447" y="0" name="F"/>
   <anchor x="223" y="700" name="H"/>
+  <anchor x="447" y="240" name="K"/>
+  <anchor x="223" y="-40" name="L"/>
   <anchor x="447" y="660" name="S"/>
   <anchor x="447" y="345" name="W"/>
-  <anchor x="447" y="450" name="E"/>
-  <anchor x="447" y="240" name="K"/>
-  <anchor x="447" y="0" name="F"/>
-  <anchor x="447" y="646" name="D"/>
-  <anchor x="223" y="-40" name="L"/>
   <outline>
     <contour>
       <point x="372" y="0" type="line"/>
