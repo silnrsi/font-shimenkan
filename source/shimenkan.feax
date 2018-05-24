@@ -1,31 +1,55 @@
-@MARKTONES = [\u16F91 \u16F92];
+@MARKTONES = [u16F91 u16F92];
 @VOWELS = @cno_mark;
+@ASPMARKS = [u16F51.mark u16F52.mark];
+@ASP = [u16F51 u16F52];
 
 lookup vowel_marks {
     sub @cno_mark by @c_mark;
 } vowel_marks;
 
+lookup asp_marks {
+    sub @ASP by @ASPMARKS;
+} asp_marks;
+
+lookup asp_vowel_vowel {
+    sub u16F51 @cno_mark by @c_mark;
+    sub u16F52 @cno_mark by @c_mark;
+} asp_vowel_vowel;
+
+lookup asp_tone_asp {
+    sub u16F51 @MARKTONES by u16F51;
+    sub u16F52 @MARKTONES by u16F52;
+} asp_tone_asp;
+
+lookup tone_t_asp1_t {
+    sub u16F91 by u16F91 u16F51 u16F91;
+    sub u16F92 by u16F92 u16F51 u16F92;
+} tone_t_asp1_t;
+
+lookup tone_t_asp2_t {
+    sub u16F91 by u16F91 u16F52 u16F91;
+    sub u16F92 by u16F92 u16F52 u16F92;
+} tone_t_asp2_t;
+
 lookup choose_vowel_marks {
+    # ASP is spacing for shoulder
+    ignore sub @ASP' @cno_mark @cno_mark @cno_mark \u16F90;
+    ignore sub @ASP' @cno_mark @cno_mark \u16F90;
+    ignore sub @ASP' @cno_mark \u16F90;
+    # ASP is spacing and comes after mark vowels
+    sub \u16F51' lookup asp_vowel_vowel @cno_mark' lookup vowel_marks @cno_mark' lookup vowel_marks @cno_mark' lookup tone_t_asp1_t @MARKTONES' lookup asp_tone_asp;
+    sub \u16F51' lookup asp_vowel_vowel @cno_mark' lookup vowel_marks @cno_mark' lookup tone_t_asp1_t @MARKTONES' lookup asp_tone_asp;
+    sub \u16F51' lookup asp_vowel_vowel @cno_mark' lookup tone_t_asp1_t @MARKTONES' lookup asp_tone_asp;
+    sub \u16F52' lookup asp_vowel_vowel @cno_mark' lookup vowel_marks @cno_mark' lookup vowel_marks @cno_mark' lookup tone_t_asp2_t @MARKTONES' lookup asp_tone_asp;
+    sub \u16F52' lookup asp_vowel_vowel @cno_mark' lookup vowel_marks @cno_mark' lookup tone_t_asp2_t @MARKTONES' lookup asp_tone_asp;
+    sub \u16F52' lookup asp_vowel_vowel @cno_mark' lookup tone_t_asp2_t @MARKTONES' lookup asp_tone_asp;
+    # ASP if followed by a vowel is a mark
+    sub @ASP' lookup asp_marks @cno_mark;
+    # normal vowel mark replacement
     sub @cno_mark' lookup vowel_marks @cno_mark' lookup vowel_marks @cno_mark' lookup vowel_marks @MARKTONES;
     sub @cno_mark' lookup vowel_marks @cno_mark' lookup vowel_marks @MARKTONES;
     sub @cno_mark' lookup vowel_marks @MARKTONES;
 } choose_vowel_marks;
-
-#do  for l = @c_mark;
-#    let n = "reorder_xy_"+l;
-#    {
-#        lookup $n {
-#            sub @c_mark $l by @c_mark;
-#        } $n;
-#    }
-
-#lookup reorder_headfoot3 {
-#do  for l = @c_mark;
-#    let n = "reorder_xy_"+l;
-#    {
-#        sub @c_mark' lookup $n $l @c_mark @MARKTONES;
-#    }
-#} reorder_headfoot3;
 
 feature clig {
   script DFLT;
@@ -38,12 +62,12 @@ feature clig {
 ######################
 
 lookup cursive_attach_W {
-    lookupflag 8;
+    lookupflag IgnoreMarks;
     pos cursive @WB @W;
 } cursive_attach_W;
 
 lookup cursive_attach_S {
-    lookupflag 8;
+    lookupflag IgnoreMarks;
     pos cursive @SB @S;
 } cursive_attach_S;
 
@@ -97,9 +121,15 @@ lookup vowel_attach {
     pos @W' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB u16F8F;
     pos @W' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB u16F8F;
     pos @W' lookup cursive_attach_W @WB u16F8F;
+    pos @W' lookup cursive_attach_W @ASPMARKS' @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB u16F8F;
+    pos @W' lookup cursive_attach_W @ASPMARKS' @WB' lookup cursive_attach_W @WB u16F8F;
+    pos @W' lookup cursive_attach_W @ASPMARKS @WB u16F8F;
+    # asp + 3 vowels.
+    pos @S' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB u16F90;
     pos @S' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB u16F90;
     pos @S' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB u16F90;
     pos @S' lookup cursive_attach_S @SB u16F90;
+    pos @S' lookup cursive_attach_S @ASP;
     pos @H @_H' lookup attach_head_L @_H @_H u16F91;
     pos @H @_H' lookup attach_head_L @_H' lookup attach_vowel_HL u16F91;
     pos @H @_H' lookup attach_head u16F91;
@@ -113,11 +143,18 @@ lookup headfoot_vowels {
     pos @L' lookup advance_base @_L' lookup left_shift_vowel @_L' lookup attach_vowel_LL @_H' lookup attach_vowel_LL u16F92;
 } headfoot_vowels;
 
+lookup asp_hf_attach {
+    pos @S' lookup cursive_attach_S [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES @ASP;
+    pos @S' lookup cursive_attach_S [@_H @_L] [@_H @_L] @MARKTONES @ASP;
+    pos @S' lookup cursive_attach_S [@_H @_L] @MARKTONES @ASP;
+} asp_hf_attach;
+
 feature kern {
   script DFLT;
     language dflt;
         lookup vowel_attach;
         lookup headfoot_vowels;
+        lookup asp_hf_attach;
 } kern;
 
 table GDEF {
