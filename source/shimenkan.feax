@@ -171,9 +171,12 @@ lookup headfoot_vowels {
 } headfoot_vowels;
 
 lookup asp_hf_attach {
-    pos @S' lookup cursive_attach_S [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES @ASPALL;
-    pos @S' lookup cursive_attach_S [@_H @_L] [@_H @_L] @MARKTONES @ASPALL;
-    pos @S' lookup cursive_attach_S [@_H @_L] @MARKTONES @ASPALL;
+    pos @S' lookup cursive_attach_S [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES @ASP;
+    pos @S' lookup cursive_attach_S [@_H @_L] [@_H @_L] @MARKTONES @ASP;
+    pos @S' lookup cursive_attach_S [@_H @_L] @MARKTONES @ASP;
+    pos @F' lookup cursive_attach_F [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES u16F53;
+    pos @F' lookup cursive_attach_F [@_H @_L] [@_H @_L] @MARKTONES u16F53;
+    pos @F' lookup cursive_attach_F [@_H @_L] @MARKTONES u16F53;
 } asp_hf_attach;
 
 feature kern {
