@@ -160,8 +160,8 @@ lookup vowel_attach {
     pos @L @_L' lookup attach_foot_L @_L @_L u16F92;
     pos @L @_L' lookup attach_foot_L @_L' lookup attach_vowel_LL u16F92;
     pos @L @_L' lookup attach_foot u16F92;
-    pos @F' lookup cursive_attach_F @FB' lookup cursive_attach_F @FB' lookup cursive_attach_F @FB;
-    pos @F' lookup cursive_attach_F @FB' lookup cursive_attach_F @FB;
+    #pos @F' lookup cursive_attach_F @FB' lookup cursive_attach_F @FB' lookup cursive_attach_F @FB;
+    #pos @F' lookup cursive_attach_F @FB' lookup cursive_attach_F @FB;
     pos @F' lookup cursive_attach_F @FB;
 } vowel_attach;
 
