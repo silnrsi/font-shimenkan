@@ -16,13 +16,13 @@ argspec = [
 
 # set height levels
 ancparas = {
-    'Extra Light': { 'W': 345, 'D': 646, '_S': 170, '_W': 110, '_L': 260 },
-    'Black': {'W': 340, 'D': 578, '_S': 200, '_W': 138, '_L': 316 }
+    'Extra Light': { 'W': 335, 'D': 646, '_S': 170, '_W': 110, '_L': 265 },
+    'Black': {'W': 330, 'D': 578, '_S': 200, '_W': 138, '_L': 321 }
 }
 
 hlevel = 700
 slevel = 660
-llevel = -40
+llevel = -45
 hmarklevel = -40
 
 def doit(args) :
