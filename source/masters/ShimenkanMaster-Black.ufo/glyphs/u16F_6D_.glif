@@ -2,12 +2,12 @@
 <glyph name="u16F6D" format="2">
   <advance width="671"/>
   <unicode hex="16F6D"/>
-  <anchor x="671" y="0" name="F"/>
+  <anchor x="0" y="200" name="SB"/>
+  <anchor x="0" y="138" name="WB"/>
   <anchor x="0" y="0" name="FB"/>
   <anchor x="671" y="200" name="S"/>
-  <anchor x="0" y="200" name="SB"/>
   <anchor x="671" y="138" name="W"/>
-  <anchor x="0" y="138" name="WB"/>
+  <anchor x="671" y="0" name="F"/>
   <outline>
     <contour>
       <point x="130" y="276" type="curve"/>
