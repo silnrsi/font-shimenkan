@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F53" format="2">
   <advance width="235"/>
-  <anchor x="0" y="0" name="FB"/>
-  <anchor x="235" y="0" name="F"/>
   <unicode hex="16F53"/>
+  <anchor x="235" y="0" name="F"/>
+  <anchor x="0" y="0" name="FB"/>
   <outline>
     <component base="u16F51"/>
   </outline>

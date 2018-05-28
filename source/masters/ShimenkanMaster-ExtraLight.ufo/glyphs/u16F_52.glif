@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F52" format="2">
   <advance width="140"/>
-  <anchor x="0" y="660" name="SB"/>
-  <anchor x="140" y="660" name="S"/>
   <unicode hex="16F52"/>
+  <anchor x="140" y="660" name="S"/>
+  <anchor x="0" y="660" name="SB"/>
   <outline>
     <component base="u16F51"/>
   </outline>
