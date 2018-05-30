@@ -1,6 +1,6 @@
 \begin[class=fontproof]{document}
 \bidi-off
-\setTestFont[filename="../results/Shimenkan-Regular.ttf",features="+clig,+kern",size="18pt"]
+\setTestFont[features="+clig,+kern",size="18pt"]
 
 % Consonants - non-archaic, no warts, dots, etc. in order by right hand side type
 \patterngroup[name="consfoot"]{𖼨𖼞𖼦𖼀𖼃𖼱𖼯𖼰𖼕𖼐𖼒𖼎𖽊𖼲𖼪𖼂𖼖𖼠𖼍𖼹𖼷𖽉𖼌𖼊𖽈𖼡𖼇𖽃𖼈𖼴𖼳𖽂𖼄𖼺𖼻𖼭𖼣𖼘𖼵𖼽𖽀𖼚𖼜}
