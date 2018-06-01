@@ -9,7 +9,7 @@
   <anchor x="523" y="220" name="K"/>
   <anchor x="261" y="-45" name="L"/>
   <anchor x="523" y="660" name="S"/>
-  <anchor x="523" y="330" name="W"/>
+  <anchor x="473" y="330" name="W"/>
   <outline>
     <contour>
       <point x="65" y="650" type="line"/>
