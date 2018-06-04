@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F69.mark" format="2">
   <advance width="379"/>
-  <anchor x="189" y="-40" name="_H"/>
+  <anchor x="196" y="-40" name="_H"/>
   <anchor x="0" y="-40" name="_HL"/>
   <anchor x="379" y="-40" name="_HR"/>
-  <anchor x="189" y="265" name="_L"/>
+  <anchor x="196" y="265" name="_L"/>
   <anchor x="0" y="265" name="_LL"/>
   <anchor x="379" y="265" name="_LR"/>
   <outline>
