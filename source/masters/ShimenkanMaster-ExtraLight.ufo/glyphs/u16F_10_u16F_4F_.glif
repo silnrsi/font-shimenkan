@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F10_u16F4F" format="2">
+  <advance width="682"/>
+  <anchor x="682" y="443" name="E"/>
+  <anchor x="682" y="646" name="D"/>
+  <anchor x="682" y="0" name="F"/>
+  <anchor x="430" y="700" name="H"/>
+  <anchor x="682" y="227" name="K"/>
+  <anchor x="430" y="-45" name="L"/>
+  <anchor x="682" y="660" name="S"/>
+  <anchor x="522" y="335" name="W"/>
+  <outline>
+    <component base="u16F4F"/>
+    <component base="u16F10" xOffset="148"/>
+  </outline>
+</glyph>

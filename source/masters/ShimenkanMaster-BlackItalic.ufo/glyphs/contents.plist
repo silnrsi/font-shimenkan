@@ -1530,6 +1530,8 @@
   <string>u16F_0D_.glif</string>
   <key>u16F0E</key>
   <string>u16F_0E_.glif</string>
+  <key>u16F0E_u16F4F</key>
+  <string>u16F_0E__u16F_4F_.glif</string>
   <key>u16F0F</key>
   <string>u16F_0F_.glif</string>
   <key>u16F0F.dot</key>
@@ -1538,6 +1540,8 @@
   <string>u16F_0F_.nowart.glif</string>
   <key>u16F10</key>
   <string>u16F_10.glif</string>
+  <key>u16F10_u16F4F</key>
+  <string>u16F_10_u16F_4F_.glif</string>
   <key>u16F11</key>
   <string>u16F_11.glif</string>
   <key>u16F11.dot</key>
@@ -2002,10 +2006,6 @@
   <string>u16F_98.glif</string>
   <key>u16F99</key>
   <string>u16F_99.glif</string>
-  <key>u16f0e_u16f4f</key>
-  <string>u16f0e_u16f4f.glif</string>
-  <key>u16f10_u16f4f</key>
-  <string>u16f10_u16f4f.glif</string>
   <key>uacute</key>
   <string>uacute.glif</string>
   <key>ubreve</key>
