@@ -5,10 +5,16 @@ psfglyphs2ufo --nofea source/masters/ShimenkanRoman.glyphs source/masters -l sou
 psfglyphs2ufo --nofea source/masters/ShimenkanItalic.glyphs source/masters -l source/logs/glyphsexportI.log
 
 # This normalization will also run check and fix routines
-psfnormalize -p checkfix=fix source/masters/ShimenkanMaster-ExtraLight.ufo -l source/logs/normXL.log
-psfnormalize -p checkfix=fix source/masters/ShimenkanMaster-Black.ufo -l source/logs/normK.log
-psfnormalize -p checkfix=fix source/masters/ShimenkanMaster-ExtraLightItalic.ufo -l source/logs/normXLI.log
-psfnormalize -p checkfix=fix source/masters/ShimenkanMaster-BlackItalic.ufo -l source/logs/normKI.log
+# psfnormalize -p checkfix=fix source/masters/ShimenkanMaster-ExtraLight.ufo -l source/logs/normXL.log
+# psfnormalize -p checkfix=fix source/masters/ShimenkanMaster-Black.ufo -l source/logs/normK.log
+# psfnormalize -p checkfix=fix source/masters/ShimenkanMaster-ExtraLightItalic.ufo -l source/logs/normXLI.log
+# psfnormalize -p checkfix=fix source/masters/ShimenkanMaster-BlackItalic.ufo -l source/logs/normKI.log
+
+# This composite updating will also run check and fix routines
+psfbuildcomp -p checkfix=fix -i source/composites.txt source/masters/ShimenkanMaster-ExtraLight.ufo -l source/logs/compXL.log
+psfbuildcomp -p checkfix=fix -i source/composites.txt source/masters/ShimenkanMaster-Black.ufo -l source/logs/compK.log
+psfbuildcomp -p checkfix=fix -i source/composites.txt source/masters/ShimenkanMaster-ExtraLightItalic.ufo -l source/logs/compXLI.log
+psfbuildcomp -p checkfix=fix -i source/composites.txt source/masters/ShimenkanMaster-BlackItalic.ufo -l source/logs/compKI.log
 
 psfsetpsnames -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight.ufo
 psfsetglyphorder --header sort_design -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight.ufo
