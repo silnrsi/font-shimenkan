@@ -23,7 +23,7 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>100</integer>
   <key>org.sil.glyphsappversion</key>
-  <string>1131</string>
+  <string>1147</string>
   <key>public.glyphOrder</key>
   <array>
     <string>u16F08</string>
@@ -275,9 +275,6 @@
     <string>u16F33.hmd</string>
     <string>u16F34.hmd</string>
     <string>u16F33.lpo</string>
-    <string>u16F0C.ycl</string>
-    <string>u16F33.ycl</string>
-    <string>u16F7D.ycl</string>
     <string>u16F02.ygp</string>
     <string>u16F2F.ywq</string>
     <string>u16F93</string>
