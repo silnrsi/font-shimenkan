@@ -9,8 +9,9 @@
   <anchor x="596" y="220" name="K"/>
   <anchor x="298" y="-45" name="L"/>
   <anchor x="596" y="660" name="S"/>
-  <anchor x="596" y="330" name="W"/>
+  <anchor x="546" y="330" name="W"/>
   <outline>
     <component base="u16F0A"/>
+    <component base="wart" xOffset="17"/>
   </outline>
 </glyph>

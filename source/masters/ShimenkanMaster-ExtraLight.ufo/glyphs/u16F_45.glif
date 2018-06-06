@@ -5,12 +5,13 @@
   <anchor x="515" y="646" name="D"/>
   <anchor x="515" y="443" name="E"/>
   <anchor x="515" y="0" name="F"/>
-  <anchor x="257" y="700" name="H"/>
+  <anchor x="424" y="700" name="H"/>
   <anchor x="515" y="227" name="K"/>
   <anchor x="257" y="-45" name="L"/>
   <anchor x="515" y="660" name="S"/>
   <anchor x="515" y="335" name="W"/>
   <outline>
     <component base="u16F03"/>
+    <component base="wart" xOffset="240"/>
   </outline>
 </glyph>

@@ -12,5 +12,6 @@
   <anchor x="545" y="330" name="W"/>
   <outline>
     <component base="u16F1E"/>
+    <component base="wart" xOffset="113"/>
   </outline>
 </glyph>
