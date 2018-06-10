@@ -2,47 +2,19 @@
 \bidi-off
 \setTestFont[features="+clig,+kern",size="18pt"]
 
-%%%%% GROUPS
-% Consonants - non-archaic, no warts, dots, etc. in order by right hand side type
-\patterngroup[name="consfoot"]{𖼨𖼞𖼦𖼀𖼃𖼱𖼯𖼰𖼕𖼐𖼒𖼎𖽊𖼲𖼪𖼂𖼖𖼠𖼍𖼹𖼷𖽉𖼌𖼊𖽈𖼡𖼇𖽃𖼈𖼴𖼳𖽂𖼄𖼺𖼻𖼭𖼣𖼘𖼵𖼽𖽀𖼚𖼜}
-% Consonants - representatives of right side shapes
-\patterngroup[name="repconsfoot"]{𖼨𖼞𖼯𖼲𖼪𖼂𖼖𖼠𖼍𖼊𖼇𖽃𖼈𖼴𖼳𖽂𖼄𖼺𖼭𖼣𖼵𖽀}
-% Consonants - shapes identical to Latin
-\patterngroup[name="latinlikecons"]{𖼈𖼊𖼖𖼨𖼵𖼺𖽀𖽂𖽃}
-% Consonants - with circles
-\patterngroup[name="conscirc"]{𖼃𖼘𖼣𖼕}
-\patterngroup[name="warts"]{}
-\patterngroup[name="dots"]{}
-\patterngroup[name="allcons"]{}
-\patterngroup[name="consarchaic"]{𖼧}
-
-% Vowels - base versions in order by left hand side type
-\patterngroup[name="vowels"]{𖽹𖽻𖽷𖾂𖽸𖽨𖽧𖽡𖽢𖽥𖽩𖽤𖽣𖾄𖽺𖾇𖽯𖽮𖽪𖽖𖾀𖽫𖽰𖽭𖽬𖾆𖾃𖽵𖽶𖽗𖽘𖽕𖽔𖽦𖽱𖽝𖾁𖽙𖽚𖽾𖽽𖽛𖽼𖽲𖽿𖽳𖽜𖾅𖽠𖽴𖽞𖽟}
-% Vowels - representatives of left side shapes in box
-\patterngroup[name="vowelrepsbox"]{𖽹𖽻𖽷𖾂𖽸𖽨𖽧𖽡𖾄𖽺𖾇𖽮𖽪𖾆𖾃𖽵𖽶𖽔𖽦𖽱𖽝𖾁𖽙𖽾𖽲}
-% Vowels - representatives of left side shapes outside the box
-\patterngroup[name="vowelrepsoutbox"]{𖽳𖽜𖽠𖽴𖽞𖽩𖽤}
-% Vowels - representatives of left side shapes both inside and outside box
-\patterngroup[name="vowelrepsall"]{𖽹𖽻𖽷𖾂𖽸𖽨𖽧𖽡𖾄𖽺𖾇𖽮𖽪𖾆𖾃𖽵𖽶𖽔𖽦𖽱𖽝𖾁𖽙𖽾𖽲𖽳𖽜𖽠𖽴𖽞𖽩𖽤}
-
-% Latin groups
-\patterngroup[name="latincaps"]{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
-\patterngroup[name="latinlc"]{abcdefghijklmnopqrstuvwxyz}
-
-% General
-\patterngroup[name="numerals"]{1234567890}
-\patterngroup[name="punctuation"]{.,:;!-}
-
 %%%%% TESTS
 
-\subsection{BASE VOWELS}
-\proof[size="28pt"]{𖽹𖽻𖽷𖾂𖽸𖽨𖽧𖽡𖽢𖽥𖽩𖽤𖽣𖾄𖽺𖾇𖽯𖽮𖽪𖽖𖾀𖽫𖽰𖽭𖽬𖾆𖾃𖽵𖽶𖽗𖽘𖽕𖽔𖽦𖽱𖽝𖾁𖽙𖽚𖽾𖽽𖽛𖽼𖽲𖽿𖽳𖽜𖾅𖽠𖽴𖽞𖽟}
-\pattern[size="28pt",chars="@",reps="group_vowels",format="list"]{𖽙𖽙𖽡𖽡𖽙@𖽡@𖽷@𖽱@𖽝@𖽨@𖽳@𖽜@𖽠@𖽴@𖽞@𖽙𖽙𖽡𖽡}
-
-\subsection{CONSONANT VOWEL COMBINATIONS - FOOT LEVEL}
-\pattern[chars="@,#",reps="group_vowelrepsbox,group_repconsfoot",format="table"]{#@}
-\pattern[chars="@,#",reps="group_vowelrepsoutbox,group_repconsfoot",format="table"]{#@}
-\pattern[chars="@,#",reps="group_repconsfoot,group_vowels",format="table"]{@#}
+\subsection{CHAR CHART - SHOWN WITH BASE CONSONANT}
+\proof[size="20pt"]{𖼀 𖼁 𖼂 𖼃 𖼄 𖼅 𖼆 𖼇 𖼈 𖼉 𖼊 𖼋 𖼌 𖼍 𖼎 𖼏 }
+\proof[size="20pt"]{𖼐 𖼑 𖼒 𖼓 𖼔 𖼕 𖼖 𖼗 𖼘 𖼙 𖼚 𖼛 𖼜 𖼝 𖼞 𖼟 }
+\proof[size="20pt"]{𖼠 𖼡 𖼢 𖼣 𖼤 𖼥 𖼦 𖼧 𖼨 𖼩 𖼪 𖼫 𖼬 𖼭 𖼮 𖼯 }
+\proof[size="20pt"]{𖼰 𖼱 𖼲 𖼳 𖼴 𖼵 𖼶 𖼷 𖼸 𖼹 𖼺 𖼻 𖼼 𖼽 𖼾 𖼿 }
+\proof[size="20pt"]{𖽀 𖽁 𖽂 𖽃 𖽄 𖽅 𖽆 𖽇 𖽈 𖽉 𖽊 𖽋 𖽌 𖽍 𖽎 𖽏 }
+\proof[size="20pt"]{𖽐 𖼀𖽑 𖼀𖽒 𖼀𖽓 𖼀𖽔 𖼀𖽕 𖼀𖽖 𖼀𖽗 𖼀𖽘 𖼀𖽙 𖼀𖽚 𖼀𖽛 𖼀𖽜 𖼀𖽝 𖼀𖽞 𖼀𖽟 }
+\proof[size="20pt"]{𖼀𖽠 𖼀𖽡 𖼀𖽢 𖼀𖽣 𖼀𖽤 𖼀𖽥 𖼀𖽦 𖼀𖽧 𖼀𖽨 𖼀𖽩 𖼀𖽪 𖼀𖽫 𖼀𖽬 𖼀𖽭 𖼀𖽮 𖼀𖽯 }
+\proof[size="20pt"]{𖼀𖽰 𖼀𖽱 𖼀𖽲 𖼀𖽳 𖼀𖽴 𖼀𖽵 𖼀𖽶 𖼀𖽷 𖼀𖽸 𖼀𖽹 𖼀𖽺 𖼀𖽻 𖼀𖽼 𖼀𖽽 𖼀𖽾 𖼀𖽿 }
+\proof[size="20pt"]{𖼀𖾀 𖼀𖾁 𖼀𖾂 𖼀𖾃 𖼀𖾄 𖼀𖾅 𖼀𖾆 𖼀𖾇 𖾈 𖾉 𖾊 𖾋 𖾌 𖾍 𖾎 𖼀𖽡𖾏  }
+\proof[size="20pt"]{𖼀𖽡𖾐 𖼀𖽡𖾑 𖼀𖽡𖾒 𖾓 𖾔 𖾕 𖾖 𖾗 𖾘 𖾙 𖾚 𖾛 𖾜 𖾝 𖾞 𖾟 }
 
 \subsection{REPERTOIRE}
 \repertoire
