@@ -15,7 +15,7 @@
   <key>italicAngle</key>
   <integer>-11</integer>
   <key>openTypeHeadCreated</key>
-  <string>2018/06/06 23:21:18</string>
+  <string>2018/06/11 22:31:34</string>
   <key>openTypeHheaAscender</key>
   <integer>1024</integer>
   <key>openTypeHheaDescender</key>
@@ -85,7 +85,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Shimenkan Master Black Italic: 2018</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.200</string>
+  <string>Version 0.290</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -187,7 +187,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>200</integer>
+  <integer>290</integer>
   <key>xHeight</key>
   <integer>500</integer>
 </dict>
