@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F0B" format="2">
-  <advance width="596"/>
+  <advance width="606"/>
   <unicode hex="16F0B"/>
-  <anchor x="596" y="578" name="D"/>
-  <anchor x="596" y="440" name="E"/>
-  <anchor x="596" y="0" name="F"/>
-  <anchor x="298" y="700" name="H"/>
-  <anchor x="596" y="220" name="K"/>
-  <anchor x="298" y="-45" name="L"/>
-  <anchor x="596" y="660" name="S"/>
-  <anchor x="546" y="330" name="W"/>
+  <anchor x="606" y="578" name="D"/>
+  <anchor x="606" y="440" name="E"/>
+  <anchor x="606" y="0" name="F"/>
+  <anchor x="308" y="700" name="H"/>
+  <anchor x="606" y="220" name="K"/>
+  <anchor x="308" y="-45" name="L"/>
+  <anchor x="606" y="660" name="S"/>
+  <anchor x="556" y="330" name="W"/>
   <outline>
-    <component base="u16F0A"/>
-    <component base="wart" xOffset="17"/>
+    <component base="u16F0A" xOffset="10"/>
+    <component base="wart" xOffset="27"/>
   </outline>
 </glyph>
