@@ -14,6 +14,8 @@
   <string>u16F_34.glif</string>
   <key>u16F3B</key>
   <string>u16F_3B_.glif</string>
+  <key>u16F5B</key>
+  <string>u16F_5B_.glif</string>
   <key>u16F61</key>
   <string>u16F_61.glif</string>
   <key>u16F63</key>
@@ -24,6 +26,14 @@
   <string>u16F_68.glif</string>
   <key>u16F6C</key>
   <string>u16F_6C_.glif</string>
+  <key>u16F6D</key>
+  <string>u16F_6D_.glif</string>
+  <key>u16F7C</key>
+  <string>u16F_7C_.glif</string>
+  <key>u16F7D</key>
+  <string>u16F_7D_.glif</string>
+  <key>u16F7E</key>
+  <string>u16F_7E_.glif</string>
   <key>wart</key>
   <string>wart.glif</string>
 </dict>
