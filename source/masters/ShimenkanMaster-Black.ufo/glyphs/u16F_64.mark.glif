@@ -3,10 +3,10 @@
   <advance width="565"/>
   <anchor x="260" y="-40" name="_H"/>
   <anchor x="0" y="-40" name="_HL"/>
-  <anchor x="566" y="-40" name="_HR"/>
+  <anchor x="565" y="-40" name="_HR"/>
   <anchor x="260" y="321" name="_L"/>
   <anchor x="0" y="321" name="_LL"/>
-  <anchor x="566" y="321" name="_LR"/>
+  <anchor x="565" y="321" name="_LR"/>
   <outline>
     <component base="u16F64"/>
   </outline>
