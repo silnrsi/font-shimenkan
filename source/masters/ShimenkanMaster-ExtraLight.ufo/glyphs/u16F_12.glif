@@ -5,11 +5,11 @@
   <anchor x="404" y="646" name="D"/>
   <anchor x="404" y="443" name="E"/>
   <anchor x="404" y="0" name="F"/>
-  <anchor x="199" y="700" name="H"/>
+  <anchor x="202" y="700" name="H"/>
   <anchor x="404" y="227" name="K"/>
-  <anchor x="199" y="-45" name="L"/>
+  <anchor x="202" y="-45" name="L"/>
   <anchor x="404" y="660" name="S"/>
-  <anchor x="274" y="335" name="W"/>
+  <anchor x="314" y="335" name="W"/>
   <outline>
     <contour>
       <point x="306" y="0" type="curve" smooth="yes"/>

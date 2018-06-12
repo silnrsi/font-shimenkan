@@ -8,7 +8,7 @@
   <anchor x="836" y="220" name="K"/>
   <anchor x="518" y="-45" name="L"/>
   <anchor x="836" y="660" name="S"/>
-  <anchor x="796" y="330" name="W"/>
+  <anchor x="776" y="330" name="W"/>
   <outline>
     <component base="u16F4F"/>
     <component base="u16F0E" xOffset="220"/>
