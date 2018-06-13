@@ -4,7 +4,7 @@
   <anchor x="195" y="-40" name="_H"/>
   <anchor x="0" y="-40" name="_HL"/>
   <anchor x="370" y="-40" name="_HR"/>
-  <anchor x="195" y="265" name="_L"/>
+  <anchor x="155" y="265" name="_L"/>
   <anchor x="0" y="265" name="_LL"/>
   <anchor x="370" y="265" name="_LR"/>
   <outline>

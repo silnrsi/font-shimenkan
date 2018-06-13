@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F54" format="2">
-  <advance width="304"/>
+  <advance width="324"/>
   <unicode hex="16F54"/>
-  <anchor x="304" y="0" name="F"/>
+  <anchor x="324" y="0" name="F"/>
   <anchor x="0" y="0" name="FB"/>
-  <anchor x="304" y="200" name="S"/>
+  <anchor x="324" y="200" name="S"/>
   <anchor x="0" y="200" name="SB"/>
-  <anchor x="304" y="138" name="W"/>
+  <anchor x="324" y="138" name="W"/>
   <anchor x="0" y="138" name="WB"/>
   <outline>
     <contour>
       <point x="25" y="183" type="line"/>
       <point x="25" y="93" type="line"/>
-      <point x="279" y="93" type="line"/>
-      <point x="279" y="183" type="line"/>
+      <point x="299" y="93" type="line"/>
+      <point x="299" y="183" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -4,9 +4,9 @@
   <anchor x="117" y="-40" name="_H"/>
   <anchor x="0" y="-40" name="_HL"/>
   <anchor x="234" y="-40" name="_HR"/>
-  <anchor x="117" y="285" name="_L"/>
-  <anchor x="0" y="285" name="_LL"/>
-  <anchor x="234" y="285" name="_LR"/>
+  <anchor x="117" y="275" name="_L"/>
+  <anchor x="0" y="275" name="_LL"/>
+  <anchor x="234" y="275" name="_LR"/>
   <outline>
     <component base="u16F7D"/>
   </outline>
