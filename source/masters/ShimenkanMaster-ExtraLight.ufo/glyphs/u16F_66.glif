@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F66" format="2">
-  <advance width="240"/>
+  <advance width="260"/>
   <unicode hex="16F66"/>
-  <anchor x="240" y="0" name="F"/>
+  <anchor x="260" y="0" name="F"/>
   <anchor x="0" y="0" name="FB"/>
-  <anchor x="240" y="170" name="S"/>
+  <anchor x="260" y="170" name="S"/>
   <anchor x="0" y="170" name="SB"/>
-  <anchor x="240" y="110" name="W"/>
+  <anchor x="260" y="110" name="W"/>
   <anchor x="0" y="110" name="WB"/>
   <outline>
     <contour>
       <point x="30" y="180" type="line"/>
       <point x="30" y="152" type="line"/>
-      <point x="210" y="152" type="line"/>
-      <point x="210" y="180" type="line"/>
+      <point x="230" y="152" type="line"/>
+      <point x="230" y="180" type="line"/>
     </contour>
     <contour>
       <point x="30" y="68" type="line"/>
       <point x="30" y="40" type="line"/>
-      <point x="210" y="40" type="line"/>
-      <point x="210" y="68" type="line"/>
+      <point x="230" y="40" type="line"/>
+      <point x="230" y="68" type="line"/>
     </contour>
   </outline>
 </glyph>
