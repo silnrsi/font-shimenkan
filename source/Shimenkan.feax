@@ -7,6 +7,9 @@
 @ASP = [u16F51 u16F52];
 @ASPALL = [@ASP u16F53];
 
+@L_4F = [u16F0E_u16F4F u16F10_u16F4F];
+@L_no4F = [u16F0E u16F10];
+
 lookup vowel_marks {
     sub @cno_mark by @c_mark;
 } vowel_marks;
@@ -43,6 +46,10 @@ lookup tone_t_asp3_t {
     sub u16F92 by u16F92 u16F53 u16F92;
 } tone_t_asp3_t;
 
+lookup lig_4F {
+    sub @L_no4F by @L_4F;
+} lig_4F;
+
 lookup choose_vowel_marks {
     # ASP is spacing for shoulder
     ignore sub @ASP' @cno_mark @cno_mark @cno_mark u16F90;
@@ -75,6 +82,7 @@ lookup choose_vowel_marks {
 feature clig {
   script DFLT;
     language dflt;
+        lookup lig_4F;
         lookup choose_vowel_marks;
 } clig;
 
