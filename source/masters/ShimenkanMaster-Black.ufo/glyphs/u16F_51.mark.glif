@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F51.mark" format="2">
   <advance width="262"/>
+  <anchor x="212" y="700" name="HD"/>
   <anchor x="0" y="660" name="_SB"/>
   <outline>
     <component base="u16F51"/>

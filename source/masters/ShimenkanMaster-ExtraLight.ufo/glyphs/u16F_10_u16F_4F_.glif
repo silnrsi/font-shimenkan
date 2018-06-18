@@ -9,6 +9,7 @@
   <anchor x="450" y="-45" name="L"/>
   <anchor x="682" y="660" name="S"/>
   <anchor x="422" y="335" name="W"/>
+  <anchor x="632" y="700" name="HD"/>
   <outline>
     <component base="u16F4F"/>
     <component base="u16F10" xOffset="148"/>
