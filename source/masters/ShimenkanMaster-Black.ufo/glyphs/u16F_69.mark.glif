@@ -2,6 +2,7 @@
 <glyph name="u16F69.mark" format="2">
   <advance width="504"/>
   <anchor x="262" y="-40" name="_H"/>
+  <anchor x="147" y="-40" name="_HD"/>
   <anchor x="0" y="-40" name="_HL"/>
   <anchor x="504" y="-40" name="_HR"/>
   <anchor x="222" y="321" name="_L"/>
