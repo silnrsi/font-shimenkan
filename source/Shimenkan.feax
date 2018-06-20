@@ -47,8 +47,19 @@ lookup tone_t_asp3_t {
 } tone_t_asp3_t;
 
 lookup lig_4F {
-    sub @L_no4F by @L_4F;
+    sub @L_no4F u16F4F by @L_4F;
 } lig_4F;
+
+@allLangs = [hmd lpo ygp ywq];
+do  for l = [@allLangs nowart];
+    let n = "@cno_" + l;
+    let c = "@c_" + l;
+    let l = "lig_" + l;
+    {
+lookup $l {
+    sub $n by $c;
+} $l;
+    }
 
 lookup choose_vowel_marks {
     # ASP is spacing for shoulder
@@ -85,6 +96,18 @@ feature clig {
         lookup lig_4F;
         lookup choose_vowel_marks;
 } clig;
+
+feature locl {
+  script DFLT;
+    language dflt;
+# This code won't work until fonttools allows arbitrary languages under DFLT
+#    do  for l = @allLangs;
+#        let g = "lig_" + l;
+#        {
+#    language $l;
+#      lookup $g;
+#        }
+} locl;
 
 ######################
 # Attaching
