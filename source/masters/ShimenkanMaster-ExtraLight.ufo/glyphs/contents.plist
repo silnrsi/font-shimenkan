@@ -1490,12 +1490,8 @@
   <string>u16F_01.glif</string>
   <key>u16F01.dot</key>
   <string>u16F_01.dot.glif</string>
-  <key>u16F01.nowart</key>
-  <string>u16F_01.nowart.glif</string>
   <key>u16F02</key>
   <string>u16F_02.glif</string>
-  <key>u16F02.ygp</key>
-  <string>u16F_02.ygp.glif</string>
   <key>u16F03</key>
   <string>u16F_03.glif</string>
   <key>u16F04</key>
@@ -1504,8 +1500,6 @@
   <string>u16F_05.glif</string>
   <key>u16F05.dot</key>
   <string>u16F_05.dot.glif</string>
-  <key>u16F05.nowart</key>
-  <string>u16F_05.nowart.glif</string>
   <key>u16F06</key>
   <string>u16F_06.glif</string>
   <key>u16F07</key>
@@ -1516,8 +1510,6 @@
   <string>u16F_09.glif</string>
   <key>u16F09.dot</key>
   <string>u16F_09.dot.glif</string>
-  <key>u16F09.nowart</key>
-  <string>u16F_09.nowart.glif</string>
   <key>u16F0A</key>
   <string>u16F_0A_.glif</string>
   <key>u16F0B</key>
@@ -1536,8 +1528,6 @@
   <string>u16F_0F_.glif</string>
   <key>u16F0F.dot</key>
   <string>u16F_0F_.dot.glif</string>
-  <key>u16F0F.nowart</key>
-  <string>u16F_0F_.nowart.glif</string>
   <key>u16F10</key>
   <string>u16F_10.glif</string>
   <key>u16F10_u16F4F</key>
@@ -1546,8 +1536,6 @@
   <string>u16F_11.glif</string>
   <key>u16F11.dot</key>
   <string>u16F_11.dot.glif</string>
-  <key>u16F11.nowart</key>
-  <string>u16F_11.nowart.glif</string>
   <key>u16F12</key>
   <string>u16F_12.glif</string>
   <key>u16F13</key>
@@ -1558,56 +1546,36 @@
   <string>u16F_15.glif</string>
   <key>u16F15.dot</key>
   <string>u16F_15.dot.glif</string>
-  <key>u16F15.nowart</key>
-  <string>u16F_15.nowart.glif</string>
   <key>u16F16</key>
   <string>u16F_16.glif</string>
   <key>u16F17</key>
   <string>u16F_17.glif</string>
   <key>u16F17.dot</key>
   <string>u16F_17.dot.glif</string>
-  <key>u16F17.nowart</key>
-  <string>u16F_17.nowart.glif</string>
   <key>u16F18</key>
   <string>u16F_18.glif</string>
-  <key>u16F18.hmd</key>
-  <string>u16F_18.hmd.glif</string>
   <key>u16F19</key>
   <string>u16F_19.glif</string>
   <key>u16F19.dot</key>
   <string>u16F_19.dot.glif</string>
-  <key>u16F19.hmd</key>
-  <string>u16F_19.hmd.glif</string>
-  <key>u16F19.hmd.dot</key>
-  <string>u16F_19.hmd.dot.glif</string>
-  <key>u16F19.hmd.nowart</key>
-  <string>u16F_19.hmd.nowart.glif</string>
-  <key>u16F19.nowart</key>
-  <string>u16F_19.nowart.glif</string>
   <key>u16F1A</key>
   <string>u16F_1A_.glif</string>
   <key>u16F1B</key>
   <string>u16F_1B_.glif</string>
   <key>u16F1B.dot</key>
   <string>u16F_1B_.dot.glif</string>
-  <key>u16F1B.nowart</key>
-  <string>u16F_1B_.nowart.glif</string>
   <key>u16F1C</key>
   <string>u16F_1C_.glif</string>
   <key>u16F1D</key>
   <string>u16F_1D_.glif</string>
   <key>u16F1D.dot</key>
   <string>u16F_1D_.dot.glif</string>
-  <key>u16F1D.nowart</key>
-  <string>u16F_1D_.nowart.glif</string>
   <key>u16F1E</key>
   <string>u16F_1E_.glif</string>
   <key>u16F1F</key>
   <string>u16F_1F_.glif</string>
   <key>u16F1F.dot</key>
   <string>u16F_1F_.dot.glif</string>
-  <key>u16F1F.nowart</key>
-  <string>u16F_1F_.nowart.glif</string>
   <key>u16F20</key>
   <string>u16F_20.glif</string>
   <key>u16F21</key>
@@ -1616,20 +1584,10 @@
   <string>u16F_22.glif</string>
   <key>u16F22.dot</key>
   <string>u16F_22.dot.glif</string>
-  <key>u16F22.nowart</key>
-  <string>u16F_22.nowart.glif</string>
   <key>u16F23</key>
   <string>u16F_23.glif</string>
-  <key>u16F23.hmd</key>
-  <string>u16F_23.hmd.glif</string>
   <key>u16F24</key>
   <string>u16F_24.glif</string>
-  <key>u16F24.hmd</key>
-  <string>u16F_24.hmd.glif</string>
-  <key>u16F24.hmd.dot</key>
-  <string>u16F_24.hmd.dot.glif</string>
-  <key>u16F24.hmd.nowart</key>
-  <string>u16F_24.hmd.nowart.glif</string>
   <key>u16F25</key>
   <string>u16F_25.glif</string>
   <key>u16F26</key>
@@ -1642,72 +1600,46 @@
   <string>u16F_29.glif</string>
   <key>u16F29.dot</key>
   <string>u16F_29.dot.glif</string>
-  <key>u16F29.nowart</key>
-  <string>u16F_29.nowart.glif</string>
   <key>u16F2A</key>
   <string>u16F_2A_.glif</string>
   <key>u16F2B</key>
   <string>u16F_2B_.glif</string>
   <key>u16F2B.dot</key>
   <string>u16F_2B_.dot.glif</string>
-  <key>u16F2B.nowart</key>
-  <string>u16F_2B_.nowart.glif</string>
   <key>u16F2C</key>
   <string>u16F_2C_.glif</string>
   <key>u16F2C.dot</key>
   <string>u16F_2C_.dot.glif</string>
   <key>u16F2D</key>
   <string>u16F_2D_.glif</string>
-  <key>u16F2D.hmd</key>
-  <string>u16F_2D_.hmd.glif</string>
   <key>u16F2E</key>
   <string>u16F_2E_.glif</string>
-  <key>u16F2E.hmd</key>
-  <string>u16F_2E_.hmd.glif</string>
-  <key>u16F2E.hmd.dot</key>
-  <string>u16F_2E_.hmd.dot.glif</string>
-  <key>u16F2E.hmd.nowart</key>
-  <string>u16F_2E_.hmd.nowart.glif</string>
   <key>u16F2F</key>
   <string>u16F_2F_.glif</string>
-  <key>u16F2F.ywq</key>
-  <string>u16F_2F_.ywq.glif</string>
   <key>u16F30</key>
   <string>u16F_30.glif</string>
   <key>u16F30.dot</key>
   <string>u16F_30.dot.glif</string>
-  <key>u16F30.nowart</key>
-  <string>u16F_30.nowart.glif</string>
   <key>u16F31</key>
   <string>u16F_31.glif</string>
   <key>u16F32</key>
   <string>u16F_32.glif</string>
   <key>u16F33</key>
   <string>u16F_33.glif</string>
-  <key>u16F33.hmd</key>
-  <string>u16F_33.hmd.glif</string>
-  <key>u16F33.lpo</key>
-  <string>u16F_33.lpo.glif</string>
   <key>u16F34</key>
   <string>u16F_34.glif</string>
-  <key>u16F34.hmd</key>
-  <string>u16F_34.hmd.glif</string>
   <key>u16F35</key>
   <string>u16F_35.glif</string>
   <key>u16F36</key>
   <string>u16F_36.glif</string>
   <key>u16F36.dot</key>
   <string>u16F_36.dot.glif</string>
-  <key>u16F36.nowart</key>
-  <string>u16F_36.nowart.glif</string>
   <key>u16F37</key>
   <string>u16F_37.glif</string>
   <key>u16F38</key>
   <string>u16F_38.glif</string>
   <key>u16F38.dot</key>
   <string>u16F_38.dot.glif</string>
-  <key>u16F38.nowart</key>
-  <string>u16F_38.nowart.glif</string>
   <key>u16F39</key>
   <string>u16F_39.glif</string>
   <key>u16F3A</key>
@@ -1718,16 +1650,12 @@
   <string>u16F_3C_.glif</string>
   <key>u16F3C.dot</key>
   <string>u16F_3C_.dot.glif</string>
-  <key>u16F3C.nowart</key>
-  <string>u16F_3C_.nowart.glif</string>
   <key>u16F3D</key>
   <string>u16F_3D_.glif</string>
   <key>u16F3E</key>
   <string>u16F_3E_.glif</string>
   <key>u16F3E.dot</key>
   <string>u16F_3E_.dot.glif</string>
-  <key>u16F3E.nowart</key>
-  <string>u16F_3E_.nowart.glif</string>
   <key>u16F3F</key>
   <string>u16F_3F_.glif</string>
   <key>u16F40</key>
@@ -1736,8 +1664,6 @@
   <string>u16F_41.glif</string>
   <key>u16F41.dot</key>
   <string>u16F_41.dot.glif</string>
-  <key>u16F41.nowart</key>
-  <string>u16F_41.nowart.glif</string>
   <key>u16F42</key>
   <string>u16F_42.glif</string>
   <key>u16F43</key>
@@ -1746,8 +1672,6 @@
   <string>u16F_44.glif</string>
   <key>u16F44.dot</key>
   <string>u16F_44.dot.glif</string>
-  <key>u16F44.nowart</key>
-  <string>u16F_44.nowart.glif</string>
   <key>u16F45</key>
   <string>u16F_45.glif</string>
   <key>u16F46</key>
