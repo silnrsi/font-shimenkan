@@ -50,16 +50,16 @@ lookup lig_4F {
     sub @L_no4F u16F4F by @L_4F;
 } lig_4F;
 
-@allLangs = [hmd lpo ygp ywq];
-do  for l = [@allLangs nowart];
-    let n = "@cno_" + l;
-    let c = "@c_" + l;
-    let l = "lig_" + l;
-    {
-lookup $l {
-    sub $n by $c;
-} $l;
-    }
+#@allLangs = [hmd lpo ygp ywq];
+#do  for l = [@allLangs nowart];
+#    let n = "@cno_" + l;
+#    let c = "@c_" + l;
+#    let l = "lig_" + l;
+#    {
+#lookup $l {
+#    sub $n by $c;
+#} $l;
+#    }
 
 lookup choose_vowel_marks {
     # ASP is spacing for shoulder
