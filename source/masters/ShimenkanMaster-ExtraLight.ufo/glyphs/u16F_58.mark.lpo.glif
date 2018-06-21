@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F58.mark.lpo" format="2">
+  <advance width="285"/>
+  <anchor x="285" y="265" name="_LR"/>
+  <anchor x="285" y="-40" name="_HR"/>
+  <anchor x="0" y="-40" name="_HL"/>
+  <anchor x="147" y="265" name="_L"/>
+  <anchor x="147" y="-40" name="_H"/>
+  <anchor x="0" y="265" name="_LL"/>
+  <outline>
+    <component base="u16F58"/>
+  </outline>
+</glyph>

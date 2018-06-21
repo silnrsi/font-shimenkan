@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F58.lpo" format="2">
+  <advance width="415"/>
+  <anchor x="0" y="138" name="WB"/>
+  <anchor x="415" y="0" name="F"/>
+  <anchor x="415" y="200" name="S"/>
+  <anchor x="0" y="0" name="FB"/>
+  <anchor x="415" y="138" name="W"/>
+  <anchor x="0" y="200" name="SB"/>
+  <outline>
+    <component base="u16F58"/>
+  </outline>
+</glyph>

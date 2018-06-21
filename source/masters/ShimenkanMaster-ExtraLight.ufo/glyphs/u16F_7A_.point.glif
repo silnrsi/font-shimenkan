@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F7A.point" format="2">
+  <advance width="233"/>
+  <anchor x="0" y="110" name="WB"/>
+  <anchor x="233" y="0" name="F"/>
+  <anchor x="233" y="170" name="S"/>
+  <anchor x="0" y="0" name="FB"/>
+  <anchor x="233" y="110" name="W"/>
+  <anchor x="0" y="170" name="SB"/>
+  <outline>
+    <component base="u16F7A"/>
+  </outline>
+</glyph>

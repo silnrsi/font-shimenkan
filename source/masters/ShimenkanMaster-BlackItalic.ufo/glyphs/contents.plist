@@ -1492,10 +1492,20 @@
   <string>u16F_01.dot.glif</string>
   <key>u16F02</key>
   <string>u16F_02.glif</string>
+  <key>u16F02.ygp</key>
+  <string>u16F_02.ygp.glif</string>
   <key>u16F03</key>
   <string>u16F_03.glif</string>
   <key>u16F04</key>
   <string>u16F_04.glif</string>
+  <key>u16F04.hmdd</key>
+  <string>u16F_04.hmdd.glif</string>
+  <key>u16F04.lpo</key>
+  <string>u16F_04.lpo.glif</string>
+  <key>u16F04.narrow</key>
+  <string>u16F_04.narrow.glif</string>
+  <key>u16F04_u16F51</key>
+  <string>u16F_04_u16F_51.glif</string>
   <key>u16F05</key>
   <string>u16F_05.glif</string>
   <key>u16F05.dot</key>
@@ -1528,8 +1538,16 @@
   <string>u16F_0F_.dot.glif</string>
   <key>u16F10</key>
   <string>u16F_10.glif</string>
+  <key>u16F10.hmdd</key>
+  <string>u16F_10.hmdd.glif</string>
+  <key>u16F10.lpo</key>
+  <string>u16F_10.lpo.glif</string>
+  <key>u16F10.narrow</key>
+  <string>u16F_10.narrow.glif</string>
   <key>u16F10_u16F4F</key>
   <string>u16F_10_u16F_4F_.glif</string>
+  <key>u16F10_u16F51</key>
+  <string>u16F_10_u16F_51.glif</string>
   <key>u16F11</key>
   <string>u16F_11.glif</string>
   <key>u16F11.dot</key>
@@ -1540,6 +1558,12 @@
   <string>u16F_13.glif</string>
   <key>u16F14</key>
   <string>u16F_14.glif</string>
+  <key>u16F14.flat</key>
+  <string>u16F_14.flat.glif</string>
+  <key>u16F14.hmdd</key>
+  <string>u16F_14.hmdd.glif</string>
+  <key>u16F14.ygp</key>
+  <string>u16F_14.ygp.glif</string>
   <key>u16F15</key>
   <string>u16F_15.glif</string>
   <key>u16F15.dot</key>
@@ -1584,6 +1608,14 @@
   <string>u16F_22.dot.glif</string>
   <key>u16F23</key>
   <string>u16F_23.glif</string>
+  <key>u16F23.flat</key>
+  <string>u16F_23.flat.glif</string>
+  <key>u16F23.hmdd</key>
+  <string>u16F_23.hmdd.glif</string>
+  <key>u16F23.ygp</key>
+  <string>u16F_23.ygp.glif</string>
+  <key>u16F23_u16F51</key>
+  <string>u16F_23_u16F_51.glif</string>
   <key>u16F24</key>
   <string>u16F_24.glif</string>
   <key>u16F25</key>
@@ -1628,6 +1660,8 @@
   <string>u16F_34.glif</string>
   <key>u16F35</key>
   <string>u16F_35.glif</string>
+  <key>u16F35.ywqa</key>
+  <string>u16F_35.ywqa.glif</string>
   <key>u16F36</key>
   <string>u16F_36.glif</string>
   <key>u16F36.dot</key>
@@ -1714,10 +1748,18 @@
   <string>u16F_57.glif</string>
   <key>u16F57.mark</key>
   <string>u16F_57.mark.glif</string>
+  <key>u16F57.mark.open</key>
+  <string>u16F_57.mark.open.glif</string>
+  <key>u16F57.open</key>
+  <string>u16F_57.open.glif</string>
   <key>u16F58</key>
   <string>u16F_58.glif</string>
+  <key>u16F58.lpo</key>
+  <string>u16F_58.lpo.glif</string>
   <key>u16F58.mark</key>
   <string>u16F_58.mark.glif</string>
+  <key>u16F58.mark.lpo</key>
+  <string>u16F_58.mark.lpo.glif</string>
   <key>u16F59</key>
   <string>u16F_59.glif</string>
   <key>u16F59.mark</key>
@@ -1740,12 +1782,20 @@
   <string>u16F_5D_.mark.glif</string>
   <key>u16F5E</key>
   <string>u16F_5E_.glif</string>
+  <key>u16F5E.hmdd</key>
+  <string>u16F_5E_.hmdd.glif</string>
   <key>u16F5E.mark</key>
   <string>u16F_5E_.mark.glif</string>
+  <key>u16F5E.mark.hmdd</key>
+  <string>u16F_5E_.mark.hmdd.glif</string>
   <key>u16F5F</key>
   <string>u16F_5F_.glif</string>
+  <key>u16F5F.hmdd</key>
+  <string>u16F_5F_.hmdd.glif</string>
   <key>u16F5F.mark</key>
   <string>u16F_5F_.mark.glif</string>
+  <key>u16F5F.mark.hmdd</key>
+  <string>u16F_5F_.mark.hmdd.glif</string>
   <key>u16F60</key>
   <string>u16F_60.glif</string>
   <key>u16F60.mark</key>
@@ -1854,6 +1904,10 @@
   <string>u16F_7A_.glif</string>
   <key>u16F7A.mark</key>
   <string>u16F_7A_.mark.glif</string>
+  <key>u16F7A.mark.point</key>
+  <string>u16F_7A_.mark.point.glif</string>
+  <key>u16F7A.point</key>
+  <string>u16F_7A_.point.glif</string>
   <key>u16F7B</key>
   <string>u16F_7B_.glif</string>
   <key>u16F7B.mark</key>
@@ -2026,6 +2080,8 @@
   <string>uni3000.glif</string>
   <key>uni3001</key>
   <string>uni3001.glif</string>
+  <key>uni3001.lpo</key>
+  <string>uni3001.lpo.glif</string>
   <key>uni3002</key>
   <string>uni3002.glif</string>
   <key>uni3007</key>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F10.lpo" format="2">
+  <advance width="534"/>
+  <anchor x="534" y="443" name="E"/>
+  <anchor x="534" y="646" name="D"/>
+  <anchor x="534" y="0" name="F"/>
+  <anchor x="302" y="700" name="H"/>
+  <anchor x="534" y="227" name="K"/>
+  <anchor x="302" y="-45" name="L"/>
+  <anchor x="534" y="660" name="S"/>
+  <anchor x="274" y="335" name="W"/>
+  <anchor x="484" y="700" name="HD"/>
+  <outline>
+    <component base="u16F10"/>
+  </outline>
+</glyph>

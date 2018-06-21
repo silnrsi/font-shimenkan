@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F7A.mark.point" format="2">
+  <advance width="233"/>
+  <anchor x="233" y="265" name="_LR"/>
+  <anchor x="233" y="-40" name="_HR"/>
+  <anchor x="0" y="-40" name="_HL"/>
+  <anchor x="83" y="265" name="_L"/>
+  <anchor x="113" y="-40" name="_H"/>
+  <anchor x="0" y="265" name="_LL"/>
+  <outline>
+    <component base="u16F7A"/>
+  </outline>
+</glyph>

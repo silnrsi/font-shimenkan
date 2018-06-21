@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F02.ygp" format="2">
+  <advance width="606"/>
+  <anchor x="606" y="440" name="E"/>
+  <anchor x="509" y="578" name="D"/>
+  <anchor x="606" y="0" name="F"/>
+  <anchor x="358" y="700" name="H"/>
+  <anchor x="606" y="220" name="K"/>
+  <anchor x="303" y="-45" name="L"/>
+  <anchor x="509" y="660" name="S"/>
+  <anchor x="509" y="330" name="W"/>
+  <anchor x="459" y="700" name="HD"/>
+  <outline>
+    <component base="u16F02"/>
+  </outline>
+</glyph>

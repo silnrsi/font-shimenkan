@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F5E.mark.hmdd" format="2">
+  <advance width="303"/>
+  <anchor x="303" y="377" name="_LR"/>
+  <anchor x="303" y="-40" name="_HR"/>
+  <anchor x="0" y="-40" name="_HL"/>
+  <anchor x="161" y="377" name="_L"/>
+  <anchor x="161" y="-40" name="_H"/>
+  <anchor x="0" y="377" name="_LL"/>
+  <outline>
+    <component base="u16F5E"/>
+  </outline>
+</glyph>

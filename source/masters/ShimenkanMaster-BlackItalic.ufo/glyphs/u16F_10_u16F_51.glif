@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F10_u16F51" format="2">
+  <advance width="1104"/>
+  <outline>
+    <component base="brackhalfbotleft"/>
+    <component base="brackhalfbotright"/>
+    <component base="C" xOffset="390"/>
+    <component base="D" xOffset="390"/>
+    <component base="H" xOffset="390"/>
+  </outline>
+</glyph>
