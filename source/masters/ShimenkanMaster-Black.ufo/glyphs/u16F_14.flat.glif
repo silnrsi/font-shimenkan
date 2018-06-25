@@ -9,7 +9,7 @@
   <anchor x="616" y="220" name="K"/>
   <anchor x="338" y="-45" name="L"/>
   <anchor x="616" y="660" name="S"/>
-  <anchor x="616" y="330" name="W"/>
+  <anchor x="616" y="320" name="W"/>
   <outline>
     <component base="u16F14"/>
   </outline>

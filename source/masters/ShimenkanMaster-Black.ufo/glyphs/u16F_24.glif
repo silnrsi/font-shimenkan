@@ -10,7 +10,7 @@
   <anchor x="771" y="220" name="K"/>
   <anchor x="493" y="-45" name="L"/>
   <anchor x="771" y="660" name="S"/>
-  <anchor x="771" y="330" name="W"/>
+  <anchor x="771" y="320" name="W"/>
   <outline>
     <component base="u16F23" xOffset="155"/>
     <component base="wart" xOffset="5"/>
