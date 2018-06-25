@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F5E.hmdd" format="2">
   <advance width="303"/>
-  <anchor x="0" y="138" name="WB"/>
   <anchor x="303" y="0" name="F"/>
-  <anchor x="303" y="200" name="S"/>
   <anchor x="0" y="0" name="FB"/>
-  <anchor x="303" y="138" name="W"/>
+  <anchor x="303" y="200" name="S"/>
   <anchor x="0" y="200" name="SB"/>
+  <anchor x="303" y="138" name="W"/>
+  <anchor x="0" y="138" name="WB"/>
   <outline>
     <component base="u16F5E"/>
   </outline>
