@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F04.narrow" format="2">
-  <advance width="566"/>
-  <anchor x="566" y="578" name="D"/>
-  <anchor x="566" y="440" name="E"/>
-  <anchor x="566" y="0" name="F"/>
-  <anchor x="273" y="700" name="H"/>
-  <anchor x="466" y="700" name="HD"/>
-  <anchor x="566" y="220" name="K"/>
-  <anchor x="273" y="-45" name="L"/>
-  <anchor x="566" y="660" name="S"/>
-  <anchor x="566" y="320" name="W"/>
+  <advance width="471"/>
+  <anchor x="471" y="578" name="D"/>
+  <anchor x="471" y="440" name="E"/>
+  <anchor x="471" y="0" name="F"/>
+  <anchor x="241" y="700" name="H"/>
+  <anchor x="371" y="700" name="HD"/>
+  <anchor x="471" y="220" name="K"/>
+  <anchor x="241" y="-45" name="L"/>
+  <anchor x="471" y="660" name="S"/>
+  <anchor x="471" y="320" name="W"/>
   <outline>
-    <component base="u16F04"/>
+    <contour>
+      <point x="50" y="0" type="line"/>
+      <point x="87" y="0" type="line" smooth="yes"/>
+      <point x="285" y="0"/>
+      <point x="431" y="92"/>
+      <point x="431" y="322" type="curve" smooth="yes"/>
+      <point x="431" y="542"/>
+      <point x="275" y="650"/>
+      <point x="87" y="650" type="curve" smooth="yes"/>
+      <point x="60" y="650" type="line"/>
+      <point x="60" y="506" type="line"/>
+      <point x="67" y="506" type="line" smooth="yes"/>
+      <point x="161" y="506"/>
+      <point x="255" y="464"/>
+      <point x="255" y="322" type="curve" smooth="yes"/>
+      <point x="255" y="170"/>
+      <point x="161" y="144"/>
+      <point x="67" y="144" type="curve" smooth="yes"/>
+      <point x="50" y="144" type="line"/>
+    </contour>
   </outline>
 </glyph>
