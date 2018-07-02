@@ -1,6 +1,6 @@
 @MARKTONES = [u16F91 u16F92];
 @VOWELS = @cno_mark;
-@VOWEL_DESC = [u16F5F u16F63 u16F64 u16F69];
+@VOWEL_DESC = [u16F5F.mark u16F63.mark u16F64.mark u16F69.mark];
 @VOWEL_TALL = [u16F5B u16F5C u16F5E u16F5F u16F60 u16F73 u16F74 u16F7D u16F7E u16F7F u16F80 u16F85];
 @ASPMARKS = [u16F51.mark u16F52.mark];
 @ASPALLMARKS = [@ASPMARKS u16F53.mark];
@@ -50,16 +50,6 @@ lookup lig_4F {
     sub @L_no4F u16F4F by @L_4F;
 } lig_4F;
 
-#@allLangs = [hmd lpo ygp ywq];
-#do  for l = [@allLangs nowart];
-#    let n = "@cno_" + l;
-#    let c = "@c_" + l;
-#    let l = "lig_" + l;
-#    {
-#lookup $l {
-#    sub $n by $c;
-#} $l;
-#    }
 
 lookup choose_vowel_marks {
     # ASP is spacing for shoulder
@@ -90,6 +80,28 @@ lookup choose_vowel_marks {
     sub @cno_mark' lookup vowel_marks @MARKTONES;
 } choose_vowel_marks;
 
+do  for l = [ygp ywqa narrow hmdd flat point open lpo dot];
+    let n = "@cno_" + l;
+    let c = "@c_" + l;
+    let l = "lig_" + l;
+    {
+lookup $l {
+    sub $n by $c;
+} $l;
+    }
+
+lookup left_asp_ma {
+    sub u16F04 u16F51 by u16F04_u16F51;
+} left_asp_ma;
+
+lookup left_asp_na {
+    sub u16F10 u16F51 by u16F10_u16F51;
+} left_asp_na;
+
+lookup left_asp_nga {
+    sub u16F23 u16F51 by u16F23_u16F51;
+} left_asp_nga;
+
 feature clig {
   script DFLT;
     language dflt;
@@ -100,13 +112,36 @@ feature clig {
 feature locl {
   script DFLT;
     language dflt;
-# This code won't work until fonttools allows arbitrary languages under DFLT
-#    do  for l = @allLangs;
-#        let g = "lig_" + l;
-#        {
-#    language $l;
-#      lookup $g;
-#        }
+    language ygp;
+        lookup lig_ygp;
+        lookup left_asp_ma;
+        lookup left_asp_na;
+    language hmz;
+        lookup lig_point;
+        lookup left_asp_ma;
+        lookup left_asp_na;
+        lookup left_asp_nga;
+        lookup lig_open;
+    language ywqa;
+        lookup lig_narrow;
+        lookup lig_flat;
+        lookup lig_ywqa;
+    language hmd;
+        lookup lig_open;
+        lookup lig_point;
+        lookup left_asp_na;
+    language lpo;
+        lookup lig_lpo;
+        lookup lig_flat;
+        lookup lig_open;
+    language ywqb;
+        lookup lig_narrow;
+        lookup lig_flat;
+    language hmdd;
+        lookup lig_hmdd;
+        lookup lig_dot;
+        lookup lig_open;
+        lookup lig_point;
 } locl;
 
 ######################
@@ -139,6 +174,10 @@ lookup attach_F {
 lookup attach_head {
     pos base @H mark @_H;
 } attach_head;
+
+lookup attach_head_D {
+    pos base @HD mark @_HD;
+} attach_head_D;
 
 lookup attach_head_L {
     pos base @H mark @_HR;
@@ -200,6 +239,8 @@ lookup vowel_attach {
     pos @S' lookup cursive_attach_S @ASP;
     pos @H @_H' lookup attach_head_L @_H @_H u16F91;
     pos @H @_H' lookup attach_head_L @_H' lookup attach_vowel_HL u16F91;
+    pos @H @_H' lookup attach_head_L @_H' lookup attach_vowel_HL u16F91;
+    pos @H @VOWEL_DESC' lookup attach_head_D u16F91;
     pos @H @_H' lookup attach_head u16F91;
     pos @L @_L' lookup attach_foot_L @_L @_L u16F92;
     pos @L @_L' lookup attach_foot_L @_L' lookup attach_vowel_LL u16F92;
