@@ -21,21 +21,24 @@
 %%%%% TESTS
 
 \subsection{NUMERALS}
-\proof[size="28pt"]{1234567890}
-\proof[size="28pt"]{0#9*8\%$7~8^3+2=5=<9>0/0}
+\proof[size="24pt"]{1234567890}
+\proof[size="24pt"]{0#9*8\%$7~8^3+2=5=<9>0/0}
 
 \subsection{PUNCTUATION WITH LATIN AND MIAO}
-\proof[size="28pt"]{h.h,h:n;h!n?n'h"n“h”i‘h’(fg)[FG]\{pd\}h|h‐h‑h‧h⁠h}
+\proof[size="24pt"]{h.h,h:n;h!n?n'h"n“h”i‘h’h|h‐h‑h‧h⁠h(fg)[FG]\{pd\}}
 \pattern[chars="@",reps="group_repconsright",format="list"]{@.@,@:@;@!@?@'@"@“@”@‘@’@(@)@[@]@\{@\}@|@‐@‑@‧@⁠@}
 \proof{‘𖼀𖽑𖽞’𖼟𖽱:“𖼰𖽺𖾑𖼢𖽔𖼗𖽵𖾑𖼅𖽝𖾏?”𖼤𖽙𖾏𖼛𖽡𖼼𖽪𖾑𖼸𖽵、𖼉𖽙𖽾𖼩𖽦𖾏,𖼾𖽷𖾏𖼶𖽠𖾏.𖽃𖽫𖼀𖽗𖾏𖼊𖽢𖼘𖽞𖾏,𖼞𖽳𖼦𖽡!𖼯𖽺𖼡𖽔𖾑𖼖𖽙;𖼽𖽪𖾏𖼀𖽹𖼊𖽡𖼡𖽳𖾏𖼷𖽦‘𖽃𖽻𖾑𖼄𖽞𖾏’𖼀𖽙𖾏𖼊𖽻.}
+\pattern[chars="@",reps="group_punctuation",format="list"]{𖽃𖽫𖼀𖽗𖾏𖼊𖽢𖼘𖽞𖾏𖼞𖽳𖼦𖽡@𖼯𖽺𖼡𖽔𖾑𖼖𖽙𖼽𖽪𖾏𖼀𖽹@𖼊𖽡𖼡𖽳𖾏𖼷𖽦‘𖽃𖽻𖾑𖼄𖽞𖾏’𖼀𖽙𖾏𖼊𖽻.}
 
 \subsection{CHINESE PUNCTUATION}
-\proof[size="28pt"]{　、。〇〈〉《》「」『』【】〝〞〟}
+\proof[size="24pt"]{　、。〇〈〉《》「」『』【】〝〞〟}
 \pattern[chars="@",reps="group_repconsright",format="list"]{@　@、@。@〇@〈@〉@《@》@「@」@『@』@【@】@〝@〞@〟@}
 \proof{: ‘𖼀𖽑𖽞’𖼟𖽱：“𖼰𖽺𖾑𖼢𖽔𖼗𖽵𖾑𖼅𖽝𖾏？”𖼤𖽙𖾏𖼛𖽡𖼼𖽪𖾑𖼸𖽵、𖼉𖽙𖽾𖼩𖽦𖾏，𖼾𖽷𖾏𖼶𖽠𖾏．𖽃𖽫𖼀𖽗𖾏𖼊𖽢𖼘𖽞𖾏，𖼞𖽳𖼦𖽡！𖼯𖽺𖼡𖽔𖾑𖼖𖽙；𖼽𖽪𖾏𖼀𖽹（𖼊𖽡𖼡𖽳𖾏）𖼷𖽦‘𖽃𖽻𖾑𖼄𖽞𖾏’𖼀𖽙𖾏𖼊𖽻．}
+\pattern[chars="@",reps="group_punctchin",format="list"]{𖽃𖽫𖼀𖽗𖾏𖼊𖽢𖼘𖽞𖾏𖼞𖽳𖼦𖽡@𖼯𖽺𖼡𖽔𖾑𖼖𖽙𖼽𖽪𖾏𖼀𖽹@𖼊𖽡𖼡𖽳𖾏𖼷𖽦‘𖽃𖽻𖾑𖼄𖽞𖾏’𖼀𖽙𖾏𖼊𖽻.}
 
 \subsection{FULLWIDTH PUNCTUATION}
-\proof[size="28pt"]{!(),.:;?}
+\proof[size="24pt"]{!(),.:;?}
 \pattern[chars="@",reps="group_repconsright",format="list"]{@!@(@)@,@.@:@;@?@}
+\pattern[chars="@",reps="group_punctfull",format="list"]{𖽃𖽫𖼀𖽗𖾏𖼊𖽢𖼘𖽞𖾏𖼞𖽳𖼦𖽡@𖼯𖽺𖼡𖽔𖾑𖼖𖽙𖼽𖽪𖾏𖼀𖽹@𖼊𖽡𖼡𖽳𖾏𖼷𖽦‘𖽃𖽻𖾑𖼄𖽞𖾏’𖼀𖽙𖾏𖼊𖽻.}
 
 \end{document}
