@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni3007" format="2">
-  <advance width="910"/>
+  <advance width="800"/>
   <unicode hex="3007"/>
   <outline>
-    <component base="fisheye"/>
+    <contour>
+      <point x="400" y="0" type="curve" smooth="yes"/>
+      <point x="241" y="0"/>
+      <point x="80" y="114"/>
+      <point x="80" y="330" type="curve" smooth="yes"/>
+      <point x="80" y="546"/>
+      <point x="241" y="660"/>
+      <point x="400" y="660" type="curve" smooth="yes"/>
+      <point x="559" y="660"/>
+      <point x="720" y="546"/>
+      <point x="720" y="330" type="curve" smooth="yes"/>
+      <point x="720" y="114"/>
+      <point x="559" y="0"/>
+    </contour>
+    <contour>
+      <point x="400" y="32" type="curve" smooth="yes"/>
+      <point x="549" y="32"/>
+      <point x="688" y="143"/>
+      <point x="688" y="330" type="curve" smooth="yes"/>
+      <point x="688" y="517"/>
+      <point x="549" y="628"/>
+      <point x="400" y="628" type="curve" smooth="yes"/>
+      <point x="251" y="628"/>
+      <point x="112" y="517"/>
+      <point x="112" y="330" type="curve" smooth="yes"/>
+      <point x="112" y="143"/>
+      <point x="251" y="32"/>
+    </contour>
   </outline>
 </glyph>

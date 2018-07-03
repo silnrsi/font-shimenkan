@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni300E" format="2">
+  <advance width="800"/>
+  <outline>
+    <contour>
+      <point x="410" y="-62" type="line"/>
+      <point x="478" y="-62" type="line"/>
+      <point x="478" y="654" type="line"/>
+      <point x="720" y="654" type="line"/>
+      <point x="720" y="722" type="line"/>
+      <point x="410" y="722" type="line"/>
+    </contour>
+    <contour>
+      <point x="430" y="-42" type="line"/>
+      <point x="430" y="702" type="line"/>
+      <point x="700" y="702" type="line"/>
+      <point x="700" y="674" type="line"/>
+      <point x="458" y="674" type="line"/>
+      <point x="458" y="-42" type="line"/>
+    </contour>
+  </outline>
+</glyph>
