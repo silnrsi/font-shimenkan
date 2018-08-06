@@ -18,7 +18,7 @@
 \proof[size="28pt"]{𖼂𖼣𖼕𖼐𖼄}
 
 \subsection{YGP}
-\setTestFont[language="ygp"]
+\setTestFont[language="YGP"]
 \proof[size="28pt"]{𖼂𖼣𖼕𖼐𖼄}
 
 \end{document}
