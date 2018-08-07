@@ -156,8 +156,7 @@ feature locl {
     language dflt;
     language YGP exclude_dflt;
         lookup lig_ygp;
-        lookup left_asp_ma;
-        lookup left_asp_na;
+        lookup lig_narrow;
     language SFM exclude_dflt;
         lookup lig_point;
         lookup left_asp_ma;
