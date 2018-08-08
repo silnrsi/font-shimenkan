@@ -343,7 +343,7 @@ feature kern {
         lookup vowel_attach;
         lookup headfoot_vowels;
         lookup asp_hf_attach;
-    language sfm exclude_dflt;
+    language SFM exclude_dflt;
         lookup vowel_attach_sfm;
         lookup headfoot_vowels;
 } kern;
