@@ -85,7 +85,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Shimenkan Master Black Italic: 2018</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.400</string>
+  <string>Version 0.401</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -187,7 +187,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>400</integer>
+  <integer>401</integer>
   <key>xHeight</key>
   <integer>500</integer>
 </dict>
