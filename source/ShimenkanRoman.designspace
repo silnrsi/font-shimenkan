@@ -35,7 +35,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Shimenkan Test Extra Light" filename="instances/ShimenkanTestExtraLight-Regular.ufo" name="Shimenkan Test Extra Light" stylemapfamilyname="Shimenkan Test Extra Light" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Shimenkan Test Extra Light" filename="instances/ShimenkanTestExtraLight-Regular.ufo" name="Shimenkan Test Extra Light" stylemapfamilyname="Shimenkan Test Extra Light" stylemapstylename="regular" stylename="Regular" postscriptfontname="ShimenkanTestExtraLight-Regular">
             <location>
                 <dimension name="weight" xvalue="0.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -44,7 +44,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan Test Light" filename="instances/ShimenkanTestLight-Regular.ufo" name="Shimenkan Test Light" stylemapfamilyname="Shimenkan Test Light" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Shimenkan Test Light" filename="instances/ShimenkanTestLight-Regular.ufo" name="Shimenkan Test Light" stylemapfamilyname="Shimenkan Test Light" stylemapstylename="regular" stylename="Regular" postscriptfontname="ShimenkanTestLight-Regular">
             <location>
                 <dimension name="weight" xvalue="100.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -53,7 +53,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan Test" filename="instances/ShimenkanTest-Regular.ufo" name="Shimenkan Test" stylemapfamilyname="Shimenkan Test" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Shimenkan Test" filename="instances/ShimenkanTest-Regular.ufo" name="Shimenkan Test" stylemapfamilyname="Shimenkan Test" stylemapstylename="regular" stylename="Regular" postscriptfontname="ShimenkanTest-Regular">
             <location>
                 <dimension name="weight" xvalue="368.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -62,7 +62,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan Test Extra Light" filename="instances/ShimenkanTestExtraLight-Bold.ufo" name="Shimenkan Test Extra Light Bold" stylemapfamilyname="Shimenkan Test Extra Light" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Shimenkan Test Extra Light" filename="instances/ShimenkanTestExtraLight-Bold.ufo" name="Shimenkan Test Extra Light Bold" stylemapfamilyname="Shimenkan Test Extra Light" stylemapstylename="bold" stylename="Bold" postscriptfontname="ShimenkanTestExtraLight-Bold">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -71,7 +71,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan Test Book" filename="instances/ShimenkanTestBook-Regular.ufo" name="Shimenkan Test Book" stylemapfamilyname="Shimenkan Test Book" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Shimenkan Test Book" filename="instances/ShimenkanTestBook-Regular.ufo" name="Shimenkan Test Book" stylemapfamilyname="Shimenkan Test Book" stylemapstylename="regular" stylename="Regular" postscriptfontname="ShimenkanTestBook-Regular">
             <location>
                 <dimension name="weight" xvalue="550.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -80,7 +80,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan Test Light" filename="instances/ShimenkanTestLight-Bold.ufo" name="Shimenkan Test Light Bold" stylemapfamilyname="Shimenkan Test Light" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Shimenkan Test Light" filename="instances/ShimenkanTestLight-Bold.ufo" name="Shimenkan Test Light Bold" stylemapfamilyname="Shimenkan Test Light" stylemapstylename="bold" stylename="Bold" postscriptfontname="ShimenkanTestLight-Bold">
             <location>
                 <dimension name="weight" xvalue="650.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -89,7 +89,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan Test" filename="instances/ShimenkanTest-Bold.ufo" name="Shimenkan Test Bold" stylemapfamilyname="Shimenkan Test" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Shimenkan Test" filename="instances/ShimenkanTest-Bold.ufo" name="Shimenkan Test Bold" stylemapfamilyname="Shimenkan Test" stylemapstylename="bold" stylename="Bold" postscriptfontname="ShimenkanTest-Bold">
             <location>
                 <dimension name="weight" xvalue="824.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -98,7 +98,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Shimenkan Test Book" filename="instances/ShimenkanTestBook-Bold.ufo" name="Shimenkan Test Book Bold" stylemapfamilyname="Shimenkan Test Book" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Shimenkan Test Book" filename="instances/ShimenkanTestBook-Bold.ufo" name="Shimenkan Test Book Bold" stylemapfamilyname="Shimenkan Test Book" stylemapstylename="bold" stylename="Bold" postscriptfontname="ShimenkanTestBook-Bold">
             <location>
                 <dimension name="weight" xvalue="1000.000000" />
                 <dimension name="width" xvalue="100.000000" />
