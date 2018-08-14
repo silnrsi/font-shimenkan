@@ -17,15 +17,32 @@ DESC_SHORT = "A family of fonts for the Miao (Pollard) script."
 getufoinfo('source/masters/ShimenkanMaster-ExtraLight.ufo')
 BUILDLABEL="test"
 
+opts = preprocess_args({'opt' : '--alllangs'})
+
+langinfo = {
+    'yna' : 'Shimenkan Zonghe',
+    'hmz' : 'Shimenkan MGS',
+    'hmd' : 'Sapushan',
+    'hmdd' : 'Shimenkan Guifan',
+    'sfm' : 'Shimenkan MAS',
+    'ygp' : 'Shimenkan GSM',
+    'ywqa' : 'Salaowu',
+    'lpo' : 'Taogu'
+}
+
 # set up the sile tests (using fontproof)
 testCommand('sile', cmd='${SILE} -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
 
 def langfontname(f, l):
-    return f + " " + l
+    return f.replace('Shimenkan', langinfo[l])
 
 # set up the build parameters from the designspace files
 # (the Italic designspace is not included yet)
 fontfamily=APPNAME
+packages = { x : package(appname = langfontname("Shimenkan", x).replace(" ", ""),
+                         version = VERSION)
+                 for x in langinfo.keys() }
+                       
 for dspace in ('Roman', ):
     d = designspace('source/' + fontfamily + dspace + '.designspace',
                 target = "${DS:FILENAME_BASE}.ttf",
@@ -33,10 +50,17 @@ for dspace in ('Roman', ):
                                 master = "source/" + fontfamily + ".feax"),
                 pdf = fret(params="-r -oi"),
                 name = "${DS:FAMILYNAME}")
-    for l in ("sfm", "hmz", "lpo", "hmd"):
+    for l in langinfo.keys():
         for f in d.fonts:
-            font(target = process('langs/' + l + "/" + f.target[:f.target.rindex("-")] + l.title() + f.target[f.target.rindex("-"):],
+            (fname, _, ext) = f.target.rpartition("-")
+            fname = langfontname(fname, l).replace(" ", "")
+            n = font(target = process('langs/' + l + "/" + fname + "-" + ext,
                             cmd("ttfdeflang -d " + l + " ${DEP} ${TGT}"),
                             name(langfontname(f.name, l))),
-                 source = f.target)
+                    opentype = internal(),
+                    source = f.target,
+                    lang = l,
+                    package = packages[l])
+            if '--alllangs' not in opts:
+                n.no_test = True
 
