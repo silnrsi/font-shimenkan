@@ -36,6 +36,8 @@ testCommand('sile', cmd='${SILE} -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}
 def langfontname(f, l):
     return f.replace('Shimenkan', langinfo[l])
 
+ftmlTest("tools/ftml-padauk.xsl")
+
 # set up the build parameters from the designspace files
 # (the Italic designspace is not included yet)
 fontfamily=APPNAME
@@ -49,6 +51,7 @@ for dspace in ('Roman', ):
                 opentype = fea("source/${DS:FILENAME_BASE}.fea",
                                 master = "source/" + fontfamily + ".feax"),
                 pdf = fret(params="-r -oi"),
+                script = ['DFLT'],
                 name = "${DS:FAMILYNAME}")
     for l in langinfo.keys():
         for f in d.fonts:
