@@ -139,6 +139,7 @@ languagesystem DFLT HMD;
 languagesystem DFLT HMDD;
 languagesystem DFLT HMZ;
 languagesystem DFLT LPO;
+languagesystem DFLT SFM;
 languagesystem DFLT YGP;
 languagesystem DFLT YWQA;
 languagesystem DFLT YWQB;
