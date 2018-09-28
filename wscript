@@ -49,6 +49,8 @@ for dspace in ('Roman', ):
     d = designspace('source/' + fontfamily + dspace + '.designspace',
                 target = "${DS:FILENAME_BASE}.ttf",
                 opentype = fea("source/${DS:FILENAME_BASE}.fea",
+                                buildusingsilfont = True,
+                                params = '-m source/${DS:FILENAME_BASE}.map',
                                 master = "source/" + fontfamily + ".feax"),
                 pdf = fret(params="-r -oi"),
                 script = ['DFLT'],

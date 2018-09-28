@@ -100,6 +100,9 @@
 \pattern[chars="@,#",reps="group_vowelsleft,group_vowelsleft",format="table"]{𖼞#@}
 \pattern[chars="@,#",reps="group_vowelsleft,group_vowelsleft",format="table"]{𖼞@#}
 
+\subsection{TWO VOWEL HEAD COMBINATIONS}
+\pattern[chars="@,#,&",reps="group_repconsfloor,group_vowelrepsall,group_vowelrepsall",format="table"]{@#&𖾑}
+
 \subsection{ASPIRATION - ONE LINE PER ASP CHAR}
 \pattern[chars="@",reps="group_asp",format="list"]{𖼞@ 𖼞@𖽷 𖼞@𖽷𖾏 𖼞@𖽷𖾐 𖼞@𖽷𖾑 𖼞@𖽷𖾒 𖼞@𖽳 𖼞@𖽳𖾏 𖼞@𖽳𖾐 𖼞@𖽳𖾑  𖼞@𖽳𖾒 𖼞@𖽤𖾑  𖼞@𖽪𖽡𖽠 𖼞@𖽪𖽡𖽠𖾏 𖼞@𖽪𖽡𖽠𖾐 𖼞@𖽪𖽡𖽠𖾑 𖼞@𖽪𖽡𖽠𖾒  }
 

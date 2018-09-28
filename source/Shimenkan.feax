@@ -50,6 +50,20 @@ lookup lig_4F {
     sub @L_no4F u16F4F by @L_4F;
 } lig_4F;
 
+do  let c = feaclass("W");
+    let subc = filter(lambda g: int(re.sub(r"^u([0-9a-fA-F]+)([._].*)?$", r"\1", g), 16) < 0x16F51, c);
+    let l = " ".join(subc);
+    { @Cons = [ $l ]; }
+
+@NonAttaches = [u16F50 u16F8F u16F90];
+
+lookup block_W {
+    sub @NonAttaches by @NonAttaches ZWNBS;
+} block_W;
+
+lookup block_W_context {
+    sub @NonAttaches' lookup block_W @Cons;
+} block_W_context;
 
 lookup choose_vowel_marks_sfm {
     # ASP is spacing for shoulder
@@ -147,6 +161,7 @@ languagesystem DFLT YWQB;
 feature clig {
         lookup lig_4F;
         lookup choose_vowel_marks;
+        lookup block_W_context;
     language SFM exclude_dflt;
         lookup lig_4F;
         lookup choose_vowel_marks_sfm;
@@ -319,7 +334,7 @@ lookup vowel_attach_sfm {
     pos @H @_H' lookup attach_head_L @_H' lookup attach_vowel_HL u16F91;
     pos @H @VOWEL_DESC' lookup attach_head_D u16F91;
     pos @H @_H' lookup attach_head u16F91;
-    pos @F' lookup cursive_attach_F @FB;
+    pos @F' lookup cursive_attach_F @FB' lookup cursive_attach_F;
     pos @SB @ASPMARKS' lookup asp_attach;
     pos @F u16F53.mark' lookup attach_F;
 } vowel_attach_sfm;
@@ -329,18 +344,27 @@ lookup headfoot_vowels {
     pos @L' lookup advance_base @_L' lookup left_shift_vowel @_L' lookup attach_vowel_LL @_H' lookup attach_vowel_LL u16F92;
 } headfoot_vowels;
 
-lookup asp_hf_attach {
+lookup asp_hf_attach_right {
     pos @S' lookup cursive_attach_S [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES @ASP;
     pos @S' lookup cursive_attach_S [@_H @_L] [@_H @_L] @MARKTONES @ASP;
     pos @S' lookup cursive_attach_S [@_H @_L] @MARKTONES @ASP;
     pos @F' lookup cursive_attach_F [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES u16F53;
     pos @F' lookup cursive_attach_F [@_H @_L] [@_H @_L] @MARKTONES u16F53;
     pos @F' lookup cursive_attach_F [@_H @_L] @MARKTONES u16F53;
-} asp_hf_attach;
+} asp_hf_attach_right;
+
+lookup asp_hf_attach_left {
+    pos @S [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES @ASP' lookup cursive_attach_S;
+    pos @S [@_H @_L] [@_H @_L] @MARKTONES @ASP' lookup cursive_attach_S;
+    pos @S [@_H @_L] @MARKTONES @ASP' lookup cursive_attach_S;
+    pos @F [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES u16F53' lookup cursive_attach_F;
+    pos @F [@_H @_L] [@_H @_L] @MARKTONES u16F53' lookup cursive_attach_F;
+    pos @F [@_H @_L] @MARKTONES u16F53' lookup cursive_attach_F;
+} asp_hf_attach_left;
 
 lookup aspirations {
-    pos @W @ASPALLMARKS' lookup asp_attach;
-    pos @S u16F53.mark' lookup attach_F;
+    pos @W @ASPALLMARKS' lookup asp_attach @WB u16F8F;
+    pos @S u16F53.mark' lookup attach_F @SB u16F90;
 } aspirations;
 
 feature kern {
@@ -349,7 +373,8 @@ feature kern {
         lookup vowel_attach;
         lookup aspirations;
         lookup headfoot_vowels;
-        lookup asp_hf_attach;
+        lookup asp_hf_attach_right;
+        lookup asp_hf_attach_left;
     language SFM exclude_dflt;
         lookup vowel_attach_sfm;
         lookup aspirations;
