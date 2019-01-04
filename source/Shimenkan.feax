@@ -126,6 +126,19 @@ lookup choose_vowel_marks {
     sub @cno_mark' lookup vowel_marks @MARKTONES;
 } choose_vowel_marks;
 
+@prespace_marks = [u16F8F u16F90 u16F51 u16F52];
+
+lookup insert_zwsp {
+    sub @W by uni2060 @W;
+} insert_zwsp;
+
+lookup block_cursive {
+    sub @W' lookup insert_zwsp @prespace_marks;
+    sub @W' lookup insert_zwsp @WB @prespace_marks;
+    sub @W' lookup insert_zwsp @WB @WB @prespace_marks;
+    sub @W' lookup insert_zwsp @WB @WB @WB @prespace_marks;
+} block_cursive;
+
 do  for l = [ygp ywqa narrow hmdd flat point open lpo dot];
     let n = "@cno_" + l;
     let c = "@c_" + l;
@@ -162,6 +175,7 @@ feature clig {
         lookup lig_4F;
         lookup choose_vowel_marks;
         lookup block_W_context;
+        lookup block_cursive;
     language SFM exclude_dflt;
         lookup lig_4F;
         lookup choose_vowel_marks_sfm;
