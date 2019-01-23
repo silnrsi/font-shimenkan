@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni3001.lpo" format="2">
-  <advance width="910"/>
+  <advance width="500"/>
   <outline>
-    <component base="squareblack"/>
+    <contour>
+      <point x="300" y="-109" type="line"/>
+      <point x="162" y="-60" type="line"/>
+      <point x="95" y="100" type="line"/>
+      <point x="150" y="100" type="line"/>
+      <point x="165" y="12"/>
+      <point x="210" y="-48"/>
+      <point x="290" y="-66" type="curve"/>
+    </contour>
   </outline>
 </glyph>
