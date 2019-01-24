@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="u16F5E.mark.hmdd" format="2">
-  <advance width="289"/>
-  <anchor x="154" y="-40" name="_H"/>
-  <anchor x="0" y="-40" name="_HL"/>
-  <anchor x="289" y="-40" name="_HR"/>
-  <anchor x="154" y="377" name="_L"/>
-  <anchor x="0" y="377" name="_LL"/>
-  <anchor x="289" y="377" name="_LR"/>
+<glyph name="u16F5F.mark.hmdd" format="2">
   <outline>
-    <contour>
-      <point x="36" y="262" type="line"/>
-      <point x="247" y="262" type="line"/>
-      <point x="247" y="332" type="line"/>
-      <point x="36" y="332" type="line"/>
-    </contour>
     <contour>
       <point x="207" y="149" type="line"/>
       <point x="196" y="202" type="line"/>
@@ -37,15 +24,6 @@
       <point x="113" y="121"/>
       <point x="128" y="142"/>
       <point x="185" y="147" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="87" y="310" type="line"/>
-      <point x="36" y="262" type="line"/>
-      <point x="160" y="150" type="line"/>
-      <point x="166" y="150"/>
-      <point x="200" y="149"/>
-      <point x="207" y="149" type="curve"/>
-      <point x="207" y="198" type="line"/>
     </contour>
   </outline>
 </glyph>
