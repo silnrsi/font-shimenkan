@@ -16,3 +16,8 @@ psfsetglyphorder --header sort_design -i source/glyph_data.csv source/masters/Sh
 
 # Following sync will copy psnames and glyphorder updates to all fonts
 psfsyncmasters source/ShimenkanRoman.designspace source/ShimenkanItalic.designspace  -l source/logs/sync.log
+
+psfmakefea -o source/masters/ShimenkanMaster-ExtraLight.ufo/features.fea -i source/Shimenkan.feax source/masters/ShimenkanMaster-ExtraLight.ufo
+psfmakefea -o source/masters/ShimenkanMaster-Black.ufo/features.fea -i source/Shimenkan.feax source/masters/ShimenkanMaster-Black.ufo
+# psfmakefea -o source/masters/ShimenkanMaster-ExtraLightItalic.ufo/features.fea -i source/Shimenkan.feax source/masters/ShimenkanMaster-ExtraLightItalic.ufo
+# psfmakefea -o source/masters/ShimenkanMaster-BlackItalic.ufo/features.fea -i source/Shimenkan.feax source/masters/ShimenkanMaster-BlackItalic.ufo
