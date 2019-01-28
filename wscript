@@ -31,7 +31,7 @@ langinfo = {
 }
 
 # set up the sile tests (using fontproof)
-testCommand('sile', cmd='${SILE} -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
+# testCommand('sile', cmd='${SILE} -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
 
 def langfontname(f, l):
     return f.replace('Shimenkan', langinfo[l])
