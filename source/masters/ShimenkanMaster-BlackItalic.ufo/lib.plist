@@ -8,6 +8,27 @@
   <string>1172</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Black Italic</string>
+  <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
+  <array>
+    <dict>
+      <key>Name</key>
+      <string>weight</string>
+      <key>Tag</key>
+      <string>wght</string>
+    </dict>
+    <dict>
+      <key>Name</key>
+      <string>width</string>
+      <key>Tag</key>
+      <string>wdth</string>
+    </dict>
+    <dict>
+      <key>Name</key>
+      <string>custom</string>
+      <key>Tag</key>
+      <string>XXXX</string>
+    </dict>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <string/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -16,6 +37,8 @@
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
+  <key>com.schriftgestaltung.customParameter.GSFontMaster.Master Name</key>
+  <string>Black Italic</string>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
