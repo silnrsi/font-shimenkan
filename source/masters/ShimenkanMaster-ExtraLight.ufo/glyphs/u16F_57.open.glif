@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F57.open" format="2">
-  <advance width="275"/>
+  <advance width="270"/>
   <anchor x="275" y="0" name="F"/>
   <anchor x="0" y="0" name="FB"/>
   <anchor x="275" y="170" name="S"/>
