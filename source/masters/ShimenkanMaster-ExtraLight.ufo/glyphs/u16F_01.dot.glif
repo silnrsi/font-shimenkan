@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F01.dot" format="2">
-  <advance width="646"/>
+  <advance width="546"/>
+  <anchor x="447" y="443" name="E"/>
+  <anchor x="447" y="0" name="F"/>
+  <anchor x="356" y="700" name="H"/>
+  <anchor x="397" y="700" name="HD"/>
+  <anchor x="447" y="227" name="K"/>
+  <anchor x="223" y="-45" name="L"/>
+  <anchor x="546" y="660" name="S"/>
+  <anchor x="447" y="335" name="W"/>
   <outline>
-    <component base="C"/>
-    <component base="D"/>
-    <component base="H"/>
+    <component base="u16F00"/>
+    <component base="dot" xOffset="447"/>
   </outline>
 </glyph>
