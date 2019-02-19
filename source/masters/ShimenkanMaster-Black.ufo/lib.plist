@@ -8,27 +8,6 @@
   <string>1192</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Black</string>
-  <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
-  <array>
-    <dict>
-      <key>Name</key>
-      <string>weight</string>
-      <key>Tag</key>
-      <string>wght</string>
-    </dict>
-    <dict>
-      <key>Name</key>
-      <string>width</string>
-      <key>Tag</key>
-      <string>wdth</string>
-    </dict>
-    <dict>
-      <key>Name</key>
-      <string>custom</string>
-      <key>Tag</key>
-      <string>XXXX</string>
-    </dict>
-  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <string/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
