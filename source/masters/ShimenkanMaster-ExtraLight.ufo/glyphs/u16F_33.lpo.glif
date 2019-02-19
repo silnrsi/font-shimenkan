@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F33.lpo" format="2">
+  <advance width="467"/>
+  <anchor x="467" y="646" name="D"/>
+  <anchor x="467" y="443" name="E"/>
+  <anchor x="447" y="0" name="F"/>
+  <anchor x="401" y="700" name="H"/>
+  <anchor x="417" y="700" name="HD"/>
+  <anchor x="467" y="227" name="K"/>
+  <anchor x="243" y="-45" name="L"/>
+  <anchor x="467" y="660" name="S"/>
+  <anchor x="467" y="335" name="W"/>
+  <outline>
+    <contour>
+      <point x="44" y="-12" type="line"/>
+      <point x="321" y="128"/>
+      <point x="417" y="195"/>
+      <point x="417" y="613" type="curve" smooth="yes"/>
+      <point x="417" y="660" type="line"/>
+      <point x="385" y="660" type="line"/>
+      <point x="385" y="617" type="line" smooth="yes"/>
+      <point x="385" y="206"/>
+      <point x="288" y="145"/>
+      <point x="30" y="14" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
