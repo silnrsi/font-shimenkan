@@ -4,12 +4,12 @@
   <anchor x="604" y="578" name="D"/>
   <anchor x="604" y="440" name="E"/>
   <anchor x="604" y="0" name="F"/>
-  <anchor x="339" y="700" name="H"/>
+  <anchor x="319" y="700" name="H"/>
   <anchor x="547" y="700" name="HD"/>
   <anchor x="604" y="220" name="K"/>
-  <anchor x="339" y="-45" name="L"/>
+  <anchor x="319" y="-45" name="L"/>
   <anchor x="604" y="660" name="S"/>
-  <anchor x="544" y="320" name="W"/>
+  <anchor x="564" y="320" name="W"/>
   <outline>
     <contour>
       <point x="350" y="-12" type="curve" smooth="yes"/>

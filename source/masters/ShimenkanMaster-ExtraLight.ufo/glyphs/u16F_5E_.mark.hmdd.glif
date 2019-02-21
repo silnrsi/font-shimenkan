@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F5E.mark.hmdd" format="2">
   <advance width="246"/>
-  <anchor x="133" y="-40" name="_H"/>
-  <anchor x="0" y="-40" name="_HL"/>
-  <anchor x="246" y="-40" name="_HR"/>
+  <anchor x="133" y="0" name="_H"/>
+  <anchor x="0" y="0" name="_HL"/>
+  <anchor x="246" y="0" name="_HR"/>
   <anchor x="133" y="327" name="_L"/>
   <anchor x="0" y="327" name="_LL"/>
   <anchor x="246" y="327" name="_LR"/>
