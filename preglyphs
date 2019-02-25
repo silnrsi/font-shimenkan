@@ -1,2 +1,4 @@
+#!/bin/sh
+
 psfufo2glyphs source/ShimenkanRoman.designspace source/masters/ShimenkanRoman.glyphs
 psfufo2glyphs source/ShimenkanItalic.designspace source/masters/ShimenkanItalic.glyphs
