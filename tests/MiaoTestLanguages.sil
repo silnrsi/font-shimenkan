@@ -59,9 +59,9 @@
 
 \subsection{HMDD}
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼞𖽺 / 𖼞𖽗 / 𖼞𖽞𖼞𖽟 / 𖼄𖼐𖼔𖼣}
+\proof[size="28pt"]{𖼞𖽺 / 𖼞𖽗 / 𖼞𖽞𖼞𖽟 / 𖼄𖼐𖼔𖼣 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
 \setTestFont[language="HMDD"]
-\proof[size="28pt"]{𖼞𖽺 / 𖼞𖽗 / 𖼞𖽞𖼞𖽟 / 𖼄𖼐𖼔𖼣}
+\proof[size="28pt"]{𖼞𖽺 / 𖼞𖽗 / 𖼞𖽞𖼞𖽟 / 𖼄𖼐𖼔𖼣 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
 \setTestFont[language="dflt"]
 \proof[size="28pt"]{𖼁𖼅𖼉𖼋𖼏𖼑𖼕𖼗𖼙𖼛𖼝𖼟𖼢𖼤𖼩𖼫𖼭𖼯𖼶𖼸𖼼𖼾𖽁𖽄𖽅𖽆𖽇}
 \setTestFont[language="HMDD"]
