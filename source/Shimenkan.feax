@@ -55,8 +55,13 @@ do  let c = feaclass("W");
     let l = " ".join(subc);
     { @Cons = [ $l ]; }
 
-@NonAttaches = [u16F50 u16F8F u16F90 u16F92];
 
+# Break after tone. There are two cursive attachment behaviours. In the first you
+# mark the first base and it attaches forward. In the second you apply the lookup to
+# the second and it attaches back to the first. If a type 2 lookup reference is executed
+# in a type 1 machine, then a future character may be pulled in to attach to us, rather
+# than we attach to something else. We insert a block to stop this.
+@NonAttaches = [u16F50 u16F8F u16F90 u16F91 u16F92];
 lookup block_W {
     sub @NonAttaches by @NonAttaches ZWNBS;
 } block_W;
@@ -126,18 +131,19 @@ lookup choose_vowel_marks {
     sub @cno_mark' lookup vowel_marks @MARKTONES;
 } choose_vowel_marks;
 
-@prespace_marks = [u16F8F u16F90 u16F92 u16F51 u16F52];
+# While block_W_context stops most inadvertant attachments, we still need to handle
+# where there is no tone mark. For this we could simply put a zwsp before every consonant
+# But then we fall foul of the ligature problem and can't attach to the second in a
+# one to many replacement.
 
-# Insert ZWSP before cons to block attaching to 
+@preCons = [@WB u16F51 u16F52];
 lookup insert_zwsp {
-    sub @Cons by uni2060 @Cons;
+    sub @preCons by @preCons ZWNBS;
 } insert_zwsp;
 
 lookup block_cursive {
-    sub @Cons' lookup insert_zwsp @prespace_marks;
-    sub @Cons' lookup insert_zwsp @WB @prespace_marks;
-    sub @Cons' lookup insert_zwsp @WB @WB @prespace_marks;
-    sub @Cons' lookup insert_zwsp @WB @WB @WB @prespace_marks;
+    ignore sub ZWNBS @Cons;
+    sub @preCons' lookup insert_zwsp @Cons;
 } block_cursive;
 
 do  for l = [ygp ywqa narrow hmdd flat point open lpo dot];
