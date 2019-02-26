@@ -55,7 +55,7 @@ do  let c = feaclass("W");
     let l = " ".join(subc);
     { @Cons = [ $l ]; }
 
-@NonAttaches = [u16F50 u16F8F u16F90];
+@NonAttaches = [u16F50 u16F8F u16F90 u16F92];
 
 lookup block_W {
     sub @NonAttaches by @NonAttaches ZWNBS;
@@ -126,8 +126,9 @@ lookup choose_vowel_marks {
     sub @cno_mark' lookup vowel_marks @MARKTONES;
 } choose_vowel_marks;
 
-@prespace_marks = [u16F8F u16F90 u16F51 u16F52];
+@prespace_marks = [u16F8F u16F90 u16F92 u16F51 u16F52];
 
+# Insert ZWSP before cons to block attaching to 
 lookup insert_zwsp {
     sub @Cons by uni2060 @Cons;
 } insert_zwsp;
@@ -179,6 +180,8 @@ feature clig {
     language SFM exclude_dflt;
         lookup lig_4F;
         lookup choose_vowel_marks_sfm;
+        lookup block_W_context;
+        lookup block_cursive;
 } clig;
 
 feature locl {
@@ -316,7 +319,7 @@ lookup vowel_attach {
     pos @L @_L' lookup attach_foot_L @_L @_L u16F92;
     pos @L @_L' lookup attach_foot_L @_L' lookup attach_vowel_LL u16F92;
     pos @L @_L' lookup attach_foot u16F92;
-    pos @F' lookup cursive_attach_F @FB;
+    pos @F' lookup cursive_attach_F @FB' lookup cursive_attach_F;
     pos @SB @ASPMARKS' lookup asp_attach;
     pos @F u16F53.mark' lookup attach_F;
 } vowel_attach;
@@ -336,7 +339,7 @@ lookup vowel_attach_sfm {
     pos @S' lookup cursive_attach_S u16F53.mark' lookup attach_F @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S u16F90;
     pos @S' lookup cursive_attach_S u16F53.mark' lookup attach_F @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S u16F90;
     pos @S' lookup cursive_attach_S u16F53.mark' lookup attach_F @SB' lookup cursive_attach_S u16F90;
-    pos @S' lookup cursive_attach_S @ASP' lookup cursive_attach_S;
+    pos @S' lookup cursive_attach_S @ASP' lookup cursive_attach_S u16F90;
     pos @K' lookup cursive_attach_K @WB' lookup cursive_attach_K @WB' lookup cursive_attach_K @WB' lookup cursive_attach_K u16F92;
     pos @K' lookup cursive_attach_K @WB' lookup cursive_attach_K @WB' lookup cursive_attach_K u16F92;
     pos @K' lookup cursive_attach_K @WB' lookup cursive_attach_K u16F92;
