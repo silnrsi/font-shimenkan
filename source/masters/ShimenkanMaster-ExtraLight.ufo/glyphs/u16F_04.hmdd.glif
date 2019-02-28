@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F04.hmdd" format="2">
-  <advance width="439"/>
-  <anchor x="439" y="646" name="D"/>
-  <anchor x="439" y="443" name="E"/>
-  <anchor x="439" y="0" name="F"/>
-  <anchor x="158" y="700" name="H"/>
+  <advance width="459"/>
+  <anchor x="459" y="646" name="D"/>
+  <anchor x="459" y="443" name="E"/>
+  <anchor x="459" y="0" name="F"/>
+  <anchor x="178" y="700" name="H"/>
   <anchor x="340" y="700" name="HD"/>
-  <anchor x="439" y="227" name="K"/>
-  <anchor x="158" y="-45" name="L"/>
-  <anchor x="439" y="660" name="S"/>
-  <anchor x="439" y="335" name="W"/>
+  <anchor x="459" y="227" name="K"/>
+  <anchor x="178" y="-45" name="L"/>
+  <anchor x="459" y="660" name="S"/>
+  <anchor x="459" y="335" name="W"/>
   <outline>
     <contour>
       <point x="50" y="0" type="line"/>
