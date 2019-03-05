@@ -1444,6 +1444,8 @@
   <string>tildecmb.cap.glif</string>
   <key>tlinebelow</key>
   <string>tlinebelow.glif</string>
+  <key>tonemarkvisible</key>
+  <string>tonemarkvisible.glif</string>
   <key>trademark</key>
   <string>trademark.glif</string>
   <key>triangleblackdown</key>
@@ -1982,12 +1984,20 @@
   <string>u16F_87.mark.glif</string>
   <key>u16F8F</key>
   <string>u16F_8F_.glif</string>
+  <key>u16F8F.visible</key>
+  <string>u16F_8F_.visible.glif</string>
   <key>u16F90</key>
   <string>u16F_90.glif</string>
+  <key>u16F90.visible</key>
+  <string>u16F_90.visible.glif</string>
   <key>u16F91</key>
   <string>u16F_91.glif</string>
+  <key>u16F91.visible</key>
+  <string>u16F_91.visible.glif</string>
   <key>u16F92</key>
   <string>u16F_92.glif</string>
+  <key>u16F92.visible</key>
+  <string>u16F_92.visible.glif</string>
   <key>u16F93</key>
   <string>u16F_93.glif</string>
   <key>u16F94</key>

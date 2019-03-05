@@ -256,6 +256,11 @@ u16F96,u16F96,7904
 u16F97,u16F97,7905
 u16F98,u16F98,7906
 u16F99,u16F99,7907
+tonemarkvisible,tonemarkvisible,7990
+u16F8F.visible,u16F8F.visible,7991
+u16F90.visible,u16F90.visible,7992
+u16F91.visible,u16F91.visible,7993
+u16F92.visible,u16F92.visible,7994
 uni2010,uni2010,8001
 uni2011,uni2011,8002
 uni2027,uni2027,8003

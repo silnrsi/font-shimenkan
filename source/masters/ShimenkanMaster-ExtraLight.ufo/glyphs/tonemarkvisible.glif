@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonemarkvisible" format="2">
+  <advance width="258"/>
+  <outline>
+    <contour>
+      <point x="25" y="220" type="line"/>
+      <point x="25" y="192" type="line"/>
+      <point x="233" y="192" type="line"/>
+      <point x="233" y="220" type="line"/>
+    </contour>
+    <contour>
+      <point x="115" y="220" type="line"/>
+      <point x="115" y="0" type="line"/>
+      <point x="143" y="0" type="line"/>
+      <point x="143" y="220" type="line"/>
+    </contour>
+  </outline>
+</glyph>

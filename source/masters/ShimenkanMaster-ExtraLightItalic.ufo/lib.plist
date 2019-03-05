@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1172</string>
+  <string>1218</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra Italic</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -305,6 +305,11 @@
     <string>u16F97</string>
     <string>u16F98</string>
     <string>u16F99</string>
+    <string>tonemarkvisible</string>
+    <string>u16F8F.visible</string>
+    <string>u16F90.visible</string>
+    <string>u16F91.visible</string>
+    <string>u16F92.visible</string>
     <string>uni2010</string>
     <string>uni2011</string>
     <string>uni2027</string>
