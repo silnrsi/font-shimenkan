@@ -9,9 +9,7 @@
   <key>com.schriftgestaltung.customName</key>
   <string>Black</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <array>
-    <string>/u16F04/u16F10/u16F2C/u16F14.flat/u16F23.flat/u16F04.hmdd/u16F10.hmdd/u16F14.hmdd/u16F23.hmdd/u16F35</string>
-  </array>
+  <string/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
