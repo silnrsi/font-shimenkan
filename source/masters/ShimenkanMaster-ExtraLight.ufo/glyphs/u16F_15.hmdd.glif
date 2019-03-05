@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F15.hmdd" format="2">
-  <advance width="643"/>
-  <anchor x="544" y="443" name="E"/>
-  <anchor x="544" y="0" name="F"/>
-  <anchor x="302" y="700" name="H"/>
-  <anchor x="494" y="700" name="HD"/>
-  <anchor x="544" y="227" name="K"/>
-  <anchor x="302" y="-45" name="L"/>
-  <anchor x="643" y="660" name="S"/>
-  <anchor x="524" y="335" name="W"/>
+  <advance width="655"/>
+  <anchor x="556" y="443" name="E"/>
+  <anchor x="556" y="0" name="F"/>
+  <anchor x="284" y="700" name="H"/>
+  <anchor x="496" y="700" name="HD"/>
+  <anchor x="556" y="227" name="K"/>
+  <anchor x="284" y="-45" name="L"/>
+  <anchor x="655" y="660" name="S"/>
+  <anchor x="556" y="335" name="W"/>
   <outline>
-    <component base="u16F14"/>
-    <component base="dot" xOffset="544"/>
+    <component base="u16F14.hmdd"/>
+    <component base="dot" xOffset="556"/>
   </outline>
 </glyph>
