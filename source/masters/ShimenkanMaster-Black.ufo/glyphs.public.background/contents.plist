@@ -4,12 +4,18 @@
 <dict>
   <key>u16F03</key>
   <string>u16F_03.glif</string>
+  <key>u16F04.hmdd</key>
+  <string>u16F_04.hmdd.glif</string>
+  <key>u16F10.hmdd</key>
+  <string>u16F_10.hmdd.glif</string>
   <key>u16F12</key>
   <string>u16F_12.glif</string>
   <key>u16F14</key>
   <string>u16F_14.glif</string>
   <key>u16F14.flat</key>
   <string>u16F_14.flat.glif</string>
+  <key>u16F14.hmdd</key>
+  <string>u16F_14.hmdd.glif</string>
   <key>u16F14.ygp</key>
   <string>u16F_14.ygp.glif</string>
   <key>u16F18</key>
