@@ -390,6 +390,23 @@ lookup aspirations {
     pos @S u16F53.mark' lookup attach_F @SB u16F90;
 } aspirations;
 
+lookup space_waist_kern {
+do  for w = @W;
+    let s = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
+    if s > 0;
+    {
+        pos $w @ASPALLMARKS @WB' <0 0 $s 0> u16F8F;
+    }
+} space_waist_kern;
+
+lookup vowel_waist_kern {
+do  for w = @WB;
+    let s = -ADVx(w);
+    {
+        pos @W @ASPALLMARKS $w' <0 0 $s 0> u16F8F;
+    }
+} vowel_waist_kern;
+
 feature kern {
   script DFLT;
     language dflt;
@@ -398,10 +415,14 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_hf_attach_left;
+        lookup space_waist_kern;
+        lookup vowel_waist_kern;
     language SFM exclude_dflt;
         lookup vowel_attach_sfm;
         lookup aspirations;
         lookup headfoot_vowels;
+        lookup space_waist_kern;
+        lookup vowel_waist_kern;
 } kern;
 
 table GDEF {
