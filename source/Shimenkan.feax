@@ -10,6 +10,10 @@
 @L_4F = [u16F0E_u16F4F u16F10_u16F4F];
 @L_no4F = [u16F0E u16F10];
 
+lookup hide_tones {
+    sub @c_visible by @cno_visible;
+} hide_tones;
+
 lookup vowel_marks {
     sub @cno_mark by @c_mark;
 } vowel_marks;
@@ -179,11 +183,13 @@ languagesystem DFLT YWQA;
 languagesystem DFLT YWQB;
 
 feature clig {
+        lookup hide_tones;
         lookup lig_4F;
         lookup choose_vowel_marks;
         lookup block_W_context;
         lookup block_cursive;
     language SFM exclude_dflt;
+        lookup hide_tones;
         lookup lig_4F;
         lookup choose_vowel_marks_sfm;
         lookup block_W_context;

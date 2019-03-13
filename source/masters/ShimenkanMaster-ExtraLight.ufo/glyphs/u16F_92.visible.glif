@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F92.visible" format="2">
+  <unicode hex="16F92"/>
   <advance width="592"/>
   <anchor x="296" y="502" name="aboveLC"/>
   <anchor x="474" y="502" name="aboverightLC"/>
