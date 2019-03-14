@@ -464,6 +464,16 @@ do  for h = @narrowH;
     }
 } base_headfoot;
 
+lookup narr_headfoot {
+do  for h = @narrowH;
+    for m = @_H;
+    let d = int((ADVx(m) - ADVx(h))/2);
+    if d > 25;
+    {
+        pos uni2060' $d $h' $d $m @MARKTONES;
+    }
+} narr_headfoot;
+
 feature kern {
   script DFLT;
     language dflt;
@@ -476,6 +486,7 @@ feature kern {
         lookup space_headfoot;
         lookup adv_headfoot;
         lookup base_headfoot;
+        lookup narr_headfoot;
     language SFM exclude_dflt;
         lookup vowel_attach_sfm;
         lookup aspirations;
@@ -484,6 +495,7 @@ feature kern {
         lookup space_headfoot;
         lookup adv_headfoot;
         lookup base_headfoot;
+        lookup narr_headfoot;
 } kern;
 
 table GDEF {
