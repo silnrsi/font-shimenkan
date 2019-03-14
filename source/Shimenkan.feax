@@ -74,6 +74,23 @@ lookup block_W_context {
     sub @NonAttaches' lookup block_W @Cons;
 } block_W_context;
 
+lookup insert_gaps {
+    sub @H by uni2060 @H uni2060;
+} insert_gaps;
+
+lookup del_gap {
+    sub @H uni2060 by @H;
+} del_gap;
+
+lookup insert_gap_context {
+    sub @H' lookup insert_gaps @ASPALL' lookup del_gap @cno_mark @cno_mark @cno_mark @MARKTONES;
+    sub @H' lookup insert_gaps @ASPALL' lookup del_gap @cno_mark @cno_mark @MARKTONES;
+    sub @H' lookup insert_gaps @ASPALL' lookup del_gap @cno_mark @MARKTONES;
+    sub @H' lookup insert_gaps @cno_mark' lookup del_gap @cno_mark @cno_mark @MARKTONES;
+    sub @H' lookup insert_gaps @cno_mark' lookup del_gap @cno_mark @MARKTONES;
+    sub @H' lookup insert_gaps @cno_mark' lookup del_gap @MARKTONES;
+} insert_gap_context;
+
 lookup choose_vowel_marks_sfm {
     # ASP is spacing for shoulder
     ignore sub @ASP' @cno_mark @cno_mark @cno_mark u16F90;
@@ -185,12 +202,14 @@ languagesystem DFLT YWQB;
 feature clig {
         lookup hide_tones;
         lookup lig_4F;
+        lookup insert_gap_context;
         lookup choose_vowel_marks;
         lookup block_W_context;
         lookup block_cursive;
     language SFM exclude_dflt;
         lookup hide_tones;
         lookup lig_4F;
+        lookup insert_gap_context;
         lookup choose_vowel_marks_sfm;
         lookup block_W_context;
         lookup block_cursive;
@@ -307,10 +326,16 @@ do  for g = @H;
     }
 } advance_base;
 
+do  let w = " ".join(x for x in feaclass('WB') if x not in ('u16F51', 'u16F52'));
+    { @pureWB = [$w]; }
+
 lookup vowel_attach {
-    pos @W' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
-    pos @W' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
-    pos @W' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
+    pos @W' @ASP' @VOWEL_TALL' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
+    pos @W' @ASP' @VOWEL_TALL' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
+    pos @W' @ASP' @VOWEL_TALL' lookup cursive_attach_W u16F8F;
+    pos @W' lookup cursive_attach_W @pureWB' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
+    pos @W' lookup cursive_attach_W @pureWB' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
+    pos @W' lookup cursive_attach_W @pureWB' lookup cursive_attach_W u16F8F;
     pos @W' lookup cursive_attach_W @ASPALLMARKS' @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
     pos @W' lookup cursive_attach_W @ASPALLMARKS' @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
     pos @W' lookup cursive_attach_W @ASPALLMARKS' @WB' lookup cursive_attach_W u16F8F;
@@ -332,14 +357,18 @@ lookup vowel_attach {
     pos @L @_L' lookup attach_foot_L @_L' lookup attach_vowel_LL u16F92;
     pos @L @_L' lookup attach_foot u16F92;
     pos @F' lookup cursive_attach_F @FB' lookup cursive_attach_F;
+    pos @F' lookup cursive_attach_F @FB';
     pos @SB @ASPMARKS' lookup asp_attach;
     pos @F u16F53.mark' lookup attach_F;
 } vowel_attach;
 
 lookup vowel_attach_sfm {
-    pos @E' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
-    pos @E' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
-    pos @E' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' @ASP' @VOWEL_TALL' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' @ASP' @VOWEL_TALL' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' @ASP' @VOWEL_TALL' lookup cursive_attach_E u16F8F;
+    pos @E' lookup cursive_attach_E @pureWB' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' lookup cursive_attach_E @pureWB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' lookup cursive_attach_E @pureWB' lookup cursive_attach_E u16F8F;
     pos @E' lookup cursive_attach_E @ASPALLMARKS' lookup asp_attach @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
     pos @E' lookup cursive_attach_E @ASPALLMARKS' lookup asp_attach @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
     pos @E' lookup cursive_attach_E @ASPALLMARKS' lookup asp_attach @WB' lookup cursive_attach_E u16F8F;
@@ -396,22 +425,41 @@ lookup aspirations {
     pos @S u16F53.mark' lookup attach_F @SB u16F90;
 } aspirations;
 
+# Simulate a spacing mark if we can
+# Add space to the mark to increase to width of base + asp
 lookup space_waist_kern {
 do  for w = @W;
-    let s = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
-    if s > 0;
+    for m = @WB;
+    let s = ADVx(w) - APx(w, 'W') + ADVx('u16F51') - ADVx(m);
+    if s > 25;      # rsb of vowel
     {
-        pos $w @ASPALLMARKS @WB' <0 0 $s 0> u16F8F;
+        pos $w @ASPALLMARKS $m' $s u16F8F;
     }
 } space_waist_kern;
 
-lookup vowel_waist_kern {
-do  for w = @WB;
-    let s = -ADVx(w);
+lookup space_headfoot {
+do  for h = @c_mark;
+    let s = ADVx(h);
     {
-        pos @W @ASPALLMARKS $w' <0 0 $s 0> u16F8F;
+        pos uni2060' $s @H $h @c_mark @MARKTONES;
     }
-} vowel_waist_kern;
+} space_headfoot;
+
+lookup adv_headfoot {
+do  for h = @c_mark;
+    let s = ADVx(h);
+    {
+        pos uni2060 @H' $s @c_mark $h @MARKTONES;
+    }
+} adv_headfoot;
+
+lookup base_headfoot {
+do  for h = @H;
+    let s = -int(ADVx(h) / 2);
+    {
+        pos uni2060' $s $h' $s @c_mark @c_mark @MARKTONES;
+    }
+} base_headfoot;
 
 feature kern {
   script DFLT;
@@ -422,13 +470,17 @@ feature kern {
         lookup asp_hf_attach_right;
         lookup asp_hf_attach_left;
         lookup space_waist_kern;
-        lookup vowel_waist_kern;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
     language SFM exclude_dflt;
         lookup vowel_attach_sfm;
         lookup aspirations;
         lookup headfoot_vowels;
         lookup space_waist_kern;
-        lookup vowel_waist_kern;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
 } kern;
 
 table GDEF {
