@@ -315,17 +315,6 @@ do  let a = -int(ADVx("u16F61") / 2);
         } left_shift_vowel;
     }
 
-lookup advance_base {
-do  for g = @H;
-    let a = APx(g, "H") - ADVx(g) + int(1.5 * ADVx("u16F61"));
-    let b = int(1.5 * ADVx("u16F61")) - APx(g, "H");
-    let c = a + b;
-    if b > 0 and c > 0;
-    {
-        pos $g <$b 0 $c 0>;
-    }
-} advance_base;
-
 do  let w = " ".join(x for x in feaclass('WB') if x not in ('u16F51', 'u16F52'));
     { @pureWB = [$w]; }
 
@@ -398,8 +387,8 @@ lookup vowel_attach_sfm {
 } vowel_attach_sfm;
 
 lookup headfoot_vowels {
-    pos @H' lookup advance_base @_H' lookup left_shift_vowel @_H' lookup attach_vowel_HL @_H' lookup attach_vowel_HL u16F91;
-    pos @L' lookup advance_base @_L' lookup left_shift_vowel @_L' lookup attach_vowel_LL @_H' lookup attach_vowel_LL u16F92;
+    pos @H' @_H' lookup left_shift_vowel @_H' lookup attach_vowel_HL @_H' lookup attach_vowel_HL u16F91;
+    pos @L' @_L' lookup left_shift_vowel @_L' lookup attach_vowel_LL @_H' lookup attach_vowel_LL u16F92;
 } headfoot_vowels;
 
 lookup asp_hf_attach_right {
@@ -437,27 +426,41 @@ do  for w = @W;
     }
 } space_waist_kern;
 
+# 3+ lookups to do spacing marks
+
+# Limit this to narrow bases
+do  let h = " ".join(g for g in feaclass('H') if ADVx(g) < 2 * ADVx('u16F7B'));
+    { @narrowH = [$h]; }
+
+# Add space to previously inserted zwsp for width of first component
+# and base for last component
 lookup space_headfoot {
-do  for h = @c_mark;
+do  for h = @_H;
     let s = ADVx(h);
     {
-        pos uni2060' $s @H $h @c_mark @MARKTONES;
+        pos uni2060' $s @narrowH $h @_H @MARKTONES;
+        pos uni2060' $s @narrowH $h @_H @_H @MARKTONES;
+        pos uni2060 @narrowH' $s @_H $h @MARKTONES;
+        pos uni2060 @narrowH' $s @_H @_H $h @MARKTONES;
     }
 } space_headfoot;
 
+# Add half the centre width to both sides
 lookup adv_headfoot {
-do  for h = @c_mark;
-    let s = ADVx(h);
+do  for h = @_H;
+    let s = int(ADVx(h) / 2);
     {
-        pos uni2060 @H' $s @c_mark $h @MARKTONES;
+        pos uni2060' $s @narrowH' $s @_H $h @_H @MARKTONES;
     }
 } adv_headfoot;
 
+# Now take away half the width of the base from both
 lookup base_headfoot {
-do  for h = @H;
+do  for h = @narrowH;
     let s = -int(ADVx(h) / 2);
     {
-        pos uni2060' $s $h' $s @c_mark @c_mark @MARKTONES;
+        pos uni2060' $s $h' $s @_H @_H @MARKTONES;
+        pos uni2060' $s $h' $s @_H @_H @_H @MARKTONES;
     }
 } base_headfoot;
 
