@@ -414,20 +414,47 @@ lookup aspirations {
     pos @S u16F53.mark' lookup attach_F @SB u16F90;
 } aspirations;
 
+def needslookup(o, c) {
+    for m in feaclass(c):
+        if o - ADVx(m) > ADVx('u16F79'):
+            return True
+    return False
+} needslookup;
+
+def makerules(lname, o, c) {
+    res = []
+    lf = chr(10)
+    for m in feaclass(c):
+        s = o - ADVx(m)
+        if s > 0:
+            res.append("pos {} {:d};".format(m, s))
+    return (lf+"        ").join(res)
+} makerules;
+
 # Simulate a spacing mark if we can
 # Add space to the mark to increase to width of base + asp
+do  for w = @W;
+    let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
+    let lname = "space_waist_" + w;
+    let e = makerules(lname, o, 'WB');
+    if needslookup(o, 'WB');
+    {
+        lookup $lname {
+            $e;
+        } $lname;
+    }
+
 lookup space_waist_kern {
 do  for w = @W;
-    for m = @WB;
-    let s = ADVx(w) - APx(w, 'W') + ADVx('u16F51') - ADVx(m);
-    if s > 25;      # rsb of vowel
+    let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
+    let lname = "space_waist_" + w;
+    if needslookup(o, 'WB');
     {
-        pos $w @ASPALLMARKS $m' $s u16F8F;
+        pos $w @ASPALLMARKS @WB' lookup $lname;
     }
 } space_waist_kern;
 
 # 3+ lookups to do spacing marks
-
 # Limit this to narrow bases
 do  let h = " ".join(g for g in feaclass('H') if ADVx(g) < 2 * ADVx('u16F7B'));
     { @narrowH = [$h]; }
