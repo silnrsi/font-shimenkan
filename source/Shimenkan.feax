@@ -414,6 +414,16 @@ lookup aspirations {
     pos @S u16F53.mark' lookup attach_F @SB u16F90;
 } aspirations;
 
+############
+# Simulate a spacing mark if we can
+# Add space to the mark to increase to width of base + asp
+# Split them into one lookup per base of interest.
+# Much of the need for these functions is due to a bug in python 3 that list expressions
+#   or lambdas can't reference imported locals, which is how the previously calculated
+#   values are passed in. So we have to do all the work in a function call.
+
+# Return whether this base has any marks that need protrude beyond the asp by
+# greater than the width of the thinnest vowel if it weren't kerned back.
 def needslookup(o, c) {
     for m in feaclass(c):
         if o - ADVx(m) > ADVx('u16F79'):
@@ -421,40 +431,57 @@ def needslookup(o, c) {
     return False
 } needslookup;
 
+# Create all the positioning adjustment rules for a lookup
+# And cache them so can map multiple bases to the same lookup
+# Saves some 11 lookups out of 24 (for a potential 35 without caching)
 def makerules(lname, o, c) {
+    if not hasattr(makerules, 'cache'):
+        makerules.cache = {}
+        makerules.namemap = {}
     res = []
-    lf = chr(10)
     for m in feaclass(c):
         s = o - ADVx(m)
         if s > 0:
             res.append("pos {} {:d};".format(m, s))
-    return (lf+"        ").join(res)
+    fres = (lf()+"        ").join(res)
+    if fres not in makerules.cache:
+        makerules.cache[fres] = lname
+    makerules.namemap[lname] = makerules.cache[fres]
+    if makerules.cache[fres] != lname:
+        return ""
+    else:
+        return fres
 } makerules;
 
-# Simulate a spacing mark if we can
-# Add space to the mark to increase to width of base + asp
+def getlname(lname) {
+    return makerules.namemap.get(lname, lname)
+} getlname;
+
+# Create a contextual lookup that calls one lookup per base of interest
 do  for w = @W;
     let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
     let lname = "space_waist_" + w;
     let e = makerules(lname, o, 'WB');
-    if needslookup(o, 'WB');
+    if needslookup(o, 'WB') and e != "";
     {
         lookup $lname {
             $e;
         } $lname;
     }
 
+# Create the lookups for all the bases of interest.
 lookup space_waist_kern {
 do  for w = @W;
     let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
-    let lname = "space_waist_" + w;
+    let lname = getlname("space_waist_" + w);
     if needslookup(o, 'WB');
     {
         pos $w @ASPALLMARKS @WB' lookup $lname;
     }
 } space_waist_kern;
 
-# 3+ lookups to do spacing marks
+#############
+# 4 lookups to do spacing marks for spacing of head and foot vowel sequences
 # Limit this to narrow bases
 do  let h = " ".join(g for g in feaclass('H') if ADVx(g) < 2 * ADVx('u16F7B'));
     { @narrowH = [$h]; }
