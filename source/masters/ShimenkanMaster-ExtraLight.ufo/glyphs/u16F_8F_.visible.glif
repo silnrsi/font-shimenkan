@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F8F.visible" format="2">
-  <unicode hex="16F8F"/>
   <advance width="850"/>
+  <unicode hex="16F8F"/>
   <anchor x="296" y="502" name="aboveLC"/>
   <anchor x="474" y="502" name="aboverightLC"/>
   <anchor x="296" y="0" name="baseLC"/>
