@@ -60,7 +60,7 @@ for dspace in ('Roman', ):
             (fname, _, ext) = f.target.rpartition("-")
             fname = langfontname(fname, l).replace(" ", "")
             n = font(target = process('langs/' + l + "/" + fname + "-" + ext,
-                            cmd("ttfdeflang -d " + l + " ${DEP} ${TGT}"),
+                            cmd("psfdeflang -q -L " + l + " ${DEP} ${TGT}"),
                             name(langfontname(f.name, l))),
                     opentype = internal(),
                     source = f.target,

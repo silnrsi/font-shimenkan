@@ -257,7 +257,7 @@ feature locl {
 # Attaching
 ######################
 
-############
+#############
 # Simulate a spacing mark if we can
 # Add space to the mark to increase to width of base + asp
 # Split them into one lookup per base of interest.
@@ -333,6 +333,7 @@ do  for a = [EW KW FF SS WW];
             pos cursive $b $c;
         } $n;
     }
+#############
 
 lookup asp_attach {
     pos base @S mark @_SB;
@@ -510,21 +511,21 @@ do  for h = @_H;
 
 # Now take away half the width of the base from both
 lookup base_headfoot {
-do  for h = @narrowH;
-    let s = -int(ADVx(h) / 2);
+do  for b = @narrowH;
+    let s = -int(ADVx(b) / 2);
     {
-        pos uni2060' $s $h' $s @_H @_H @MARKTONES;
-        pos uni2060' $s $h' $s @_H @_H @_H @MARKTONES;
+        pos uni2060' $s $b' $s @_H @_H @MARKTONES;
+        pos uni2060' $s $b' $s @_H @_H @_H @MARKTONES;
     }
 } base_headfoot;
 
 lookup narr_headfoot {
-do  for h = @narrowH;
+do  for b = @narrowH;
     for m = @_H;
-    let d = int((ADVx(m) - ADVx(h))/2);
+    let d = int((ADVx(m) - ADVx(b))/2);
     if d > 25;
     {
-        pos uni2060' $d $h' $d $m @MARKTONES;
+        pos uni2060' $d $b' $d $m @MARKTONES;
     }
 } narr_headfoot;
 
