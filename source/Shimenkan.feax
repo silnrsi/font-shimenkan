@@ -419,7 +419,7 @@ lookup vowel_attach {
 } vowel_attach;
 
 lookup vowel_attach_sfm {
-    pos @E' @ASP' lookup_cursive_attach_E @VOWEL_TALL' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' @ASP' lookup cursive_attach_E @VOWEL_TALL' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
     pos @E' @ASP' lookup cursive_attach_E @VOWEL_TALL' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
     pos @E' @ASP' lookup cursive_attach_E @VOWEL_TALL' lookup cursive_attach_E u16F8F;
     pos @E' lookup cursive_attach_E @pureWB' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
