@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F93" format="2">
-  <advance width="240"/>
+  <advance width="268"/>
   <unicode hex="16F93"/>
   <outline>
-    <component base="brackhalfbotleft"/>
-    <component base="brackhalfbotright"/>
+    <contour>
+      <point x="40" y="270" type="line"/>
+      <point x="40" y="242" type="line"/>
+      <point x="228" y="242" type="line"/>
+      <point x="228" y="270" type="line"/>
+    </contour>
+    <contour>
+      <point x="120" y="270" type="line"/>
+      <point x="120" y="0" type="line"/>
+      <point x="148" y="0" type="line"/>
+      <point x="148" y="270" type="line"/>
+    </contour>
   </outline>
 </glyph>
