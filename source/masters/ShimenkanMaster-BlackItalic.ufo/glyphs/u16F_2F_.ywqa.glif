@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F2F.ywqa" format="2">
+  <advance width="1024"/>
+  <outline>
+    <component base="C"/>
+    <component base="D"/>
+    <component base="H"/>
+    <component base="period"/>
+  </outline>
+</glyph>

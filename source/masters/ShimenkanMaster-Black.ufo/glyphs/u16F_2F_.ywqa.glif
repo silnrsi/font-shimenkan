@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F2F.ywqa" format="2">
+  <advance width="545"/>
+  <anchor x="545" y="578" name="D"/>
+  <anchor x="545" y="440" name="E"/>
+  <anchor x="545" y="0" name="F"/>
+  <anchor x="280" y="700" name="H"/>
+  <anchor x="495" y="700" name="HD"/>
+  <anchor x="545" y="220" name="K"/>
+  <anchor x="280" y="-45" name="L"/>
+  <anchor x="545" y="660" name="S"/>
+  <anchor x="545" y="320" name="W"/>
+  <outline>
+    <component base="u16F2E"/>
+    <component base="dot" xOffset="295" yOffset="-253"/>
+  </outline>
+</glyph>
