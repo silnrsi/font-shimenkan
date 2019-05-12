@@ -10,6 +10,8 @@
   <anchor x="526" y="220" name="K"/>
   <anchor x="227" y="-45" name="L"/>
   <anchor x="626" y="660" name="S"/>
+  <anchor x="626" y="680" name="SRT"/>
+  <anchor x="626" y="680" name="ST"/>
   <anchor x="576" y="320" name="W"/>
   <outline>
     <component base="u16F21" xOffset="10"/>

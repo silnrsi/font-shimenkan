@@ -4,11 +4,15 @@
   <anchor x="786" y="578" name="D"/>
   <anchor x="786" y="440" name="E"/>
   <anchor x="786" y="0" name="F"/>
+  <anchor x="786" y="10" name="FR"/>
   <anchor x="538" y="700" name="H"/>
   <anchor x="736" y="700" name="HD"/>
   <anchor x="786" y="220" name="K"/>
   <anchor x="538" y="-45" name="L"/>
   <anchor x="786" y="660" name="S"/>
+  <anchor x="786" y="650" name="SR"/>
+  <anchor x="786" y="680" name="SRT"/>
+  <anchor x="786" y="680" name="ST"/>
   <anchor x="726" y="320" name="W"/>
   <outline>
     <component base="u16F4F"/>

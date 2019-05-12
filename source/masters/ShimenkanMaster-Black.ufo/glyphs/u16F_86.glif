@@ -4,8 +4,16 @@
   <unicode hex="16F86"/>
   <anchor x="340" y="0" name="F"/>
   <anchor x="0" y="0" name="FB"/>
+  <anchor x="0" y="10" name="FBR"/>
+  <anchor x="340" y="10" name="FR"/>
   <anchor x="340" y="200" name="S"/>
   <anchor x="0" y="200" name="SB"/>
+  <anchor x="0" y="190" name="SBR"/>
+  <anchor x="0" y="210" name="SBRT"/>
+  <anchor x="0" y="220" name="SBT"/>
+  <anchor x="340" y="190" name="SR"/>
+  <anchor x="340" y="210" name="SRT"/>
+  <anchor x="340" y="220" name="ST"/>
   <anchor x="340" y="138" name="W"/>
   <anchor x="0" y="138" name="WB"/>
   <outline>

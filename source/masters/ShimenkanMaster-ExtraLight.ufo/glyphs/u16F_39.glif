@@ -5,11 +5,15 @@
   <anchor x="410" y="646" name="D"/>
   <anchor x="480" y="443" name="E"/>
   <anchor x="480" y="0" name="F"/>
+  <anchor x="480" y="10" name="FR"/>
   <anchor x="230" y="700" name="H"/>
   <anchor x="400" y="700" name="HD"/>
   <anchor x="480" y="227" name="K"/>
   <anchor x="307" y="-45" name="L"/>
   <anchor x="450" y="660" name="S"/>
+  <anchor x="480" y="650" name="SR"/>
+  <anchor x="480" y="690" name="SRT"/>
+  <anchor x="450" y="690" name="ST"/>
   <anchor x="480" y="335" name="W"/>
   <outline>
     <contour>

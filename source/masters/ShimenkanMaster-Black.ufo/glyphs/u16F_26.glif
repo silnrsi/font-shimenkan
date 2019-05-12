@@ -5,11 +5,15 @@
   <anchor x="523" y="578" name="D"/>
   <anchor x="523" y="440" name="E"/>
   <anchor x="523" y="0" name="F"/>
+  <anchor x="523" y="10" name="FR"/>
   <anchor x="259" y="700" name="H"/>
   <anchor x="473" y="700" name="HD"/>
   <anchor x="523" y="220" name="K"/>
   <anchor x="372" y="-45" name="L"/>
   <anchor x="523" y="660" name="S"/>
+  <anchor x="523" y="650" name="SR"/>
+  <anchor x="523" y="680" name="SRT"/>
+  <anchor x="523" y="680" name="ST"/>
   <anchor x="523" y="320" name="W"/>
   <outline>
     <contour>
