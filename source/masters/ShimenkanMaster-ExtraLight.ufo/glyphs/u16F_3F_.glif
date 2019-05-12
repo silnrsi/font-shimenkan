@@ -12,7 +12,7 @@
   <anchor x="360" y="-45" name="L"/>
   <anchor x="720" y="660" name="S"/>
   <anchor x="720" y="650" name="SR"/>
-  <anchor x="720" y="690" name="SRT"/>
+  <anchor x="720" y="680" name="SRT"/>
   <anchor x="720" y="690" name="ST"/>
   <anchor x="720" y="335" name="W"/>
   <outline>

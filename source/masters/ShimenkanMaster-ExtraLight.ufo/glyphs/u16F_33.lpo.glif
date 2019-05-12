@@ -11,7 +11,7 @@
   <anchor x="198" y="-45" name="L"/>
   <anchor x="542" y="660" name="S"/>
   <anchor x="541" y="650" name="SR"/>
-  <anchor x="541" y="690" name="SRT"/>
+  <anchor x="541" y="680" name="SRT"/>
   <anchor x="542" y="690" name="ST"/>
   <anchor x="491" y="335" name="W"/>
   <outline>
