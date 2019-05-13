@@ -9,11 +9,11 @@
   <anchor x="237" y="232" name="S"/>
   <anchor x="0" y="232" name="SB"/>
   <anchor x="0" y="222" name="SBR"/>
-  <anchor x="0" y="242" name="SBRT"/>
-  <anchor x="0" y="252" name="SBT"/>
+  <anchor x="0" y="302" name="SBRT"/>
+  <anchor x="0" y="312" name="SBT"/>
   <anchor x="237" y="222" name="SR"/>
-  <anchor x="237" y="242" name="SRT"/>
-  <anchor x="237" y="252" name="ST"/>
+  <anchor x="237" y="302" name="SRT"/>
+  <anchor x="237" y="312" name="ST"/>
   <anchor x="237" y="110" name="W"/>
   <anchor x="0" y="110" name="WB"/>
   <outline>
