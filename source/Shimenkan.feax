@@ -386,6 +386,7 @@ do  let w = " ".join(x for x in feaclass('WB') if x not in ('u16F51', 'u16F52'))
     { @pureWB = [$w]; }
 
 lookup vowel_attach_basic {
+    # remember cursive attachment must work both forwards and backwards
     pos @W' @ASP' lookup cursive_attach_W @VOWEL_TALL' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
     pos @W' @ASP' lookup cursive_attach_W @VOWEL_TALL' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
     pos @W' @ASP' lookup cursive_attach_W @VOWEL_TALL' lookup cursive_attach_W u16F8F;
@@ -579,6 +580,19 @@ do  for b = @narrowH;
     }
 } narr_headfoot;
 
+lookup shift_low_wasp {
+do  for h = @H;
+    let m = int((MAXx("u16F51") + MINx("u16F51"))/2);
+    let s = APx(h, "S") - APx("u16F51", "SB") + m - APx(h, "HD");
+    let d = int((ADVx("u16F64.mark") - ADVx("u16F51"))/2);
+    if s > 0;
+    {
+        pos $h @VOWEL_DESC' <$s 0 0 0> u16F91' @ASP' $d;
+        pos $h @_H @VOWEL_DESC' <$s 0 0 0> u16F91' @ASP' $d;
+        pos $h @_H @_H @VOWEL_DESC' <$s 0 0 0> u16F91' @ASP' $d;
+    }
+} shift_low_wasp;
+
 feature kern {
   script DFLT;
     language dflt;
@@ -593,6 +607,7 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
+        lookup shift_low_wasp;
     language SFM exclude_dflt;
         lookup vowel_attach_sfm;
         lookup vowel_attach_normal;
@@ -603,6 +618,7 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
+        lookup shift_low_wasp;
     language HMD exclude_dflt;
         lookup vowel_attach_basic;
         lookup vowel_attach_normal;
@@ -614,6 +630,7 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
+        lookup shift_low_wasp;
     language YWQA exclude_dflt;
         lookup vowel_attach_basic;
         lookup vowel_attach_normal;
@@ -625,6 +642,7 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
+        lookup shift_low_wasp;
     language LPO exclude_dflt;
         lookup vowel_attach_basicright;
         lookup vowel_attach_normal;
@@ -636,6 +654,7 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
+        lookup shift_low_wasp;
     language YGP exclude_dflt;
         lookup vowel_attach_basicright;
         lookup vowel_attach_normal;
@@ -647,6 +666,7 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
+        lookup shift_low_wasp;
 } kern;
 
 table GDEF {
