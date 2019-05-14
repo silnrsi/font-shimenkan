@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F95" format="2">
-  <advance width="420"/>
+  <advance width="452"/>
   <unicode hex="16F95"/>
   <outline>
-    <component base="brackhalfbotleft"/>
-    <component base="brackhalfbotright"/>
+    <contour>
+      <point x="35" y="276" type="line"/>
+      <point x="144" y="276" type="line"/>
+      <point x="196" y="180" type="line"/>
+      <point x="223" y="132" type="line"/>
+      <point x="226" y="132" type="line"/>
+      <point x="251" y="180" type="line"/>
+      <point x="298" y="276" type="line"/>
+      <point x="417" y="276" type="line"/>
+      <point x="417" y="0" type="line"/>
+      <point x="317" y="0" type="line"/>
+      <point x="317" y="93" type="line"/>
+      <point x="319" y="120"/>
+      <point x="323" y="146"/>
+      <point x="325" y="173" type="curve"/>
+      <point x="322" y="173" type="line"/>
+      <point x="293" y="114" type="line"/>
+      <point x="268" y="65" type="line"/>
+      <point x="180" y="65" type="line"/>
+      <point x="157" y="114" type="line"/>
+      <point x="130" y="173" type="line"/>
+      <point x="127" y="173" type="line"/>
+      <point x="129" y="146"/>
+      <point x="133" y="120"/>
+      <point x="135" y="93" type="curve"/>
+      <point x="135" y="0" type="line"/>
+      <point x="35" y="0" type="line"/>
+    </contour>
   </outline>
 </glyph>
