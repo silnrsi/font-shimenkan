@@ -2,10 +2,14 @@
 <glyph name="u16F5A" format="2">
   <advance width="343"/>
   <unicode hex="16F5A"/>
+  <anchor x="343" y="120" name="E"/>
+  <anchor x="0" y="120" name="EB"/>
   <anchor x="343" y="0" name="F"/>
   <anchor x="0" y="0" name="FB"/>
   <anchor x="0" y="10" name="FBR"/>
   <anchor x="343" y="10" name="FR"/>
+  <anchor x="343" y="100" name="K"/>
+  <anchor x="0" y="100" name="KB"/>
   <anchor x="343" y="170" name="S"/>
   <anchor x="0" y="170" name="SB"/>
   <anchor x="0" y="160" name="SBR"/>

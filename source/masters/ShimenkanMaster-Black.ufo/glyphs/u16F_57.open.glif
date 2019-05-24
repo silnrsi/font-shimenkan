@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F57.open" format="2">
   <advance width="380"/>
+  <anchor x="380" y="148" name="E"/>
+  <anchor x="0" y="148" name="EB"/>
   <anchor x="380" y="0" name="F"/>
   <anchor x="0" y="0" name="FB"/>
   <anchor x="0" y="10" name="FBR"/>
   <anchor x="380" y="10" name="FR"/>
+  <anchor x="380" y="128" name="K"/>
+  <anchor x="0" y="128" name="KB"/>
   <anchor x="380" y="200" name="S"/>
   <anchor x="0" y="200" name="SB"/>
   <anchor x="0" y="190" name="SBR"/>

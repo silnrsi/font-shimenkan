@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F17.dot" format="2">
   <advance width="546"/>
-  <anchor x="182" y="443" name="E"/>
+  <anchor x="182" y="453" name="E"/>
   <anchor x="447" y="0" name="F"/>
   <anchor x="91" y="700" name="H"/>
   <anchor x="132" y="700" name="HD"/>
-  <anchor x="447" y="227" name="K"/>
+  <anchor x="447" y="217" name="K"/>
   <anchor x="243" y="-45" name="L"/>
   <anchor x="281" y="660" name="S"/>
   <anchor x="182" y="335" name="W"/>

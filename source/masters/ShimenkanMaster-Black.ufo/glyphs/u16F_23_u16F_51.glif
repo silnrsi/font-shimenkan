@@ -2,12 +2,12 @@
 <glyph name="u16F23_u16F51" format="2">
   <advance width="808"/>
   <anchor x="808" y="578" name="D"/>
-  <anchor x="808" y="440" name="E"/>
+  <anchor x="808" y="450" name="E"/>
   <anchor x="808" y="0" name="F"/>
   <anchor x="808" y="10" name="FR"/>
   <anchor x="530" y="700" name="H"/>
   <anchor x="758" y="700" name="HD"/>
-  <anchor x="808" y="220" name="K"/>
+  <anchor x="808" y="210" name="K"/>
   <anchor x="530" y="-45" name="L"/>
   <anchor x="808" y="660" name="S"/>
   <anchor x="808" y="650" name="SR"/>

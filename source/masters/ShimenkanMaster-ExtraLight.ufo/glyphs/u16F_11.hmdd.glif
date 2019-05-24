@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F11.hmdd" format="2">
   <advance width="578"/>
-  <anchor x="479" y="443" name="E"/>
+  <anchor x="479" y="453" name="E"/>
   <anchor x="479" y="0" name="F"/>
   <anchor x="257" y="700" name="H"/>
   <anchor x="429" y="700" name="HD"/>
-  <anchor x="479" y="227" name="K"/>
+  <anchor x="479" y="217" name="K"/>
   <anchor x="257" y="-45" name="L"/>
   <anchor x="578" y="660" name="S"/>
   <anchor x="313" y="335" name="W"/>

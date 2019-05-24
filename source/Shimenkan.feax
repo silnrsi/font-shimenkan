@@ -323,9 +323,9 @@ do  for w = @W;
     }
 } space_waist_kern;
 
-do  for a = [EW KW FF SS WW FR SR ST SRT];
+do  for a = [EE KK FF SS WW FR SR ST SRT];
     let n = "cursive_attach_" + (a if a[1] in "RT" else a[0]);
-    let b = "@" + a[0] + "B" + a[1:] if a[1] in "RT" else "@" + a[1] + "B";
+    let b = "@" + a[0] + "B" + a[1:] if a[1] in "RT" else "@" + a[0] + "B";
     let c = "@" + a if a[1] in "RT" else "@" + a[0];
     {
         lookup $n {
