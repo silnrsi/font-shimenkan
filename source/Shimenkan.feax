@@ -437,15 +437,12 @@ lookup vowel_attach_basicright {
 } vowel_attach_basicright;
 
 lookup vowel_attach_sfm {
-    pos @E' @ASP' lookup cursive_attach_E @VOWEL_TALL' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
-    pos @E' @ASP' lookup cursive_attach_E @VOWEL_TALL' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
-    pos @E' @ASP' lookup cursive_attach_E @VOWEL_TALL' lookup cursive_attach_E u16F8F;
-    pos @E' lookup cursive_attach_E @pureWB' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
-    pos @E' lookup cursive_attach_E @pureWB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
-    pos @E' lookup cursive_attach_E @pureWB' lookup cursive_attach_E u16F8F;
-    pos @E' lookup cursive_attach_E @ASPALLMARKS' lookup asp_attach @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
-    pos @E' lookup cursive_attach_E @ASPALLMARKS' lookup asp_attach @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
-    pos @E' lookup cursive_attach_E @ASPALLMARKS' lookup asp_attach @WB' lookup cursive_attach_E u16F8F;
+    pos @E' @ASP' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' @ASP' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' @ASP' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
+    pos @E' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
     pos @K' lookup cursive_attach_K @WB' lookup cursive_attach_K @WB' lookup cursive_attach_K @WB' lookup cursive_attach_K u16F92;
     pos @K' lookup cursive_attach_K @WB' lookup cursive_attach_K @WB' lookup cursive_attach_K u16F92;
     pos @K' lookup cursive_attach_K @WB' lookup cursive_attach_K u16F92;
@@ -457,6 +454,11 @@ lookup vowel_attach_sfm {
     pos @H @_H' lookup attach_head_L @_H' lookup attach_vowel_HL u16F91;
     pos @H @VOWEL_DESC' lookup attach_head_D u16F91;
     pos @H @_H' lookup attach_head u16F91;
+    pos @S' lookup cursive_attach_S @ASP' lookup cursive_attach_S;
+    pos @FR' lookup cursive_attach_F @FBR' lookup cursive_attach_FR;
+    pos @FR' lookup cursive_attach_F @FBR';
+    pos @SB @ASPMARKS' lookup asp_attach;
+    pos @FR u16F53.mark' lookup attach_F;
 } vowel_attach_sfm;
 
 lookup vowel_attach_normal {
