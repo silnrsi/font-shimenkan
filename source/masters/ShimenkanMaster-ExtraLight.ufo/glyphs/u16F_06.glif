@@ -3,12 +3,12 @@
   <advance width="724"/>
   <unicode hex="16F06"/>
   <anchor x="724" y="646" name="D"/>
-  <anchor x="724" y="453" name="E"/>
+  <anchor x="724" y="413" name="E"/>
   <anchor x="724" y="0" name="F"/>
   <anchor x="724" y="10" name="FR"/>
   <anchor x="360" y="700" name="H"/>
   <anchor x="674" y="700" name="HD"/>
-  <anchor x="724" y="217" name="K"/>
+  <anchor x="724" y="246" name="K"/>
   <anchor x="360" y="-45" name="L"/>
   <anchor x="724" y="660" name="S"/>
   <anchor x="724" y="650" name="SR"/>

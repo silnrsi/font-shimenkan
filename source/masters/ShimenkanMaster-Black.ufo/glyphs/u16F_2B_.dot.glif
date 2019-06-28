@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F2B.dot" format="2">
-  <advance width="835"/>
-  <anchor x="469" y="450" name="E"/>
+  <advance width="688"/>
   <anchor x="616" y="0" name="F"/>
   <anchor x="252" y="700" name="H"/>
   <anchor x="419" y="700" name="HD"/>
-  <anchor x="616" y="210" name="K"/>
   <anchor x="313" y="-45" name="L"/>
   <anchor x="688" y="660" name="S"/>
   <anchor x="469" y="320" name="W"/>

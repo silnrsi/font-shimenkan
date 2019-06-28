@@ -2,12 +2,10 @@
 <glyph name="u16F35.ywqa" format="2">
   <advance width="603"/>
   <anchor x="603" y="629" name="D"/>
-  <anchor x="603" y="516" name="E"/>
   <anchor x="603" y="-1" name="F"/>
   <anchor x="603" y="9" name="FR"/>
   <anchor x="267" y="696" name="H"/>
   <anchor x="553" y="697" name="HD"/>
-  <anchor x="603" y="277" name="K"/>
   <anchor x="267" y="-45" name="L"/>
   <anchor x="603" y="649" name="S"/>
   <anchor x="603" y="639" name="SR"/>
