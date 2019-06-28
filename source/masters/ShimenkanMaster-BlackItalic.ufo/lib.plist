@@ -51,195 +51,82 @@
   <integer>100</integer>
   <key>public.glyphOrder</key>
   <array>
-    <string>u16F08</string>
-    <string>u16F0A</string>
-    <string>u16F16</string>
-    <string>u16F28</string>
-    <string>u16F35</string>
-    <string>u16F3A</string>
-    <string>u16F40</string>
-    <string>u16F42</string>
-    <string>u16F43</string>
     <string>u16F00</string>
-    <string>u16F04</string>
-    <string>u16F10</string>
-    <string>u16F1A</string>
-    <string>u16F1E</string>
-    <string>u16F2A</string>
-    <string>u16F3D</string>
+    <string>u16F01</string>
     <string>u16F02</string>
+    <string>u16F03</string>
+    <string>u16F04</string>
+    <string>u16F05</string>
+    <string>u16F06</string>
     <string>u16F07</string>
+    <string>u16F08</string>
+    <string>u16F09</string>
+    <string>u16F0A</string>
+    <string>u16F0B</string>
     <string>u16F0C</string>
     <string>u16F0D</string>
     <string>u16F0E</string>
+    <string>u16F0F</string>
+    <string>u16F10</string>
+    <string>u16F11</string>
+    <string>u16F12</string>
+    <string>u16F13</string>
+    <string>u16F14</string>
+    <string>u16F15</string>
+    <string>u16F16</string>
+    <string>u16F17</string>
+    <string>u16F18</string>
+    <string>u16F19</string>
+    <string>u16F1A</string>
+    <string>u16F1B</string>
+    <string>u16F1C</string>
+    <string>u16F1D</string>
+    <string>u16F1E</string>
+    <string>u16F1F</string>
     <string>u16F20</string>
     <string>u16F21</string>
+    <string>u16F22</string>
+    <string>u16F23</string>
+    <string>u16F24</string>
+    <string>u16F25</string>
     <string>u16F26</string>
+    <string>u16F27</string>
+    <string>u16F28</string>
+    <string>u16F29</string>
+    <string>u16F2A</string>
+    <string>u16F2B</string>
+    <string>u16F2C</string>
+    <string>u16F2D</string>
+    <string>u16F2E</string>
+    <string>u16F2F</string>
+    <string>u16F30</string>
     <string>u16F31</string>
     <string>u16F32</string>
-    <string>u16F37</string>
-    <string>u16F39</string>
-    <string>u16F48</string>
-    <string>u16F49</string>
-    <string>u16F4A</string>
-    <string>u16F2E</string>
-    <string>u16F30</string>
-    <string>u16F12</string>
     <string>u16F33</string>
-    <string>u16F3B</string>
-    <string>u16F50</string>
-    <string>u16F2C</string>
-    <string>u16F1C</string>
     <string>u16F34</string>
-    <string>u16F55</string>
-    <string>u16F59</string>
-    <string>u16F5D</string>
-    <string>u16F61</string>
-    <string>u16F62</string>
-    <string>u16F6A</string>
-    <string>u16F6B</string>
-    <string>u16F71</string>
-    <string>u16F75</string>
-    <string>u16F77</string>
-    <string>u16F79</string>
-    <string>u16F57</string>
-    <string>u16F58</string>
-    <string>u16F5C</string>
-    <string>u16F5E</string>
-    <string>u16F60</string>
-    <string>u16F63</string>
-    <string>u16F64</string>
-    <string>u16F66</string>
-    <string>u16F68</string>
-    <string>u16F69</string>
-    <string>u16F73</string>
-    <string>u16F74</string>
-    <string>u16F7B</string>
-    <string>u16F4F</string>
-    <string>u16F8F</string>
-    <string>u16F90</string>
-    <string>u16F91</string>
-    <string>u16F92</string>
-    <string>u16F03</string>
-    <string>u16F14</string>
-    <string>u16F18</string>
-    <string>u16F23</string>
-    <string>wart</string>
-    <string>u16F01</string>
-    <string>u16F05</string>
-    <string>u16F09</string>
-    <string>u16F0B</string>
-    <string>u16F0F</string>
-    <string>u16F11</string>
-    <string>u16F15</string>
-    <string>u16F17</string>
-    <string>u16F19</string>
-    <string>u16F1B</string>
-    <string>u16F1D</string>
-    <string>u16F1F</string>
-    <string>u16F22</string>
-    <string>u16F24</string>
-    <string>u16F29</string>
-    <string>u16F2B</string>
-    <string>u16F2D</string>
-    <string>u16F2F</string>
+    <string>u16F35</string>
     <string>u16F36</string>
+    <string>u16F37</string>
     <string>u16F38</string>
+    <string>u16F39</string>
+    <string>u16F3A</string>
+    <string>u16F3B</string>
     <string>u16F3C</string>
+    <string>u16F3D</string>
     <string>u16F3E</string>
+    <string>u16F3F</string>
+    <string>u16F40</string>
     <string>u16F41</string>
+    <string>u16F42</string>
+    <string>u16F43</string>
     <string>u16F44</string>
     <string>u16F45</string>
     <string>u16F46</string>
     <string>u16F47</string>
-    <string>u16F54</string>
-    <string>u16F56</string>
-    <string>u16F5A</string>
-    <string>u16F5B</string>
-    <string>u16F5F</string>
-    <string>u16F65</string>
-    <string>u16F67</string>
-    <string>u16F6C</string>
-    <string>u16F6D</string>
-    <string>u16F6E</string>
-    <string>u16F6F</string>
-    <string>u16F70</string>
-    <string>u16F72</string>
-    <string>u16F76</string>
-    <string>u16F78</string>
-    <string>u16F7A</string>
-    <string>u16F7C</string>
-    <string>u16F7D</string>
-    <string>u16F7E</string>
-    <string>u16F7F</string>
-    <string>u16F80</string>
-    <string>u16F81</string>
-    <string>u16F82</string>
-    <string>u16F83</string>
-    <string>u16F84</string>
-    <string>u16F85</string>
-    <string>u16F86</string>
-    <string>u16F87</string>
-    <string>u16F55.mark</string>
-    <string>u16F59.mark</string>
-    <string>u16F5D.mark</string>
-    <string>u16F61.mark</string>
-    <string>u16F62.mark</string>
-    <string>u16F6A.mark</string>
-    <string>u16F6B.mark</string>
-    <string>u16F71.mark</string>
-    <string>u16F75.mark</string>
-    <string>u16F77.mark</string>
-    <string>u16F79.mark</string>
-    <string>u16F57.mark</string>
-    <string>u16F58.mark</string>
-    <string>u16F5C.mark</string>
-    <string>u16F5E.mark</string>
-    <string>u16F60.mark</string>
-    <string>u16F63.mark</string>
-    <string>u16F64.mark</string>
-    <string>u16F66.mark</string>
-    <string>u16F68.mark</string>
-    <string>u16F69.mark</string>
-    <string>u16F73.mark</string>
-    <string>u16F74.mark</string>
-    <string>u16F7B.mark</string>
-    <string>u16F54.mark</string>
-    <string>u16F56.mark</string>
-    <string>u16F5A.mark</string>
-    <string>u16F5B.mark</string>
-    <string>u16F5F.mark</string>
-    <string>u16F65.mark</string>
-    <string>u16F67.mark</string>
-    <string>u16F6C.mark</string>
-    <string>u16F6D.mark</string>
-    <string>u16F6E.mark</string>
-    <string>u16F6F.mark</string>
-    <string>u16F70.mark</string>
-    <string>u16F72.mark</string>
-    <string>u16F76.mark</string>
-    <string>u16F78.mark</string>
-    <string>u16F7A.mark</string>
-    <string>u16F7C.mark</string>
-    <string>u16F7D.mark</string>
-    <string>u16F7E.mark</string>
-    <string>u16F7F.mark</string>
-    <string>u16F80.mark</string>
-    <string>u16F81.mark</string>
-    <string>u16F82.mark</string>
-    <string>u16F83.mark</string>
-    <string>u16F84.mark</string>
-    <string>u16F85.mark</string>
-    <string>u16F86.mark</string>
-    <string>u16F87.mark</string>
-    <string>u16F51</string>
-    <string>u16F51.mark</string>
-    <string>u16F52</string>
-    <string>u16F52.mark</string>
-    <string>u16F53</string>
-    <string>u16F53.mark</string>
-    <string>u16F0E_u16F4F</string>
-    <string>u16F10_u16F4F</string>
+    <string>u16F48</string>
+    <string>u16F49</string>
+    <string>u16F4A</string>
+    <string>wart</string>
     <string>dot</string>
     <string>u16F01.dot</string>
     <string>u16F05.dot</string>
@@ -273,35 +160,157 @@
     <string>u16F23.ygp</string>
     <string>u16F04.narrow</string>
     <string>u16F10.narrow</string>
-    <string>u16F7A.point</string>
-    <string>u16F7A.mark.point</string>
+    <string>u16F14.flat</string>
+    <string>u16F23.flat</string>
+    <string>u16F2F.ywqa</string>
+    <string>u16F35.ywqa</string>
+    <string>u16F04.lpo</string>
+    <string>u16F10.lpo</string>
+    <string>u16F33.lpo</string>
+    <string>u16F04.hmdd</string>
+    <string>u16F05.hmdd</string>
+    <string>u16F10.hmdd</string>
+    <string>u16F11.hmdd</string>
+    <string>u16F14.hmdd</string>
+    <string>u16F15.hmdd</string>
+    <string>u16F23.hmdd</string>
+    <string>u16F24.hmdd</string>
+    <string>u16F4F</string>
+    <string>u16F0E_u16F4F</string>
+    <string>u16F10_u16F4F</string>
+    <string>u16F50</string>
+    <string>u16F51</string>
+    <string>u16F52</string>
+    <string>u16F53</string>
+    <string>u16F51.mark</string>
+    <string>u16F52.mark</string>
+    <string>u16F53.mark</string>
     <string>u16F04_u16F51</string>
     <string>u16F10_u16F51</string>
     <string>u16F23_u16F51</string>
+    <string>u16F54</string>
+    <string>u16F55</string>
+    <string>u16F56</string>
+    <string>u16F57</string>
+    <string>u16F58</string>
+    <string>u16F59</string>
+    <string>u16F5A</string>
+    <string>u16F5B</string>
+    <string>u16F5C</string>
+    <string>u16F5D</string>
+    <string>u16F5E</string>
+    <string>u16F5F</string>
+    <string>u16F60</string>
+    <string>u16F61</string>
+    <string>u16F62</string>
+    <string>u16F63</string>
+    <string>u16F64</string>
+    <string>u16F65</string>
+    <string>u16F66</string>
+    <string>u16F67</string>
+    <string>u16F68</string>
+    <string>u16F69</string>
+    <string>u16F6A</string>
+    <string>u16F6B</string>
+    <string>u16F6C</string>
+    <string>u16F6D</string>
+    <string>u16F6E</string>
+    <string>u16F6F</string>
+    <string>u16F70</string>
+    <string>u16F71</string>
+    <string>u16F72</string>
+    <string>u16F73</string>
+    <string>u16F74</string>
+    <string>u16F75</string>
+    <string>u16F76</string>
+    <string>u16F77</string>
+    <string>u16F78</string>
+    <string>u16F79</string>
+    <string>u16F7A</string>
+    <string>u16F7B</string>
+    <string>u16F7C</string>
+    <string>u16F7D</string>
+    <string>u16F7E</string>
+    <string>u16F7F</string>
+    <string>u16F80</string>
+    <string>u16F81</string>
+    <string>u16F82</string>
+    <string>u16F83</string>
+    <string>u16F84</string>
+    <string>u16F85</string>
+    <string>u16F86</string>
+    <string>u16F87</string>
+    <string>u16F54.mark</string>
+    <string>u16F55.mark</string>
+    <string>u16F56.mark</string>
+    <string>u16F57.mark</string>
+    <string>u16F58.mark</string>
+    <string>u16F59.mark</string>
+    <string>u16F5A.mark</string>
+    <string>u16F5B.mark</string>
+    <string>u16F5C.mark</string>
+    <string>u16F5D.mark</string>
+    <string>u16F5E.mark</string>
+    <string>u16F5F.mark</string>
+    <string>u16F60.mark</string>
+    <string>u16F61.mark</string>
+    <string>u16F62.mark</string>
+    <string>u16F63.mark</string>
+    <string>u16F64.mark</string>
+    <string>u16F65.mark</string>
+    <string>u16F66.mark</string>
+    <string>u16F67.mark</string>
+    <string>u16F68.mark</string>
+    <string>u16F69.mark</string>
+    <string>u16F6A.mark</string>
+    <string>u16F6B.mark</string>
+    <string>u16F6C.mark</string>
+    <string>u16F6D.mark</string>
+    <string>u16F6E.mark</string>
+    <string>u16F6F.mark</string>
+    <string>u16F70.mark</string>
+    <string>u16F71.mark</string>
+    <string>u16F72.mark</string>
+    <string>u16F73.mark</string>
+    <string>u16F74.mark</string>
+    <string>u16F75.mark</string>
+    <string>u16F76.mark</string>
+    <string>u16F77.mark</string>
+    <string>u16F78.mark</string>
+    <string>u16F79.mark</string>
+    <string>u16F7A.mark</string>
+    <string>u16F7B.mark</string>
+    <string>u16F7C.mark</string>
+    <string>u16F7D.mark</string>
+    <string>u16F7E.mark</string>
+    <string>u16F7F.mark</string>
+    <string>u16F80.mark</string>
+    <string>u16F81.mark</string>
+    <string>u16F82.mark</string>
+    <string>u16F83.mark</string>
+    <string>u16F84.mark</string>
+    <string>u16F85.mark</string>
+    <string>u16F86.mark</string>
+    <string>u16F87.mark</string>
     <string>u16F57.open</string>
     <string>u16F57.mark.open</string>
-    <string>u16F14.flat</string>
-    <string>u16F23.flat</string>
-    <string>u16F35.ywqa</string>
-    <string>u16F2F.ywqa</string>
-    <string>u16F04.lpo</string>
-    <string>u16F10.lpo</string>
     <string>u16F58.lpo</string>
     <string>u16F58.mark.lpo</string>
-    <string>uni3001.lpo</string>
-    <string>u16F33.lpo</string>
-    <string>u16F04.hmdd</string>
-    <string>u16F10.hmdd</string>
-    <string>u16F14.hmdd</string>
-    <string>u16F23.hmdd</string>
-    <string>u16F05.hmdd</string>
-    <string>u16F11.hmdd</string>
-    <string>u16F15.hmdd</string>
-    <string>u16F24.hmdd</string>
     <string>u16F5E.hmdd</string>
     <string>u16F5E.mark.hmdd</string>
-    <string>u16F5F.mark.hmdd</string>
     <string>u16F5F.hmdd</string>
+    <string>u16F5F.mark.hmdd</string>
+    <string>u16F7A.point</string>
+    <string>u16F7A.mark.point</string>
+    <string>u16F8F</string>
+    <string>u16F90</string>
+    <string>u16F91</string>
+    <string>u16F92</string>
+    <string>tonemarkvisible</string>
+    <string>u16F8F.visible</string>
+    <string>u16F90.visible</string>
+    <string>u16F91.visible</string>
+    <string>u16F92.visible</string>
     <string>u16F93</string>
     <string>u16F94</string>
     <string>u16F95</string>
@@ -315,15 +324,6 @@
     <string>u16F9D</string>
     <string>u16F9E</string>
     <string>u16F9F</string>
-    <string>tonemarkvisible</string>
-    <string>u16F8F.visible</string>
-    <string>u16F90.visible</string>
-    <string>u16F91.visible</string>
-    <string>u16F92.visible</string>
-    <string>uni2010</string>
-    <string>uni2011</string>
-    <string>uni2027</string>
-    <string>uni2060</string>
     <string>uni3000</string>
     <string>uni3001</string>
     <string>uni3002</string>
@@ -341,6 +341,7 @@
     <string>uni301D</string>
     <string>uni301E</string>
     <string>uni301F</string>
+    <string>uni3001.lpo</string>
     <string>exclam.full</string>
     <string>parenleft.full</string>
     <string>parenright.full</string>
@@ -349,6 +350,7 @@
     <string>colon.full</string>
     <string>semicolon.full</string>
     <string>question.full</string>
+    <string>.notdef</string>
     <string>uni2000</string>
     <string>uni2001</string>
     <string>uni2002</string>
@@ -356,6 +358,7 @@
     <string>uni2004</string>
     <string>uni2005</string>
     <string>uni2006</string>
+    <string>figurespace</string>
     <string>uni2008</string>
     <string>uni2009</string>
     <string>uni200A</string>
@@ -371,6 +374,9 @@
     <string>uni202C</string>
     <string>uni202D</string>
     <string>uni202E</string>
+    <string>NNBS</string>
+    <string>uni2060</string>
+    <string>ZWNBS</string>
     <string>uniFE00</string>
     <string>uniFE01</string>
     <string>uniFE02</string>
@@ -388,11 +394,29 @@
     <string>uniFE0F</string>
     <string>uniFFFC</string>
     <string>uniFFFD</string>
-    <string>u16F06</string>
-    <string>u16F13</string>
-    <string>u16F25</string>
-    <string>u16F27</string>
-    <string>u16F3F</string>
+    <string>uni2010</string>
+    <string>uni2011</string>
+    <string>figuredash</string>
+    <string>endash</string>
+    <string>emdash</string>
+    <string>horizontalbar</string>
+    <string>quoteleft</string>
+    <string>quoteright</string>
+    <string>quotesinglbase</string>
+    <string>quotedblleft</string>
+    <string>quotedblright</string>
+    <string>quotedblbase</string>
+    <string>uni2027</string>
+    <string>guilsinglleft</string>
+    <string>guilsinglright</string>
+    <string>dagger</string>
+    <string>daggerdbl</string>
+    <string>bullet</string>
+    <string>ellipsis</string>
+    <string>perthousand</string>
+    <string>prime</string>
+    <string>dblprime</string>
+    <string>fraction</string>
     <string>space</string>
     <string>exclam</string>
     <string>quotedbl</string>
@@ -741,11 +765,6 @@
     <string>alphalatin</string>
     <string>schwa</string>
     <string>gscript</string>
-    <string>h.sups</string>
-    <string>j.sups</string>
-    <string>r.sups</string>
-    <string>w.sups</string>
-    <string>y.sups</string>
     <string>primemod</string>
     <string>commaturnedmod</string>
     <string>apostrophemod</string>
@@ -763,9 +782,6 @@
     <string>ogonek</string>
     <string>tilde</string>
     <string>hungarumlaut</string>
-    <string>l.sups</string>
-    <string>s.sups</string>
-    <string>x.sups</string>
     <string>gravecmb</string>
     <string>acutecmb</string>
     <string>circumflexcmb</string>
@@ -791,20 +807,7 @@
     <string>macronbelowcmb</string>
     <string>pi</string>
     <string>a.sups</string>
-    <string>b.sups</string>
-    <string>d.sups</string>
-    <string>e.sups</string>
-    <string>g.sups</string>
-    <string>k.sups</string>
-    <string>m.sups</string>
     <string>o.sups</string>
-    <string>p.sups</string>
-    <string>t.sups</string>
-    <string>u.sups</string>
-    <string>v.sups</string>
-    <string>c.sups</string>
-    <string>f.sups</string>
-    <string>z.sups</string>
     <string>Blinebelow</string>
     <string>blinebelow</string>
     <string>Ddotbelow</string>
@@ -953,66 +956,11 @@
     <string>yhoi</string>
     <string>Ytilde</string>
     <string>ytilde</string>
-    <string>figurespace</string>
-    <string>figuredash</string>
-    <string>endash</string>
-    <string>emdash</string>
-    <string>horizontalbar</string>
-    <string>quoteleft</string>
-    <string>quoteright</string>
-    <string>quotesinglbase</string>
-    <string>quotedblleft</string>
-    <string>quotedblright</string>
-    <string>quotedblbase</string>
-    <string>dagger</string>
-    <string>daggerdbl</string>
-    <string>bullet</string>
-    <string>ellipsis</string>
-    <string>NNBS</string>
-    <string>perthousand</string>
-    <string>prime</string>
-    <string>dblprime</string>
-    <string>guilsinglleft</string>
-    <string>guilsinglright</string>
-    <string>fraction</string>
-    <string>zero.sups</string>
-    <string>i.sups</string>
-    <string>four.sups</string>
-    <string>five.sups</string>
-    <string>six.sups</string>
-    <string>seven.sups</string>
-    <string>eight.sups</string>
-    <string>nine.sups</string>
-    <string>parenleft.sups</string>
-    <string>parenright.sups</string>
-    <string>n.sups</string>
-    <string>zero.subs</string>
-    <string>one.subs</string>
-    <string>two.subs</string>
-    <string>three.subs</string>
-    <string>four.subs</string>
-    <string>five.subs</string>
-    <string>six.subs</string>
-    <string>seven.subs</string>
-    <string>eight.subs</string>
-    <string>nine.subs</string>
-    <string>parenleft.subs</string>
-    <string>parenright.subs</string>
-    <string>schwa.sups</string>
-    <string>colonmonetary</string>
-    <string>lira</string>
-    <string>naira</string>
     <string>peseta</string>
     <string>dong</string>
     <string>Euro</string>
     <string>peso</string>
-    <string>guarani</string>
-    <string>cedi</string>
-    <string>rupeeindian</string>
-    <string>liraturkish</string>
     <string>litre</string>
-    <string>soundcopyright</string>
-    <string>servicemark</string>
     <string>trademark</string>
     <string>Omega.math</string>
     <string>estimated</string>
@@ -1069,8 +1017,6 @@
     <string>f_f</string>
     <string>fi</string>
     <string>fl</string>
-    <string>ZWNBS</string>
-    <string>.notdef</string>
     <string>acutecmb.cap</string>
     <string>breveacute</string>
     <string>breveacute.cap</string>
@@ -1095,10 +1041,6 @@
     <string>circumflexhoi.cap</string>
     <string>circumflextilde</string>
     <string>circumflextilde.cap</string>
-    <string>comma.dnom</string>
-    <string>comma.numr</string>
-    <string>comma.subs</string>
-    <string>comma.sups</string>
     <string>commabelowcmb.alt</string>
     <string>dblgravecmb.cap</string>
     <string>dieresisacute</string>
@@ -1111,84 +1053,28 @@
     <string>dieresismacron</string>
     <string>dieresismacron.cap</string>
     <string>dotaccentcmb.cap</string>
-    <string>eacute.sups</string>
-    <string>egrave.sups</string>
-    <string>eight.dnom</string>
-    <string>eight.numr</string>
-    <string>eight.onum</string>
-    <string>eight.pnum</string>
-    <string>eight.tnum</string>
-    <string>five.dnom</string>
-    <string>five.numr</string>
-    <string>five.onum</string>
-    <string>five.pnum</string>
-    <string>five.tnum</string>
-    <string>four.dnom</string>
-    <string>four.numr</string>
-    <string>four.onum</string>
-    <string>four.pnum</string>
-    <string>four.tnum</string>
     <string>gravecmb.cap</string>
-    <string>gtilde</string>
     <string>hoicmb.cap</string>
     <string>hungarumlautcmb.cap</string>
     <string>macronacute</string>
     <string>macronacute.cap</string>
     <string>macroncmb.cap</string>
     <string>nbspace.frac</string>
-    <string>nine.dnom</string>
-    <string>nine.numr</string>
-    <string>nine.onum</string>
-    <string>nine.pnum</string>
-    <string>nine.tnum</string>
     <string>ogonekcmb.cap</string>
-    <string>one.dnom</string>
-    <string>one.numr</string>
-    <string>one.onum</string>
-    <string>one.pnum</string>
-    <string>one.tnum</string>
-    <string>parenleft.dnom</string>
-    <string>parenleft.numr</string>
-    <string>parenright.dnom</string>
-    <string>parenright.numr</string>
-    <string>period.dnom</string>
-    <string>period.numr</string>
-    <string>period.subs</string>
-    <string>period.sups</string>
-    <string>q.sups</string>
     <string>ringcmb.cap</string>
-    <string>seven.dnom</string>
-    <string>seven.numr</string>
-    <string>seven.onum</string>
-    <string>seven.pnum</string>
-    <string>seven.tnum</string>
-    <string>six.dnom</string>
-    <string>six.numr</string>
-    <string>six.onum</string>
-    <string>six.pnum</string>
-    <string>six.tnum</string>
     <string>slash.frac</string>
     <string>space.frac</string>
-    <string>three.dnom</string>
-    <string>three.numr</string>
-    <string>three.onum</string>
-    <string>three.pnum</string>
-    <string>three.tnum</string>
     <string>tildecmb.cap</string>
-    <string>two.dnom</string>
-    <string>two.numr</string>
-    <string>two.onum</string>
-    <string>two.pnum</string>
-    <string>two.tnum</string>
-    <string>zero.0</string>
-    <string>zero.0p</string>
-    <string>zero.0ps</string>
-    <string>zero.0s</string>
     <string>zero.dnom</string>
-    <string>zero.numr</string>
-    <string>zero.onum</string>
-    <string>zero.pnum</string>
-    <string>zero.tnum</string>
+    <string>one.dnom</string>
+    <string>two.dnom</string>
+    <string>three.dnom</string>
+    <string>four.dnom</string>
+    <string>five.dnom</string>
+    <string>six.dnom</string>
+    <string>seven.dnom</string>
+    <string>eight.dnom</string>
+    <string>nine.dnom</string>
   </array>
 </dict>
 </plist>

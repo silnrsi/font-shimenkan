@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="parenright.sups" format="2">
-  <advance width="280"/>
-  <unicode hex="207E"/>
-  <outline>
-    <component base="parenright.dnom" yOffset="368"/>
-  </outline>
-</glyph>

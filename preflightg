@@ -16,7 +16,7 @@ psfbuildcomp -i source/composites.txt source/masters/ShimenkanMaster-ExtraLightI
 psfbuildcomp -i source/composites.txt source/masters/ShimenkanMaster-BlackItalic.ufo -l source/logs/compKI.log
 
 psfsetpsnames -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight.ufo
-psfsetglyphorder --header sort_design -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight.ufo
+psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight.ufo
 
 # Following sync will copy psnames and glyphorder updates to all fonts
 psfsyncmasters source/ShimenkanRoman.designspace source/ShimenkanItalic.designspace  -l source/logs/sync.log
