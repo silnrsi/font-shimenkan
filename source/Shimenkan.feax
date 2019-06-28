@@ -233,7 +233,7 @@ feature locl {
         lookup lig_open;
     language YWQA exclude_dflt;
         lookup lig_narrow;
-        lookup lig_flat;
+#        lookup lig_flat;
         lookup lig_ywqa;
     language HMD exclude_dflt;
         lookup lig_open;
@@ -612,7 +612,7 @@ feature kern {
         lookup shift_low_wasp;
     language SFM exclude_dflt;
         lookup vowel_attach_sfm;
-        lookup vowel_attach_normal;
+        lookup vowel_attach_right;
         lookup aspirations;
         lookup headfoot_vowels;
         lookup space_waist_kern;
@@ -646,9 +646,9 @@ feature kern {
         lookup narr_headfoot;
         lookup shift_low_wasp;
     language LPO exclude_dflt;
-        lookup vowel_attach_basicright;
+        lookup vowel_attach_basic;
         lookup vowel_attach_normal;
-        lookup vowel_attach_topright;
+        lookup vowel_attach_top;
         lookup aspirations;
         lookup headfoot_vowels;
         lookup space_waist_kern;
