@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F60.mark.ygp" format="2">
+  <advance width="308"/>
+  <anchor x="164" y="-40" name="_H"/>
+  <anchor x="0" y="-40" name="_HL"/>
+  <anchor x="308" y="-40" name="_HR"/>
+  <anchor x="164" y="377" name="_L"/>
+  <anchor x="0" y="377" name="_LL"/>
+  <anchor x="308" y="377" name="_LR"/>
+  <outline>
+    <component base="u16F60"/>
+  </outline>
+</glyph>

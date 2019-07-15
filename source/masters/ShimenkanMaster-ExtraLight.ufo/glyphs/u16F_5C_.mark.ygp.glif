@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F5C.mark.ygp" format="2">
+  <advance width="237"/>
+  <anchor x="108" y="-40" name="_H"/>
+  <anchor x="0" y="-40" name="_HL"/>
+  <anchor x="237" y="-40" name="_HR"/>
+  <anchor x="108" y="327" name="_L"/>
+  <anchor x="0" y="327" name="_LL"/>
+  <anchor x="237" y="327" name="_LR"/>
+  <outline>
+    <component base="u16F5C"/>
+  </outline>
+</glyph>

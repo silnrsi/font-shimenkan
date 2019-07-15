@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16F60.ygp" format="2">
+  <advance width="237"/>
+  <anchor x="237" y="120" name="E"/>
+  <anchor x="0" y="120" name="EB"/>
+  <anchor x="237" y="0" name="F"/>
+  <anchor x="0" y="0" name="FB"/>
+  <anchor x="0" y="10" name="FBR"/>
+  <anchor x="237" y="10" name="FR"/>
+  <anchor x="237" y="100" name="K"/>
+  <anchor x="0" y="100" name="KB"/>
+  <anchor x="237" y="232" name="S"/>
+  <anchor x="0" y="232" name="SB"/>
+  <anchor x="0" y="222" name="SBR"/>
+  <anchor x="0" y="302" name="SBRT"/>
+  <anchor x="0" y="312" name="SBT"/>
+  <anchor x="237" y="222" name="SR"/>
+  <anchor x="237" y="302" name="SRT"/>
+  <anchor x="237" y="312" name="ST"/>
+  <anchor x="237" y="110" name="W"/>
+  <anchor x="0" y="110" name="WB"/>
+  <outline>
+    <component base="u16F60"/>
+  </outline>
+</glyph>
