@@ -8,6 +8,6 @@
   <anchor x="0" y="377" name="_LL"/>
   <anchor x="308" y="377" name="_LR"/>
   <outline>
-    <component base="u16F73"/>
+    <component base="u16F73.ygp"/>
   </outline>
 </glyph>
