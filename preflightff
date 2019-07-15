@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# This normalization will also run check and fix routines
+psffixffglifs -p checkfix=fix source/masters/ShimenkanMaster-ExtraLight.ufo -l source/logs/fixffXL.log &
+psffixffglifs -p checkfix=fix source/masters/ShimenkanMaster-Black.ufo -l source/logs/fixffK.log &
+psffixffglifs -p checkfix=fix source/masters/ShimenkanMaster-ExtraLightItalic.ufo -l source/logs/fixffXLI.log &
+psffixffglifs -p checkfix=fix source/masters/ShimenkanMaster-BlackItalic.ufo -l source/logs/fixffKI.log &
+wait
+
+psfbuildcomp -i source/composites.txt source/masters/ShimenkanMaster-ExtraLight.ufo -l source/logs/compXL.log &
+psfbuildcomp -i source/composites.txt source/masters/ShimenkanMaster-Black.ufo -l source/logs/compK.log &
+psfbuildcomp -i source/composites.txt source/masters/ShimenkanMaster-ExtraLightItalic.ufo -l source/logs/compXLI.log &
+psfbuildcomp -i source/composites.txt source/masters/ShimenkanMaster-BlackItalic.ufo -l source/logs/compKI.log &
+wait
+
+psfsetpsnames -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight.ufo
+psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight.ufo
+
+# Following sync will copy psnames and glyphorder updates to all fonts
+psfsyncmasters source/ShimenkanRoman.designspace source/ShimenkanItalic.designspace  -l source/logs/sync.log
+
+psfmakefea -o source/masters/ShimenkanMaster-ExtraLight.ufo/features.fea -i source/Shimenkan.feax source/masters/ShimenkanMaster-ExtraLight.ufo &
+psfmakefea -o source/masters/ShimenkanMaster-Black.ufo/features.fea -i source/Shimenkan.feax source/masters/ShimenkanMaster-Black.ufo &
+# psfmakefea -o source/masters/ShimenkanMaster-ExtraLightItalic.ufo/features.fea -i source/Shimenkan.feax source/masters/ShimenkanMaster-ExtraLightItalic.ufo
+# psfmakefea -o source/masters/ShimenkanMaster-BlackItalic.ufo/features.fea -i source/Shimenkan.feax source/masters/ShimenkanMaster-BlackItalic.ufo
+wait
+
