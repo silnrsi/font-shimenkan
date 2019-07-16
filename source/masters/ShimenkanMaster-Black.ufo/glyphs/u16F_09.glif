@@ -12,7 +12,7 @@
   <anchor x="728" y="660" name="S"/>
   <anchor x="728" y="670" name="SRT"/>
   <anchor x="728" y="680" name="ST"/>
-  <anchor x="688" y="320" name="W"/>
+  <anchor x="698" y="320" name="W"/>
   <outline>
     <contour>
       <point x="185" y="190" type="curve" smooth="yes"/>

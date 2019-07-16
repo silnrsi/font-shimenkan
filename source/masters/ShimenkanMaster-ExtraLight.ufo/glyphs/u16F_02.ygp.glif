@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F02.ygp" format="2">
   <advance width="530"/>
-  <anchor x="356" y="640" name="D"/>
+  <anchor x="376" y="640" name="D"/>
   <anchor x="530" y="0" name="F"/>
   <anchor x="530" y="10" name="FR"/>
   <anchor x="265" y="700" name="H"/>
   <anchor x="306" y="700" name="HD"/>
   <anchor x="285" y="-45" name="L"/>
-  <anchor x="356" y="660" name="S"/>
+  <anchor x="376" y="660" name="S"/>
   <anchor x="530" y="650" name="SR"/>
   <anchor x="530" y="680" name="SRT"/>
-  <anchor x="356" y="690" name="ST"/>
-  <anchor x="356" y="335" name="W"/>
+  <anchor x="376" y="690" name="ST"/>
+  <anchor x="376" y="335" name="W"/>
   <outline>
     <contour>
       <point x="281" y="28" type="line"/>
