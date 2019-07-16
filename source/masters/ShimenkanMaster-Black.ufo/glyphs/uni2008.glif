@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2008" format="2">
-  <advance width="574"/>
+  <advance width="320"/>
   <unicode hex="2008"/>
-  <outline>
-    <component base="circledotted"/>
-  </outline>
+  <outline/>
 </glyph>
