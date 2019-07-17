@@ -474,35 +474,35 @@ lookup vowel_attach_normal {
 
 lookup vowel_attach_right {
     # asp + 3 vowels.
-    pos @SR' lookup cursive_attach_S @SBR' lookup cursive_attach_S @SBR' lookup cursive_attach_S @SBR' lookup cursive_attach_S @SBR' lookup cursive_attach_S u16F90;
-    pos @SR' lookup cursive_attach_S @SBR' lookup cursive_attach_S @SBR' lookup cursive_attach_S @SBR' lookup cursive_attach_S u16F90;
-    pos @SR' lookup cursive_attach_S @SBR' lookup cursive_attach_S @SBR' lookup cursive_attach_S u16F90;
-    pos @SR' lookup cursive_attach_S @SBR' lookup cursive_attach_S u16F90;
-    pos @SR' lookup cursive_attach_S u16F53.mark' @SBR' lookup cursive_attach_S @SBR' lookup cursive_attach_S @SBR' lookup cursive_attach_S u16F90;
-    pos @SR' lookup cursive_attach_S u16F53.mark' @SBR' lookup cursive_attach_S @SBR' lookup cursive_attach_S u16F90;
-    pos @SR' lookup cursive_attach_S u16F53.mark' @SBR' lookup cursive_attach_S u16F90;
+    pos @SR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR u16F90;
+    pos @SR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR u16F90;
+    pos @SR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR u16F90;
+    pos @SR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR u16F90;
+    pos @SR' lookup cursive_attach_SR u16F53.mark' @SBR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR u16F90;
+    pos @SR' lookup cursive_attach_SR u16F53.mark' @SBR' lookup cursive_attach_SR @SBR' lookup cursive_attach_SR u16F90;
+    pos @SR' lookup cursive_attach_SR u16F53.mark' @SBR' lookup cursive_attach_SR u16F90;
 } vowel_attach_right;
 
 lookup vowel_attach_top {
     # asp + 3 vowels.
-    pos @ST' lookup cursive_attach_S @SBT' lookup cursive_attach_S @SBT' lookup cursive_attach_S @SBT' lookup cursive_attach_S @SBT' lookup cursive_attach_S u16F90;
-    pos @ST' lookup cursive_attach_S @SBT' lookup cursive_attach_S @SBT' lookup cursive_attach_S @SBT' lookup cursive_attach_S u16F90;
-    pos @ST' lookup cursive_attach_S @SBT' lookup cursive_attach_S @SBT' lookup cursive_attach_S u16F90;
-    pos @ST' lookup cursive_attach_S @SBT' lookup cursive_attach_S u16F90;
-    pos @ST' lookup cursive_attach_S u16F53.mark' @SBT' lookup cursive_attach_S @SBT' lookup cursive_attach_S @SBT' lookup cursive_attach_S u16F90;
-    pos @ST' lookup cursive_attach_S u16F53.mark' @SBT' lookup cursive_attach_S @SBT' lookup cursive_attach_S u16F90;
-    pos @ST' lookup cursive_attach_S u16F53.mark' @SBT' lookup cursive_attach_S u16F90;
+    pos @ST' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST u16F90;
+    pos @ST' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST u16F90;
+    pos @ST' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST u16F90;
+    pos @ST' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST u16F90;
+    pos @ST' lookup cursive_attach_ST u16F53.mark' @SBT' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST u16F90;
+    pos @ST' lookup cursive_attach_ST u16F53.mark' @SBT' lookup cursive_attach_ST @SBT' lookup cursive_attach_ST u16F90;
+    pos @ST' lookup cursive_attach_ST u16F53.mark' @SBT' lookup cursive_attach_ST u16F90;
 } vowel_attach_top;
 
 lookup vowel_attach_topright {
     # asp + 3 vowels.
-    pos @SRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S u16F90;
-    pos @SRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S u16F90;
-    pos @SRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S u16F90;
-    pos @SRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S u16F90;
-    pos @SRT' lookup cursive_attach_S u16F53.mark' @SBRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S u16F90;
-    pos @SRT' lookup cursive_attach_S u16F53.mark' @SBRT' lookup cursive_attach_S @SBRT' lookup cursive_attach_S u16F90;
-    pos @SRT' lookup cursive_attach_S u16F53.mark' @SBRT' lookup cursive_attach_S u16F90;
+    pos @SRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT u16F90;
+    pos @SRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT u16F90;
+    pos @SRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT u16F90;
+    pos @SRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT u16F90;
+    pos @SRT' lookup cursive_attach_SRT u16F53.mark' @SBRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT u16F90;
+    pos @SRT' lookup cursive_attach_SRT u16F53.mark' @SBRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT u16F90;
+    pos @SRT' lookup cursive_attach_SRT u16F53.mark' @SBRT' lookup cursive_attach_SRT u16F90;
 } vowel_attach_topright;
 
 
@@ -623,7 +623,6 @@ feature kern {
         lookup shift_low_wasp;
     language HMD exclude_dflt;
         lookup vowel_attach_basic;
-        lookup vowel_attach_normal;
         lookup vowel_attach_top;
         lookup aspirations;
         lookup headfoot_vowels;
@@ -635,7 +634,6 @@ feature kern {
         lookup shift_low_wasp;
     language YWQA exclude_dflt;
         lookup vowel_attach_basic;
-        lookup vowel_attach_normal;
         lookup vowel_attach_top;
         lookup aspirations;
         lookup headfoot_vowels;
@@ -647,7 +645,6 @@ feature kern {
         lookup shift_low_wasp;
     language LPO exclude_dflt;
         lookup vowel_attach_basic;
-        lookup vowel_attach_normal;
         lookup vowel_attach_top;
         lookup aspirations;
         lookup headfoot_vowels;
@@ -659,7 +656,6 @@ feature kern {
         lookup shift_low_wasp;
     language YGP exclude_dflt;
         lookup vowel_attach_basicright;
-        lookup vowel_attach_normal;
         lookup vowel_attach_right;
         lookup aspirations;
         lookup headfoot_vowels;
