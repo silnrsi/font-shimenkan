@@ -7,10 +7,10 @@
   <anchor x="222" y="310" name="K"/>
   <anchor x="262" y="660" name="S"/>
   <anchor x="0" y="660" name="SB"/>
-  <anchor x="0" y="660" name="SBR"/>
-  <anchor x="262" y="660" name="SR"/>
-  <anchor x="262" y="660" name="SRT"/>
-  <anchor x="262" y="660" name="ST"/>
+  <anchor x="0" y="650" name="SBR"/>
+  <anchor x="262" y="650" name="SR"/>
+  <anchor x="262" y="680" name="SRT"/>
+  <anchor x="262" y="690" name="ST"/>
   <anchor x="222" y="320" name="W"/>
   <outline>
     <contour>
