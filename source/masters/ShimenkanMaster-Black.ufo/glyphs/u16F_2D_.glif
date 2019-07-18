@@ -10,6 +10,7 @@
   <anchor x="595" y="252" name="K"/>
   <anchor x="327" y="-45" name="L"/>
   <anchor x="595" y="660" name="S"/>
+  <anchor x="595" y="650" name="SR"/>
   <anchor x="595" y="670" name="SRT"/>
   <anchor x="595" y="680" name="ST"/>
   <anchor x="535" y="320" name="W"/>
