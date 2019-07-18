@@ -22,7 +22,7 @@ lookup error_circle {
 } error_circle;
 
 lookup error_check {
-    ignore sub @Cons [@ASP u16F53] @Cons;
+    ignore sub @Cons [@ASP u16F53]' @Cons;
     sub [@ASP u16F53]' lookup error_circle @Cons;
 } error_check;
 
