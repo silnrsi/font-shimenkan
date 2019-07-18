@@ -10,6 +10,22 @@
 @L_4F = [u16F0E_u16F4F u16F10_u16F4F];
 @L_no4F = [u16F0E u16F10];
 
+do  let c = feaclass("W");
+    let subc = filter(lambda g: int(re.sub(r"^u([0-9a-fA-F]+)([._].*)?$", r"\1", g), 16) < 0x16F51, c);
+    let l = " ".join(subc);
+    { @Cons = [ $l ]; }
+
+lookup error_circle {
+    sub u16F51 by circledotted u16F51;
+    sub u16F52 by circledotted u16F52;
+    sub u16F53 by circledotted u16F53;
+} error_circle;
+
+lookup error_check {
+    ignore sub @Cons [@ASP u16F53] @Cons;
+    sub [@ASP u16F53]' lookup error_circle @Cons;
+} error_check;
+
 lookup hide_tones {
     sub @c_visible by @cno_visible;
 } hide_tones;
@@ -53,11 +69,6 @@ lookup tone_t_asp3_t {
 lookup lig_4F {
     sub @L_no4F u16F4F by @L_4F;
 } lig_4F;
-
-do  let c = feaclass("W");
-    let subc = filter(lambda g: int(re.sub(r"^u([0-9a-fA-F]+)([._].*)?$", r"\1", g), 16) < 0x16F51, c);
-    let l = " ".join(subc);
-    { @Cons = [ $l ]; }
 
 
 # Break after tone. There are two cursive attachment behaviours. In the first you
@@ -177,16 +188,23 @@ lookup $l {
 } $l;
     }
 
+
 lookup left_asp_ma {
+    lookupflag UseMarkFilteringSet @ASPALLMARKS;
     sub u16F04 u16F51 by u16F04_u16F51;
+    sub u16F04 u16F51.mark by u16F04_u16F51;
 } left_asp_ma;
 
 lookup left_asp_na {
+    lookupflag UseMarkFilteringSet @ASPALLMARKS;
     sub u16F10 u16F51 by u16F10_u16F51;
+    sub u16F10 u16F51.mark by u16F10_u16F51;
 } left_asp_na;
 
 lookup left_asp_nga {
+    lookupflag UseMarkFilteringSet @ASPALLMARKS;
     sub u16F23 u16F51 by u16F23_u16F51;
+    sub u16F23 u16F51.mark by u16F23_u16F51;
 } left_asp_nga;
 
 languagesystem DFLT dflt;
@@ -199,7 +217,8 @@ languagesystem DFLT YGP;
 languagesystem DFLT YWQA;
 languagesystem DFLT YWQB;
 
-feature clig {
+feature rlig {
+        lookup error_check;
         lookup hide_tones;
         lookup lig_4F;
         lookup insert_gap_context;
@@ -207,13 +226,14 @@ feature clig {
         lookup block_W_context;
         lookup block_cursive;
     language SFM exclude_dflt;
+        lookup error_check;
         lookup hide_tones;
         lookup lig_4F;
         lookup insert_gap_context;
         lookup choose_vowel_marks_sfm;
         lookup block_W_context;
         lookup block_cursive;
-} clig;
+} rlig;
 
 feature locl {
   script DFLT;
