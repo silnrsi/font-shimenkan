@@ -5,10 +5,11 @@
   <anchor x="136" y="700" name="H"/>
   <anchor x="202" y="700" name="HD"/>
   <anchor x="136" y="-45" name="L"/>
-  <anchor x="351" y="660" name="S"/>
+  <anchor x="371" y="660" name="S"/>
+  <anchor x="371" y="690" name="ST"/>
   <anchor x="252" y="335" name="W"/>
   <outline>
     <component base="u16F28"/>
-    <component base="dot" xOffset="252"/>
+    <component base="dot" xOffset="272"/>
   </outline>
 </glyph>

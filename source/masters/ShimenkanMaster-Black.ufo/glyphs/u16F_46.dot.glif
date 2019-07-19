@@ -6,6 +6,7 @@
   <anchor x="492" y="700" name="HD"/>
   <anchor x="286" y="-45" name="L"/>
   <anchor x="761" y="660" name="S"/>
+  <anchor x="761" y="680" name="ST"/>
   <anchor x="542" y="320" name="W"/>
   <outline>
     <component base="u16F33"/>
