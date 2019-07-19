@@ -692,6 +692,17 @@ feature kern {
         lookup base_headfoot;
         lookup narr_headfoot;
         lookup shift_low_wasp;
+    language HMZ exclude_dflt;
+        lookup vowel_attach_basic;
+        lookup vowel_attach_top;
+        lookup aspirations;
+        lookup headfoot_vowels;
+        lookup space_waist_kern;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
+        lookup shift_low_wasp;
     language YWQA exclude_dflt;
         lookup vowel_attach_basic;
         lookup vowel_attach_top;
