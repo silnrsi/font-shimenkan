@@ -670,6 +670,17 @@ feature kern {
         lookup base_headfoot;
         lookup narr_headfoot;
         lookup shift_low_wasp;
+    language HMDD exclude_dflt;
+        lookup vowel_attach_basicright;
+        lookup vowel_attach_right;
+        lookup aspirations;
+        lookup headfoot_vowels;
+        lookup space_waist_kern;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
+        lookup shift_low_wasp;
     language HMD exclude_dflt;
         lookup vowel_attach_basic;
         lookup vowel_attach_top;
