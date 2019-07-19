@@ -2,7 +2,7 @@
 <glyph name="u16F36" format="2">
   <advance width="639"/>
   <unicode hex="16F36"/>
-  <anchor x="619" y="646" name="D"/>
+  <anchor x="639" y="646" name="D"/>
   <anchor x="639" y="413" name="E"/>
   <anchor x="639" y="0" name="F"/>
   <anchor x="639" y="10" name="FR"/>
