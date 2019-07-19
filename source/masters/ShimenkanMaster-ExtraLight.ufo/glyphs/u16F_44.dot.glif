@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F44.dot" format="2">
   <advance width="587"/>
-  <anchor x="335" y="0" name="F"/>
+  <anchor x="488" y="0" name="F"/>
   <anchor x="244" y="700" name="H"/>
   <anchor x="438" y="700" name="HD"/>
   <anchor x="244" y="-45" name="L"/>
