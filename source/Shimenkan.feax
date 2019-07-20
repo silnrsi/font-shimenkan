@@ -648,7 +648,7 @@ feature kern {
   script DFLT;
     language dflt;
         lookup vowel_attach_basic;
-        lookup vowel_attach_normal;
+        lookup vowel_attach_top;
         lookup aspirations;
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
@@ -661,7 +661,7 @@ feature kern {
         lookup shift_low_wasp;
     language SFM exclude_dflt;
         lookup vowel_attach_sfm;
-        lookup vowel_attach_right;
+        lookup vowel_attach_righttop;
         lookup aspirations;
         lookup headfoot_vowels;
         lookup space_waist_kern;
@@ -672,7 +672,7 @@ feature kern {
         lookup shift_low_wasp;
     language HMDD exclude_dflt;
         lookup vowel_attach_basicright;
-        lookup vowel_attach_right;
+        lookup vowel_attach_righttop;
         lookup aspirations;
         lookup headfoot_vowels;
         lookup space_waist_kern;
