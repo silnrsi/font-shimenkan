@@ -727,7 +727,7 @@ feature kern {
         lookup shift_low_wasp;
     language YGP exclude_dflt;
         lookup vowel_attach_basicright;
-        lookup vowel_attach_right;
+        lookup vowel_attach_topright;
         lookup aspirations;
         lookup headfoot_vowels;
         lookup space_waist_kern;
