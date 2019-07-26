@@ -23,9 +23,9 @@
 
 \subsection{SFM}
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑 / 𖼞𖽪𖼞𖽪𖾒𖼞𖽪𖾏𖼞𖽪𖾐 / 𖼖𖽪𖾐 }
+\proof[size="28pt"]{𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑 / 𖼞𖽪𖼞𖽪𖾒𖼞𖽪𖾏𖼞𖽪𖾐 / 𖼞𖽪𖾒𖼞𖽞𖾒𖼞𖽟𖾒𖼞𖽱𖾒𖼞𖽜𖾒 / 𖼖𖽪𖾐 }
 \setTestFont[language="x-hbotSFM"]
-\proof[size="28pt"]{𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑 / 𖼞𖽪𖼞𖽪𖾒𖼞𖽪𖾏𖼞𖽪𖾐 / 𖼖𖽪𖾐 }
+\proof[size="28pt"]{𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑 / 𖼞𖽪𖼞𖽪𖾒𖼞𖽪𖾏𖼞𖽪𖾐 / 𖼞𖽪𖾒𖼞𖽞𖾒𖼞𖽟𖾒𖼞𖽱𖾒𖼞𖽜𖾒 / 𖼖𖽪𖾐 }
 
 \subsection{HMZ}
 \setTestFont[language="dflt"]
