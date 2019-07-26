@@ -2,7 +2,7 @@
 <glyph name="u16F2B" format="2">
   <advance width="626"/>
   <unicode hex="16F2B"/>
-  <anchor x="489" y="578" name="D"/>
+  <anchor x="626" y="578" name="D"/>
   <anchor x="626" y="403" name="E"/>
   <anchor x="626" y="0" name="F"/>
   <anchor x="626" y="10" name="FR"/>
@@ -10,11 +10,11 @@
   <anchor x="419" y="700" name="HD"/>
   <anchor x="626" y="252" name="K"/>
   <anchor x="323" y="-45" name="L"/>
-  <anchor x="489" y="660" name="S"/>
+  <anchor x="469" y="660" name="S"/>
   <anchor x="626" y="650" name="SR"/>
   <anchor x="626" y="670" name="SRT"/>
-  <anchor x="489" y="680" name="ST"/>
-  <anchor x="499" y="315" name="W"/>
+  <anchor x="469" y="680" name="ST"/>
+  <anchor x="479" y="315" name="W"/>
   <outline>
     <component base="u16F2A" xOffset="10"/>
     <component base="wart" xOffset="47"/>
