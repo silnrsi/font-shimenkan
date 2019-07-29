@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F2B.dot" format="2">
   <advance width="649"/>
-  <anchor x="550" y="0" name="F"/>
+  <anchor x="535" y="0" name="F"/>
   <anchor x="203" y="700" name="H"/>
   <anchor x="331" y="700" name="HD"/>
   <anchor x="290" y="-45" name="L"/>
   <anchor x="649" y="660" name="S"/>
   <anchor x="649" y="690" name="ST"/>
-  <anchor x="381" y="335" name="W"/>
+  <anchor x="535" y="335" name="W"/>
   <outline>
     <component base="u16F2A"/>
     <component base="dot" xOffset="550"/>
