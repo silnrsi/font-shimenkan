@@ -2,6 +2,7 @@
 <glyph name="u16F01.dot" format="2">
   <advance width="546"/>
   <anchor x="432" y="0" name="F"/>
+  <anchor x="432" y="10" name="FR"/>
   <anchor x="356" y="700" name="H"/>
   <anchor x="397" y="700" name="HD"/>
   <anchor x="223" y="-45" name="L"/>
