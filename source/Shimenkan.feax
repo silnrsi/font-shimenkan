@@ -640,7 +640,8 @@ do  for b = @narrowH;
     }
 } narr_headfoot;
 
-lookup shift_low_wasp {
+lookup low_vowel_wasp {
+    lookupflag UseMarkFilteringSet @VOWEL_DESC;
 do  for h = @H;
     let m = int((MAXx("u16F51") + MINx("u16F51"))/2);
     let s = APx(h, "S") - APx("u16F51", "SB") + m - APx(h, "HD");
@@ -648,28 +649,16 @@ do  for h = @H;
     if s > 0;
     {
         pos $h @VOWEL_DESC' <$s 0 0 0> u16F91' @ASP' $d;
-        pos $h @_H @VOWEL_DESC' <$s 0 0 0> u16F91' @ASP' $d;
-        pos $h @_H @_H @VOWEL_DESC' <$s 0 0 0> u16F91' @ASP' $d;
     }
-} shift_low_wasp;
+} low_vowel_wasp;
 
-lookup shift_low_w {
+lookup hang_attach_spacing {
 do  for v = @VOWEL_DESC;
     let s = int(APx(v, "_HR") - APx(v, "_H"));
     {
         pos @H' $s $v u16F91;
     }
-} shift_low_w;
-
-lookup kern_asp {
-    lookupflag IgnoreMarks;
-do  for b = @H;
-    let s = APx(b, "S") - ADVx(b);
-    if s < 0;
-    {
-        pos $b @ASP $s;
-    }
-} kern_asp;
+} hang_attach_spacing;
 
 
 feature kern {
@@ -687,8 +676,8 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
-        lookup shift_low_wasp;
-        lookup shift_low_w;
+        lookup low_vowel_wasp;
+        lookup hang_attach_spacing;
     language SFM exclude_dflt;
         lookup vowel_attach_sfm;
         lookup vowel_attach_topright;
@@ -702,8 +691,8 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
-        lookup shift_low_wasp;
-        lookup shift_low_w;
+        lookup low_vowel_wasp;
+        lookup hang_attach_spacing;
     language HMDD exclude_dflt;
         lookup vowel_attach_basicright;
         lookup vowel_attach_topright;
@@ -714,8 +703,8 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
-        lookup shift_low_wasp;
-        lookup shift_low_w;
+        lookup low_vowel_wasp;
+        lookup hang_attach_spacing;
     language HMD exclude_dflt;
         lookup vowel_attach_basic;
         lookup vowel_attach_top;
@@ -729,8 +718,8 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
-        lookup shift_low_wasp;
-        lookup shift_low_w;
+        lookup low_vowel_wasp;
+        lookup hang_attach_spacing;
     language HMZ exclude_dflt;
         lookup vowel_attach_basic;
         lookup vowel_attach_top;
@@ -744,8 +733,8 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
-        lookup shift_low_wasp;
-        lookup shift_low_w;
+        lookup low_vowel_wasp;
+        lookup hang_attach_spacing;
     language YWQA exclude_dflt;
         lookup vowel_attach_basic;
         lookup vowel_attach_top;
@@ -759,8 +748,8 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
-        lookup shift_low_wasp;
-        lookup shift_low_w;
+        lookup low_vowel_wasp;
+        lookup hang_attach_spacing;
     language LPO exclude_dflt;
         lookup vowel_attach_basic;
         lookup vowel_attach_top;
@@ -774,8 +763,8 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
-        lookup shift_low_wasp;
-        lookup shift_low_w;
+        lookup low_vowel_wasp;
+        lookup hang_attach_spacing;
     language YGP exclude_dflt;
         lookup vowel_attach_basicright;
         lookup vowel_attach_topright;
@@ -786,8 +775,8 @@ feature kern {
         lookup adv_headfoot;
         lookup base_headfoot;
         lookup narr_headfoot;
-        lookup shift_low_wasp;
-        lookup shift_low_w;
+        lookup low_vowel_wasp;
+        lookup hang_attach_spacing;
 } kern;
 
 table GDEF {
