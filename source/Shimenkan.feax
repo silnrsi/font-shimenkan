@@ -561,23 +561,31 @@ lookup headfoot_vowels {
     pos @L' @_L' lookup left_shift_vowel @_L' lookup attach_vowel_LL @_H' lookup attach_vowel_LL u16F92;
 } headfoot_vowels;
 
+# This lookup is for legacy cursive attachment
 lookup asp_hf_attach_right {
-    pos @S' lookup cursive_attach_S [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES @ASP;
-    pos @S' lookup cursive_attach_S [@_H @_L] [@_H @_L] @MARKTONES @ASP;
-    pos @S' lookup cursive_attach_S [@_H @_L] @MARKTONES @ASP;
-    pos @F' lookup cursive_attach_F [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES u16F53;
-    pos @F' lookup cursive_attach_F [@_H @_L] [@_H @_L] @MARKTONES u16F53;
-    pos @F' lookup cursive_attach_F [@_H @_L] @MARKTONES u16F53;
+    lookupflag UseMarkFilteringSet @MARKTONES;
+
+    pos @S' lookup cursive_attach_S @MARKTONES @ASP;
+    pos @F' lookup cursive_attach_F @MARKTONES u16F53;
 } asp_hf_attach_right;
 
 lookup asp_hf_attach_left {
-    pos @S [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES @ASP' lookup cursive_attach_S;
-    pos @S [@_H @_L] [@_H @_L] @MARKTONES @ASP' lookup cursive_attach_S;
-    pos @S [@_H @_L] @MARKTONES @ASP' lookup cursive_attach_S;
-    pos @F [@_H @_L] [@_H @_L] [@_H @_L] @MARKTONES u16F53' lookup cursive_attach_F;
-    pos @F [@_H @_L] [@_H @_L] @MARKTONES u16F53' lookup cursive_attach_F;
-    pos @F [@_H @_L] @MARKTONES u16F53' lookup cursive_attach_F;
+    lookupflag UseMarkFilteringSet @MARKTONES;
+
+    pos @S @MARKTONES @ASP' lookup cursive_attach_S;
+    pos @F @MARKTONES u16F53' lookup cursive_attach_F;
 } asp_hf_attach_left;
+
+lookup asp_fix_attach {
+    lookupflag UseMarkFilteringSet @MARKTONES;
+
+do  for b = @S;
+    let s = ADVx(b) - APx(b, "S") - ADVx("u16F51");
+    if s > 0;
+    {
+        pos $b @MARKTONES @ASP' $s;
+    }
+} asp_fix_attach;
 
 lookup aspirations {
     pos @W @ASPALLMARKS' lookup asp_attach @WB u16F8F;
@@ -653,6 +661,17 @@ do  for v = @VOWEL_DESC;
     }
 } shift_low_w;
 
+lookup kern_asp {
+    lookupflag IgnoreMarks;
+do  for b = @H;
+    let s = APx(b, "S") - ADVx(b);
+    if s < 0;
+    {
+        pos $b @ASP $s;
+    }
+} kern_asp;
+
+
 feature kern {
   script DFLT;
     language dflt;
@@ -662,6 +681,7 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_hf_attach_left;
+        lookup asp_fix_attach;
         lookup space_waist_kern;
         lookup space_headfoot;
         lookup adv_headfoot;
@@ -674,6 +694,9 @@ feature kern {
         lookup vowel_attach_topright;
         lookup aspirations;
         lookup headfoot_vowels;
+        lookup asp_hf_attach_right;
+        lookup asp_hf_attach_left;
+        lookup asp_fix_attach;
         lookup space_waist_kern;
         lookup space_headfoot;
         lookup adv_headfoot;
@@ -698,6 +721,9 @@ feature kern {
         lookup vowel_attach_top;
         lookup aspirations;
         lookup headfoot_vowels;
+        lookup asp_hf_attach_right;
+        lookup asp_hf_attach_left;
+        lookup asp_fix_attach;
         lookup space_waist_kern;
         lookup space_headfoot;
         lookup adv_headfoot;
@@ -710,6 +736,9 @@ feature kern {
         lookup vowel_attach_top;
         lookup aspirations;
         lookup headfoot_vowels;
+        lookup asp_hf_attach_right;
+        lookup asp_hf_attach_left;
+        lookup asp_fix_attach;
         lookup space_waist_kern;
         lookup space_headfoot;
         lookup adv_headfoot;
@@ -722,6 +751,9 @@ feature kern {
         lookup vowel_attach_top;
         lookup aspirations;
         lookup headfoot_vowels;
+        lookup asp_hf_attach_right;
+        lookup asp_hf_attach_left;
+        lookup asp_fix_attach;
         lookup space_waist_kern;
         lookup space_headfoot;
         lookup adv_headfoot;
@@ -734,6 +766,9 @@ feature kern {
         lookup vowel_attach_top;
         lookup aspirations;
         lookup headfoot_vowels;
+        lookup asp_hf_attach_right;
+        lookup asp_hf_attach_left;
+        lookup asp_fix_attach;
         lookup space_waist_kern;
         lookup space_headfoot;
         lookup adv_headfoot;
