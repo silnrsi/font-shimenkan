@@ -311,6 +311,7 @@ def makerules(lname, o, c) {
     if fres not in makerules.cache:
         makerules.cache[fres] = lname
     makerules.namemap[lname] = makerules.cache[fres]
+    # already in the cache under another name
     if makerules.cache[fres] != lname:
         return ""
     else:
@@ -400,6 +401,10 @@ lookup attach_vowel_LL {
     pos mark @_LR mark @_LL;
 } attach_vowel_LL;
 
+# left shift vowels by fixed average width
+# not per vowel since we want the left side of vowel
+# sequence to be the same. Also all known 3 vowel sequences
+# start with this character.
 do  let a = -int(ADVx("u16F61") / 2);
     {
         lookup left_shift_vowel {
@@ -410,9 +415,8 @@ do  let a = -int(ADVx("u16F61") / 2);
 do  let w = " ".join(x for x in feaclass('WB') if x not in ('u16F51', 'u16F52'));
     { @pureWB = [$w]; }
 
-
+#############
 # lookups for basic vowel attachment, specifically W, H, L & F
-
 lookup vowel_attach_basic {
     # remember cursive attachment must work both forwards and backwards
     pos @W' @ASP' lookup cursive_attach_W @VOWEL_TALL' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
@@ -476,7 +480,6 @@ lookup vowel_attach_basicright {
     pos @FR u16F53.mark' lookup attach_F;
 } vowel_attach_basicright;
 
-
 # Use E & K instead of W & L
 lookup vowel_attach_sfm {
     pos @E' @ASP' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E @WB' lookup cursive_attach_E u16F8F;
@@ -507,10 +510,10 @@ lookup vowel_attach_sfm {
     pos @SB @ASPMARKS' lookup asp_attach;
     pos @FR u16F53.mark' lookup attach_F;
 } vowel_attach_sfm;
+#############
 
-
+#############
 # Different types of S attachment lookups for different languages
-
 lookup vowel_attach_normal {
     # asp + 3 vowels.
     pos @S' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S @SB' lookup cursive_attach_S u16F90;
@@ -554,8 +557,9 @@ lookup vowel_attach_topright {
     pos @SRT' lookup cursive_attach_SRT u16F53.mark' @SBRT' lookup cursive_attach_SRT @SBRT' lookup cursive_attach_SRT u16F90;
     pos @SRT' lookup cursive_attach_SRT u16F53.mark' @SBRT' lookup cursive_attach_SRT u16F90;
 } vowel_attach_topright;
+#############
 
-# Sequences of H & L vowels
+# Sequences of 3 H & L vowels
 lookup headfoot_vowels {
     pos @H' @_H' lookup left_shift_vowel @_H' lookup attach_vowel_HL @_H' lookup attach_vowel_HL u16F91;
     pos @L' @_L' lookup left_shift_vowel @_L' lookup attach_vowel_LL @_H' lookup attach_vowel_LL u16F92;
@@ -569,6 +573,7 @@ lookup asp_hf_attach_right {
     pos @F' lookup cursive_attach_F @MARKTONES u16F53;
 } asp_hf_attach_right;
 
+# cursively attach asp to base
 lookup asp_hf_attach_left {
     lookupflag UseMarkFilteringSet @MARKTONES;
 
@@ -576,6 +581,7 @@ lookup asp_hf_attach_left {
     pos @F @MARKTONES u16F53' lookup cursive_attach_F;
 } asp_hf_attach_left;
 
+# Give extra space to base if asp attached completely inside it
 lookup asp_fix_attach {
     lookupflag UseMarkFilteringSet @MARKTONES;
 
@@ -587,6 +593,7 @@ do  for b = @S;
     }
 } asp_fix_attach;
 
+# attach ASP marks to base
 lookup aspirations {
     pos @W @ASPALLMARKS' lookup asp_attach @WB u16F8F;
     pos @S u16F53.mark' lookup attach_F @SB u16F90;
@@ -639,9 +646,12 @@ do  for b = @narrowH;
         pos uni2060' $d $b' $d $m @MARKTONES;
     }
 } narr_headfoot;
+#############
 
+# Shift hanging vowels right for ASP
+@LOW_VOWEL_WASP = [@VOWEL_DESC u16F91];
 lookup low_vowel_wasp {
-    lookupflag UseMarkFilteringSet @VOWEL_DESC;
+    lookupflag UseMarkFilteringSet @LOW_VOWEL_WASP;
 do  for h = @H;
     let m = int((MAXx("u16F51") + MINx("u16F51"))/2);
     let s = APx(h, "S") - APx("u16F51", "SB") + m - APx(h, "HD");
@@ -652,6 +662,7 @@ do  for h = @H;
     }
 } low_vowel_wasp;
 
+# Give extra space to the base when a vowel hangs right over it
 lookup hang_attach_spacing {
 do  for v = @VOWEL_DESC;
     let s = int(APx(v, "_HR") - APx(v, "_H"));
