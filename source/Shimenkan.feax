@@ -667,7 +667,8 @@ lookup hang_attach_spacing {
 do  for v = @VOWEL_DESC;
     let s = int(APx(v, "_HR") - APx(v, "_H"));
     {
-        pos @H' $s $v u16F91;
+        pos @H' $v' u16F91' @ASP' $s;
+        pos @H' $s $v' u16F91';
     }
 } hang_attach_spacing;
 
