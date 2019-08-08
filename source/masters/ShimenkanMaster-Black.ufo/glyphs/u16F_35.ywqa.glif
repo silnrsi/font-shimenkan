@@ -2,8 +2,8 @@
 <glyph name="u16F35.ywqa" format="2">
   <advance width="603"/>
   <anchor x="603" y="629" name="D"/>
-  <anchor x="603" y="-1" name="F"/>
-  <anchor x="603" y="9" name="FR"/>
+  <anchor x="603" y="0" name="F"/>
+  <anchor x="603" y="10" name="FR"/>
   <anchor x="267" y="696" name="H"/>
   <anchor x="553" y="697" name="HD"/>
   <anchor x="267" y="-45" name="L"/>
