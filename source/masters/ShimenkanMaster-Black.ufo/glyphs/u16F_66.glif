@@ -2,36 +2,36 @@
 <glyph name="u16F66" format="2">
   <advance width="334"/>
   <unicode hex="16F66"/>
-  <anchor x="334" y="148" name="E"/>
-  <anchor x="0" y="148" name="EB"/>
+  <anchor x="334" y="128" name="E"/>
+  <anchor x="0" y="128" name="EB"/>
   <anchor x="334" y="0" name="F"/>
   <anchor x="0" y="0" name="FB"/>
   <anchor x="0" y="10" name="FBR"/>
   <anchor x="334" y="10" name="FR"/>
-  <anchor x="334" y="128" name="K"/>
-  <anchor x="0" y="128" name="KB"/>
-  <anchor x="334" y="200" name="S"/>
-  <anchor x="0" y="200" name="SB"/>
-  <anchor x="0" y="190" name="SBR"/>
-  <anchor x="0" y="276" name="SBRT"/>
-  <anchor x="0" y="286" name="SBT"/>
-  <anchor x="334" y="190" name="SR"/>
-  <anchor x="334" y="276" name="SRT"/>
-  <anchor x="334" y="286" name="ST"/>
-  <anchor x="334" y="138" name="W"/>
-  <anchor x="0" y="138" name="WB"/>
+  <anchor x="334" y="108" name="K"/>
+  <anchor x="0" y="108" name="KB"/>
+  <anchor x="334" y="180" name="S"/>
+  <anchor x="0" y="180" name="SB"/>
+  <anchor x="0" y="170" name="SBR"/>
+  <anchor x="0" y="256" name="SBRT"/>
+  <anchor x="0" y="266" name="SBT"/>
+  <anchor x="334" y="170" name="SR"/>
+  <anchor x="334" y="256" name="SRT"/>
+  <anchor x="334" y="266" name="ST"/>
+  <anchor x="334" y="118" name="W"/>
+  <anchor x="0" y="118" name="WB"/>
   <outline>
     <contour>
-      <point x="30" y="256" type="line"/>
-      <point x="30" y="166" type="line"/>
-      <point x="304" y="166" type="line"/>
-      <point x="304" y="256" type="line"/>
+      <point x="30" y="236" type="line"/>
+      <point x="30" y="146" type="line"/>
+      <point x="304" y="146" type="line"/>
+      <point x="304" y="236" type="line"/>
     </contour>
     <contour>
-      <point x="30" y="110" type="line"/>
-      <point x="30" y="20" type="line"/>
-      <point x="304" y="20" type="line"/>
-      <point x="304" y="110" type="line"/>
+      <point x="30" y="90" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="304" y="0" type="line"/>
+      <point x="304" y="90" type="line"/>
     </contour>
   </outline>
 </glyph>

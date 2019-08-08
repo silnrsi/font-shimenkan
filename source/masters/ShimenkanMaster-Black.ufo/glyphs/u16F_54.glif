@@ -2,30 +2,30 @@
 <glyph name="u16F54" format="2">
   <advance width="324"/>
   <unicode hex="16F54"/>
-  <anchor x="324" y="148" name="E"/>
-  <anchor x="0" y="148" name="EB"/>
+  <anchor x="324" y="55" name="E"/>
+  <anchor x="0" y="55" name="EB"/>
   <anchor x="324" y="0" name="F"/>
   <anchor x="0" y="0" name="FB"/>
   <anchor x="0" y="10" name="FBR"/>
   <anchor x="324" y="10" name="FR"/>
-  <anchor x="324" y="128" name="K"/>
-  <anchor x="0" y="128" name="KB"/>
-  <anchor x="324" y="200" name="S"/>
-  <anchor x="0" y="200" name="SB"/>
-  <anchor x="0" y="190" name="SBR"/>
-  <anchor x="0" y="203" name="SBRT"/>
-  <anchor x="0" y="213" name="SBT"/>
-  <anchor x="324" y="190" name="SR"/>
-  <anchor x="324" y="203" name="SRT"/>
-  <anchor x="324" y="213" name="ST"/>
-  <anchor x="324" y="138" name="W"/>
-  <anchor x="0" y="138" name="WB"/>
+  <anchor x="324" y="35" name="K"/>
+  <anchor x="0" y="35" name="KB"/>
+  <anchor x="324" y="107" name="S"/>
+  <anchor x="0" y="107" name="SB"/>
+  <anchor x="0" y="97" name="SBR"/>
+  <anchor x="0" y="110" name="SBRT"/>
+  <anchor x="0" y="120" name="SBT"/>
+  <anchor x="324" y="97" name="SR"/>
+  <anchor x="324" y="110" name="SRT"/>
+  <anchor x="324" y="120" name="ST"/>
+  <anchor x="324" y="45" name="W"/>
+  <anchor x="0" y="45" name="WB"/>
   <outline>
     <contour>
-      <point x="25" y="183" type="line"/>
-      <point x="25" y="93" type="line"/>
-      <point x="299" y="93" type="line"/>
-      <point x="299" y="183" type="line"/>
+      <point x="25" y="90" type="line"/>
+      <point x="25" y="0" type="line"/>
+      <point x="299" y="0" type="line"/>
+      <point x="299" y="90" type="line"/>
     </contour>
   </outline>
 </glyph>
