@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>650</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2018, SIL International (http://scripts.sil.org), with Reserved Font Names 'Shimenkan', 'Sapushan', 'Salaowu', and 'Taogu'. Latin glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.</string>
+  <string>Copyright (c) 2018-2019, SIL International (http://scripts.sil.org), with Reserved Font Names 'Shimenkan', 'Sapushan', 'Salaowu', and 'Taogu'. Latin glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.</string>
   <key>descender</key>
   <integer>-234</integer>
   <key>familyName</key>
@@ -80,7 +80,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/08/08 10:01:40</string>
+  <string>2019/08/12 21:01:50</string>
   <key>openTypeHheaAscender</key>
   <integer>1024</integer>
   <key>openTypeHheaDescender</key>
@@ -94,7 +94,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>http://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2018, SIL International (http://scripts.sil.org), with Reserved Font Names 'Shimenkan', 'Sapushan', 'Salaowu', and 'Taogu'. Latin glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.
+  <string>Copyright (c) 2018-2019, SIL International (http://scripts.sil.org), with Reserved Font Names 'Shimenkan', 'Sapushan', 'Salaowu', and 'Taogu'. Latin glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
@@ -150,7 +150,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Shimenkan Master Black: 2019</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.503</string>
+  <string>Version 0.900</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -252,7 +252,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>503</integer>
+  <integer>900</integer>
   <key>xHeight</key>
   <integer>500</integer>
 </dict>

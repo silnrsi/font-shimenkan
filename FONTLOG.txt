@@ -7,9 +7,7 @@ This information should be distributed along with the Shimenkan fonts and
 any derivative works.
 
 The Shimenkan family of fonts supports the broad variety of writing systems
-that use the Miao (Pollard) script. This is currently a work-in-progress,
-so these fonts and related files are preliminary and incomplete. They
-should not be used for creating derivatives until a later release.
+that use the Miao (Pollard) script.
 
 The Latin glyphs are based on the OFL-licensed Source Sans Pro fonts
 (https://github.com/adobe-fonts/source-sans-pro). The Miao glyphs are
@@ -29,6 +27,9 @@ ChangeLog
 ----------
 (This should list both major and minor changes, most recent first.)
 
+14 Aug 2019 (SIL WSTech team)
+- Initial release
+
 12 Mar 2018 (SIL NRSI team)
 - Initial repository established for preliminary work
 
@@ -39,7 +40,7 @@ Acknowledgements
 be sure to add your name (N), email (E), web-address (W) and description (D).
 This list is sorted by last name in alphabetical order.)
 
-N: SIL font engineers
+N: SIL font designers and engineers
 E: http://scripts.sil.org/support
 W: http://scripts.sil.org/
 D: Graphite, OpenType, and TypeTuner code, and build support
