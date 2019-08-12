@@ -14,67 +14,96 @@
 
 %%%%% TESTS
 
-\section{Language feature tests - default shown first}
+\section{Language feature tests}
+
+\subsection{YNA}
+\setTestFont[language="dflt"]
+\proof[size="24pt"]{1 dflt 𖼞𖽜𖼞𖽜𖾐𖼞𖽜𖾑 𖼞𖽠𖼞𖽠𖾐𖼞𖽠𖾑 𖼞𖽳𖼞𖽳𖾐𖼞𖽳𖾑 / 𖼖𖽪𖾐 }
+\setTestFont[language="x-hbotYNA"]
+\proof[size="24pt"]{2 YNA 𖼞𖽜𖼞𖽜𖾐𖼞𖽜𖾑 𖼞𖽠𖼞𖽠𖾐𖼞𖽠𖾑 𖼞𖽳𖼞𖽳𖾐𖼞𖽳𖾑 / 𖼖𖽪𖾐 }
+\setTestFont[language="dflt"]
+\proof[size="24pt"]{3 dflt 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\setTestFont[language="x-hbotYNA"]
+\proof[size="24pt"]{4 YNA 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+
 \subsection{YGP}
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼂𖼣𖼔 / 𖼄𖼐 / 𖼞𖽜𖼞𖽜𖾐𖼞𖽜𖾑 𖼞𖽠𖼞𖽠𖾐𖼞𖽠𖾑 𖼞𖽳𖼞𖽳𖾐𖼞𖽳𖾑 / 𖼖𖽪𖾐 | 𖼮𖽪𖾏 𖼮𖽑𖽪𖾏 𖼮𖽪𖾐 𖼮𖽑𖽪𖾐 }
-\proof[size="28pt"]{𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 𖼽𖽹𖼽𖽑𖽹 𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\proof[size="24pt"]{1 dflt 𖼂𖼣𖼔 / 𖼄𖼐 / 𖼞𖽜𖼞𖽜𖾐𖼞𖽜𖾑 𖼞𖽠𖼞𖽠𖾐𖼞𖽠𖾑 𖼞𖽳𖼞𖽳𖾐𖼞𖽳𖾑 / 𖼖𖽪𖾐 }
 \setTestFont[language="YGP"]
-\proof[size="28pt"]{𖼂𖼣𖼔 / 𖼄𖼐 / 𖼞𖽜𖼞𖽜𖾐𖼞𖽜𖾑 𖼞𖽠𖼞𖽠𖾐𖼞𖽠𖾑 𖼞𖽳𖼞𖽳𖾐𖼞𖽳𖾑 / 𖼖𖽪𖾐 | 𖼮𖽪𖾏 𖼮𖽑𖽪𖾏 𖼮𖽪𖾐 𖼮𖽑𖽪𖾐 }
-\proof[size="28pt"]{𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 𖼽𖽹𖼽𖽑𖽹 𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\proof[size="24pt"]{2 YGP 𖼂𖼣𖼔 / 𖼄𖼐 / 𖼞𖽜𖼞𖽜𖾐𖼞𖽜𖾑 𖼞𖽠𖼞𖽠𖾐𖼞𖽠𖾑 𖼞𖽳𖼞𖽳𖾐𖼞𖽳𖾑 / 𖼖𖽪𖾐 }
+\setTestFont[language="dflt"]
+\proof[size="24pt"]{3 dflt 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
+\setTestFont[language="YGP"]
+\proof[size="24pt"]{4 YGP 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
 
 \subsection{SFM}
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑 / 𖼞𖽪𖼞𖽪𖾒𖼞𖽪𖾏𖼞𖽪𖾐 / 𖼞𖽪𖾒𖼞𖽞𖾒𖼞𖽟𖾒𖼞𖽱𖾒𖼞𖽜𖾒 / 𖼖𖽪𖾐 }
+\proof[size="24pt"]{1 dflt 𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑 / 𖼢 / 𖼞𖽪𖼞𖽪𖾒𖼞𖽪𖾏𖼞𖽪𖾐 / 𖼞𖽪𖾒𖼞𖽞𖾒𖼞𖽟𖾒𖼞𖽱𖾒𖼞𖽜𖾒 / 𖼖𖽪𖾐 }
 \setTestFont[language="x-hbotSFM"]
-\proof[size="28pt"]{𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑 / 𖼞𖽪𖼞𖽪𖾒𖼞𖽪𖾏𖼞𖽪𖾐 / 𖼞𖽪𖾒𖼞𖽞𖾒𖼞𖽟𖾒𖼞𖽱𖾒𖼞𖽜𖾒 / 𖼖𖽪𖾐 }
-\proof[size="28pt"]{𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 𖼽𖽹𖼽𖽑𖽹 𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\proof[size="24pt"]{2 SFM 𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑 / 𖼢 / 𖼞𖽪𖼞𖽪𖾒𖼞𖽪𖾏𖼞𖽪𖾐 / 𖼞𖽪𖾒𖼞𖽞𖾒𖼞𖽟𖾒𖼞𖽱𖾒𖼞𖽜𖾒 / 𖼖𖽪𖾐 }
+\setTestFont[language="dflt"]
+\proof[size="24pt"]{3 dflt 𖼞𖽑𖽪𖼞𖽑𖽪𖾒𖼞𖽑𖽪𖾏𖼞𖽑𖽪𖾐𖼞𖽑𖽪𖾑 / 𖼇𖽑𖽪𖼇𖽑𖽪𖾒𖼇𖽑𖽪𖾏𖼇𖽑𖽪𖾐𖼇𖽑𖽪𖾑 / 𖼽𖽑𖽪𖼽𖽑𖽪𖾒𖼽𖽑𖽪𖾏𖼽𖽑𖽪𖾐𖼽𖽑𖽪𖾑 / 𖼇𖽝𖽠𖼇𖽑𖽝𖽠  }
+\setTestFont[language="x-hbotSFM"]
+\proof[size="24pt"]{4 SFM 𖼞𖽑𖽪𖼞𖽑𖽪𖾒𖼞𖽑𖽪𖾏𖼞𖽑𖽪𖾐𖼞𖽑𖽪𖾑 / 𖼇𖽑𖽪𖼇𖽑𖽪𖾒𖼇𖽑𖽪𖾏𖼇𖽑𖽪𖾐𖼇𖽑𖽪𖾑 / 𖼽𖽑𖽪𖼽𖽑𖽪𖾒𖼽𖽑𖽪𖾏𖼽𖽑𖽪𖾐𖼽𖽑𖽪𖾑 / 𖼇𖽝𖽠𖼇𖽑𖽝𖽠  }
 
 \subsection{HMZ}
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑𖼣𖽑 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
+\proof[size="24pt"]{1 dflt 𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑𖼣𖽑 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
 \setTestFont[language="x-hbotHMZ"]
-\proof[size="28pt"]{𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑𖼣𖽑 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
-\proof[size="28pt"]{𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 𖼽𖽹𖼽𖽑𖽹 𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\proof[size="24pt"]{2 HMZ 𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼄𖽑𖼐𖽑𖼣𖽑 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
+\setTestFont[language="dflt"]
+\proof[size="24pt"]{3 dflt 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
+\setTestFont[language="x-hbotHMZ"]
+\proof[size="24pt"]{4 HMZ 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
 
 \subsection{YWQA}
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼄𖼐 / 𖼔𖼣 / 𖼵𖼯 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾐𖼞𖽗𖾑  }
+\proof[size="24pt"]{1 dflt 𖼄𖼐 / 𖼔𖼣 / 𖼵𖼯 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾐𖼞𖽗𖾑  }
 \setTestFont[language="x-hbotYWQA"]
-\proof[size="28pt"]{𖼄𖼐 / 𖼔𖼣 / 𖼵𖼯 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾐𖼞𖽗𖾑  }
-\proof[size="28pt"]{𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 𖼽𖽹𖼽𖽑𖽹 𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\proof[size="24pt"]{2 YWQA 𖼄𖼐 / 𖼔𖼣 / 𖼵𖼯 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾐𖼞𖽗𖾑  }
+\setTestFont[language="dflt"]
+\proof[size="24pt"]{3 dflt 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
+\setTestFont[language="x-hbotYWQA"]
+\proof[size="24pt"]{4 YWQA 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
 
 \subsection{HMD}
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼐𖽑 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
+\proof[size="24pt"]{1 dflt 𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼐𖽑 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
 \setTestFont[language="x-hbotHMD"]
-\proof[size="28pt"]{𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼐𖽑 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
-\proof[size="28pt"]{𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 𖼽𖽹𖼽𖽑𖽹 𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\proof[size="24pt"]{2 HMD 𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼐𖽑 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
+\setTestFont[language="dflt"]
+\proof[size="24pt"]{3 dflt 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
+\setTestFont[language="x-x-hbotHMD"]
+\proof[size="24pt"]{4 HMD 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
 
 \subsection{LPO}
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼄𖼐 / 𖼔𖼣 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑   / 𖼞𖽘𖾒𖼞𖽘𖼞𖽘𖾏𖼞𖽘𖾐𖼞𖽘𖾑   / 𖼳 / 、}
+\proof[size="24pt"]{1 dflt 𖼄𖼐 / 𖼔𖼣 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑   / 𖼞𖽘𖾒𖼞𖽘𖼞𖽘𖾏𖼞𖽘𖾐𖼞𖽘𖾑   / 𖼳 / 、}
 \setTestFont[language="LPO"]
-\proof[size="28pt"]{𖼄𖼐 / 𖼔𖼣 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑   / 𖼞𖽘𖾒𖼞𖽘𖼞𖽘𖾏𖼞𖽘𖾐𖼞𖽘𖾑   / 𖼳 / 、}
-\proof[size="28pt"]{𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 𖼽𖽹𖼽𖽑𖽹 𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\proof[size="24pt"]{2 LPO 𖼄𖼐 / 𖼔𖼣 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑   / 𖼞𖽘𖾒𖼞𖽘𖼞𖽘𖾏𖼞𖽘𖾐𖼞𖽘𖾑   / 𖼳 / 、}
+\setTestFont[language="dflt"]
+\proof[size="24pt"]{3 dflt 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
+\setTestFont[language="LPO"]
+\proof[size="24pt"]{4 LPO 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
 
 \subsection{YWQB}
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼄𖼐 / 𖼔𖼣}
+\proof[size="24pt"]{1 dflt 𖼄𖼐 / 𖼔𖼣 }
 \setTestFont[language="x-hbotYWQB"]
-\proof[size="28pt"]{𖼄𖼐 / 𖼔𖼣}
-\proof[size="28pt"]{𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 𖼽𖽹𖼽𖽑𖽹 𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\proof[size="24pt"]{2 YWQB 𖼄𖼐 / 𖼔𖼣 }
 
 \subsection{HMDD}
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼞𖽺 / 𖼞𖽗 / 𖼞𖽞𖼞𖽟 / 𖼄𖼐𖼔𖼣 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑 / 𖼁𖼗𖼁𖽪𖼗𖽪 }
+\proof[size="24pt"]{1 dflt 𖼞𖽺 / 𖼞𖽗 / 𖼞𖽞𖼞𖽟 / 𖼄𖼐𖼔𖼣 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑 / 𖼁𖼗𖼁𖽪𖼗𖽪 }
 \setTestFont[language="x-hbotHMDD"]
-\proof[size="28pt"]{𖼞𖽺 / 𖼞𖽗 / 𖼞𖽞𖼞𖽟 / 𖼄𖼐𖼔𖼣 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑 / 𖼁𖼗𖼁𖽪𖼗𖽪 }
-\proof[size="28pt"]{𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 𖼽𖽹𖼽𖽑𖽹 𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\proof[size="24pt"]{2 HMDD 𖼞𖽺 / 𖼞𖽗 / 𖼞𖽞𖼞𖽟 / 𖼄𖼐𖼔𖼣 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑 / 𖼁𖼗𖼁𖽪𖼗𖽪 }
 \setTestFont[language="dflt"]
-\proof[size="28pt"]{𖼁𖼅𖼉𖼋𖼏𖼑𖼕𖼗𖼙𖼛𖼝𖼟𖼢𖼤𖼩𖼫𖼭𖼯𖼶𖼸𖼼𖼾𖽁𖽄𖽅𖽆𖽇}
+\proof[size="24pt"]{3 dflt 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼋𖽝𖼋𖽑𖽝𖼋𖽝𖽠𖼋𖽑𖽝𖽠 }
 \setTestFont[language="x-hbotHMDD"]
-\proof[size="28pt"]{𖼁𖼅𖼉𖼋𖼏𖼑𖼕𖼗𖼙𖼛𖼝𖼟𖼢𖼤𖼩𖼫𖼭𖼯𖼶𖼸𖼼𖼾𖽁𖽄𖽅𖽆𖽇}
-\proof[size="28pt"]{𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 𖼽𖽹𖼽𖽑𖽹 𖼽𖽹𖾐𖼽𖽑𖽹𖾐}
+\proof[size="24pt"]{4 HMDD 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼋𖽝𖼋𖽑𖽝𖼋𖽝𖽠𖼋𖽑𖽝𖽠 }
+\setTestFont[language="dflt"]
+\proof[size="24pt"]{5 dflt 𖼁𖼅𖼉𖼋𖼏𖼑𖼕𖼗𖼙𖼛𖼝𖼟𖼢𖼤𖼩𖼫𖼭𖼯𖼶𖼸𖼼𖼾𖽁𖽄𖽅𖽆𖽇}
+\setTestFont[language="x-hbotHMDD"]
+\proof[size="24pt"]{6 HMDD 𖼁𖼅𖼉𖼋𖼏𖼑𖼕𖼗𖼙𖼛𖼝𖼟𖼢𖼤𖼩𖼫𖼭𖼯𖼶𖼸𖼼𖼾𖽁𖽄𖽅𖽆𖽇}
 
 \end{document}
