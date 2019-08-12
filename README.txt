@@ -10,7 +10,7 @@ The Shimenkan family of fonts supports the broad variety of writing systems that
 - Shimenkan MGS - for Sinicized Miao [hmz] 
 - Shimenkan Zonghe - for Aluo / Gan Yi / Laka / Niluo / Yala [yna]
 - Taogu - for Lipo [lpo]
-(these lanauge names need checking!)
+(these language names need checking!)
 
 The Latin glyphs are based on the OFL-licensed Source Sans Pro fonts (https://github.com/adobe-fonts/source-sans-pro). The Miao glyphs are designed to harmonize with the Latin, but remain true to the unique characteristics of Miao writing systems. The project is inspired by, but not based on, the Miao Unicode project (https://github.com/phjamr/MiaoUnicode).
 
