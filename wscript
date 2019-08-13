@@ -16,6 +16,7 @@ DESC_SHORT = "A family of fonts for the Miao (Pollard) script."
 # retrieve all the authorship information from one of the master UFOs
 getufoinfo('source/masters/ShimenkanMaster-ExtraLight.ufo')
 BUILDLABEL="test"
+TESTFILES = {"wordlists/lpo-headwords.txt": "lang=lpo"}
 
 opts = preprocess_args({'opt' : '--alllangs'})
 
@@ -42,7 +43,8 @@ ftmlTest("tools/ftml-padauk.xsl")
 # (the Italic designspace is not included yet)
 fontfamily=APPNAME
 packages = { x : package(appname = langfontname("Shimenkan", x).replace(" ", ""),
-                         version = VERSION)
+                         version = VERSION,
+                         package_files = {})
                  for x in langinfo.keys() }
                        
 for dspace in ('Roman', ):
@@ -56,12 +58,13 @@ for dspace in ('Roman', ):
                 script = ['DFLT'],
                 name = "${DS:FAMILYNAME}")
     for l in langinfo.keys():
+        packages[l].package_files['langs/' + l + '/*'] = '/'
         for f in d.fonts:
             (fname, _, ext) = f.target.rpartition("-")
             fname = langfontname(fname, l).replace(" ", "")
-            n = font(target = process('langs/' + l + "/" + fname + "-" + ext,
-                            cmd("psfdeflang -q -L " + l + " ${DEP} ${TGT}"),
-                            name(langfontname(f.name, l))),
+            outf = 'langs/' + l + "/" + fname + "-" + ext
+            n = font(target = process(outf, cmd("psfdeflang -q -L " + l + " ${DEP} ${TGT}"),
+                                            name(langfontname(f.name, l))),
                     opentype = internal(),
                     source = f.target,
                     lang = l,
