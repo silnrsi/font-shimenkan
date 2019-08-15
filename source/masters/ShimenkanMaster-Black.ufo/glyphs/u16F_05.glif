@@ -16,7 +16,34 @@
   <anchor x="566" y="680" name="ST"/>
   <anchor x="566" y="320" name="W"/>
   <outline>
+    <contour>
+      <point x="374" y="400" type="curve"/>
+      <point x="374" y="470" type="line"/>
+      <point x="373" y="470"/>
+      <point x="331" y="470"/>
+      <point x="330" y="470" type="curve" smooth="yes"/>
+      <point x="231" y="470"/>
+      <point x="185" y="410"/>
+      <point x="185" y="330" type="curve" smooth="yes"/>
+      <point x="185" y="250"/>
+      <point x="231" y="190"/>
+      <point x="330" y="190" type="curve" smooth="yes"/>
+      <point x="331" y="190"/>
+      <point x="373" y="190"/>
+      <point x="374" y="190" type="curve"/>
+      <point x="374" y="260" type="line"/>
+      <point x="373" y="260"/>
+      <point x="336" y="260"/>
+      <point x="335" y="260" type="curve" smooth="yes"/>
+      <point x="287" y="260"/>
+      <point x="265" y="293"/>
+      <point x="265" y="330" type="curve" smooth="yes"/>
+      <point x="265" y="367"/>
+      <point x="286" y="400"/>
+      <point x="335" y="400" type="curve" smooth="yes"/>
+      <point x="336" y="400"/>
+      <point x="373" y="400"/>
+    </contour>
     <component base="u16F04"/>
-    <component base="wart" xOffset="150"/>
   </outline>
 </glyph>
