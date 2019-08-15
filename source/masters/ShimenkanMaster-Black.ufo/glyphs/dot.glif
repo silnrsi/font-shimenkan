@@ -2,6 +2,8 @@
 <glyph name="dot" format="2">
   <advance width="219"/>
   <anchor x="219" y="660" name="S"/>
+  <anchor x="219" y="650" name="SR"/>
+  <anchor x="219" y="670" name="SRT"/>
   <anchor x="219" y="680" name="ST"/>
   <anchor x="0" y="578" name="_D"/>
   <outline>

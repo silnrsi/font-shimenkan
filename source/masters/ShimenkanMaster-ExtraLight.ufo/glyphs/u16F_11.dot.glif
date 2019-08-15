@@ -7,6 +7,8 @@
   <anchor x="494" y="700" name="HD"/>
   <anchor x="312" y="-45" name="L"/>
   <anchor x="643" y="660" name="S"/>
+  <anchor x="643" y="650" name="SR"/>
+  <anchor x="643" y="680" name="SRT"/>
   <anchor x="643" y="690" name="ST"/>
   <anchor x="529" y="335" name="W"/>
   <outline>
