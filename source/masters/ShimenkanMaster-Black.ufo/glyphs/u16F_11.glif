@@ -14,7 +14,7 @@
   <anchor x="721" y="650" name="SR"/>
   <anchor x="721" y="670" name="SRT"/>
   <anchor x="721" y="680" name="ST"/>
-  <anchor x="661" y="320" name="W"/>
+  <anchor x="581" y="320" name="W"/>
   <outline>
     <component base="u16F10" xOffset="155"/>
     <component base="wart" xOffset="5"/>

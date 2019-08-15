@@ -14,7 +14,7 @@
   <anchor x="545" y="650" name="SR"/>
   <anchor x="545" y="670" name="SRT"/>
   <anchor x="545" y="680" name="ST"/>
-  <anchor x="485" y="320" name="W"/>
+  <anchor x="385" y="320" name="W"/>
   <outline>
     <contour>
       <point x="65" y="0" type="line"/>
