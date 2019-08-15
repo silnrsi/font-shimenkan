@@ -616,7 +616,7 @@ lookup vowel_attach_ygp {
 } vowel_attach_ygp;
 
 # same as both but don't right attach asps.
-lookup vowel_attach_basichmd {
+lookup vowel_attach_hmd {
     # remember cursive attachment must work both forwards and backwards
     pos @W' @ASP' lookup cursive_attach_W @VOWEL_TALL' lookup cursive_attach_W @WB' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
     pos @W' @ASP' lookup cursive_attach_W @VOWEL_TALL' lookup cursive_attach_W @WB' lookup cursive_attach_W u16F8F;
@@ -635,7 +635,7 @@ lookup vowel_attach_basichmd {
     pos @L @_L' lookup attach_foot_L @_L @_L u16F92;
     pos @L @_L' lookup attach_foot_L @_L' lookup attach_vowel_LL u16F92;
     pos @L @_L' lookup attach_foot u16F92;
-    pos @S' lookup cursive_attach_SR @ASP' lookup cursive_attach_SR;
+    pos @S' lookup cursive_attach_S @ASP' lookup cursive_attach_S;
     pos @FR' lookup cursive_attach_F @ASPALLMARKS' lookup asp_attach @FBR' lookup cursive_attach_F @FBR' lookup cursive_attach_F @FBR' lookup cursive_attach_F;
     pos @FR' lookup cursive_attach_F @ASPALLMARKS' lookup asp_attach @FBR' lookup cursive_attach_F @FBR' lookup cursive_attach_F;
     pos @FR' lookup cursive_attach_FR @ASPALLMARKS' lookup asp_attach @FBR' lookup cursive_attach_FR;
@@ -645,7 +645,7 @@ lookup vowel_attach_basichmd {
     pos @FR' lookup cursive_attach_F @FBR' lookup cursive_attach_F;
     pos @SB @ASPMARKS' lookup asp_attach;
     pos @FR u16F53.mark' lookup attach_F;
-} vowel_attach_basichmd;
+} vowel_attach_hmd;
 
 #############
 
@@ -891,7 +891,7 @@ feature kern {
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
     language HMD exclude_dflt;
-        lookup vowel_attach_basichmd;
+        lookup vowel_attach_hmd;
         lookup vowel_attach_top;
         lookup aspirations;
         lookup headfoot_vowels;
