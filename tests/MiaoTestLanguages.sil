@@ -32,7 +32,7 @@
 \setTestFont[language="YGP"]
 \proof[size="24pt"]{2 YGP 𖼂𖼣𖼔 / 𖼄𖼐 / 𖼞𖽜𖼞𖽜𖾐𖼞𖽜𖾑 𖼞𖽠𖼞𖽠𖾐𖼞𖽠𖾑 𖼞𖽳𖼞𖽳𖾐𖼞𖽳𖾑 / 𖼖𖽪𖾐 }
 \setTestFont[language="dflt"]
-\proof[size="24pt"]{3 dflt 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
+\proof[size="24pt"]{3 dflt 𖼮𖽪𖼮𖽑𖽪𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠𖼇𖽪𖾐𖼇𖽑𖽪𖾐 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
 \setTestFont[language="YGP"]
 \proof[size="24pt"]{4 YGP 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
 
