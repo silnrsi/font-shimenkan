@@ -16,7 +16,9 @@ DESC_SHORT = "A family of fonts for the Miao (Pollard) script."
 # retrieve all the authorship information from one of the master UFOs
 getufoinfo('source/masters/ShimenkanMaster-ExtraLight.ufo')
 BUILDLABEL="test"
-TESTFILES = {"wordlists/lpo-headwords.txt": "lang=lpo"}
+TESTFILES = {"wordlists/lpo-headwords.txt": "lang=lpo",
+             "wordlists/sfm_combinations.txt": "lang=x-hbotSFM",
+             "wordlists/hmd-wordlist.txt": "lang=x-hbotHMD"}
 
 opts = preprocess_args({'opt' : '--alllangs'})
 
