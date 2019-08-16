@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u16F04_u16F51" format="2">
-  <advance width="808"/>
-  <anchor x="808" y="578" name="D"/>
-  <anchor x="808" y="403" name="E"/>
-  <anchor x="808" y="0" name="F"/>
-  <anchor x="808" y="10" name="FR"/>
-  <anchor x="515" y="700" name="H"/>
-  <anchor x="708" y="700" name="HD"/>
-  <anchor x="808" y="252" name="K"/>
-  <anchor x="515" y="-45" name="L"/>
-  <anchor x="808" y="660" name="S"/>
-  <anchor x="808" y="650" name="SR"/>
-  <anchor x="808" y="670" name="SRT"/>
-  <anchor x="808" y="680" name="ST"/>
-  <anchor x="808" y="320" name="W"/>
+  <advance width="798"/>
+  <anchor x="798" y="578" name="D"/>
+  <anchor x="798" y="403" name="E"/>
+  <anchor x="798" y="0" name="F"/>
+  <anchor x="798" y="10" name="FR"/>
+  <anchor x="505" y="700" name="H"/>
+  <anchor x="698" y="700" name="HD"/>
+  <anchor x="798" y="252" name="K"/>
+  <anchor x="505" y="-45" name="L"/>
+  <anchor x="798" y="660" name="S"/>
+  <anchor x="798" y="650" name="SR"/>
+  <anchor x="798" y="670" name="SRT"/>
+  <anchor x="798" y="680" name="ST"/>
+  <anchor x="798" y="320" name="W"/>
   <outline>
     <component base="u16F51"/>
-    <component base="u16F04" xOffset="242"/>
+    <component base="u16F04" xOffset="232"/>
   </outline>
 </glyph>
