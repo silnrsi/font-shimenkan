@@ -529,8 +529,8 @@ lookup vowel_attach_hmz {
     pos @L @_L' lookup attach_foot_L @_L' lookup attach_vowel_LL u16F92;
     pos @L @_L' lookup attach_foot u16F92;
     pos @S' lookup cursive_attach_S @ASP' lookup cursive_attach_S;
-    pos @F' lookup cursive_attach_F @ASPALLMARKS' lookup asp_attach @FB' lookup cursive_attach_F @FB' lookup cursive_attach_F @FB' lookup cursive_attach_F;
-    pos @F' lookup cursive_attach_F @ASPALLMARKS' lookup asp_attach @FB' lookup cursive_attach_F @FB' lookup cursive_attach_F;
+    pos @F' lookup cursive_attach_FR @ASPALLMARKS' lookup asp_attach @FB' lookup cursive_attach_FR @FB' lookup cursive_attach_F @FB' lookup cursive_attach_F;
+    pos @F' lookup cursive_attach_FR @ASPALLMARKS' lookup asp_attach @FB' lookup cursive_attach_FR @FB' lookup cursive_attach_F;
     pos @F' lookup cursive_attach_FR @ASPALLMARKS' lookup asp_attach @FB' lookup cursive_attach_FR;
     pos @F' lookup asp_attach @ASPALLMARKS' lookup asp_attach;
     pos @F' lookup cursive_attach_F @FB' lookup cursive_attach_F @FB' lookup cursive_attach_F @FB' lookup cursive_attach_F;
