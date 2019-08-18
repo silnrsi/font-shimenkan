@@ -2,6 +2,8 @@
 
 This file documents the behavior built into the Shimenkan fonts. It is not intended as a general linguistic script or writing system description. The purpose is to describe the basic behaviors supported for all writing systems that use the Miao (Pollard) script and those that are specific to individual languages and writing systems.
 
+---
+
 ## Definitions
 
 Glyphs are referenced using their glyph names, which in most cases are related to their Unicode values.
@@ -27,16 +29,14 @@ Syllables are built from a set of elements according to the following pattern, w
 
 `[N] [C] C [M] [asp] V [V] [V] [tone] `
 
-> This needs checking with the Unicode spec and other materials
-
-**C** = consonant (u16F00..u16F4A)
-**V** = vowel, also called a 'final' (u16F54..u16F87)
-**V+** = one or more vowels in sequence
-**VV** = two-vowel sequence
-**tone** = tone marker, does not have a visual representation but rather indicates vowel position (u16F8F..u16F92)
-**M** = modifier (u16F4F)
-**N** = nasalization (u16F50)
-**asp** = aspiration mark (u16F51)
+- **C** = consonant (u16F00..u16F4A)
+- **V** = vowel, also called a 'final' (u16F54..u16F87)
+- **V+** = one or more vowels in sequence
+- **VV** = two-vowel sequence
+- **tone** = tone marker, does not have a visual representation but rather indicates vowel position (u16F8F..u16F92)
+- **M** = modifier (u16F4F)
+- **N** = nasalization (u16F50)
+- **asp** = aspiration mark (u16F51)
 
 Other voicing-related characters (u16F52, u16F53) and baseline tone marks (u16F93..u16F9F) are included in the font but not fully supported.
 
@@ -48,6 +48,8 @@ Other voicing-related characters (u16F52, u16F53) and baseline tone marks (u16F9
 - _RHS_ = Right hand side of element, _including the right sidebearing_
 - _LHS_ = Left hand side of element, _including the left sidebearing_
 - _RHS to RHS_ = Right hand sides of glyphs (including sidebearings) are aligned. _Note that this is not a mathematical alignment of element bounding boxes._
+
+---
 
 ## Behaviors
 These behaviors often differ between languages. A summary of these for each language is in the [Shimenkan Language Behavior Summary](ShimenkanLanguages.md)
@@ -160,12 +162,12 @@ The six locations are:
 
 > Add visual example
 
-**H** = _head_ - above consonant, usually centered
-**S** = _shoulder_ - upper right of consonant, generally aligned with top of consonant
-**E** = _elbow_ - on right, between _shoulder_ and _waist_
-**W** = _waist_ - center right of consonant, centered
-**K** = _knee_ - on right, between _foot_ and _waist_
-**F** = _foot_ - lower right of consonant, sitting on baseline
+- **H** = _head_ - above consonant, usually centered
+- **S** = _shoulder_ - upper right of consonant, generally aligned with top of consonant
+- **E** = _elbow_ - on right, between _shoulder_ and _waist_
+- **W** = _waist_ - center right of consonant, centered
+- **K** = _knee_ - on right, between _foot_ and _waist_
+- **F** = _foot_ - lower right of consonant, sitting on baseline
 
 The following table summarizes language use of locations, and the tone marks used to indicate them:
 
