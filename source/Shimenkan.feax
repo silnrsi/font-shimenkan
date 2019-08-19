@@ -349,15 +349,14 @@ do  for w = @W;
 } space_waist_kern_W;
 
 lookup space_waist_kern_F {
+    ignore pos @W @ASPALLMARKS @WB @ALLTONES;
+    ignore pos @W @ASPALLMARKS @WB @WB @ALLTONES;
+    ignore pos @W @ASPALLMARKS @WB @WB @WB @ALLTONES;
 do  for w = @W;
     let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
     let lname = getlname("space_waist_" + w);
     if needslookup(o, 'WB');
     {
-        ignore pos $w @ASPALLMARKS @WB @ALLTONES;
-        ignore pos $w @ASPALLMARKS @WB @WB @ALLTONES;
-        ignore pos $w @ASPALLMARKS @WB @WB @WB @ALLTONES;
-        
         pos $w @ASPALLMARKS @WB' lookup $lname;
     }
 } space_waist_kern_F;
@@ -954,7 +953,6 @@ feature kern {
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
         lookup space_waist_kern_W;
-        lookup space_waist_kern_F;
         lookup space_headfoot;
         lookup adv_headfoot;
         lookup base_headfoot;
