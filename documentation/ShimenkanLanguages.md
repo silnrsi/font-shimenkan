@@ -26,6 +26,7 @@ V @F no asp                 | tucked
 V @F + asp                  | right asp
 VV @F no asp                | tucked
 VV @F + asp                 | tucked
+V locations used            | H S W F
 
 ## [hmdd]
 
@@ -42,6 +43,7 @@ V @F no asp                                   | after*
 V @F + asp                                    | under asp
 VV @F no asp                                  | after*
 VV @F + asp                                   | under asp
+V locations used                              | F
 
 \* [hmdd] wants V+ @F to tuck only with u16F07 (not yet supported)
 
@@ -60,6 +62,7 @@ V @F no asp                  | tucked
 V @F + asp                   | under asp
 VV @F no asp                 | tucked
 VV @F + asp                  | under asp
+V locations used             | H S W F
 
 ## [lpo]
 
@@ -77,6 +80,7 @@ V @F no asp                         | tucked*
 V @F + asp                          | under asp
 VV @F no asp                        | tucked*
 VV @F + asp                         | under asp
+V locations used                    | H S F
 
 \* [lpo] wants to _half tuck_ V @F without asp (not yet supported)
 
@@ -93,6 +97,7 @@ V @F no asp                 | after
 V @F + asp                  | after
 VV @F no asp                | after
 VV @F + asp                 | after
+V locations used            | H S E K F
 
 ## [ygp]
 
@@ -108,6 +113,7 @@ V @F no asp                                | after
 V @F + asp                                 | after
 VV @F no asp                               | after
 VV @F + asp                                | after
+V locations used                           | H S F
 
 ## [yna]
 
@@ -119,6 +125,7 @@ V @F no asp         | tucked
 V @F + asp          | right asp
 VV @F no asp        | tucked
 VV @F + asp         | tucked
+V locations used    | H S F
 
 ## [ywqa]
 
@@ -133,3 +140,4 @@ V @F no asp                   | tucked
 V @F + asp                    | under asp
 VV @F no asp                  | tucked
 VV @F + asp                   | under asp
+V locations used              | H S F
