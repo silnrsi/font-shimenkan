@@ -832,6 +832,7 @@ do  for b = @narrowH;
 } base_headfoot;
 
 lookup narr_headfoot {
+    ignore pos uni2060' @narrowH' @VOWEL_DESC' u16F91';
 do  for b = @narrowH;
     for m = @_H;
     let d = int((ADVx(m) - ADVx(b))/2);
@@ -843,26 +844,30 @@ do  for b = @narrowH;
 #############
 
 # Shift hanging vowels right for ASP
+# Already attach to HD on base
 @LOW_VOWEL_WASP = [@VOWEL_DESC u16F91];
 lookup low_vowel_wasp {
     lookupflag UseMarkFilteringSet @LOW_VOWEL_WASP;
 do  for h = @H;
-    let m = int((MAXx("u16F51") + MINx("u16F51"))/2);
-    let s = APx(h, "S") - APx("u16F51", "SB") + m - APx(h, "HD");
-    let d = int((ADVx("u16F64.mark") - ADVx("u16F51"))/2);
+    for v = @VOWEL_DESC;
+    let s = APx(h, "S") - APx("u16F51", "SB") + APx("u16F51", "HD") - APx(h, "HD");
+    let r = min(APx(h, "S") - APx("u16F51", "SB") + ADVx("u16F51") - ADVx(h), 0);
+    let d = max(s + ADVx(v) - APx(v, "_HD") - ADVx("u16F51") + r, 0);
     if s > 0;
     {
-        pos $h @VOWEL_DESC' <$s 0 0 0> u16F91' @ASP' $d;
+        pos $h $v' <$s 0 0 0> u16F91' @ASP' $d;
     }
 } low_vowel_wasp;
 
 # Give extra space to the base when a vowel hangs right over it
 lookup hang_attach_spacing {
+    ignore pos @H' @VOWEL_DESC' u16F91' @ASP;
 do  for v = @VOWEL_DESC;
-    let s = int(APx(v, "_HR") - APx(v, "_H"));
+    for h = @H;
+    let s = int(APx(v, "_HR") - APx(v, "_HD")) - ADVx(h) + APx(h, "S");
     {
-        pos @H' $v' u16F91' @ASP' $s;
-        pos @H' $s $v' u16F91';
+        #pos $h' $v' u16F91' @ASP' $s;
+        pos $h' $s $v' u16F91';
     }
 } hang_attach_spacing;
 
