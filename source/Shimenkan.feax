@@ -306,48 +306,34 @@ def needslookup(o, c) {
 # Create all the positioning adjustment rules for a lookup
 # And cache them so can map multiple bases to the same lookup
 # Saves some 11 lookups out of 24 (for a potential 35 without caching)
-def makerules(lname, o, c, cname="base") {
+def makerules(lname, o, c) {
     if not hasattr(makerules, 'cache'):
         makerules.cache = {}
         makerules.namemap = {}
-    if cname not in makerules.cache:
-        makerules.cache[cname] = {}
-        makerules.namemap[cname] = {}
     res = []
     for m in feaclass(c):
         s = o - ADVx(m)
         if s > 0:
             res.append("pos {} {:d};".format(m, s))
     fres = (lf()+"        ").join(res)
-    if fres not in makerules.cache[cname]:
-        makerules.cache[cname][fres] = lname
-    makerules.namemap[cname][lname] = makerules.cache[cname][fres]
+    if fres not in makerules.cache:
+        makerules.cache[fres] = lname
+    makerules.namemap[lname] = makerules.cache[fres]
     # already in the cache under another name
-    if makerules.cache[cname][fres] != lname:
+    if makerules.cache[fres] != lname:
         return ""
     else:
         return fres
 } makerules;
 
-def getlname(lname, cname="base") {
-    return makerules.namemap[cname].get(lname, lname)
+def getlname(lname) {
+    return makerules.namemap.get(lname, lname)
 } getlname;
 
 # Create a contextual lookup that calls one lookup per base of interest
 do  for w = @pureW;
     let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
-    let lname = "space_waistW_" + w;
-    let e = makerules(lname, o, 'pureWB');
-    if needslookup(o, 'pureWB') and e != "";
-    {
-        lookup $lname {
-            $e;
-        } $lname;
-    }
-
-do  for w = @pureW;
-    let o = ADVx(w) - APx(w, 'F') + ADVx('u16F51');
-    let lname = "space_waistF_" + w;
+    let lname = "space_waist_" + w;
     let e = makerules(lname, o, 'pureWB');
     if needslookup(o, 'pureWB') and e != "";
     {
@@ -360,24 +346,12 @@ do  for w = @pureW;
 lookup space_waist_kern_W {
 do  for w = @pureW;
     let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
-    let lname = getlname("space_waistW_" + w);
+    let lname = getlname("space_waist_" + w);
     if needslookup(o, 'pureWB');
     {
         pos $w' @ASPALLMARKS' @WB' lookup $lname u16F8F;
     }
 } space_waist_kern_W;
-
-lookup space_waist_kern_F {
-    ignore pos @F @ASPALLMARKS @FB @ALLTONES;
-    ignore pos @F @ASPALLMARKS @FB @FB;
-do  for w = @pureW;
-    let o = ADVx(w) - APx(w, 'F') + ADVx('u16F51');
-    let lname = getlname("space_waistF_" + w);
-    if needslookup(o, 'pureWB');
-    {
-        pos $w' @ASPALLMARKS' @FB' lookup $lname;
-    }
-} space_waist_kern_F;
 
 do  for a = [EE KK FF SS WW FR SR ST SRT];
     let n = "cursive_attach_" + (a if a[1] in "RT" else a[0]);
