@@ -281,6 +281,11 @@ feature locl {
 # Attaching
 ######################
 
+do  let w = " ".join(x for x in feaclass('WB') if x not in ('u16F51', 'u16F52'));
+    { @pureWB = [$w]; }
+do  let w = " ".join(x for x in feaclass('W') if x[4] not in ('5', '6', '7', '8'));
+    { @pureW = [$w]; }
+
 #############
 # Simulate a spacing mark if we can
 # Add space to the mark to increase to width of base + asp
@@ -293,7 +298,7 @@ feature locl {
 # greater than the width of the thinnest vowel if it weren't kerned back.
 def needslookup(o, c) {
     for m in feaclass(c):
-        if o - ADVx(m) > ADVx('u16F79'):
+        if o - ADVx(m) > 0:
             return True
     return False
 } needslookup;
@@ -301,36 +306,50 @@ def needslookup(o, c) {
 # Create all the positioning adjustment rules for a lookup
 # And cache them so can map multiple bases to the same lookup
 # Saves some 11 lookups out of 24 (for a potential 35 without caching)
-def makerules(lname, o, c) {
+def makerules(lname, o, c, cname="base") {
     if not hasattr(makerules, 'cache'):
         makerules.cache = {}
         makerules.namemap = {}
+    if cname not in makerules.cache:
+        makerules.cache[cname] = {}
+        makerules.namemap[cname] = {}
     res = []
     for m in feaclass(c):
         s = o - ADVx(m)
         if s > 0:
             res.append("pos {} {:d};".format(m, s))
     fres = (lf()+"        ").join(res)
-    if fres not in makerules.cache:
-        makerules.cache[fres] = lname
-    makerules.namemap[lname] = makerules.cache[fres]
+    if fres not in makerules.cache[cname]:
+        makerules.cache[cname][fres] = lname
+    makerules.namemap[cname][lname] = makerules.cache[cname][fres]
     # already in the cache under another name
-    if makerules.cache[fres] != lname:
+    if makerules.cache[cname][fres] != lname:
         return ""
     else:
         return fres
 } makerules;
 
-def getlname(lname) {
-    return makerules.namemap.get(lname, lname)
+def getlname(lname, cname="base") {
+    return makerules.namemap[cname].get(lname, lname)
 } getlname;
 
 # Create a contextual lookup that calls one lookup per base of interest
-do  for w = @W;
+do  for w = @pureW;
     let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
-    let lname = "space_waist_" + w;
-    let e = makerules(lname, o, 'WB');
-    if needslookup(o, 'WB') and e != "";
+    let lname = "space_waistW_" + w;
+    let e = makerules(lname, o, 'pureWB');
+    if needslookup(o, 'pureWB') and e != "";
+    {
+        lookup $lname {
+            $e;
+        } $lname;
+    }
+
+do  for w = @pureW;
+    let o = ADVx(w) - APx(w, 'F') + ADVx('u16F51');
+    let lname = "space_waistF_" + w;
+    let e = makerules(lname, o, 'pureWB');
+    if needslookup(o, 'pureWB') and e != "";
     {
         lookup $lname {
             $e;
@@ -339,25 +358,24 @@ do  for w = @W;
 
 # Create the lookups for all the bases of interest.
 lookup space_waist_kern_W {
-do  for w = @W;
+do  for w = @pureW;
     let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
-    let lname = getlname("space_waist_" + w);
-    if needslookup(o, 'WB');
+    let lname = getlname("space_waistW_" + w);
+    if needslookup(o, 'pureWB');
     {
-        pos $w @ASPALLMARKS @WB' lookup $lname u16F8F;
+        pos $w' @ASPALLMARKS' @WB' lookup $lname u16F8F;
     }
 } space_waist_kern_W;
 
 lookup space_waist_kern_F {
-    ignore pos @W @ASPALLMARKS @WB @ALLTONES;
-    ignore pos @W @ASPALLMARKS @WB @WB @ALLTONES;
-    ignore pos @W @ASPALLMARKS @WB @WB @WB @ALLTONES;
-do  for w = @W;
-    let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
-    let lname = getlname("space_waist_" + w);
-    if needslookup(o, 'WB');
+    ignore pos @F @ASPALLMARKS @FB @ALLTONES;
+    ignore pos @F @ASPALLMARKS @FB @FB;
+do  for w = @pureW;
+    let o = ADVx(w) - APx(w, 'F') + ADVx('u16F51');
+    let lname = getlname("space_waistF_" + w);
+    if needslookup(o, 'pureWB');
     {
-        pos $w @ASPALLMARKS @WB' lookup $lname;
+        pos $w' @ASPALLMARKS' @FB' lookup $lname;
     }
 } space_waist_kern_F;
 
@@ -469,9 +487,6 @@ do  let a = -int(ADVx("u16F61") / 2);
             pos @_H <$a 0 0 0>;
         } left_shift_vowel;
     }
-
-do  let w = " ".join(x for x in feaclass('WB') if x not in ('u16F51', 'u16F52'));
-    { @pureWB = [$w]; }
 
 #############
 # remember cursive attachment must work both forwards and backwards
