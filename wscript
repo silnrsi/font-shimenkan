@@ -17,7 +17,7 @@ DESC_SHORT = "A family of fonts for the Miao (Pollard) script."
 getufoinfo('source/masters/ShimenkanMaster-ExtraLight.ufo')
 BUILDLABEL="test"
 
-opts = preprocess_args({'opt' : '--alllangs'})
+opts = preprocess_args({'opt' : '--alllangs'}, {'opt' : '--allreglangs'})
 
 langinfo = {
     'yna' : 'Shimenkan Zonghe',
@@ -68,6 +68,7 @@ for dspace in ('Roman', ):
                     source = f.target,
                     lang = l,
                     package = packages[l])
-            if '--alllangs' not in opts:
+            if '--alllangs' not in opts and \
+                        (f.target != "ShimenkanTest-Regular.ttf" or '--allreglangs' not in opts):
                 n.no_test = True
 
