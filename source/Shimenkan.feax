@@ -350,7 +350,7 @@ do  for w = @pureW;
 lookup space_waist_kern_W {
 do  for w = @pureW;
     let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
-    let fn = lambda m: max(o - ADVx(m);
+    let fn = lambda m: max(o - ADVx(m), 0);
     let lname = getlname("space_waist_" + w);
     if needslookup('pureWB', fn);
     {
