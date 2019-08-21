@@ -296,9 +296,9 @@ do  let w = " ".join(x for x in feaclass('W') if x[4] not in ('5', '6', '7', '8'
 
 # Return whether this base has any marks that need protrude beyond the asp by
 # greater than the width of the thinnest vowel if it weren't kerned back.
-def needslookup(o, c) {
+def needslookup(c, fn) {
     for m in feaclass(c):
-        if o - ADVx(m) > 0:
+        if fn(m) != 0:
             return True
     return False
 } needslookup;
@@ -306,36 +306,40 @@ def needslookup(o, c) {
 # Create all the positioning adjustment rules for a lookup
 # And cache them so can map multiple bases to the same lookup
 # Saves some 11 lookups out of 24 (for a potential 35 without caching)
-def makerules(lname, o, c) {
+def makerules(lname, c, fn, fmt, cname="base") {
     if not hasattr(makerules, 'cache'):
         makerules.cache = {}
         makerules.namemap = {}
+    if cname not in makerules.cache:
+        makerules.cache[cname] = {}
+        makerules.namemap[cname] = {}
     res = []
     for m in feaclass(c):
-        s = o - ADVx(m)
-        if s > 0:
-            res.append("pos {} {:d};".format(m, s))
+        s = fn(m)
+        if s != 0:
+            res.append(fmt.format(g=m, s=s)+";")
     fres = (lf()+"        ").join(res)
-    if fres not in makerules.cache:
-        makerules.cache[fres] = lname
-    makerules.namemap[lname] = makerules.cache[fres]
+    if fres not in makerules.cache[cname]:
+        makerules.cache[cname][fres] = lname
+    makerules.namemap[cname][lname] = makerules.cache[cname][fres]
     # already in the cache under another name
-    if makerules.cache[fres] != lname:
+    if makerules.cache[cname][fres] != lname:
         return ""
     else:
         return fres
 } makerules;
 
-def getlname(lname) {
-    return makerules.namemap.get(lname, lname)
+def getlname(lname, cname="base") {
+    return makerules.namemap[cname].get(lname, lname)
 } getlname;
 
 # Create a contextual lookup that calls one lookup per base of interest
 do  for w = @pureW;
     let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
     let lname = "space_waist_" + w;
-    let e = makerules(lname, o, 'pureWB');
-    if needslookup(o, 'pureWB') and e != "";
+    let fn = lambda m: max(o - ADVx(m), 0);
+    let e = makerules(lname, 'pureWB', fn, "pos {g} {s:d}");
+    if needslookup('pureWB', fn) and e != "";
     {
         lookup $lname {
             $e;
@@ -346,8 +350,9 @@ do  for w = @pureW;
 lookup space_waist_kern_W {
 do  for w = @pureW;
     let o = ADVx(w) - APx(w, 'W') + ADVx('u16F51');
+    let fn = lambda m: max(o - ADVx(m);
     let lname = getlname("space_waist_" + w);
-    if needslookup(o, 'pureWB');
+    if needslookup('pureWB', fn);
     {
         pos $w' @ASPALLMARKS' @WB' lookup $lname u16F8F;
     }
@@ -872,22 +877,56 @@ do  for v = @VOWEL_DESC;
 } hang_attach_spacing;
 
 # Shift a single vowel to align RHS to RHS of aspiration
-lookup shift_right_align_to_asp {
-    do  for w = @WB;
-        let s = ADVx("u16F51") - APx(w, "W");
-        {
-            pos $w' <$s 0 $s 0>;
-        }
-} shift_right_align_to_asp;
+do  for w = @pureW;
+    let bw = APx(w, 'W') - ADVx(w);
+    let aw = ADVx("u16F51");
+    let fn = lambda m: max(bw, aw - APx(m, "W"));
+    let lname = "ralignW_" + w;
+    let e = makerules(lname, 'pureWB', fn, "pos {g} <{s:d} 0 {s:d} 0>", cname="indent");
+    if needslookup('pureWB', fn) and e != "";
+    {
+        lookup $lname {
+            $e;
+        } $lname;
+    }
 
-lookup right_align_to_asp_F {
-    ignore pos @W @ASPMARKS @WB [@WB @ALLTONES];
-    pos @OPENFLOOR @ASPMARKS @WB' lookup shift_right_align_to_asp;
-} right_align_to_asp_F;
+do  for w = @pureW;
+    let bw = APx(w, 'F') - ADVx(w);
+    let aw = ADVx("u16F51");
+    let fn = lambda m: max(bw, aw - APx(m, "F"));
+    let lname = "ralignF_" + w;
+    let e = makerules(lname, 'pureWB', fn, "pos {g} <{s:d} 0 {s:d} 0>", cname="indent");
+    if needslookup('pureWB', fn) and e != "";
+    {
+        lookup $lname {
+            $e;
+        } $lname;
+    }
 
 lookup right_align_to_asp_W {
-    pos @OPENWAIST @ASPMARKS @WB' lookup shift_right_align_to_asp u16F8F;
+do  for w = @pureW;
+    let bw = APx(w, 'W') - ADVx(w);
+    let aw = ADVx("u16F51");
+    let fn = lambda m: max(bw, aw - APx(m, "W"));
+    let lname = getlname("ralignW_" + w, cname="indent");
+    if needslookup('pureWB', fn);
+    {
+        pos $w' @ASPMARKS' @WB' lookup $lname u16F8F;
+    }
 } right_align_to_asp_W;
+
+lookup right_align_to_asp_F {
+    ignore pos @F @ASPMARKS @FB [@FB @ALLTONES];
+do  for w = @pureW;
+    let bw = APx(w, 'F') - ADVx(w);
+    let aw = ADVx("u16F51");
+    let fn = lambda m: max(bw, aw - APx(m, "F"));
+    let lname = getlname("ralignF_" + w, cname="indent");
+    if needslookup('pureWB', fn);
+    {
+        pos $w' @ASPMARKS' @WB' lookup $lname;
+    }
+} right_align_to_asp_F;
 
 feature kern {
   script DFLT;
