@@ -847,7 +847,7 @@ lookup low_vowel_rasp {
 do  for h = @H;
     for v = @VOWEL_DESC;
     let s = APx(h, "SR") + APx("u16F51", "HD") - APx(h, "HD");
-    let d = APx("u16F51", "HD") + APx(v, "_HR") - APx(v, "_HD");
+    let d = APx("u16F51", "HD") - ADVx("u16F51") + APx(v, "_HR") - APx(v, "_HD");
     if APx(h, "HD") - APx(v, "_HD") + APx(v, "_HR") > APx(h, "SR");
     {
         pos $h $v' <$s 0 0 0> u16F91' @ASP' $d;
