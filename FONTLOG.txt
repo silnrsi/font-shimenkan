@@ -27,7 +27,7 @@ ChangeLog
 ----------
 (This should list both major and minor changes, most recent first.)
 
-14 Aug 2019 (SIL WSTech team)
+22 Aug 2019 (SIL WSTech team) Shimenkan v1.000
 - Initial release
 
 12 Mar 2018 (SIL NRSI team)

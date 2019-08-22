@@ -1,12 +1,21 @@
-# Shimenkan
+# Shimenkan [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Shimenkan/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Shimenkan&guest=1)
 
-The Shimenkan family of fonts supports the broad variety of writing systems that use the Miao (Pollard) script. This is currently a work-in-progress, so these fonts and related files are preliminary and incomplete. They should not be used for creating derivatives until a later release.
+The Shimenkan family of fonts supports the broad variety of writing systems that use the Miao (Pollard) script. Eight language-specific font families are part of the project, each reflecting the particular preferences of that language community.
 
-## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Shimenkan/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Shimenkan&guest=1)
+- Salaowu - for Wuding-Luquan Yi / Black Yi [ywqa]
+- Sapushan - for Large Flowery Miao [hmd]
+- Shimenkan Guifan - alternate for Large Flowery Miao [hmdd]
+- Shimenkan GSM - for Gepo / Baiyi [ygp]
+- Shimenkan MAS - for Small Flowery Miao [sfm]
+- Shimenkan MGS - for Sinicized Miao [hmz] 
+- Shimenkan Zonghe - for Aluo / Gan Yi / Laka / Niluo / Yala [yna]
+- Taogu - for Lipo [lpo]
 
 The Latin glyphs are based on the OFL-licensed [Source Sans Pro fonts](https://github.com/adobe-fonts/source-sans-pro). The Miao glyphs are designed to harmonize with the Latin, but remain true to the unique characteristics of Miao writing systems. The project is inspired by, but not based on, the [Miao Unicode project](https://github.com/phjamr/MiaoUnicode).
 
 Some characters in the Miao block were only added in Unicode 12.0. As a result, earlier versions of ICU than v64 have no knowledge of those characters, and applications based on such earlier versions may well not render sequences involving these new vowels correctly.
+
+For information on installing and using the fonts in applications see UsingTheFonts.pdf.
 
 For copyright and licensing information - including any Reserved Font Names - see [OFL.txt](OFL.txt).
 
