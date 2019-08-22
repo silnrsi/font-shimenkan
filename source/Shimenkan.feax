@@ -80,31 +80,18 @@ lookup lig_4F {
 # the second and it attaches back to the first. If a type 2 lookup reference is executed
 # in a type 1 machine, then a future character may be pulled in to attach to us, rather
 # than we attach to something else. We insert a block to stop this.
-@NonAttaches = [u16F50 u16F8F u16F90 u16F91 u16F92];
+@NonAttaches = [u16F8F u16F90 u16F91 u16F92];
 lookup block_W {
     sub @NonAttaches by @NonAttaches ZWNBS;
+    sub @W by @W ZWNBS;
 } block_W;
 
 lookup block_W_context {
     sub @NonAttaches' lookup block_W @Cons;
+    sub @W' lookup block_W @Cons @WB @MARKTONES;
+    sub @W' lookup block_W @Cons @WB @WB @MARKTONES;
+    sub @W' lookup block_W @Cons @WB @WB @WB @MARKTONES;
 } block_W_context;
-
-lookup insert_gaps {
-    sub @H by uni2060 @H uni2060;
-} insert_gaps;
-
-lookup del_gap {
-    sub @H uni2060 by @H;
-} del_gap;
-
-lookup insert_gap_context {
-    sub @H' lookup insert_gaps @ASPALL' lookup del_gap @cno_mark @cno_mark @cno_mark @MARKTONES;
-    sub @H' lookup insert_gaps @ASPALL' lookup del_gap @cno_mark @cno_mark @MARKTONES;
-    sub @H' lookup insert_gaps @ASPALL' lookup del_gap @cno_mark @MARKTONES;
-    sub @H' lookup insert_gaps @cno_mark' lookup del_gap @cno_mark @cno_mark @MARKTONES;
-    sub @H' lookup insert_gaps @cno_mark' lookup del_gap @cno_mark @MARKTONES;
-    sub @H' lookup insert_gaps @cno_mark' lookup del_gap @MARKTONES;
-} insert_gap_context;
 
 lookup choose_vowel_marks_sfm {
     # ASP is spacing for shoulder
@@ -225,7 +212,6 @@ feature rlig {
         lookup error_check;
         lookup hide_tones;
         lookup lig_4F;
-        lookup insert_gap_context;
         lookup choose_vowel_marks;
         lookup block_W_context;
         lookup block_cursive;
@@ -233,7 +219,6 @@ feature rlig {
         lookup error_check;
         lookup hide_tones;
         lookup lig_4F;
-        lookup insert_gap_context;
         lookup choose_vowel_marks_sfm;
         lookup block_W_context;
         lookup block_cursive;
@@ -803,10 +788,10 @@ lookup space_headfoot {
 do  for h = @_H;
     let s = ADVx(h);
     {
-        pos uni2060' $s @narrowH $h @_H @MARKTONES;
-        pos uni2060' $s @narrowH $h @_H @_H @MARKTONES;
-        pos uni2060 @narrowH' $s @_H $h @MARKTONES;
-        pos uni2060 @narrowH' $s @_H @_H $h @MARKTONES;
+        pos ZWNBS' $s @narrowH $h @_H @MARKTONES;
+        pos ZWNBS' $s @narrowH $h @_H @_H @MARKTONES;
+        pos ZWNBS @narrowH' $s @_H $h @MARKTONES;
+        pos ZWNBS @narrowH' $s @_H @_H $h @MARKTONES;
     }
 } space_headfoot;
 
@@ -815,7 +800,7 @@ lookup adv_headfoot {
 do  for h = @_H;
     let s = int(ADVx(h) / 2);
     {
-        pos uni2060' $s @narrowH' $s @_H $h @_H @MARKTONES;
+        pos ZWNBS' $s @narrowH' $s @_H $h @_H @MARKTONES;
     }
 } adv_headfoot;
 
@@ -824,19 +809,19 @@ lookup base_headfoot {
 do  for b = @narrowH;
     let s = -int(ADVx(b) / 2);
     {
-        pos uni2060' $s $b' $s @_H @_H @MARKTONES;
-        pos uni2060' $s $b' $s @_H @_H @_H @MARKTONES;
+        pos ZWNBS' $s $b' $s @_H @_H @MARKTONES;
+        pos ZWNBS' $s $b' $s @_H @_H @_H @MARKTONES;
     }
 } base_headfoot;
 
 lookup narr_headfoot {
-    ignore pos uni2060' @narrowH' @VOWEL_DESC' u16F91';
+    ignore pos ZWNBS' @narrowH' @VOWEL_DESC' u16F91';
 do  for b = @narrowH;
     for m = @_H;
     let d = int((ADVx(m) - ADVx(b))/2);
     if d > 25;
     {
-        pos uni2060' $d $b' $d $m @MARKTONES;
+        pos ZWNBS' $d $b' $d $m @MARKTONES;
     }
 } narr_headfoot;
 #############
