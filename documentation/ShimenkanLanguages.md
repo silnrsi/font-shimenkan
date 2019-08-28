@@ -2,16 +2,16 @@
 
 This page summarizes language-specific behaviors organized by language. For a more complete description of behaviors see [Font Behavior in the Shimenkan Fonts](ShimenkanBehavior.md).
 
-Code   | Language                            | Font
-:------|:------------------------------------|:----------------
-[hmd]  | Large Flowery Miao                  | Sapushan
-[hmdd] | alternate for Large Flowery Miao    | Shimenkan Guifan
-[hmz]  | Sinicized Miao                      | Shimenkan MGS
-[lpo]  | Lipo                                | Taogu
-[sfm]  | Small Flowery Miao                  | Shimenkan MAS
-[ygp]  | Gepo / Bai Yi                       | Shimenkan GSM
-[yna]  | Aluo / Gan Yi / Laka / Niluo / Yala | Shimenkan Zonghe
-[ywqa] | Wuding-Luquan Yi / Black Yi         | Salaowu
+Code   | Language                                                               | Font
+:------|:-----------------------------------------------------------------------|:----------------
+[hmd]  | Large Flowery Miao, Dahua Miao, A-Hmao                                 | Sapushan
+[hmdd] | alternate for Large Flowery Miao using the Normalised Miao orthography | Shimenkan Guifan
+[hmz]  | Sinicized Miao, Waishu Miao, Hmong Shua                                | Shimenkan MGS
+[lpo]  | Lipo / Dong Lisu                                                       | Taogu
+[sfm]  | Small Flowery Miao, Xiaohua Miao                                       | Shimenkan MAS
+[ygp]  | Gepo / Bai Yi                                                          | Shimenkan GSM
+[yna]  | Aluo / Gan Yi                                                          | Shimenkan Zonghe
+[ywqa] | Wuding-Luquan Yi / Hei Yi / Nasu                                       | Salaowu
 
 ## [hmd]
 
