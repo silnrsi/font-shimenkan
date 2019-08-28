@@ -49,6 +49,7 @@ packages = { x : package(appname = langfontname("Shimenkan", x).replace(" ", "")
 for dspace in ('Roman', ):
     d = designspace('source/' + fontfamily + dspace + '.designspace',
                 target = "${DS:FILENAME_BASE}.ttf",
+                instanceparams = '-W',
                 opentype = fea("source/${DS:FILENAME_BASE}.fea",
                                 buildusingsilfont = True,
                                 params = '-m source/${DS:FILENAME_BASE}.map',
