@@ -3,11 +3,11 @@ Shimenkan
 The Shimenkan family of fonts supports the broad variety of writing systems that use the Miao (Pollard) script. Eight language-specific font families are part of the project, each reflecting the particular preferences of that language community.
 
 - Salaowu - for Wuding-Luquan Yi / Hei Yi / Nasu [ywqa]
-- Sapushan - for Large Flowery Miao, Dahua Miao, A-Hmao [hmd]
+- Sapushan - for Large Flowery Miao / Dahua Miao / A-Hmao [hmd]
 - Shimenkan Guifan - alternate for Large Flowery Miao using the Normalised Miao orthography [hmdd]
 - Shimenkan GSM - for Gepo / Bai Yi [ygp]
-- Shimenkan MAS - for Small Flowery Miao, Xiaohua Miao [sfm]
-- Shimenkan MGS - for Sinicized Miao, Waishu Miao, Hmong Shua [hmz] 
+- Shimenkan MAS - for Small Flowery Miao / Xiaohua Miao [sfm]
+- Shimenkan MGS - for Sinicized Miao / Waishu Miao / Hmong Shua [hmz] 
 - Shimenkan Zonghe - for Aluo / Gan Yi [yna]
 - Taogu - for Lipo / Dong Lisu [lpo]
 

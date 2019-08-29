@@ -4,16 +4,16 @@ This page summarizes language-specific behaviors organized by language. For a mo
 
 Code   | Language                                                               | Font
 :------|:-----------------------------------------------------------------------|:----------------
-[hmd]  | Large Flowery Miao, Dahua Miao, A-Hmao                                 | Sapushan
+[hmd]  | Large Flowery Miao / Dahua Miao / A-Hmao                               | Sapushan
 [hmdd] | alternate for Large Flowery Miao using the Normalised Miao orthography | Shimenkan Guifan
-[hmz]  | Sinicized Miao, Waishu Miao, Hmong Shua                                | Shimenkan MGS
+[hmz]  | Sinicized Miao / Waishu Miao / Hmong Shua                              | Shimenkan MGS
 [lpo]  | Lipo / Dong Lisu                                                       | Taogu
-[sfm]  | Small Flowery Miao, Xiaohua Miao                                       | Shimenkan MAS
+[sfm]  | Small Flowery Miao / Xiaohua Miao                                      | Shimenkan MAS
 [ygp]  | Gepo / Bai Yi                                                          | Shimenkan GSM
 [yna]  | Aluo / Gan Yi                                                          | Shimenkan Zonghe
 [ywqa] | Wuding-Luquan Yi / Hei Yi / Nasu                                       | Salaowu
 
-## [hmd]
+## [hmd] Large Flowery Miao / Dahua Miao / A-Hmao
 
 Behavior                    | Setting
 :---------------------------|:---------
@@ -28,7 +28,7 @@ VV @F no asp                | tucked
 VV @F + asp                 | tucked
 V locations used            | H S W F
 
-## [hmdd]
+## [hmdd] alternate for Large Flowery Miao using the Normalised Miao orthography
 
 Behavior                                      | Setting
 :---------------------------------------------|:---------
@@ -47,7 +47,7 @@ V locations used                              | F
 
 \* [hmdd] wants V+ @F to tuck only with u16F07 (not yet supported)
 
-## [hmz]
+## [hmz] Sinicized Miao / Waishu Miao / Hmong Shua
 
 Behavior                     | Setting
 :----------------------------|:---------
@@ -64,7 +64,7 @@ VV @F no asp                 | tucked
 VV @F + asp                  | under asp
 V locations used             | H S W F
 
-## [lpo]
+## [lpo] Lipo / Dong Lisu
 
 Behavior                            | Setting
 :-----------------------------------|:---------
@@ -84,7 +84,7 @@ V locations used                    | H S F
 
 \* [lpo] wants to _half tuck_ V @F without asp (not yet supported)
 
-## [sfm]
+## [sfm] Small Flowery Miao / Xiaohua Miao 
 
 Behavior                    | Setting
 :---------------------------|:-------
@@ -99,7 +99,7 @@ VV @F no asp                | after
 VV @F + asp                 | after
 V locations used            | H S E K F
 
-## [ygp]
+## [ygp] Gepo / Bai Yi
 
 Behavior                                   | Setting
 :------------------------------------------|:-------
@@ -115,7 +115,7 @@ VV @F no asp                               | after
 VV @F + asp                                | after
 V locations used                           | H S F
 
-## [yna]
+## [yna] Aluo / Gan Yi
 
 Behavior            | Setting
 :-------------------|:---------
@@ -127,7 +127,7 @@ VV @F no asp        | tucked
 VV @F + asp         | tucked
 V locations used    | H S F
 
-## [ywqa]
+## [ywqa] Wuding-Luquan Yi / Hei Yi / Nasu
 
 Behavior                      | Setting
 :-----------------------------|:---------

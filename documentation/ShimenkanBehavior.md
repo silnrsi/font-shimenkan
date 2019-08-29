@@ -11,16 +11,16 @@ Glyphs are referenced using their glyph names, which in most cases are related t
 ### Languages and writing systems
 Languages are referenced by their ISO 639-3 codes. The language-specific variants of the fonts are listed:
 
-Code | Language                                                               | Font
-:----|:-----------------------------------------------------------------------|:----------------
-hmd  | Large Flowery Miao, Dahua Miao, A-Hmao                                 | Sapushan
-hmdd | alternate for Large Flowery Miao using the Normalised Miao orthography | Shimenkan Guifan
-hmz  | Sinicized Miao, Waishu Miao, Hmong Shua                                | Shimenkan MGS
-lpo  | Lipo / Dong Lisu                                                       | Taogu
-sfm  | Small Flowery Miao, Xiaohua Miao                                       | Shimenkan MAS
-ygp  | Gepo / Bai Yi                                                          | Shimenkan GSM
-yna  | Aluo / Gan Yi                                                          | Shimenkan Zonghe
-ywqa | Wuding-Luquan Yi / Hei Yi / Nasu                                       | Salaowu
+Code   | Language                                                               | Font
+:------|:-----------------------------------------------------------------------|:----------------
+[hmd]  | Large Flowery Miao / Dahua Miao / A-Hmao                               | Sapushan
+[hmdd] | alternate for Large Flowery Miao using the Normalised Miao orthography | Shimenkan Guifan
+[hmz]  | Sinicized Miao / Waishu Miao / Hmong Shua                              | Shimenkan MGS
+[lpo]  | Lipo / Dong Lisu                                                       | Taogu
+[sfm]  | Small Flowery Miao / Xiaohua Miao                                      | Shimenkan MAS
+[ygp]  | Gepo / Bai Yi                                                          | Shimenkan GSM
+[yna]  | Aluo / Gan Yi                                                          | Shimenkan Zonghe
+[ywqa] | Wuding-Luquan Yi / Hei Yi / Nasu                                       | Salaowu
 
 > Add links to Ethnologue pages?
 
