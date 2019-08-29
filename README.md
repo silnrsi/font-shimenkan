@@ -13,7 +13,7 @@ The Shimenkan family of fonts supports the broad variety of writing systems that
 
 The Latin glyphs are based on the OFL-licensed [Source Sans Pro fonts](https://github.com/adobe-fonts/source-sans-pro). The Miao glyphs are designed to harmonize with the Latin, but remain true to the unique characteristics of Miao writing systems. The project is inspired by, but not based on, the [Miao Unicode project](https://github.com/phjamr/MiaoUnicode).
 
-For information on installing and using the fonts in applications see UsingTheFonts.pdf.
+For information on installing and using the fonts in applications see [UsingTheFonts.pdf](documentation/UsingTheFonts.pdf).
 
 For copyright and licensing information - including any Reserved Font Names - see [OFL.txt](OFL.txt).
 
