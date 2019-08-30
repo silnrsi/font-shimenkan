@@ -59,6 +59,9 @@ for dspace in ('Roman', ):
                 name = "${DS:FAMILYNAME}")
     for l in langinfo.keys():
         packages[l].package_files['langs/' + l + '/*'] = '/'
+        packages[l].package_files['documentation/UsingTheFonts.pdf'] = '/'
+        packages[l].package_files['documentation/字体使用说明.pdf'] = '/'
+        packages[l].package_files['请先阅读.txt'] = '/'
         for f in d.fonts:
             (fname, _, ext) = f.target.rpartition("-")
             fname = langfontname(fname, l).replace(" ", "")
