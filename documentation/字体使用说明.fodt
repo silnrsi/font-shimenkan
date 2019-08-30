@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:generator>LibreOffice/6.3.0.4$Windows_X86_64 LibreOffice_project/057fc023c990d676a43019934386b85b21a9ee99</meta:generator><dc:title>Working with Encodings</dc:title><meta:creation-date>2019-08-28T16:02:50.728000000</meta:creation-date><meta:editing-cycles>1</meta:editing-cycles><meta:editing-duration>P0D</meta:editing-duration><meta:document-statistic meta:table-count="2" meta:image-count="1" meta:object-count="0" meta:page-count="11" meta:paragraph-count="228" meta:word-count="3369" meta:character-count="6562" meta:non-whitespace-character-count="6138"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
+ <office:meta><meta:generator>LibreOffice/6.3.0.4$Windows_X86_64 LibreOffice_project/057fc023c990d676a43019934386b85b21a9ee99</meta:generator><meta:creation-date>2019-08-30T04:15:05.065000000</meta:creation-date><meta:editing-cycles>1</meta:editing-cycles><meta:editing-duration>P0D</meta:editing-duration><dc:title>字体使用说明</dc:title><meta:document-statistic meta:table-count="2" meta:image-count="1" meta:object-count="0" meta:page-count="11" meta:paragraph-count="228" meta:word-count="3369" meta:character-count="6562" meta:non-whitespace-character-count="6138"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">100118</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">50326</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">25058</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">40081</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">117886</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">6452</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">3041</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">100118</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">50324</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">125174</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">25056</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">2</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -94,7 +94,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">true</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">33380976</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">33693537</config:config-item>
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">false</config:config-item>
@@ -2460,7 +2460,7 @@
     <text:p text:style-name="Address">USA</text:p>
     <text:p text:style-name="Address"/>
     <text:p text:style-name="P55">欲知更多项目详情，请参<text:a xlink:type="simple" xlink:href="https://github.com/silnrsi/font-shimenkan" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://github.com/silnrsi/font-shimenkan</text:a><text:line-break/>如需与我们联系，请访问 <text:a xlink:type="simple" xlink:href="https://software.sil.org/about/contact/" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T126">https://software.sil.org/about/contact/</text:span></text:a> </text:p>
-    <text:list xml:id="list1578928995" text:style-name="L1">
+    <text:list xml:id="list3454831280" text:style-name="L1">
      <text:list-item>
       <text:h text:style-name="P122" text:outline-level="1"><text:reference-mark-start text:name="intro"/>引言<text:reference-mark-end text:name="intro"/></text:h>
      </text:list-item>
@@ -2586,14 +2586,14 @@
     <text:p text:style-name="P47">𖽐𖼮𖽔𖾑𖼇𖽹𖼦𖽘𖾏𖼨𖽑𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙𖽾𖾑𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘𖽡𖾐𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢𖾑𖼺𖽫𖾐𖼳𖽨𖼊𖽪𖽗𖾑𖼎𖽞𖾏𖼷𖽟𖽂𖽡𖽹𖾑𖼈𖽤𖼽𖽡𖽻𖾑𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪𖾐𖼋𖽪𖽘𖾑𖼸𖽪𖽞</text:p>
     <text:p text:style-name="P44">𖽐𖼮𖽔𖾑𖼇𖽹𖼦𖽘𖾏𖼨𖽑𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙𖽾𖾑𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘𖽡𖾐𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢𖾑𖼺𖽫𖾐𖼳𖽨𖼊𖽪𖽗𖾑𖼎𖽞𖾏𖼷𖽟𖽂𖽡𖽹𖾑𖼈𖽤𖼽𖽡𖽻𖾑𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪𖾐𖼋𖽪𖽘𖾑𖼸𖽪𖽞</text:p>
     <text:p text:style-name="P117">其他字体集采用相同风格的设计，粗细程度也无异。不同的地方主要在于各种语文对字符形状和位置都有其特定要求，<text:span text:style-name="T6">详见第</text:span><text:span text:style-name="T6"><text:reference-ref text:reference-format="page" text:ref-name="feat">9</text:reference-ref></text:span><text:span text:style-name="T6">页“</text:span><text:span text:style-name="T6"><text:reference-ref text:reference-format="text" text:ref-name="feat">各种语文对字体之要求</text:reference-ref></text:span><text:span text:style-name="T6">”</text:span>。</text:p>
-    <text:list xml:id="list3014429371" text:style-name="L2">
+    <text:list xml:id="list2513863960" text:style-name="L2">
      <text:list-item>
       <text:h text:style-name="P119" text:outline-level="1">字体安装</text:h>
      </text:list-item>
     </text:list>
     <text:p text:style-name="Heading_20_2"><text:span text:style-name="T91">微软视窗（</text:span><text:span text:style-name="T92">Windows）</text:span></text:p>
     <text:p text:style-name="P30"><text:span text:style-name="T2">在</text:span>Windows 10<text:span text:style-name="T2">、</text:span><text:span text:style-name="T104">8</text:span><text:span text:style-name="T55">，或</text:span><text:span text:style-name="T104"> 7</text:span><text:span text:style-name="T55">系统下：</text:span></text:p>
-    <text:list xml:id="list89120764" text:style-name="L3">
+    <text:list xml:id="list3489519307" text:style-name="L3">
      <text:list-item>
       <text:p text:style-name="P141"><text:span text:style-name="T2">解压后把所有字体文件（</text:span>*.ttf<text:span text:style-name="T2">）全选</text:span></text:p>
      </text:list-item>
@@ -2607,7 +2607,7 @@
     <text:p text:style-name="P28"><text:span text:style-name="T55">另一方法是把解压后的字体文件复制到系统字体文件夹内（一般位于</text:span><text:span text:style-name="T136">C:\Windows\Fonts\</text:span><text:span text:style-name="T137">）。</text:span></text:p>
     <text:p text:style-name="Heading_20_2">苹果（<text:span text:style-name="T114">Macintosh）</text:span></text:p>
     <text:p text:style-name="P29"><text:span text:style-name="T2">在</text:span>Mac OS X <text:span text:style-name="T2">第</text:span>10.3<text:span text:style-name="T2">版或以上系统下：</text:span></text:p>
-    <text:list xml:id="list35527211706399" text:continue-list="list89120764" text:style-name="L3">
+    <text:list xml:id="list41627013009022" text:continue-list="list3489519307" text:style-name="L3">
      <text:list-item text:start-value="1">
       <text:p text:style-name="P145"><text:span text:style-name="T2">打开</text:span>Font Book<text:span text:style-name="T2">应用程式</text:span></text:p>
      </text:list-item>
@@ -2628,7 +2628,7 @@
     <text:p text:style-name="P61"><text:span text:style-name="T61">注：</text:span><text:span text:style-name="T101">本字体集不包括输入法组件。如需要输入伯格理苗文字符，请另行安装输入法程式。</text:span></text:p>
     <text:h text:style-name="P120" text:outline-level="1"><text:reference-mark-start text:name="system"/>应用程式及有关显示问题<text:reference-mark-end text:name="system"/></text:h>
     <text:p text:style-name="P27"><text:span text:style-name="T106">Shimenkan （石门坎）字体集根据国际码标准（Unicode）12.0编码，以</text:span><text:span text:style-name="T101">TrueType 格式生成。字体内置复杂</text:span><text:span text:style-name="T102">OpenType Layout逻辑来控制：</text:span></text:p>
-    <text:list xml:id="list3907071925" text:style-name="L4">
+    <text:list xml:id="list2289930383" text:style-name="L4">
      <text:list-item>
       <text:p text:style-name="P125">小字母在不同声调时的位置</text:p>
      </text:list-item>
@@ -2642,7 +2642,7 @@
     <text:p text:style-name="P13">这些特征随语言而变，要确保它们能在各语言文本中都正确显示，所使用的应用程式及操作系统必须充分支持OpenT<text:span text:style-name="T115">ype及国际码标准12.0，但目前所有已知应用程式都只能支持其中之一。下面列举几个大致上还可以的应用程式，并解释其中有关的显示问题。如果问题涉及特定语言，前面会以该语言的编号标注</text:span><text:span text:style-name="T134">（见</text:span><text:span text:style-name="T134"><text:reference-ref text:reference-format="text" text:ref-name="intro">引言</text:reference-ref></text:span><text:span text:style-name="T134">）</text:span><text:span text:style-name="T115">。</text:span></text:p>
     <text:p text:style-name="Issue_20_Heading">记事本（<text:span text:style-name="T122">Notepad）——Windows 10</text:span></text:p>
     <text:p text:style-name="Text_20_body">Wi<text:span text:style-name="T116">ndows 10内置的记事本基本上能正确显示大部分伯格理苗文字符。已知显示问题如下：</text:span></text:p>
-    <text:list xml:id="list2533355998" text:style-name="L5">
+    <text:list xml:id="list1870171826" text:style-name="L5">
      <text:list-item>
       <text:p text:style-name="P129"><text:span text:style-name="T61">[hmd, hmz]：</text:span>当以下大字母：</text:p>
       <text:p text:style-name="P127"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T67">16</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T73">𖼖</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER</text:span><text:span text:style-name="T77"> </text:span><text:span text:style-name="T78">LA</text:span></text:p>
@@ -2661,7 +2661,7 @@
     <text:p text:style-name="P17">以上种种均为操作系统的限制而非字体集的问题，特别是Windows 10不能同时正确处理吐气号的缩进和高音小字母的位置，又未能正确处理字体内特别针对U+16F64的OpenType Layout逻辑。希望《微软》尽快发放可以解决这些问题的系统补丁或更新。</text:p>
     <text:p text:style-name="P57"><text:soft-page-break/><text:span text:style-name="T47">写字板</text:span><text:span text:style-name="T123">（WordPad）——Windows 10</text:span></text:p>
     <text:p text:style-name="P18">正如记事本一样，Windows 10内置的写字板能正确显示大部分伯格理苗文字符。已知显示问题如下：</text:p>
-    <text:list xml:id="list3093246655" text:style-name="L6">
+    <text:list xml:id="list164203566" text:style-name="L6">
      <text:list-item>
       <text:p text:style-name="P131">Windows 10 记事本的所有问题</text:p>
      </text:list-item>
@@ -2672,7 +2672,7 @@
     <text:p text:style-name="P14"><text:span text:style-name="T121">问题 #</text:span><text:span text:style-name="T121"><text:bookmark-ref text:reference-format="number" text:ref-name="__RefNumPara__3042_4109442620">2</text:bookmark-ref></text:span><text:span text:style-name="T121"> 是写字板的限制而不是字体集的问题。在新版本能提供更妥善的处理以前，用户唯有小心熟习这情况。</text:span></text:p>
     <text:p text:style-name="P58">自由办公室（LibreOffice）Writer 6.2 或以上——跨平台</text:p>
     <text:p text:style-name="P19">Writer没有记事本或写字板的问题，但也有自己的问题：</text:p>
-    <text:list xml:id="list3906812004" text:style-name="L7">
+    <text:list xml:id="list3455008393" text:style-name="L7">
      <text:list-item>
       <text:p text:style-name="P133">用Writer打开文本格式（.txt）的文件后，虽把字体设定为字体集内的其中一个字体，OpenType Layout仍无法实现。这时Writer的错误，并非字体集的问题。缓冲办法是把文本文件的内容复制到Writer内，然后设定相应的字体。</text:p>
      </text:list-item>
@@ -2680,7 +2680,7 @@
       <text:p text:style-name="P133"><text:bookmark-start text:name="__RefNumPara__26832_151478762"/><text:span text:style-name="T62">[sfm, ywq, ygp, yna]：</text:span><text:span text:style-name="T2">以下16个字符在音节中的位置不正确（在《苹果》平台上更无法显示）：</text:span><text:bookmark-end text:name="__RefNumPara__26832_151478762"/></text:p>
      </text:list-item>
     </text:list>
-    <text:list xml:id="list2141768446" text:style-name="L8">
+    <text:list xml:id="list3952015562" text:style-name="L8">
      <text:list-header>
       <text:p text:style-name="P135"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F45<text:tab/></text:span><text:span text:style-name="T90">𖽅</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER BRI</text:span></text:p>
       <text:p text:style-name="P136"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F46<text:tab/></text:span><text:span text:style-name="T90">𖽆</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER SYI</text:span></text:p>
@@ -2704,7 +2704,7 @@
     <text:p text:style-name="Text_20_body"><text:span text:style-name="T93">期盼</text:span><text:span text:style-name="T95">《</text:span><text:span text:style-name="T93">自由办公室》</text:span><text:span text:style-name="T94">尽快推出可以完全解决这些问题的新版本。</text:span></text:p>
     <text:p text:style-name="P56">Microsoft Word 2013或以上——Windows 10</text:p>
     <text:p text:style-name="P15">Word在所列举的应用程式中无疑是用户最多的，但在伯格理苗文字符显示上也是问题最多的：</text:p>
-    <text:list xml:id="list3502038362" text:style-name="L9">
+    <text:list xml:id="list1546659025" text:style-name="L9">
      <text:list-item>
       <text:p text:style-name="P139">Windows 10 记事本的所有问题</text:p>
      </text:list-item>
@@ -2712,7 +2712,7 @@
       <text:p text:style-name="P139">自由办公室<text:span text:style-name="T124">Writer 6.2或以上的问题 #</text:span><text:span text:style-name="T124"><text:bookmark-ref text:reference-format="number" text:ref-name="__RefNumPara__26832_151478762">2</text:bookmark-ref></text:span></text:p>
      </text:list-item>
      <text:list-item>
-      <text:p text:style-name="P140">虽然字体集已内置部分中日韩全形符号及标点（CJK Symbols and Punctuation 以及Halfwidth and Fullwidth Forms），Word仍自动以默认亚洲字体显示该等字符。在诸如《自由办公室》等其他应用程式内，通常只要全选苗文文本、把字体设定为<text:span text:style-name="T125">Shimenkan字体集内的其中之一，就可以覆盖默认值，但Word坚持使用默认字体，要更改默认值还得大费周章</text:span><text:span text:style-name="T125"><text:note text:id="ftn0" text:note-class="footnote"><text:note-citation>2</text:note-citation><text:note-body>
+      <text:p text:style-name="P140">虽然字体集已内置部分中日韩全形符号及标点（CJK Symbols and Punctuation 以及Halfwidth and Fullwidth Forms），Word仍自动以默认亚洲字体显示该等字符。在诸如《自由办公室》等其他应用程式内，通常只要全选苗文文本、把字体设定为<text:span text:style-name="T125">Shimenkan字体集内的其中之一，就可以覆盖默认值，但Word坚持使用默认字体，要更改默认值还得大费周章</text:span><text:span text:style-name="T125"><text:note text:id="ftn2" text:note-class="footnote"><text:note-citation>2</text:note-citation><text:note-body>
           <text:p text:style-name="P118"><text:span text:style-name="T164">根据</text:span><text:a xlink:type="simple" xlink:href="https://answers.microsoft.com/en-us/msoffice/forum/all/word-2016-stubbornly-changes-my-default-font/ec9db057-b264-4d5c-9cdc-2c25c0b5e2c0" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T164">这网页</text:span></text:a><text:span text:style-name="T164">最后一张贴所说（原文为英文），“你应该可以在菜单栏上点击‘设计｜字体｜自定义字体……’来更改默认值。这是你设定每个文件中每个字体类别（标题／内文）中每种语言的默认字体的方法。当你创建一个新的用户资料配置文件并把它设为默认后，那就应该是你新文件的默认设定了。”</text:span></text:p></text:note-body></text:note></text:span><text:span text:style-name="T125">。这不是字体集的问题，而是Word本身过分限制其他字体的使用。</text:span></text:p>
      </text:list-item>
     </text:list>
