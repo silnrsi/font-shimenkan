@@ -4,7 +4,7 @@
  <office:meta><meta:generator>LibreOffice/6.3.0.4$Windows_X86_64 LibreOffice_project/057fc023c990d676a43019934386b85b21a9ee99</meta:generator><meta:creation-date>2019-08-30T04:15:05.065000000</meta:creation-date><meta:editing-cycles>1</meta:editing-cycles><meta:editing-duration>P0D</meta:editing-duration><dc:title>字体使用说明</dc:title><meta:document-statistic meta:table-count="2" meta:image-count="1" meta:object-count="0" meta:page-count="11" meta:paragraph-count="228" meta:word-count="3369" meta:character-count="6562" meta:non-whitespace-character-count="6138"/><meta:user-defined meta:name="Info 1"/><meta:user-defined meta:name="Info 2"/><meta:user-defined meta:name="Info 3"/><meta:user-defined meta:name="Info 4"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">26035</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">50326</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">25058</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">6452</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">3041</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">13104</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">42661</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">26035</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">50324</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">25056</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">51091</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">2</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -94,7 +94,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">true</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">33693537</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">33841568</config:config-item>
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">false</config:config-item>
@@ -145,8 +145,8 @@
   <style:font-face style:name="Salaowu1" svg:font-family="Salaowu"/>
   <style:font-face style:name="Sapushan2" svg:font-family="Sapushan"/>
   <style:font-face style:name="Sapushan1" svg:font-family="Sapushan" style:font-adornments="Regular"/>
-  <style:font-face style:name="Shimenkan GSM1" svg:font-family="&apos;Shimenkan GSM&apos;"/>
-  <style:font-face style:name="Shimenkan GSM2" svg:font-family="&apos;Shimenkan GSM&apos;" style:font-adornments="Regular"/>
+  <style:font-face style:name="Shimenkan GSM2" svg:font-family="&apos;Shimenkan GSM&apos;"/>
+  <style:font-face style:name="Shimenkan GSM1" svg:font-family="&apos;Shimenkan GSM&apos;" style:font-adornments="Regular"/>
   <style:font-face style:name="Shimenkan MAS1" svg:font-family="&apos;Shimenkan MAS&apos;" style:font-adornments="Regular"/>
   <style:font-face style:name="Shimenkan Zonghe1" svg:font-family="&apos;Shimenkan Zonghe&apos;" style:font-adornments="Regular"/>
   <style:font-face style:name="StarSymbol" svg:font-family="StarSymbol"/>
@@ -170,13 +170,13 @@
   <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Arial" svg:font-family="Arial" style:font-adornments="Regular" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="Arial Narrow" svg:font-family="&apos;Arial Narrow&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="Arial Narrow1" svg:font-family="&apos;Arial Narrow&apos;" style:font-adornments="Regular" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Arial Narrow1" svg:font-family="&apos;Arial Narrow&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Arial Narrow" svg:font-family="&apos;Arial Narrow&apos;" style:font-adornments="Regular" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Helvetica" svg:font-family="Helvetica" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Microsoft JhengHei" svg:font-family="&apos;Microsoft JhengHei&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Microsoft JhengHei1" svg:font-family="&apos;Microsoft JhengHei&apos;" style:font-adornments="Regular" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="Microsoft YaHei1" svg:font-family="&apos;Microsoft YaHei&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="Microsoft YaHei" svg:font-family="&apos;Microsoft YaHei&apos;" style:font-adornments="Regular" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Microsoft YaHei" svg:font-family="&apos;Microsoft YaHei&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Microsoft YaHei1" svg:font-family="&apos;Microsoft YaHei&apos;" style:font-adornments="Regular" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Salaowu" svg:font-family="Salaowu" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Sapushan" svg:font-family="Sapushan" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Sapushan Book" svg:font-family="&apos;Sapushan Book&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
@@ -230,11 +230,11 @@
   </style:style>
   <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
    <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false" fo:keep-with-next="always"/>
-   <style:text-properties style:font-name="Arial1" fo:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="Microsoft YaHei1" style:font-family-asian="&apos;Microsoft YaHei&apos;" style:font-family-generic-asian="swiss" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Sapushan" style:font-family-complex="Sapushan" style:font-family-generic-complex="swiss" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
+   <style:text-properties style:font-name="Arial1" fo:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="Microsoft YaHei" style:font-family-asian="&apos;Microsoft YaHei&apos;" style:font-family-generic-asian="swiss" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Sapushan" style:font-family-complex="Sapushan" style:font-family-generic-complex="swiss" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
   </style:style>
   <style:style style:name="Heading_20_1" style:display-name="Heading 1" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Standard" style:default-outline-level="1" style:class="text">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="1cm" loext:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" fo:break-before="page" fo:padding-left="0cm" fo:padding-right="0cm" fo:padding-top="0cm" fo:padding-bottom="0.035cm" fo:border-left="none" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.06pt solid #808080" fo:keep-with-next="always"/>
-   <style:text-properties style:font-name="Arial" fo:font-family="Arial" style:font-style-name="Regular" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="20pt" fo:language="en" fo:country="GB" fo:font-weight="normal" style:font-name-asian="Microsoft YaHei" style:font-family-asian="&apos;Microsoft YaHei&apos;" style:font-style-name-asian="Regular" style:font-family-generic-asian="swiss" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="20pt"/>
+   <style:text-properties style:font-name="Arial" fo:font-family="Arial" style:font-style-name="Regular" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="20pt" fo:language="en" fo:country="GB" fo:font-weight="normal" style:font-name-asian="Microsoft YaHei1" style:font-family-asian="&apos;Microsoft YaHei&apos;" style:font-style-name-asian="Regular" style:font-family-generic-asian="swiss" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="paragraph" style:parent-style-name="Text_20_body" style:next-style-name="Standard" style:class="text" style:master-page-name="">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.499cm" fo:margin-bottom="0.3cm" loext:contextual-spacing="false" fo:text-indent="0cm" style:auto-text-indent="false" style:page-number="auto" fo:break-before="auto" fo:break-after="auto" fo:padding="0cm" fo:border="none" fo:keep-with-next="always"/>
@@ -525,7 +525,7 @@
   </style:style>
   <style:style style:name="Issue_20_Heading" style:display-name="Issue Heading" style:family="paragraph" style:parent-style-name="Heading_20_2" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
-   <style:text-properties style:font-name="Arial Narrow1" fo:font-family="&apos;Arial Narrow&apos;" style:font-style-name="Regular" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-weight="bold"/>
+   <style:text-properties style:font-name="Arial Narrow" fo:font-family="&apos;Arial Narrow&apos;" style:font-style-name="Regular" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-weight="bold"/>
   </style:style>
   <style:style style:name="Title" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:class="chapter">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
@@ -1052,7 +1052,7 @@
    <style:text-properties officeooo:paragraph-rsid="01b6cc75" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Table_20_Heading">
-   <style:text-properties style:font-name="Arial Narrow" officeooo:paragraph-rsid="01b6cc75" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties style:font-name="Arial Narrow1" officeooo:paragraph-rsid="01b6cc75" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:text-properties style:font-name="Sapushan" fo:font-size="18pt" officeooo:paragraph-rsid="01b6cc75" style:font-size-asian="18pt" style:font-name-complex="Sapushan" style:font-size-complex="18pt"/>
@@ -1258,7 +1258,7 @@
   </style:style>
   <style:style style:name="P123" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
-   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="20pt" fo:language="en" fo:country="GB" fo:font-weight="normal" officeooo:rsid="01b8c0d1" officeooo:paragraph-rsid="01b6cc75" style:letter-kerning="true" style:font-name-asian="Microsoft YaHei" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="10pt"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="20pt" fo:language="en" fo:country="GB" fo:font-weight="normal" officeooo:rsid="01b8c0d1" officeooo:paragraph-rsid="01b6cc75" style:letter-kerning="true" style:font-name-asian="Microsoft YaHei1" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="P124" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="First_20_Page">
    <style:paragraph-properties style:page-number="auto"/>
@@ -1426,400 +1426,409 @@
    <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" officeooo:rsid="018284c7" style:letter-kerning="true" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" officeooo:rsid="01b7dc44" style:letter-kerning="true" style:font-size-complex="12pt"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" officeooo:rsid="020293b2" style:letter-kerning="true" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="12pt" fo:language="mi" fo:country="NZ" officeooo:rsid="015cc04e" style:letter-kerning="true" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="12pt"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" officeooo:rsid="01b7dc44" style:letter-kerning="true" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-weight="normal" officeooo:rsid="00cea5cb" style:letter-kerning="true" style:font-size-asian="14pt" style:language-asian="en" style:country-asian="US" style:font-size-complex="10pt"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" officeooo:rsid="020293b2" style:letter-kerning="true" style:language-asian="en" style:country-asian="US" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-weight="normal" officeooo:rsid="00d0de8c" style:letter-kerning="true" style:font-size-asian="14pt" style:language-asian="en" style:country-asian="US" style:font-size-complex="10pt"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="12pt" fo:language="mi" fo:country="NZ" officeooo:rsid="015cc04e" style:letter-kerning="true" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="18pt" fo:language="mi" fo:country="NZ" officeooo:rsid="018f2aa5" style:letter-kerning="true" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="18pt"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-weight="normal" officeooo:rsid="00cea5cb" style:letter-kerning="true" style:font-size-asian="14pt" style:language-asian="en" style:country-asian="US" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="18pt" fo:language="mi" fo:country="NZ" officeooo:rsid="01ebbf7d" style:letter-kerning="true" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="18pt"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-weight="normal" officeooo:rsid="00d0de8c" style:letter-kerning="true" style:font-size-asian="14pt" style:language-asian="en" style:country-asian="US" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00d14460" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="18pt" fo:language="mi" fo:country="NZ" officeooo:rsid="018f2aa5" style:letter-kerning="true" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00cea5cb" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Arial" fo:font-size="18pt" fo:language="mi" fo:country="NZ" officeooo:rsid="01ebbf7d" style:letter-kerning="true" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T41" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00dce356" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00d14460" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T42" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00d71390" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00cea5cb" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T43" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00de1061" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00dce356" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T44" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00d0de8c" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00d71390" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T45" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00e007c7" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00de1061" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T46" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="011693bd" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00d0de8c" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T47" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Arial Narrow1" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-weight="bold" officeooo:rsid="015ae32c" style:letter-kerning="true" style:font-size-asian="16pt" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="16pt"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00e007c7" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T48" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Shimenkan Guifan" fo:language="mi" fo:country="NZ" officeooo:rsid="015c07dc" style:letter-kerning="true" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Shimenkan Guifan"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Dai Banna SIL Light" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="011693bd" style:letter-kerning="true" style:font-name-asian="Dai Banna SIL Book1" style:font-size-asian="18pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-size-complex="18pt" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T49" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Taogu" fo:language="lt" fo:country="LT" officeooo:rsid="017baa63" style:letter-kerning="true" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Taogu"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Arial Narrow" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-weight="bold" officeooo:rsid="015ae32c" style:letter-kerning="true" style:font-size-asian="16pt" style:language-asian="zh" style:country-asian="CN" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="T50" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="gsw" fo:country="FR" officeooo:rsid="01b3fe8b" style:letter-kerning="true" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Shimenkan Guifan" fo:language="mi" fo:country="NZ" officeooo:rsid="015c07dc" style:letter-kerning="true" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Shimenkan Guifan"/>
   </style:style>
   <style:style style:name="T51" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="gsw" fo:country="FR" officeooo:rsid="01bd71f1" style:letter-kerning="true" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Taogu" fo:language="lt" fo:country="LT" officeooo:rsid="017baa63" style:letter-kerning="true" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Taogu"/>
   </style:style>
   <style:style style:name="T52" style:family="text">
-   <style:text-properties style:use-window-font-color="true" style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="mi" fo:country="NZ" officeooo:rsid="015c07dc" style:letter-kerning="true" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="gsw" fo:country="FR" officeooo:rsid="01b3fe8b" style:letter-kerning="true" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T53" style:family="text">
-   <style:text-properties style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="gsw" fo:country="FR" officeooo:rsid="01bd71f1" style:letter-kerning="true" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T54" style:family="text">
-   <style:text-properties officeooo:rsid="000ad106" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="mi" fo:country="NZ" officeooo:rsid="015c07dc" style:letter-kerning="true" style:font-size-asian="18pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T55" style:family="text">
-   <style:text-properties officeooo:rsid="0014c27b" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T56" style:family="text">
-   <style:text-properties officeooo:rsid="001735ac" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties officeooo:rsid="000ad106" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T57" style:family="text">
-   <style:text-properties officeooo:rsid="011a6f0a" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties officeooo:rsid="0014c27b" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T58" style:family="text">
-   <style:text-properties officeooo:rsid="011b932f" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties officeooo:rsid="001735ac" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T59" style:family="text">
-   <style:text-properties officeooo:rsid="01b7dc44" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties officeooo:rsid="011a6f0a" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T60" style:family="text">
-   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
+   <style:text-properties officeooo:rsid="011b932f" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T61" style:family="text">
-   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="01b7dc44" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T62" style:family="text">
-   <style:text-properties fo:font-weight="bold" style:language-asian="zh" style:country-asian="CN" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
   </style:style>
   <style:style style:name="T63" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0028ae4d" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T64" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002a4d9d" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-weight="bold" style:language-asian="zh" style:country-asian="CN" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T65" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0028ae4d" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T66" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002d3455" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002a4d9d" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T67" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="004497f8" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T68" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002a4d9d" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002d3455" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T69" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="004497f8" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T70" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002d3455" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002a4d9d" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T71" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0045a3f2" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T72" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="16pt" fo:language="mi" fo:country="NZ" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0045a3f2" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Sapushan" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002d3455" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T73" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="16pt" fo:language="mi" fo:country="NZ" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0066867e" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Sapushan" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0045a3f2" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T74" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="004923f5" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="11pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="16pt" fo:language="mi" fo:country="NZ" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0045a3f2" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Sapushan" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T75" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0043f578" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="11pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="16pt" fo:language="mi" fo:country="NZ" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0066867e" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Sapushan" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T76" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0050a9ae" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="11pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="004923f5" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="11pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-size-complex="10pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T77" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:language="mi" fo:country="NZ" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002a4d9d" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0043f578" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="11pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-size-complex="10pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T78" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0045a3f2" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="12pt" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0050a9ae" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="11pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-size-complex="10pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T79" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Salaowu" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Salaowu" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:language="mi" fo:country="NZ" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002a4d9d" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T80" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Salaowu" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Salaowu1" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0045a3f2" style:font-name-asian="Arial2" style:font-style-asian="normal" style:font-name-complex="Arial2" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T81" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan Zonghe" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan Zonghe" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Salaowu" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Salaowu" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T82" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan Zonghe" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan Zonghe1" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Salaowu" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Salaowu1" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T83" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan Zonghe" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan Zonghe1" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan Zonghe" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan Zonghe" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T84" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan GSM" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan GSM" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan Zonghe" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan Zonghe1" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T85" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan GSM" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002d3455" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan GSM" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan Zonghe" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan Zonghe1" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T86" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan GSM" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002d3455" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan GSM1" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan GSM" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002c1b82" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan GSM" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T87" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan GSM" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002a4d9d" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan GSM2" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan GSM" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002d3455" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan GSM" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T88" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Sapushan" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="004eb2bb" style:letter-kerning="true" style:font-name-asian="Sapushan1" style:font-size-asian="16pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Sapushan" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan GSM" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002d3455" style:font-name-asian="Shimenkan Zonghe1" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan GSM2" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T89" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Sapushan" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0050a9ae" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Sapushan2" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan GSM" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002a4d9d" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan GSM1" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T90" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan MAS" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002a4d9d" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan MAS1" style:font-size-complex="16pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Sapushan" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="004eb2bb" style:letter-kerning="true" style:font-name-asian="Sapushan1" style:font-size-asian="16pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Sapushan" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T91" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Sapushan" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0050a9ae" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-name-complex="Sapushan2" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T92" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" officeooo:rsid="0127d54c" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Shimenkan MAS" fo:font-size="16pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002a4d9d" style:font-name-asian="Arial2" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-name-complex="Shimenkan MAS1" style:font-size-complex="16pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T93" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" officeooo:rsid="0028ae4d" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T94" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" officeooo:rsid="01532539" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" officeooo:rsid="0127d54c" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T95" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" officeooo:rsid="015e02cf" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" officeooo:rsid="0028ae4d" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T96" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:language="en" fo:country="GB" style:text-underline-style="none" officeooo:rsid="00bf18c0" style:letter-kerning="true" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" officeooo:rsid="01532539" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T97" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:language="en" fo:country="GB" style:text-underline-style="none" officeooo:rsid="00f4e289" style:letter-kerning="true" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-underline-style="none" officeooo:rsid="015e02cf" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T98" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:language="en" fo:country="GB" style:text-underline-style="none" officeooo:rsid="005cdd24" style:letter-kerning="true" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:language="en" fo:country="GB" style:text-underline-style="none" officeooo:rsid="00bf18c0" style:letter-kerning="true" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T99" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:language="en" fo:country="GB" style:text-underline-style="none" officeooo:rsid="008503be" style:letter-kerning="true" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:language="en" fo:country="GB" style:text-underline-style="none" officeooo:rsid="00f4e289" style:letter-kerning="true" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T100" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="005cdd24" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:language="en" fo:country="GB" style:text-underline-style="none" officeooo:rsid="005cdd24" style:letter-kerning="true" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T101" style:family="text">
-   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:language="en" fo:country="GB" style:text-underline-style="none" officeooo:rsid="008503be" style:letter-kerning="true" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T102" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="01ec82bf" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="005cdd24" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T103" style:family="text">
-   <style:text-properties fo:font-weight="normal" style:language-asian="zh" style:country-asian="CN" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T104" style:family="text">
-   <style:text-properties officeooo:rsid="0014c27b"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="01ec82bf" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T105" style:family="text">
-   <style:text-properties officeooo:rsid="001735ac"/>
+   <style:text-properties fo:font-weight="normal" style:language-asian="zh" style:country-asian="CN" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T106" style:family="text">
-   <style:text-properties officeooo:rsid="00218cb3"/>
+   <style:text-properties officeooo:rsid="0014c27b"/>
   </style:style>
   <style:style style:name="T107" style:family="text">
-   <style:text-properties officeooo:rsid="00c8363b"/>
+   <style:text-properties officeooo:rsid="001735ac"/>
   </style:style>
   <style:style style:name="T108" style:family="text">
-   <style:text-properties officeooo:rsid="00ca5f66"/>
+   <style:text-properties officeooo:rsid="00218cb3"/>
   </style:style>
   <style:style style:name="T109" style:family="text">
-   <style:text-properties officeooo:rsid="00d0de8c"/>
+   <style:text-properties officeooo:rsid="00c8363b"/>
   </style:style>
   <style:style style:name="T110" style:family="text">
-   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Sapushan Test" fo:font-size="48pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00dce356" style:font-size-asian="48pt" style:font-style-asian="normal" style:text-emphasize="none"/>
+   <style:text-properties officeooo:rsid="00ca5f66"/>
   </style:style>
   <style:style style:name="T111" style:family="text">
-   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Sapushan Test" fo:font-size="48pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00e1255a" style:font-size-asian="48pt" style:font-style-asian="normal" style:text-emphasize="none"/>
+   <style:text-properties officeooo:rsid="00d0de8c"/>
   </style:style>
   <style:style style:name="T112" style:family="text">
-   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Sapushan Test" fo:font-size="48pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="011693bd" style:font-size-asian="48pt" style:font-style-asian="normal" style:text-emphasize="none"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Sapushan Test" fo:font-size="48pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00dce356" style:font-size-asian="48pt" style:font-style-asian="normal" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T113" style:family="text">
-   <style:text-properties officeooo:rsid="0117a071"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Sapushan Test" fo:font-size="48pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="00e1255a" style:font-size-asian="48pt" style:font-style-asian="normal" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T114" style:family="text">
-   <style:text-properties officeooo:rsid="0127d54c"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Sapushan Test" fo:font-size="48pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="011693bd" style:font-size-asian="48pt" style:font-style-asian="normal" style:text-emphasize="none"/>
   </style:style>
   <style:style style:name="T115" style:family="text">
-   <style:text-properties officeooo:rsid="01354ef6"/>
+   <style:text-properties officeooo:rsid="0117a071"/>
   </style:style>
   <style:style style:name="T116" style:family="text">
-   <style:text-properties officeooo:rsid="013943e6"/>
+   <style:text-properties officeooo:rsid="0127d54c"/>
   </style:style>
   <style:style style:name="T117" style:family="text">
-   <style:text-properties officeooo:rsid="013aeaf6"/>
+   <style:text-properties officeooo:rsid="01354ef6"/>
   </style:style>
   <style:style style:name="T118" style:family="text">
-   <style:text-properties style:font-name="Sapushan" fo:font-size="16pt" style:font-size-asian="16pt" style:font-name-complex="Sapushan" style:font-size-complex="16pt"/>
+   <style:text-properties officeooo:rsid="013943e6"/>
   </style:style>
   <style:style style:name="T119" style:family="text">
-   <style:text-properties style:font-name-complex="Arial1"/>
+   <style:text-properties officeooo:rsid="013aeaf6"/>
   </style:style>
   <style:style style:name="T120" style:family="text">
-   <style:text-properties officeooo:rsid="013b41d5"/>
+   <style:text-properties style:font-name="Sapushan" fo:font-size="16pt" style:font-size-asian="16pt" style:font-name-complex="Sapushan" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="T121" style:family="text">
-   <style:text-properties officeooo:rsid="01479461"/>
+   <style:text-properties style:font-name-complex="Arial1"/>
   </style:style>
   <style:style style:name="T122" style:family="text">
-   <style:text-properties officeooo:rsid="0158db09"/>
+   <style:text-properties officeooo:rsid="013b41d5"/>
   </style:style>
   <style:style style:name="T123" style:family="text">
-   <style:text-properties officeooo:rsid="015af8ff"/>
+   <style:text-properties officeooo:rsid="01479461"/>
   </style:style>
   <style:style style:name="T124" style:family="text">
-   <style:text-properties officeooo:rsid="01608713"/>
+   <style:text-properties officeooo:rsid="0158db09"/>
   </style:style>
   <style:style style:name="T125" style:family="text">
-   <style:text-properties officeooo:rsid="01613082"/>
+   <style:text-properties officeooo:rsid="015af8ff"/>
   </style:style>
   <style:style style:name="T126" style:family="text">
-   <style:text-properties officeooo:rsid="011411ba"/>
+   <style:text-properties officeooo:rsid="01608713"/>
   </style:style>
   <style:style style:name="T127" style:family="text">
-   <style:text-properties style:font-name-asian="Microsoft YaHei1"/>
+   <style:text-properties officeooo:rsid="01613082"/>
   </style:style>
   <style:style style:name="T128" style:family="text">
-   <style:text-properties officeooo:rsid="0181c67e"/>
+   <style:text-properties officeooo:rsid="011411ba"/>
   </style:style>
   <style:style style:name="T129" style:family="text">
-   <style:text-properties officeooo:rsid="0181ec2f"/>
+   <style:text-properties style:font-name-asian="Microsoft YaHei"/>
   </style:style>
   <style:style style:name="T130" style:family="text">
-   <style:text-properties officeooo:rsid="018a728f"/>
+   <style:text-properties officeooo:rsid="0181c67e"/>
   </style:style>
   <style:style style:name="T131" style:family="text">
-   <style:text-properties officeooo:rsid="01918848"/>
+   <style:text-properties officeooo:rsid="0181ec2f"/>
   </style:style>
   <style:style style:name="T132" style:family="text">
-   <style:text-properties fo:language="en" fo:country="CA" officeooo:rsid="0193e33f"/>
+   <style:text-properties officeooo:rsid="018a728f"/>
   </style:style>
   <style:style style:name="T133" style:family="text">
-   <style:text-properties fo:language="en" fo:country="CA" officeooo:rsid="019b5347"/>
+   <style:text-properties officeooo:rsid="01918848"/>
   </style:style>
   <style:style style:name="T134" style:family="text">
-   <style:text-properties fo:language="en" fo:country="CA" officeooo:rsid="01aafe1f"/>
+   <style:text-properties fo:language="en" fo:country="CA" officeooo:rsid="0193e33f"/>
   </style:style>
   <style:style style:name="T135" style:family="text">
-   <style:text-properties officeooo:rsid="019c2731"/>
+   <style:text-properties fo:language="en" fo:country="CA" officeooo:rsid="019b5347"/>
   </style:style>
   <style:style style:name="T136" style:family="text">
-   <style:text-properties style:font-name="Courier New"/>
+   <style:text-properties fo:language="en" fo:country="CA" officeooo:rsid="01aafe1f"/>
   </style:style>
   <style:style style:name="T137" style:family="text">
-   <style:text-properties style:font-name="Courier New" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties officeooo:rsid="019c2731"/>
   </style:style>
   <style:style style:name="T138" style:family="text">
-   <style:text-properties style:font-name="Courier New" style:font-name-asian="Courier New"/>
+   <style:text-properties style:font-name="Courier New"/>
   </style:style>
   <style:style style:name="T139" style:family="text">
-   <style:text-properties style:font-name-asian="Courier New" style:language-asian="zh" style:country-asian="CN"/>
+   <style:text-properties style:font-name="Courier New" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T140" style:family="text">
-   <style:text-properties officeooo:rsid="01b7dc44"/>
+   <style:text-properties style:font-name="Courier New" style:font-name-asian="Courier New"/>
   </style:style>
   <style:style style:name="T141" style:family="text">
-   <style:text-properties fo:language="en" fo:country="GB" officeooo:rsid="015cc04e"/>
+   <style:text-properties style:font-name-asian="Courier New" style:language-asian="zh" style:country-asian="CN"/>
   </style:style>
   <style:style style:name="T142" style:family="text">
-   <style:text-properties fo:language="en" fo:country="GB" officeooo:rsid="01adf7df"/>
+   <style:text-properties officeooo:rsid="01b7dc44"/>
   </style:style>
   <style:style style:name="T143" style:family="text">
-   <style:text-properties officeooo:rsid="0160655c"/>
+   <style:text-properties fo:language="en" fo:country="GB" officeooo:rsid="015cc04e"/>
   </style:style>
   <style:style style:name="T144" style:family="text">
-   <style:text-properties fo:font-size="18pt" fo:language="mi" fo:country="NZ" officeooo:rsid="015584bc" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+   <style:text-properties fo:language="en" fo:country="GB" officeooo:rsid="01adf7df"/>
   </style:style>
   <style:style style:name="T145" style:family="text">
-   <style:text-properties fo:language="mi" fo:country="NZ" officeooo:rsid="015cc04e"/>
+   <style:text-properties officeooo:rsid="0160655c"/>
   </style:style>
   <style:style style:name="T146" style:family="text">
-   <style:text-properties officeooo:rsid="015c07dc"/>
+   <style:text-properties fo:font-size="18pt" fo:language="mi" fo:country="NZ" officeooo:rsid="015584bc" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T147" style:family="text">
-   <style:text-properties officeooo:rsid="015cc04e"/>
+   <style:text-properties fo:language="mi" fo:country="NZ" officeooo:rsid="015cc04e"/>
   </style:style>
   <style:style style:name="T148" style:family="text">
-   <style:text-properties style:font-name="Arial"/>
+   <style:text-properties officeooo:rsid="015c07dc"/>
   </style:style>
   <style:style style:name="T149" style:family="text">
-   <style:text-properties style:font-name="Shimenkan Guifan" style:font-name-complex="Shimenkan Guifan"/>
+   <style:text-properties officeooo:rsid="015cc04e"/>
   </style:style>
   <style:style style:name="T150" style:family="text">
-   <style:text-properties style:rfc-language-tag="ha-Latn-NG" fo:language="ha" fo:script="Latn" fo:country="NG" officeooo:rsid="0170822f"/>
+   <style:text-properties style:font-name="Arial"/>
   </style:style>
   <style:style style:name="T151" style:family="text">
-   <style:text-properties officeooo:rsid="0176f6ec"/>
+   <style:text-properties style:font-name="Shimenkan Guifan" style:font-name-complex="Shimenkan Guifan"/>
   </style:style>
   <style:style style:name="T152" style:family="text">
-   <style:text-properties officeooo:rsid="017baa63"/>
+   <style:text-properties style:rfc-language-tag="ha-Latn-NG" fo:language="ha" fo:script="Latn" fo:country="NG" officeooo:rsid="0170822f"/>
   </style:style>
   <style:style style:name="T153" style:family="text">
-   <style:text-properties style:font-name="Taogu" style:font-name-complex="Taogu"/>
+   <style:text-properties officeooo:rsid="0176f6ec"/>
   </style:style>
   <style:style style:name="T154" style:family="text">
-   <style:text-properties officeooo:rsid="017d348f"/>
+   <style:text-properties officeooo:rsid="017baa63"/>
   </style:style>
   <style:style style:name="T155" style:family="text">
-   <style:text-properties officeooo:rsid="01aa31ce"/>
+   <style:text-properties style:font-name="Taogu" style:font-name-complex="Taogu"/>
   </style:style>
   <style:style style:name="T156" style:family="text">
-   <style:text-properties fo:language="gsw" fo:country="FR" officeooo:rsid="01adf7df"/>
+   <style:text-properties officeooo:rsid="017d348f"/>
   </style:style>
   <style:style style:name="T157" style:family="text">
-   <style:text-properties officeooo:rsid="01adf7df"/>
+   <style:text-properties officeooo:rsid="01aa31ce"/>
   </style:style>
   <style:style style:name="T158" style:family="text">
-   <style:text-properties style:font-name="Shimenkan GSM" fo:font-size="18pt" style:font-size-asian="18pt" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
+   <style:text-properties fo:language="gsw" fo:country="FR" officeooo:rsid="01adf7df"/>
   </style:style>
   <style:style style:name="T159" style:family="text">
-   <style:text-properties style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="gsw" fo:country="FR" style:font-size-asian="18pt" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
+   <style:text-properties officeooo:rsid="01adf7df"/>
   </style:style>
   <style:style style:name="T160" style:family="text">
-   <style:text-properties style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="gsw" fo:country="FR" officeooo:rsid="01b3fe8b" style:font-size-asian="18pt" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
+   <style:text-properties style:font-name="Shimenkan GSM" fo:font-size="18pt" style:font-size-asian="18pt" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T161" style:family="text">
-   <style:text-properties style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="gsw" fo:country="FR" officeooo:rsid="01bd71f1" style:font-size-asian="18pt" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
+   <style:text-properties style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="gsw" fo:country="FR" style:font-size-asian="18pt" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T162" style:family="text">
-   <style:text-properties fo:language="nn" fo:country="NO" officeooo:rsid="01cc0ecd"/>
+   <style:text-properties style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="gsw" fo:country="FR" officeooo:rsid="01b3fe8b" style:font-size-asian="18pt" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T163" style:family="text">
-   <style:text-properties officeooo:rsid="01cfba4f"/>
+   <style:text-properties style:font-name="Shimenkan GSM" fo:font-size="18pt" fo:language="gsw" fo:country="FR" officeooo:rsid="01bd71f1" style:font-size-asian="18pt" style:font-name-complex="Shimenkan GSM" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T164" style:family="text">
+   <style:text-properties fo:language="nn" fo:country="NO" officeooo:rsid="01cc0ecd"/>
+  </style:style>
+  <style:style style:name="T165" style:family="text">
+   <style:text-properties officeooo:rsid="01cfba4f"/>
+  </style:style>
+  <style:style style:name="T166" style:family="text">
    <style:text-properties officeooo:rsid="01e20978"/>
+  </style:style>
+  <style:style style:name="T167" style:family="text">
+   <style:text-properties officeooo:rsid="020293b2"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
@@ -2334,9 +2343,9 @@
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="P7">𖼳𖽷<text:span text:style-name="T107">𖾏</text:span>𖼄𖽞<text:span text:style-name="T107">𖾏</text:span>𖼞𖽑𖽗</text:p>
+   <text:p text:style-name="P7">𖼳𖽷<text:span text:style-name="T109">𖾏</text:span>𖼄𖽞<text:span text:style-name="T109">𖾏</text:span>𖼞𖽑𖽗</text:p>
    <text:p text:style-name="P8"/>
-   <text:p text:style-name="P9"><text:span text:style-name="T113">Shimenkan</text:span><text:span text:style-name="T127">字体</text:span></text:p>
+   <text:p text:style-name="P9"><text:span text:style-name="T115">Shimenkan</text:span><text:span text:style-name="T129">字体</text:span></text:p>
    <text:p text:style-name="P6">使用说明</text:p>
    <text:p text:style-name="P5"/>
    <text:p text:style-name="Text_20_body"/>
@@ -2448,25 +2457,25 @@
     <text:p text:style-name="Address"/>
     <text:p text:style-name="Address"><text:span text:style-name="T5">Shimenkan</text:span><text:span text:style-name="T2">字体使用说明</text:span></text:p>
     <text:p text:style-name="Address"/>
-    <text:p text:style-name="P52"><text:span text:style-name="T2">© 201</text:span><text:span text:style-name="T54">8-2019</text:span><text:span text:style-name="T2">版权属 SIL International所有</text:span></text:p>
-    <text:p text:style-name="P53">本文件由<text:span text:style-name="T126">Creative Commons Attribution-ShareAlike 4.0 国际许可证（CC-BY-SA 4）许可。</text:span></text:p>
-    <text:p text:style-name="P54">Shimenkan字体集由<text:span text:style-name="T126">SIL 开放源字体许可证第1.1版（</text:span><text:a xlink:type="simple" xlink:href="http://scripts.sil.org/OFL" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T126">http://scripts.sil.org/OFL</text:span></text:a><text:span text:style-name="T126">）许可。</text:span></text:p>
+    <text:p text:style-name="P52"><text:span text:style-name="T2">© 201</text:span><text:span text:style-name="T56">8-2019</text:span><text:span text:style-name="T2">版权属 SIL International所有</text:span></text:p>
+    <text:p text:style-name="P53">本文件由<text:span text:style-name="T128">Creative Commons Attribution-ShareAlike 4.0 国际许可证（CC-BY-SA 4）许可。</text:span></text:p>
+    <text:p text:style-name="P54">Shimenkan字体集由<text:span text:style-name="T128">SIL 开放源字体许可证第1.1版（</text:span><text:a xlink:type="simple" xlink:href="http://scripts.sil.org/OFL" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T128">http://scripts.sil.org/OFL</text:span></text:a><text:span text:style-name="T128">）许可。</text:span></text:p>
     <text:p text:style-name="Address"/>
     <text:p text:style-name="Address"/>
     <text:p text:style-name="Address">SIL International</text:p>
-    <text:p text:style-name="P51">Writing System<text:span text:style-name="T131">s</text:span> Technology</text:p>
+    <text:p text:style-name="P51">Writing System<text:span text:style-name="T133">s</text:span> Technology</text:p>
     <text:p text:style-name="Address">7500 W. Camp Wisdom Rd.</text:p>
     <text:p text:style-name="Address">Dallas, TX 75236</text:p>
     <text:p text:style-name="Address">USA</text:p>
     <text:p text:style-name="Address"/>
-    <text:p text:style-name="P55">欲知更多项目详情，请参<text:a xlink:type="simple" xlink:href="https://github.com/silnrsi/font-shimenkan" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://github.com/silnrsi/font-shimenkan</text:a><text:line-break/>如需与我们联系，请访问 <text:a xlink:type="simple" xlink:href="https://software.sil.org/about/contact/" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T126">https://software.sil.org/about/contact/</text:span></text:a> </text:p>
-    <text:list xml:id="list3454831280" text:style-name="L1">
+    <text:p text:style-name="P55">欲知更多项目详情，请参<text:a xlink:type="simple" xlink:href="https://github.com/silnrsi/font-shimenkan" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://github.com/silnrsi/font-shimenkan</text:a><text:line-break/>如需与我们联系，请访问 <text:a xlink:type="simple" xlink:href="https://software.sil.org/about/contact/" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T128">https://software.sil.org/about/contact/</text:span></text:a> </text:p>
+    <text:list xml:id="list2717501727" text:style-name="L1">
      <text:list-item>
       <text:h text:style-name="P122" text:outline-level="1"><text:reference-mark-start text:name="intro"/>引言<text:reference-mark-end text:name="intro"/></text:h>
      </text:list-item>
     </text:list>
     <text:p text:style-name="P26">Shimenkan（石门坎）是一套伯格理苗文国际码超级字体集<text:note text:id="ftn1" text:note-class="footnote"><text:note-citation>1</text:note-citation><text:note-body>
-       <text:p text:style-name="Footnote">伯格理苗文最早收录于国际码标准6.1内，以后逐步扩充修订至国际码标准12.0，详见最新码表：<text:a xlink:type="simple" xlink:href="https://www.unicode.org/charts/PDF/U16F00.pdf" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T108">https://www.unicode.org/charts/PDF/U16F00.pdf</text:span></text:a><text:span text:style-name="T108">。</text:span></text:p></text:note-body></text:note>，适合使用苗文字符的多个语言族群，其中有些还使用不只一种伯格理苗文书写系统。<text:span text:style-name="T132">目前共有八个字体集可供选择：</text:span></text:p>
+       <text:p text:style-name="Footnote">伯格理苗文最早收录于国际码标准6.1内，以后逐步扩充修订至国际码标准12.0，详见最新码表：<text:a xlink:type="simple" xlink:href="https://www.unicode.org/charts/PDF/U16F00.pdf" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T110">https://www.unicode.org/charts/PDF/U16F00.pdf</text:span></text:a><text:span text:style-name="T110">。</text:span></text:p></text:note-body></text:note>，适合使用苗文字符的多个语言族群，其中有些还使用不只一种伯格理苗文书写系统。<text:span text:style-name="T134">目前共有八个字体集可供选择：</text:span></text:p>
     <table:table table:name="Table1" table:style-name="Table1">
      <table:table-column table:style-name="Table1.A"/>
      <table:table-column table:style-name="Table1.B"/>
@@ -2553,7 +2562,7 @@
        <text:p text:style-name="P63">Shimenkan Zonghe</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table1.A2" office:value-type="string">
-       <text:p text:style-name="P63">Aluo 干彝文</text:p>
+       <text:p text:style-name="P63">Aluo <text:span text:style-name="T33">甘</text:span>彝文</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table1.C2" office:value-type="string">
        <text:p text:style-name="P63">yna</text:p>
@@ -2571,29 +2580,29 @@
       </table:table-cell>
      </table:table-row>
     </table:table>
-    <text:p text:style-name="P25">每个字体集为该种语文提供四系列粗细不同的字体，应用范围广阔。目前每个系列包括正体及粗体<text:span text:style-name="T133">各一</text:span>，四系列共计八个字体文件。我们还希望以后可以在每系列中加入斜体。</text:p>
-    <text:p text:style-name="P25">下面展示的是<text:span text:style-name="T135">Sapushan各系列的字体样品。系列由粗到细排列，而每系列中的第一行是正体，第二行是粗体：</text:span></text:p>
-    <text:p text:style-name="P50"><text:span text:style-name="T35">S</text:span><text:span text:style-name="T36">apushan Book</text:span></text:p>
-    <text:p text:style-name="P40"><text:span text:style-name="T39">𖽐</text:span><text:span text:style-name="T40">𖼮𖽔𖾑𖼇</text:span><text:span text:style-name="T41">𖽹</text:span><text:span text:style-name="T40">𖼦𖽘𖾏𖼨</text:span><text:span text:style-name="T39">𖽑</text:span><text:span text:style-name="T40">𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙</text:span><text:span text:style-name="T42">𖽾</text:span><text:span text:style-name="T41">𖾑</text:span><text:span text:style-name="T40">𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘</text:span><text:span text:style-name="T41">𖽡𖾐</text:span><text:span text:style-name="T40">𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢</text:span><text:span text:style-name="T46">𖾑</text:span><text:span text:style-name="T40">𖼺𖽫</text:span><text:span text:style-name="T46">𖾐</text:span><text:span text:style-name="T40">𖼳𖽨𖼊</text:span><text:span text:style-name="T43">𖽪</text:span><text:span text:style-name="T40">𖽗</text:span><text:span text:style-name="T46">𖾑</text:span><text:span text:style-name="T40">𖼎𖽞</text:span><text:span text:style-name="T41">𖾏</text:span><text:span text:style-name="T40">𖼷𖽟𖽂</text:span><text:span text:style-name="T44">𖽡𖽹</text:span><text:span text:style-name="T45">𖾑</text:span><text:span text:style-name="T44">𖼈𖽤𖼽𖽡𖽻</text:span><text:span text:style-name="T41">𖾑</text:span><text:span text:style-name="T110">𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪</text:span><text:span text:style-name="T111">𖾐</text:span><text:span text:style-name="T110">𖼋𖽪𖽘</text:span><text:span text:style-name="T112">𖾑</text:span><text:span text:style-name="T110">𖼸𖽪𖽞</text:span></text:p>
+    <text:p text:style-name="P25">每个字体集为该种语文提供四系列粗细不同的字体，应用范围广阔。目前每个系列包括正体及粗体<text:span text:style-name="T135">各一</text:span>，四系列共计八个字体文件。我们还希望以后可以在每系列中加入斜体。</text:p>
+    <text:p text:style-name="P25">下面展示的是<text:span text:style-name="T137">Sapushan各系列的字体样品。系列由粗到细排列，而每系列中的第一行是正体，第二行是粗体：</text:span></text:p>
+    <text:p text:style-name="P50"><text:span text:style-name="T37">S</text:span><text:span text:style-name="T38">apushan Book</text:span></text:p>
+    <text:p text:style-name="P40"><text:span text:style-name="T41">𖽐</text:span><text:span text:style-name="T42">𖼮𖽔𖾑𖼇</text:span><text:span text:style-name="T43">𖽹</text:span><text:span text:style-name="T42">𖼦𖽘𖾏𖼨</text:span><text:span text:style-name="T41">𖽑</text:span><text:span text:style-name="T42">𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙</text:span><text:span text:style-name="T44">𖽾</text:span><text:span text:style-name="T43">𖾑</text:span><text:span text:style-name="T42">𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘</text:span><text:span text:style-name="T43">𖽡𖾐</text:span><text:span text:style-name="T42">𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢</text:span><text:span text:style-name="T48">𖾑</text:span><text:span text:style-name="T42">𖼺𖽫</text:span><text:span text:style-name="T48">𖾐</text:span><text:span text:style-name="T42">𖼳𖽨𖼊</text:span><text:span text:style-name="T45">𖽪</text:span><text:span text:style-name="T42">𖽗</text:span><text:span text:style-name="T48">𖾑</text:span><text:span text:style-name="T42">𖼎𖽞</text:span><text:span text:style-name="T43">𖾏</text:span><text:span text:style-name="T42">𖼷𖽟𖽂</text:span><text:span text:style-name="T46">𖽡𖽹</text:span><text:span text:style-name="T47">𖾑</text:span><text:span text:style-name="T46">𖼈𖽤𖼽𖽡𖽻</text:span><text:span text:style-name="T43">𖾑</text:span><text:span text:style-name="T112">𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪</text:span><text:span text:style-name="T113">𖾐</text:span><text:span text:style-name="T112">𖼋𖽪𖽘</text:span><text:span text:style-name="T114">𖾑</text:span><text:span text:style-name="T112">𖼸𖽪𖽞</text:span></text:p>
     <text:p text:style-name="P41">𖽐𖼮𖽔𖾑𖼇𖽹𖼦𖽘𖾏𖼨𖽑𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙𖽾𖾑𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘𖽡𖾐𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢𖾑𖼺𖽫𖾐𖼳𖽨𖼊𖽪𖽗𖾑𖼎𖽞𖾏𖼷𖽟𖽂𖽡𖽹𖾑𖼈𖽤𖼽𖽡𖽻𖾑𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪𖾐𖼋𖽪𖽘𖾑𖼸𖽪𖽞</text:p>
-    <text:p text:style-name="P49">S<text:span text:style-name="T109">apushan</text:span></text:p>
+    <text:p text:style-name="P49">S<text:span text:style-name="T111">apushan</text:span></text:p>
     <text:p text:style-name="P45">𖽐𖼮𖽔𖾑𖼇𖽹𖼦𖽘𖾏𖼨𖽑𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙𖽾𖾑𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘𖽡𖾐𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢𖾑𖼺𖽫𖾐𖼳𖽨𖼊𖽪𖽗𖾑𖼎𖽞𖾏𖼷𖽟𖽂𖽡𖽹𖾑𖼈𖽤𖼽𖽡𖽻𖾑𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪𖾐𖼋𖽪𖽘𖾑𖼸𖽪𖽞</text:p>
     <text:p text:style-name="P42">𖽐𖼮𖽔𖾑𖼇𖽹𖼦𖽘𖾏𖼨𖽑𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙𖽾𖾑𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘𖽡𖾐𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢𖾑𖼺𖽫𖾐𖼳𖽨𖼊𖽪𖽗𖾑𖼎𖽞𖾏𖼷𖽟𖽂𖽡𖽹𖾑𖼈𖽤𖼽𖽡𖽻𖾑𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪𖾐𖼋𖽪𖽘𖾑𖼸𖽪𖽞</text:p>
-    <text:p text:style-name="P48"><text:soft-page-break/>S<text:span text:style-name="T109">apushan Light</text:span></text:p>
+    <text:p text:style-name="P48"><text:soft-page-break/>S<text:span text:style-name="T111">apushan Light</text:span></text:p>
     <text:p text:style-name="P46">𖽐𖼮𖽔𖾑𖼇𖽹𖼦𖽘𖾏𖼨𖽑𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙𖽾𖾑𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘𖽡𖾐𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢𖾑𖼺𖽫𖾐𖼳𖽨𖼊𖽪𖽗𖾑𖼎𖽞𖾏𖼷𖽟𖽂𖽡𖽹𖾑𖼈𖽤𖼽𖽡𖽻𖾑𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪𖾐𖼋𖽪𖽘𖾑𖼸𖽪𖽞</text:p>
     <text:p text:style-name="P43">𖽐𖼮𖽔𖾑𖼇𖽹𖼦𖽘𖾏𖼨𖽑𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙𖽾𖾑𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘𖽡𖾐𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢𖾑𖼺𖽫𖾐𖼳𖽨𖼊𖽪𖽗𖾑𖼎𖽞𖾏𖼷𖽟𖽂𖽡𖽹𖾑𖼈𖽤𖼽𖽡𖽻𖾑𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪𖾐𖼋𖽪𖽘𖾑𖼸𖽪𖽞</text:p>
-    <text:p text:style-name="P49">S<text:span text:style-name="T109">apushan Extra Light</text:span></text:p>
+    <text:p text:style-name="P49">S<text:span text:style-name="T111">apushan Extra Light</text:span></text:p>
     <text:p text:style-name="P47">𖽐𖼮𖽔𖾑𖼇𖽹𖼦𖽘𖾏𖼨𖽑𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙𖽾𖾑𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘𖽡𖾐𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢𖾑𖼺𖽫𖾐𖼳𖽨𖼊𖽪𖽗𖾑𖼎𖽞𖾏𖼷𖽟𖽂𖽡𖽹𖾑𖼈𖽤𖼽𖽡𖽻𖾑𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪𖾐𖼋𖽪𖽘𖾑𖼸𖽪𖽞</text:p>
     <text:p text:style-name="P44">𖽐𖼮𖽔𖾑𖼇𖽹𖼦𖽘𖾏𖼨𖽑𖽻𖽃𖽦𖾑𖼻𖽺𖾐𖼞𖽙𖽾𖾑𖼡𖽠𖼚𖽜𖾑𖼖𖽳𖾐𖼘𖽡𖾐𖼄𖽷𖼐𖽵𖾑𖼣𖽱𖾐𖼀𖽪𖾏𖼵𖽢𖾑𖼺𖽫𖾐𖼳𖽨𖼊𖽪𖽗𖾑𖼎𖽞𖾏𖼷𖽟𖽂𖽡𖽹𖾑𖼈𖽤𖼽𖽡𖽻𖾑𖼯𖽡𖽝𖾏𖼟𖽡𖽳𖾑𖼁𖽪𖾐𖼋𖽪𖽘𖾑𖼸𖽪𖽞</text:p>
     <text:p text:style-name="P117">其他字体集采用相同风格的设计，粗细程度也无异。不同的地方主要在于各种语文对字符形状和位置都有其特定要求，<text:span text:style-name="T6">详见第</text:span><text:span text:style-name="T6"><text:reference-ref text:reference-format="page" text:ref-name="feat">9</text:reference-ref></text:span><text:span text:style-name="T6">页“</text:span><text:span text:style-name="T6"><text:reference-ref text:reference-format="text" text:ref-name="feat">各种语文对字体之要求</text:reference-ref></text:span><text:span text:style-name="T6">”</text:span>。</text:p>
-    <text:list xml:id="list2513863960" text:style-name="L2">
+    <text:list xml:id="list811190669" text:style-name="L2">
      <text:list-item>
       <text:h text:style-name="P119" text:outline-level="1">字体安装</text:h>
      </text:list-item>
     </text:list>
-    <text:p text:style-name="Heading_20_2"><text:span text:style-name="T91">微软视窗（</text:span><text:span text:style-name="T92">Windows）</text:span></text:p>
-    <text:p text:style-name="P30"><text:span text:style-name="T2">在</text:span>Windows 10<text:span text:style-name="T2">、</text:span><text:span text:style-name="T104">8</text:span><text:span text:style-name="T55">，或</text:span><text:span text:style-name="T104"> 7</text:span><text:span text:style-name="T55">系统下：</text:span></text:p>
-    <text:list xml:id="list3489519307" text:style-name="L3">
+    <text:p text:style-name="Heading_20_2"><text:span text:style-name="T93">微软视窗（</text:span><text:span text:style-name="T94">Windows）</text:span></text:p>
+    <text:p text:style-name="P30"><text:span text:style-name="T2">在</text:span>Windows 10<text:span text:style-name="T2">、</text:span><text:span text:style-name="T106">8</text:span><text:span text:style-name="T57">，或</text:span><text:span text:style-name="T106"> 7</text:span><text:span text:style-name="T57">系统下：</text:span></text:p>
+    <text:list xml:id="list4099636476" text:style-name="L3">
      <text:list-item>
       <text:p text:style-name="P141"><text:span text:style-name="T2">解压后把所有字体文件（</text:span>*.ttf<text:span text:style-name="T2">）全选</text:span></text:p>
      </text:list-item>
@@ -2604,31 +2613,31 @@
       <text:p text:style-name="P144">在弹出的菜单上点击“安装”（如果有“为所有用户安装”选项，也可以点击它）。如果有窗口弹出要求确认是否覆盖原文件，点击“是”。</text:p>
      </text:list-item>
     </text:list>
-    <text:p text:style-name="P28"><text:span text:style-name="T55">另一方法是把解压后的字体文件复制到系统字体文件夹内（一般位于</text:span><text:span text:style-name="T136">C:\Windows\Fonts\</text:span><text:span text:style-name="T137">）。</text:span></text:p>
-    <text:p text:style-name="Heading_20_2">苹果（<text:span text:style-name="T114">Macintosh）</text:span></text:p>
+    <text:p text:style-name="P28"><text:span text:style-name="T57">另一方法是把解压后的字体文件复制到系统字体文件夹内（一般位于</text:span><text:span text:style-name="T138">C:\Windows\Fonts\</text:span><text:span text:style-name="T139">）。</text:span></text:p>
+    <text:p text:style-name="Heading_20_2">苹果（<text:span text:style-name="T116">Macintosh）</text:span></text:p>
     <text:p text:style-name="P29"><text:span text:style-name="T2">在</text:span>Mac OS X <text:span text:style-name="T2">第</text:span>10.3<text:span text:style-name="T2">版或以上系统下：</text:span></text:p>
-    <text:list xml:id="list41627013009022" text:continue-list="list3489519307" text:style-name="L3">
+    <text:list xml:id="list43952980872795" text:continue-list="list4099636476" text:style-name="L3">
      <text:list-item text:start-value="1">
       <text:p text:style-name="P145"><text:span text:style-name="T2">打开</text:span>Font Book<text:span text:style-name="T2">应用程式</text:span></text:p>
      </text:list-item>
      <text:list-item>
-      <text:p text:style-name="P142"><text:span text:style-name="T56">回到</text:span><text:span text:style-name="T105">Finder </text:span><text:span text:style-name="T56">内</text:span><text:span text:style-name="T2">把所有解压后的字体文件（</text:span>*.ttf<text:span text:style-name="T2">）全选</text:span></text:p>
+      <text:p text:style-name="P142"><text:span text:style-name="T58">回到</text:span><text:span text:style-name="T107">Finder </text:span><text:span text:style-name="T58">内</text:span><text:span text:style-name="T2">把所有解压后的字体文件（</text:span>*.ttf<text:span text:style-name="T2">）全选</text:span></text:p>
      </text:list-item>
      <text:list-item>
       <text:p text:style-name="P146"><text:span text:style-name="T2">把上述文件选择拖曳到</text:span>Font Book<text:span text:style-name="T2">内放下</text:span></text:p>
      </text:list-item>
     </text:list>
-    <text:p text:style-name="P31"><text:span text:style-name="T55">另一方法是把解压后的字体文件复制到系统</text:span><text:span text:style-name="T57">预设的其中一个</text:span><text:span text:style-name="T55">字体文件夹内（例如： </text:span><text:span text:style-name="T136">/Library/Fonts/</text:span><text:span text:style-name="T137">），详见</text:span><text:a xlink:type="simple" xlink:href="https://support.apple.com/en-ca/HT201722" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://support.apple.com/en-ca/HT201722</text:a><text:span text:style-name="T2">。</text:span></text:p>
+    <text:p text:style-name="P31"><text:span text:style-name="T57">另一方法是把解压后的字体文件复制到系统</text:span><text:span text:style-name="T59">预设的其中一个</text:span><text:span text:style-name="T57">字体文件夹内（例如： </text:span><text:span text:style-name="T138">/Library/Fonts/</text:span><text:span text:style-name="T139">），详见</text:span><text:a xlink:type="simple" xlink:href="https://support.apple.com/en-ca/HT201722" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://support.apple.com/en-ca/HT201722</text:a><text:span text:style-name="T2">。</text:span></text:p>
     <text:p text:style-name="Heading_20_2">Linux</text:p>
-    <text:p text:style-name="Text_20_body"><text:span text:style-name="T2">如为个人安装，可</text:span>把解压后的字体文件<text:span text:style-name="T2">（*.</text:span><text:span text:style-name="T58">ttf</text:span><text:span text:style-name="T2">）</text:span>复制到 <text:span text:style-name="T136">~/.fonts</text:span> <text:span text:style-name="T2">文件夹内；如为所有用户安装，则复制到</text:span> <text:span text:style-name="T136">/usr/share/fonts/</text:span> <text:span text:style-name="T2">文件夹内。最后输入指令</text:span><text:span text:style-name="T139"> </text:span><text:span text:style-name="T136">fc-cache -fv</text:span><text:span text:style-name="T138"> </text:span><text:span text:style-name="T2">更新系统字体高速缓存 。</text:span></text:p>
+    <text:p text:style-name="Text_20_body"><text:span text:style-name="T2">如为个人安装，可</text:span>把解压后的字体文件<text:span text:style-name="T2">（*.</text:span><text:span text:style-name="T60">ttf</text:span><text:span text:style-name="T2">）</text:span>复制到 <text:span text:style-name="T138">~/.fonts</text:span> <text:span text:style-name="T2">文件夹内；如为所有用户安装，则复制到</text:span> <text:span text:style-name="T138">/usr/share/fonts/</text:span> <text:span text:style-name="T2">文件夹内。最后输入指令</text:span><text:span text:style-name="T141"> </text:span><text:span text:style-name="T138">fc-cache -fv</text:span><text:span text:style-name="T140"> </text:span><text:span text:style-name="T2">更新系统字体高速缓存 。</text:span></text:p>
     <text:p text:style-name="Text_20_body"/>
-    <text:p text:style-name="P62"><text:span text:style-name="T62">注：</text:span><text:span text:style-name="T103">新字体可能不会在所有应用程式中即时更新，个别程式可能需要关闭重启才能使用新字体。</text:span></text:p>
+    <text:p text:style-name="P62"><text:span text:style-name="T64">注：</text:span><text:span text:style-name="T105">新字体可能不会在所有应用程式中即时更新，个别程式可能需要关闭重启才能使用新字体。</text:span></text:p>
     <text:p text:style-name="P60"/>
     <text:p text:style-name="P21"/>
-    <text:p text:style-name="P61"><text:span text:style-name="T61">注：</text:span><text:span text:style-name="T101">本字体集不包括输入法组件。如需要输入伯格理苗文字符，请另行安装输入法程式。</text:span></text:p>
+    <text:p text:style-name="P61"><text:span text:style-name="T63">注：</text:span><text:span text:style-name="T103">本字体集不包括输入法组件。如需要输入伯格理苗文字符，请另行安装输入法程式。</text:span></text:p>
     <text:h text:style-name="P120" text:outline-level="1"><text:reference-mark-start text:name="system"/>应用程式及有关显示问题<text:reference-mark-end text:name="system"/></text:h>
-    <text:p text:style-name="P27"><text:span text:style-name="T106">Shimenkan （石门坎）字体集根据国际码标准（Unicode）12.0编码，以</text:span><text:span text:style-name="T101">TrueType 格式生成。字体内置复杂</text:span><text:span text:style-name="T102">OpenType Layout逻辑来控制：</text:span></text:p>
-    <text:list xml:id="list2289930383" text:style-name="L4">
+    <text:p text:style-name="P27"><text:span text:style-name="T108">Shimenkan （石门坎）字体集根据国际码标准（Unicode）12.0编码，以</text:span><text:span text:style-name="T103">TrueType 格式生成。字体内置复杂</text:span><text:span text:style-name="T104">OpenType Layout逻辑来控制：</text:span></text:p>
+    <text:list xml:id="list2295008561" text:style-name="L4">
      <text:list-item>
       <text:p text:style-name="P125">小字母在不同声调时的位置</text:p>
      </text:list-item>
@@ -2639,86 +2648,86 @@
       <text:p text:style-name="P125">字母间的缩进情况</text:p>
      </text:list-item>
     </text:list>
-    <text:p text:style-name="P13">这些特征随语言而变，要确保它们能在各语言文本中都正确显示，所使用的应用程式及操作系统必须充分支持OpenT<text:span text:style-name="T115">ype及国际码标准12.0，但目前所有已知应用程式都只能支持其中之一。下面列举几个大致上还可以的应用程式，并解释其中有关的显示问题。如果问题涉及特定语言，前面会以该语言的编号标注</text:span><text:span text:style-name="T134">（见</text:span><text:span text:style-name="T134"><text:reference-ref text:reference-format="text" text:ref-name="intro">引言</text:reference-ref></text:span><text:span text:style-name="T134">）</text:span><text:span text:style-name="T115">。</text:span></text:p>
-    <text:p text:style-name="Issue_20_Heading">记事本（<text:span text:style-name="T122">Notepad）——Windows 10</text:span></text:p>
-    <text:p text:style-name="Text_20_body">Wi<text:span text:style-name="T116">ndows 10内置的记事本基本上能正确显示大部分伯格理苗文字符。已知显示问题如下：</text:span></text:p>
-    <text:list xml:id="list1870171826" text:style-name="L5">
+    <text:p text:style-name="P13">这些特征随语言而变，要确保它们能在各语言文本中都正确显示，所使用的应用程式及操作系统必须充分支持OpenT<text:span text:style-name="T117">ype及国际码标准12.0，但目前所有已知应用程式都只能支持其中之一。下面列举几个大致上还可以的应用程式，并解释其中有关的显示问题。如果问题涉及特定语言，前面会以该语言的编号标注</text:span><text:span text:style-name="T136">（见</text:span><text:span text:style-name="T136"><text:reference-ref text:reference-format="text" text:ref-name="intro">引言</text:reference-ref></text:span><text:span text:style-name="T136">）</text:span><text:span text:style-name="T117">。</text:span></text:p>
+    <text:p text:style-name="Issue_20_Heading">记事本（<text:span text:style-name="T124">Notepad）——Windows 10</text:span></text:p>
+    <text:p text:style-name="Text_20_body">Wi<text:span text:style-name="T118">ndows 10内置的记事本基本上能正确显示大部分伯格理苗文字符。已知显示问题如下：</text:span></text:p>
+    <text:list xml:id="list3776416798" text:style-name="L5">
      <text:list-item>
-      <text:p text:style-name="P129"><text:span text:style-name="T61">[hmd, hmz]：</text:span>当以下大字母：</text:p>
-      <text:p text:style-name="P127"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T67">16</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T73">𖼖</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER</text:span><text:span text:style-name="T77"> </text:span><text:span text:style-name="T78">LA</text:span></text:p>
-      <text:p text:style-name="P128"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T67">18</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T72">𖼘</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER </text:span><text:span text:style-name="T71">LHA</text:span></text:p>
-      <text:p text:style-name="P127"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T67">1A</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T73">𖼚</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER </text:span><text:span text:style-name="T71">TLHA</text:span></text:p>
-      <text:p text:style-name="P127"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T67">3D</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T73">𖼽</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER </text:span><text:span text:style-name="T71">ZZA</text:span></text:p>
-      <text:p text:style-name="P126">后面带吐气号（U+16F51 <text:span text:style-name="T118">◌𖽑</text:span><text:span text:style-name="T119"> </text:span>MIAO SIGN ASPIRATION）时，在高音位置（<text:span text:style-name="T117">U+16F91</text:span>）的小字母偏左而不能齐中。如果大字母<text:span text:style-name="T120">LA或LHA是该行中首个字符，小字母更会往左偏离得很远，甚至因“出界”而有部分或完全“消失”。</text:span></text:p>
+      <text:p text:style-name="P129"><text:span text:style-name="T63">[hmd, hmz]：</text:span>当以下大字母：</text:p>
+      <text:p text:style-name="P127"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T69">16</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T75">𖼖</text:span><text:span text:style-name="T70"><text:tab/>MIAO LETTER</text:span><text:span text:style-name="T79"> </text:span><text:span text:style-name="T80">LA</text:span></text:p>
+      <text:p text:style-name="P128"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T69">18</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T74">𖼘</text:span><text:span text:style-name="T70"><text:tab/>MIAO LETTER </text:span><text:span text:style-name="T73">LHA</text:span></text:p>
+      <text:p text:style-name="P127"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T69">1A</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T75">𖼚</text:span><text:span text:style-name="T70"><text:tab/>MIAO LETTER </text:span><text:span text:style-name="T73">TLHA</text:span></text:p>
+      <text:p text:style-name="P127"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T69">3D</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T75">𖼽</text:span><text:span text:style-name="T70"><text:tab/>MIAO LETTER </text:span><text:span text:style-name="T73">ZZA</text:span></text:p>
+      <text:p text:style-name="P126">后面带吐气号（U+16F51 <text:span text:style-name="T120">◌𖽑</text:span><text:span text:style-name="T121"> </text:span>MIAO SIGN ASPIRATION）时，在高音位置（<text:span text:style-name="T119">U+16F91</text:span>）的小字母偏左而不能齐中。如果大字母<text:span text:style-name="T122">LA或LHA是该行中首个字符，小字母更会往左偏离得很远，甚至因“出界”而有部分或完全“消失”。</text:span></text:p>
      </text:list-item>
      <text:list-item>
-      <text:p text:style-name="P130"><text:span text:style-name="T61">[hmd]：</text:span>当上述大字母后面带吐气号时，在高音位置的小字母<text:span text:style-name="T74">U+</text:span><text:span text:style-name="T75">16F64 </text:span><text:span text:style-name="T88">◌</text:span><text:span text:style-name="T89">𖽤</text:span><text:span text:style-name="T75"> </text:span><text:span text:style-name="T76">MIAO VOWEL IANG </text:span>会跟吐气号重叠。而当与上述大字母以外的大字母组合、不带吐气号时，该高音小字母则往右偏离得很远，甚至跟下一个音节重叠。</text:p>
+      <text:p text:style-name="P130"><text:span text:style-name="T63">[hmd]：</text:span>当上述大字母后面带吐气号时，在高音位置的小字母<text:span text:style-name="T76">U+</text:span><text:span text:style-name="T77">16F64 </text:span><text:span text:style-name="T90">◌</text:span><text:span text:style-name="T91">𖽤</text:span><text:span text:style-name="T77"> </text:span><text:span text:style-name="T78">MIAO VOWEL IANG </text:span>会跟吐气号重叠。而当与上述大字母以外的大字母组合、不带吐气号时，该高音小字母则往右偏离得很远，甚至跟下一个音节重叠。</text:p>
      </text:list-item>
      <text:list-item>
       <text:p text:style-name="P130">无论点击或按键都无法把鼠标放在音节里面。</text:p>
      </text:list-item>
     </text:list>
     <text:p text:style-name="P17">以上种种均为操作系统的限制而非字体集的问题，特别是Windows 10不能同时正确处理吐气号的缩进和高音小字母的位置，又未能正确处理字体内特别针对U+16F64的OpenType Layout逻辑。希望《微软》尽快发放可以解决这些问题的系统补丁或更新。</text:p>
-    <text:p text:style-name="P57"><text:soft-page-break/><text:span text:style-name="T47">写字板</text:span><text:span text:style-name="T123">（WordPad）——Windows 10</text:span></text:p>
+    <text:p text:style-name="P57"><text:soft-page-break/><text:span text:style-name="T49">写字板</text:span><text:span text:style-name="T125">（WordPad）——Windows 10</text:span></text:p>
     <text:p text:style-name="P18">正如记事本一样，Windows 10内置的写字板能正确显示大部分伯格理苗文字符。已知显示问题如下：</text:p>
-    <text:list xml:id="list164203566" text:style-name="L6">
+    <text:list xml:id="list418642429" text:style-name="L6">
      <text:list-item>
       <text:p text:style-name="P131">Windows 10 记事本的所有问题</text:p>
      </text:list-item>
      <text:list-item>
-      <text:p text:style-name="P132"><text:bookmark-start text:name="__RefNumPara__3042_4109442620"/>鼠标移动位置容易误导人。如在大字母前面按右方向键，鼠标在<text:span text:style-name="T61">屏幕上</text:span>会直接跳到小字母或吐气号后面，视乎哪一个位置在音节最右边。这时若再按右方向键，鼠标只会在<text:span text:style-name="T61">逻辑上</text:span>按音节内的字母逐个跃进，屏幕上鼠标并无移动，直至逻辑上最后一个字母都被跳过为止。<text:bookmark-end text:name="__RefNumPara__3042_4109442620"/></text:p>
+      <text:p text:style-name="P132"><text:bookmark-start text:name="__RefNumPara__3042_4109442620"/>鼠标移动位置容易误导人。如在大字母前面按右方向键，鼠标在<text:span text:style-name="T63">屏幕上</text:span>会直接跳到小字母或吐气号后面，视乎哪一个位置在音节最右边。这时若再按右方向键，鼠标只会在<text:span text:style-name="T63">逻辑上</text:span>按音节内的字母逐个跃进，屏幕上鼠标并无移动，直至逻辑上最后一个字母都被跳过为止。<text:bookmark-end text:name="__RefNumPara__3042_4109442620"/></text:p>
      </text:list-item>
     </text:list>
-    <text:p text:style-name="P14"><text:span text:style-name="T121">问题 #</text:span><text:span text:style-name="T121"><text:bookmark-ref text:reference-format="number" text:ref-name="__RefNumPara__3042_4109442620">2</text:bookmark-ref></text:span><text:span text:style-name="T121"> 是写字板的限制而不是字体集的问题。在新版本能提供更妥善的处理以前，用户唯有小心熟习这情况。</text:span></text:p>
+    <text:p text:style-name="P14"><text:span text:style-name="T123">问题 #</text:span><text:span text:style-name="T123"><text:bookmark-ref text:reference-format="number" text:ref-name="__RefNumPara__3042_4109442620">2</text:bookmark-ref></text:span><text:span text:style-name="T123"> 是写字板的限制而不是字体集的问题。在新版本能提供更妥善的处理以前，用户唯有小心熟习这情况。</text:span></text:p>
     <text:p text:style-name="P58">自由办公室（LibreOffice）Writer 6.2 或以上——跨平台</text:p>
     <text:p text:style-name="P19">Writer没有记事本或写字板的问题，但也有自己的问题：</text:p>
-    <text:list xml:id="list3455008393" text:style-name="L7">
+    <text:list xml:id="list329969346" text:style-name="L7">
      <text:list-item>
       <text:p text:style-name="P133">用Writer打开文本格式（.txt）的文件后，虽把字体设定为字体集内的其中一个字体，OpenType Layout仍无法实现。这时Writer的错误，并非字体集的问题。缓冲办法是把文本文件的内容复制到Writer内，然后设定相应的字体。</text:p>
      </text:list-item>
      <text:list-item>
-      <text:p text:style-name="P133"><text:bookmark-start text:name="__RefNumPara__26832_151478762"/><text:span text:style-name="T62">[sfm, ywq, ygp, yna]：</text:span><text:span text:style-name="T2">以下16个字符在音节中的位置不正确（在《苹果》平台上更无法显示）：</text:span><text:bookmark-end text:name="__RefNumPara__26832_151478762"/></text:p>
+      <text:p text:style-name="P133"><text:bookmark-start text:name="__RefNumPara__26832_151478762"/><text:span text:style-name="T64">[sfm, ywq, ygp, yna]：</text:span><text:span text:style-name="T2">以下16个字符在音节中的位置不正确（在《苹果》平台上更无法显示）：</text:span><text:bookmark-end text:name="__RefNumPara__26832_151478762"/></text:p>
      </text:list-item>
     </text:list>
-    <text:list xml:id="list3952015562" text:style-name="L8">
+    <text:list xml:id="list3769366999" text:style-name="L8">
      <text:list-header>
-      <text:p text:style-name="P135"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F45<text:tab/></text:span><text:span text:style-name="T90">𖽅</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER BRI</text:span></text:p>
-      <text:p text:style-name="P136"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F46<text:tab/></text:span><text:span text:style-name="T90">𖽆</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER SYI</text:span></text:p>
-      <text:p text:style-name="P136"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F47<text:tab/></text:span><text:span text:style-name="T90">𖽇</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER DZYI</text:span></text:p>
-      <text:p text:style-name="P136"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F48<text:tab/></text:span><text:span text:style-name="T87">𖽈</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER TE</text:span></text:p>
-      <text:p text:style-name="P136"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F49<text:tab/></text:span><text:span text:style-name="T87">𖽉</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER TSE</text:span></text:p>
-      <text:p text:style-name="P136"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F4A<text:tab/></text:span><text:span text:style-name="T87">𖽊</text:span><text:span text:style-name="T68"><text:tab/>MIAO LETTER RTE</text:span></text:p>
-      <text:p text:style-name="P137"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F4</text:span><text:span text:style-name="T65">F</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T83">𖽏</text:span><text:span text:style-name="T82">◌</text:span><text:span text:style-name="T68"><text:tab/>MIAO </text:span><text:span text:style-name="T69">SIGN CONSONANT MODIFIER BAR</text:span></text:p>
-      <text:p text:style-name="P137"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T65">7F</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T79">◌𖽿</text:span><text:span text:style-name="T68"><text:tab/>MIAO </text:span><text:span text:style-name="T69">VOWEL UOG</text:span></text:p>
-      <text:p text:style-name="P137"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T65">80</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T79">◌</text:span><text:span text:style-name="T80">𖾀</text:span><text:span text:style-name="T68"><text:tab/>MIAO </text:span><text:span text:style-name="T69">VOWEL YUI</text:span></text:p>
-      <text:p text:style-name="P137"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T65">81</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T81">◌𖾁</text:span><text:span text:style-name="T68"><text:tab/>MIAO </text:span><text:span text:style-name="T69">VOWEL OG</text:span></text:p>
-      <text:p text:style-name="P137"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T65">82</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T81">◌𖾂</text:span><text:span text:style-name="T68"><text:tab/>MIAO </text:span><text:span text:style-name="T69">VOWEL OER</text:span></text:p>
-      <text:p text:style-name="P138"><text:soft-page-break/><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T65">8</text:span><text:span text:style-name="T66">3</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T84">◌</text:span><text:span text:style-name="T85">𖾃</text:span><text:span text:style-name="T68"><text:tab/>MIAO </text:span><text:span text:style-name="T69">VOWEL </text:span><text:span text:style-name="T70">VW</text:span></text:p>
-      <text:p text:style-name="P138"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T65">8</text:span><text:span text:style-name="T66">4</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T84">◌</text:span><text:span text:style-name="T86">𖾄</text:span><text:span text:style-name="T68"><text:tab/>MIAO </text:span><text:span text:style-name="T69">VOWEL </text:span><text:span text:style-name="T70">IG</text:span></text:p>
-      <text:p text:style-name="P138"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T65">8</text:span><text:span text:style-name="T66">5</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T84">◌</text:span><text:span text:style-name="T86">𖾅</text:span><text:span text:style-name="T68"><text:tab/>MIAO </text:span><text:span text:style-name="T69">VOWEL </text:span><text:span text:style-name="T70">EA</text:span></text:p>
-      <text:p text:style-name="P138"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T65">8</text:span><text:span text:style-name="T66">6</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T84">◌</text:span><text:span text:style-name="T86">𖾆</text:span><text:span text:style-name="T68"><text:tab/>MIAO </text:span><text:span text:style-name="T69">VOWEL </text:span><text:span text:style-name="T70">IONG</text:span></text:p>
-      <text:p text:style-name="P138"><text:span text:style-name="T63"><text:tab/></text:span><text:span text:style-name="T64">U+16F</text:span><text:span text:style-name="T65">8</text:span><text:span text:style-name="T66">7</text:span><text:span text:style-name="T64"><text:tab/></text:span><text:span text:style-name="T84">◌</text:span><text:span text:style-name="T86">𖾇</text:span><text:span text:style-name="T68"><text:tab/>MIAO </text:span><text:span text:style-name="T69">VOWEL </text:span><text:span text:style-name="T70">UI</text:span></text:p>
-      <text:p text:style-name="P134"><text:span text:style-name="T96">这是因为</text:span><text:span text:style-name="T99">最新版的</text:span><text:span text:style-name="T98">W</text:span><text:span text:style-name="T97">riter 6.3.0.4 都只支持国际码标准</text:span><text:span text:style-name="T100">11.0，而上述字符是在国际码</text:span><text:span text:style-name="T93">12.0中增加的。</text:span></text:p>
+      <text:p text:style-name="P135"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F45<text:tab/></text:span><text:span text:style-name="T92">𖽅</text:span><text:span text:style-name="T70"><text:tab/>MIAO LETTER BRI</text:span></text:p>
+      <text:p text:style-name="P136"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F46<text:tab/></text:span><text:span text:style-name="T92">𖽆</text:span><text:span text:style-name="T70"><text:tab/>MIAO LETTER SYI</text:span></text:p>
+      <text:p text:style-name="P136"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F47<text:tab/></text:span><text:span text:style-name="T92">𖽇</text:span><text:span text:style-name="T70"><text:tab/>MIAO LETTER DZYI</text:span></text:p>
+      <text:p text:style-name="P136"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F48<text:tab/></text:span><text:span text:style-name="T89">𖽈</text:span><text:span text:style-name="T70"><text:tab/>MIAO LETTER TE</text:span></text:p>
+      <text:p text:style-name="P136"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F49<text:tab/></text:span><text:span text:style-name="T89">𖽉</text:span><text:span text:style-name="T70"><text:tab/>MIAO LETTER TSE</text:span></text:p>
+      <text:p text:style-name="P136"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F4A<text:tab/></text:span><text:span text:style-name="T89">𖽊</text:span><text:span text:style-name="T70"><text:tab/>MIAO LETTER RTE</text:span></text:p>
+      <text:p text:style-name="P137"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F4</text:span><text:span text:style-name="T67">F</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T85">𖽏</text:span><text:span text:style-name="T84">◌</text:span><text:span text:style-name="T70"><text:tab/>MIAO </text:span><text:span text:style-name="T71">SIGN CONSONANT MODIFIER BAR</text:span></text:p>
+      <text:p text:style-name="P137"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T67">7F</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T81">◌𖽿</text:span><text:span text:style-name="T70"><text:tab/>MIAO </text:span><text:span text:style-name="T71">VOWEL UOG</text:span></text:p>
+      <text:p text:style-name="P137"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T67">80</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T81">◌</text:span><text:span text:style-name="T82">𖾀</text:span><text:span text:style-name="T70"><text:tab/>MIAO </text:span><text:span text:style-name="T71">VOWEL YUI</text:span></text:p>
+      <text:p text:style-name="P137"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T67">81</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T83">◌𖾁</text:span><text:span text:style-name="T70"><text:tab/>MIAO </text:span><text:span text:style-name="T71">VOWEL OG</text:span></text:p>
+      <text:p text:style-name="P137"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T67">82</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T83">◌𖾂</text:span><text:span text:style-name="T70"><text:tab/>MIAO </text:span><text:span text:style-name="T71">VOWEL OER</text:span></text:p>
+      <text:p text:style-name="P138"><text:soft-page-break/><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T67">8</text:span><text:span text:style-name="T68">3</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T86">◌</text:span><text:span text:style-name="T87">𖾃</text:span><text:span text:style-name="T70"><text:tab/>MIAO </text:span><text:span text:style-name="T71">VOWEL </text:span><text:span text:style-name="T72">VW</text:span></text:p>
+      <text:p text:style-name="P138"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T67">8</text:span><text:span text:style-name="T68">4</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T86">◌</text:span><text:span text:style-name="T88">𖾄</text:span><text:span text:style-name="T70"><text:tab/>MIAO </text:span><text:span text:style-name="T71">VOWEL </text:span><text:span text:style-name="T72">IG</text:span></text:p>
+      <text:p text:style-name="P138"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T67">8</text:span><text:span text:style-name="T68">5</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T86">◌</text:span><text:span text:style-name="T88">𖾅</text:span><text:span text:style-name="T70"><text:tab/>MIAO </text:span><text:span text:style-name="T71">VOWEL </text:span><text:span text:style-name="T72">EA</text:span></text:p>
+      <text:p text:style-name="P138"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T67">8</text:span><text:span text:style-name="T68">6</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T86">◌</text:span><text:span text:style-name="T88">𖾆</text:span><text:span text:style-name="T70"><text:tab/>MIAO </text:span><text:span text:style-name="T71">VOWEL </text:span><text:span text:style-name="T72">IONG</text:span></text:p>
+      <text:p text:style-name="P138"><text:span text:style-name="T65"><text:tab/></text:span><text:span text:style-name="T66">U+16F</text:span><text:span text:style-name="T67">8</text:span><text:span text:style-name="T68">7</text:span><text:span text:style-name="T66"><text:tab/></text:span><text:span text:style-name="T86">◌</text:span><text:span text:style-name="T88">𖾇</text:span><text:span text:style-name="T70"><text:tab/>MIAO </text:span><text:span text:style-name="T71">VOWEL </text:span><text:span text:style-name="T72">UI</text:span></text:p>
+      <text:p text:style-name="P134"><text:span text:style-name="T98">这是因为</text:span><text:span text:style-name="T101">最新版的</text:span><text:span text:style-name="T100">W</text:span><text:span text:style-name="T99">riter 6.3.0.4 都只支持国际码标准</text:span><text:span text:style-name="T102">11.0，而上述字符是在国际码</text:span><text:span text:style-name="T95">12.0中增加的。</text:span></text:p>
      </text:list-header>
     </text:list>
-    <text:p text:style-name="Text_20_body"><text:span text:style-name="T93">期盼</text:span><text:span text:style-name="T95">《</text:span><text:span text:style-name="T93">自由办公室》</text:span><text:span text:style-name="T94">尽快推出可以完全解决这些问题的新版本。</text:span></text:p>
+    <text:p text:style-name="Text_20_body"><text:span text:style-name="T95">期盼</text:span><text:span text:style-name="T97">《</text:span><text:span text:style-name="T95">自由办公室》</text:span><text:span text:style-name="T96">尽快推出可以完全解决这些问题的新版本。</text:span></text:p>
     <text:p text:style-name="P56">Microsoft Word 2013或以上——Windows 10</text:p>
     <text:p text:style-name="P15">Word在所列举的应用程式中无疑是用户最多的，但在伯格理苗文字符显示上也是问题最多的：</text:p>
-    <text:list xml:id="list1546659025" text:style-name="L9">
+    <text:list xml:id="list3286513130" text:style-name="L9">
      <text:list-item>
       <text:p text:style-name="P139">Windows 10 记事本的所有问题</text:p>
      </text:list-item>
      <text:list-item>
-      <text:p text:style-name="P139">自由办公室<text:span text:style-name="T124">Writer 6.2或以上的问题 #</text:span><text:span text:style-name="T124"><text:bookmark-ref text:reference-format="number" text:ref-name="__RefNumPara__26832_151478762">2</text:bookmark-ref></text:span></text:p>
+      <text:p text:style-name="P139">自由办公室<text:span text:style-name="T126">Writer 6.2或以上的问题 #</text:span><text:span text:style-name="T126"><text:bookmark-ref text:reference-format="number" text:ref-name="__RefNumPara__26832_151478762">2</text:bookmark-ref></text:span></text:p>
      </text:list-item>
      <text:list-item>
-      <text:p text:style-name="P140">虽然字体集已内置部分中日韩全形符号及标点（CJK Symbols and Punctuation 以及Halfwidth and Fullwidth Forms），Word仍自动以默认亚洲字体显示该等字符。在诸如《自由办公室》等其他应用程式内，通常只要全选苗文文本、把字体设定为<text:span text:style-name="T125">Shimenkan字体集内的其中之一，就可以覆盖默认值，但Word坚持使用默认字体，要更改默认值还得大费周章</text:span><text:span text:style-name="T125"><text:note text:id="ftn2" text:note-class="footnote"><text:note-citation>2</text:note-citation><text:note-body>
-          <text:p text:style-name="P118"><text:span text:style-name="T164">根据</text:span><text:a xlink:type="simple" xlink:href="https://answers.microsoft.com/en-us/msoffice/forum/all/word-2016-stubbornly-changes-my-default-font/ec9db057-b264-4d5c-9cdc-2c25c0b5e2c0" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T164">这网页</text:span></text:a><text:span text:style-name="T164">最后一张贴所说（原文为英文），“你应该可以在菜单栏上点击‘设计｜字体｜自定义字体……’来更改默认值。这是你设定每个文件中每个字体类别（标题／内文）中每种语言的默认字体的方法。当你创建一个新的用户资料配置文件并把它设为默认后，那就应该是你新文件的默认设定了。”</text:span></text:p></text:note-body></text:note></text:span><text:span text:style-name="T125">。这不是字体集的问题，而是Word本身过分限制其他字体的使用。</text:span></text:p>
+      <text:p text:style-name="P140">虽然字体集已内置部分中日韩全形符号及标点（CJK Symbols and Punctuation 以及Halfwidth and Fullwidth Forms），Word仍自动以默认亚洲字体显示该等字符。在诸如《自由办公室》等其他应用程式内，通常只要全选苗文文本、把字体设定为<text:span text:style-name="T127">Shimenkan字体集内的其中之一，就可以覆盖默认值，但Word坚持使用默认字体，要更改默认值还得大费周章</text:span><text:span text:style-name="T127"><text:note text:id="ftn2" text:note-class="footnote"><text:note-citation>2</text:note-citation><text:note-body>
+          <text:p text:style-name="P118"><text:span text:style-name="T166">根据</text:span><text:a xlink:type="simple" xlink:href="https://answers.microsoft.com/en-us/msoffice/forum/all/word-2016-stubbornly-changes-my-default-font/ec9db057-b264-4d5c-9cdc-2c25c0b5e2c0" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T166">这网页</text:span></text:a><text:span text:style-name="T166">最后一张贴所说（原文为英文），“你应该可以在菜单栏上点击‘设计｜字体｜自定义字体……’来更改默认值。这是你设定每个文件中每个字体类别（标题／内文）中每种语言的默认字体的方法。当你创建一个新的用户资料配置文件并把它设为默认后，那就应该是你新文件的默认设定了。”</text:span></text:p></text:note-body></text:note></text:span><text:span text:style-name="T127">。这不是字体集的问题，而是Word本身过分限制其他字体的使用。</text:span></text:p>
      </text:list-item>
     </text:list>
     <text:p text:style-name="P20">希望《微软》尽快发放可以解决以上所有问题的补丁或更新。</text:p>
     <text:p text:style-name="P59">macOS 应用程式</text:p>
-    <text:p text:style-name="P16">大部分<text:span text:style-name="T128">macOS</text:span>应用程式都不能完全支持伯格理苗文或本字体集使用的布局机制。《自由办公室》<text:span text:style-name="T129">Writer是</text:span>目前唯一可以正确显示苗文文本的一般应用程式。</text:p>
+    <text:p text:style-name="P16">大部分<text:span text:style-name="T130">macOS</text:span>应用程式都不能完全支持伯格理苗文或本字体集使用的布局机制。《自由办公室》<text:span text:style-name="T131">Writer是</text:span>目前唯一可以正确显示苗文文本的一般应用程式。</text:p>
     <text:h text:style-name="P123" text:outline-level="1"><text:reference-mark-start text:name="feat"/>各种语文对字体之要求<text:reference-mark-end text:name="feat"/></text:h>
     <text:p text:style-name="Text_20_body">使用苗文字符的每种语文对字符形状和位置都有特定的要求，现列举如下：</text:p>
     <table:table table:name="Table2" table:style-name="Table2">
@@ -2761,7 +2770,7 @@
      <table:table-row table:style-name="Table2.4">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P106"><text:span text:style-name="T59">吐气号（</text:span><text:span text:style-name="T140">U+16F51 MIAO SIGN </text:span>A<text:span text:style-name="T7">SPIRATION）调到</text:span>U+16F10 MIAO LETTER NA<text:span text:style-name="T2">的左边显示</text:span></text:p>
+       <text:p text:style-name="P106"><text:span text:style-name="T61">吐气号（</text:span><text:span text:style-name="T142">U+16F51 MIAO SIGN </text:span>A<text:span text:style-name="T7">SPIRATION）调到</text:span>U+16F10 MIAO LETTER NA<text:span text:style-name="T2">的左边显示</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
        <text:p text:style-name="P69">𖼐𖽑</text:p>
@@ -2779,10 +2788,10 @@
      <table:table-row table:style-name="Table2.6">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P115"><text:span text:style-name="T31">高音的</text:span><text:span text:style-name="T143">U+16F64 MIAO VOWEL SIGN </text:span><text:span text:style-name="T8">I</text:span><text:span text:style-name="T9">ANG</text:span><text:span text:style-name="T10"> 由中线往右移</text:span></text:p>
+       <text:p text:style-name="P115"><text:span text:style-name="T31">高音的</text:span><text:span text:style-name="T145">U+16F64 MIAO VOWEL SIGN </text:span><text:span text:style-name="T8">I</text:span><text:span text:style-name="T9">ANG</text:span><text:span text:style-name="T10"> 由中线往右移</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
-       <text:p text:style-name="P105"><text:span text:style-name="T38">𖼦</text:span><text:span text:style-name="T37">𖽤𖾑 <text:s/>𖼏𖽤𖾑 <text:s/></text:span><text:span text:style-name="T144">𖼡𖽑𖽤𖾑</text:span></text:p>
+       <text:p text:style-name="P105"><text:span text:style-name="T40">𖼦</text:span><text:span text:style-name="T39">𖽤𖾑 <text:s/>𖼏𖽤𖾑 <text:s/></text:span><text:span text:style-name="T146">𖼡𖽑𖽤𖾑</text:span></text:p>
       </table:table-cell>
      </table:table-row>
      <table:table-row table:style-name="Table2.7">
@@ -2799,12 +2808,12 @@
      <table:table-row table:style-name="Table2.8">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P83">U+16F<text:span text:style-name="T145">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T34">、</text:span><text:span text:style-name="T146">U+16F</text:span><text:span text:style-name="T145">10</text:span><text:span text:style-name="T146"> MIAO </text:span><text:span text:style-name="T12">LETTER NA、</text:span></text:p>
-       <text:p text:style-name="P83">U+16F<text:span text:style-name="T147">1</text:span><text:span text:style-name="T145">4</text:span> MIAO <text:span text:style-name="T12">LETTER NNA</text:span><text:span text:style-name="T34">，</text:span><text:span text:style-name="T32">和</text:span></text:p>
-       <text:p text:style-name="P82">U+16F<text:span text:style-name="T141">23</text:span> MIAO <text:span text:style-name="T12">LETTER NGA</text:span><text:span text:style-name="T34">用异体字形</text:span></text:p>
+       <text:p text:style-name="P83">U+16F<text:span text:style-name="T147">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T36">、</text:span><text:span text:style-name="T148">U+16F</text:span><text:span text:style-name="T147">10</text:span><text:span text:style-name="T148"> MIAO </text:span><text:span text:style-name="T12">LETTER NA、</text:span></text:p>
+       <text:p text:style-name="P83">U+16F<text:span text:style-name="T149">1</text:span><text:span text:style-name="T147">4</text:span> MIAO <text:span text:style-name="T12">LETTER NNA</text:span><text:span text:style-name="T36">，</text:span><text:span text:style-name="T32">和</text:span></text:p>
+       <text:p text:style-name="P82">U+16F<text:span text:style-name="T143">23</text:span> MIAO <text:span text:style-name="T12">LETTER NGA</text:span><text:span text:style-name="T36">用异体字形</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
-       <text:p text:style-name="P72">𖼄 <text:s/>𖼐 <text:s/><text:span text:style-name="T148">𖼔</text:span> <text:s/>𖼣</text:p>
+       <text:p text:style-name="P72">𖼄 <text:s/>𖼐 <text:s/><text:span text:style-name="T150">𖼔</text:span> <text:s/>𖼣</text:p>
       </table:table-cell>
      </table:table-row>
      <table:table-row table:style-name="Table2.9">
@@ -2819,11 +2828,11 @@
      <table:table-row table:style-name="Table2.10">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P84">U+16F5<text:span text:style-name="T146">E</text:span> MIAO VOWEL SIGN <text:span text:style-name="T14">E</text:span>N<text:span text:style-name="T2">和</text:span></text:p>
-       <text:p text:style-name="P84"><text:span text:style-name="T146">U+16F5</text:span><text:span text:style-name="T14">F</text:span><text:span text:style-name="T146"> MIAO VOWEL SIGN </text:span><text:span text:style-name="T14">E</text:span><text:span text:style-name="T146">NG</text:span><text:span text:style-name="T14">顶部平直</text:span></text:p>
+       <text:p text:style-name="P84">U+16F5<text:span text:style-name="T148">E</text:span> MIAO VOWEL SIGN <text:span text:style-name="T14">E</text:span>N<text:span text:style-name="T2">和</text:span></text:p>
+       <text:p text:style-name="P84"><text:span text:style-name="T148">U+16F5</text:span><text:span text:style-name="T14">F</text:span><text:span text:style-name="T148"> MIAO VOWEL SIGN </text:span><text:span text:style-name="T14">E</text:span><text:span text:style-name="T148">NG</text:span><text:span text:style-name="T14">顶部平直</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
-       <text:p text:style-name="P68"><text:span text:style-name="T149">◌</text:span><text:span text:style-name="T48">𖽞<text:tab/></text:span><text:span text:style-name="T149">◌</text:span><text:span text:style-name="T48">𖽟</text:span></text:p>
+       <text:p text:style-name="P68"><text:span text:style-name="T151">◌</text:span><text:span text:style-name="T50">𖽞<text:tab/></text:span><text:span text:style-name="T151">◌</text:span><text:span text:style-name="T50">𖽟</text:span></text:p>
       </table:table-cell>
      </table:table-row>
      <table:table-row table:style-name="Table2.11">
@@ -2847,7 +2856,7 @@
      <table:table-row table:style-name="Table2.13">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P108">小字母<text:span text:style-name="T33">不缩进大字母</text:span></text:p>
+       <text:p text:style-name="P108">小字母<text:span text:style-name="T34">不缩进大字母</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
        <text:p text:style-name="P32">𖼷𖽪 𖼊𖽱 𖼈𖽻 𖽃𖽡</text:p>
@@ -2858,12 +2867,12 @@
        <text:p text:style-name="P92">hmz</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P85"><text:span text:style-name="T59">吐气号</text:span><text:span text:style-name="T7">调到</text:span><text:span text:style-name="T140"> </text:span>U+16F<text:span text:style-name="T145">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T34">、</text:span></text:p>
-       <text:p text:style-name="P85"><text:span text:style-name="T163">U+16F</text:span><text:span text:style-name="T145">10</text:span><text:span text:style-name="T146"> MIAO </text:span><text:span text:style-name="T12">LETTER NA</text:span><text:span text:style-name="T16">，和</text:span></text:p>
-       <text:p text:style-name="P85">U+16F<text:span text:style-name="T141">23</text:span> MIAO <text:span text:style-name="T12">LETTER NGA的左边显示</text:span></text:p>
+       <text:p text:style-name="P85"><text:span text:style-name="T61">吐气号</text:span><text:span text:style-name="T7">调到</text:span><text:span text:style-name="T142"> </text:span>U+16F<text:span text:style-name="T147">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T36">、</text:span></text:p>
+       <text:p text:style-name="P85"><text:span text:style-name="T165">U+16F</text:span><text:span text:style-name="T147">10</text:span><text:span text:style-name="T148"> MIAO </text:span><text:span text:style-name="T12">LETTER NA</text:span><text:span text:style-name="T16">，和</text:span></text:p>
+       <text:p text:style-name="P85">U+16F<text:span text:style-name="T143">23</text:span> MIAO <text:span text:style-name="T12">LETTER NGA的左边显示</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
-       <text:p text:style-name="P71"><text:span text:style-name="T150">𖼄𖽑 <text:s/></text:span>𖼐𖽑 <text:s/><text:span text:style-name="T150">𖼣𖽑</text:span></text:p>
+       <text:p text:style-name="P71"><text:span text:style-name="T152">𖼄𖽑 <text:s/></text:span>𖼐𖽑 <text:s/><text:span text:style-name="T152">𖼣𖽑</text:span></text:p>
       </table:table-cell>
      </table:table-row>
      <table:table-row table:style-name="Table2.15">
@@ -2889,7 +2898,7 @@
        <text:p text:style-name="P94">lpo</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P86">U+16F<text:span text:style-name="T145">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T34">、</text:span><text:span text:style-name="T146">U+16F</text:span><text:span text:style-name="T145">10</text:span><text:span text:style-name="T146"> MIAO </text:span><text:span text:style-name="T12">LETTER NA</text:span><text:span text:style-name="T34">，</text:span><text:span text:style-name="T32">和</text:span><text:span text:style-name="T12">U+16F23 MIAO LETTER NGA</text:span><text:span text:style-name="T34">用异体字形</text:span></text:p>
+       <text:p text:style-name="P86">U+16F<text:span text:style-name="T147">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T36">、</text:span><text:span text:style-name="T148">U+16F</text:span><text:span text:style-name="T147">10</text:span><text:span text:style-name="T148"> MIAO </text:span><text:span text:style-name="T12">LETTER NA</text:span><text:span text:style-name="T36">，</text:span><text:span text:style-name="T32">和</text:span><text:span text:style-name="T12">U+16F23 MIAO LETTER NGA</text:span><text:span text:style-name="T36">用异体字形</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
        <text:p text:style-name="P73">𖼄 <text:s/>𖼐 <text:s/>𖼣</text:p>
@@ -2898,7 +2907,7 @@
      <table:table-row table:style-name="Table2.18">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P82">U+16F<text:span text:style-name="T151">3</text:span><text:span text:style-name="T141">3</text:span> MIAO <text:span text:style-name="T12">LETTER S</text:span><text:span text:style-name="T17">H</text:span><text:span text:style-name="T12">A</text:span><text:span text:style-name="T18">主干直而倾斜</text:span></text:p>
+       <text:p text:style-name="P82">U+16F<text:span text:style-name="T153">3</text:span><text:span text:style-name="T143">3</text:span> MIAO <text:span text:style-name="T12">LETTER S</text:span><text:span text:style-name="T17">H</text:span><text:span text:style-name="T12">A</text:span><text:span text:style-name="T18">主干直而倾斜</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
        <text:p text:style-name="P76">𖼳</text:p>
@@ -2916,16 +2925,16 @@
      <table:table-row table:style-name="Table2.20">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P82">U+16F5<text:span text:style-name="T152">8</text:span> MIAO VOWEL SIGN AN<text:span text:style-name="T152">G</text:span><text:span text:style-name="T13">带异体尾圈</text:span></text:p>
+       <text:p text:style-name="P82">U+16F5<text:span text:style-name="T154">8</text:span> MIAO VOWEL SIGN AN<text:span text:style-name="T154">G</text:span><text:span text:style-name="T13">带异体尾圈</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
-       <text:p text:style-name="P68"><text:span text:style-name="T153">◌</text:span><text:span text:style-name="T49">𖽘</text:span></text:p>
+       <text:p text:style-name="P68"><text:span text:style-name="T155">◌</text:span><text:span text:style-name="T51">𖽘</text:span></text:p>
       </table:table-cell>
      </table:table-row>
      <table:table-row table:style-name="Table2.21">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P82">U+<text:span text:style-name="T19">3001</text:span> <text:span text:style-name="T19">I</text:span><text:span text:style-name="T20">DEOGRAPHIC</text:span><text:span text:style-name="T154"> COMMA</text:span><text:span text:style-name="T19">呈三角形</text:span></text:p>
+       <text:p text:style-name="P82">U+<text:span text:style-name="T19">3001</text:span> <text:span text:style-name="T19">I</text:span><text:span text:style-name="T20">DEOGRAPHIC</text:span><text:span text:style-name="T156"> COMMA</text:span><text:span text:style-name="T19">呈三角形</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
        <text:p text:style-name="P77">、</text:p>
@@ -2937,11 +2946,11 @@
        <text:p text:style-name="P96">sfm</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P87"><text:span text:style-name="T59">吐气号</text:span><text:span text:style-name="T7">调到</text:span><text:span text:style-name="T140"> </text:span>U+16F<text:span text:style-name="T145">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T34">和</text:span></text:p>
-       <text:p text:style-name="P87"><text:span text:style-name="T163">U+16F</text:span><text:span text:style-name="T145">10</text:span><text:span text:style-name="T146"> MIAO </text:span><text:span text:style-name="T12">LETTER NA的左边显示</text:span></text:p>
+       <text:p text:style-name="P87"><text:span text:style-name="T61">吐气号</text:span><text:span text:style-name="T7">调到</text:span><text:span text:style-name="T142"> </text:span>U+16F<text:span text:style-name="T147">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T36">和</text:span></text:p>
+       <text:p text:style-name="P87"><text:span text:style-name="T165">U+16F</text:span><text:span text:style-name="T147">10</text:span><text:span text:style-name="T148"> MIAO </text:span><text:span text:style-name="T12">LETTER NA的左边显示</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
-       <text:p text:style-name="P97"><text:span text:style-name="T150">𖼄𖽑<text:tab/></text:span>𖼐𖽑</text:p>
+       <text:p text:style-name="P97"><text:span text:style-name="T152">𖼄𖽑<text:tab/></text:span>𖼐𖽑</text:p>
       </table:table-cell>
      </table:table-row>
      <table:table-row table:style-name="Table2.23">
@@ -2956,7 +2965,7 @@
      <table:table-row table:style-name="Table2.24">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P109"><text:span text:style-name="T21">小字母</text:span><text:span text:style-name="T33">不缩进大字母</text:span></text:p>
+       <text:p text:style-name="P109"><text:span text:style-name="T21">小字母</text:span><text:span text:style-name="T34">不缩进大字母</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
        <text:p text:style-name="P33">𖼙𖽦𖾐 <text:s/>𖼲𖽫𖾒 <text:s/>𖼇𖽨</text:p>
@@ -2987,7 +2996,7 @@
        <text:p text:style-name="P102">ygp</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P82">U+16F<text:span text:style-name="T155">02</text:span> MIAO <text:span text:style-name="T12">LETTER Y</text:span><text:span text:style-name="T24">I PA</text:span><text:span text:style-name="T18">主干齐中</text:span></text:p>
+       <text:p text:style-name="P82">U+16F<text:span text:style-name="T157">02</text:span> MIAO <text:span text:style-name="T12">LETTER Y</text:span><text:span text:style-name="T24">I PA</text:span><text:span text:style-name="T18">主干齐中</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
        <text:p text:style-name="P78">𖼂</text:p>
@@ -2996,32 +3005,32 @@
      <table:table-row table:style-name="Table2.28">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P88">U+16F<text:span text:style-name="T145">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T34">、</text:span><text:span text:style-name="T146">U+16F</text:span><text:span text:style-name="T145">10</text:span><text:span text:style-name="T146"> MIAO </text:span><text:span text:style-name="T12">LETTER NA、</text:span></text:p>
-       <text:p text:style-name="P88">U+16F<text:span text:style-name="T147">1</text:span><text:span text:style-name="T145">4</text:span> MIAO <text:span text:style-name="T12">LETTER NNA</text:span><text:span text:style-name="T34">，</text:span><text:span text:style-name="T32">和</text:span></text:p>
-       <text:p text:style-name="P88"><text:span text:style-name="T12">U+16F23 MIAO LETTER NGA</text:span><text:span text:style-name="T34">用异体字形</text:span></text:p>
+       <text:p text:style-name="P88">U+16F<text:span text:style-name="T147">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T36">、</text:span><text:span text:style-name="T148">U+16F</text:span><text:span text:style-name="T147">10</text:span><text:span text:style-name="T148"> MIAO </text:span><text:span text:style-name="T12">LETTER NA、</text:span></text:p>
+       <text:p text:style-name="P88">U+16F<text:span text:style-name="T149">1</text:span><text:span text:style-name="T147">4</text:span> MIAO <text:span text:style-name="T12">LETTER NNA</text:span><text:span text:style-name="T36">，</text:span><text:span text:style-name="T32">和</text:span></text:p>
+       <text:p text:style-name="P88"><text:span text:style-name="T12">U+16F23 MIAO LETTER NGA</text:span><text:span text:style-name="T36">用异体字形</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
-       <text:p text:style-name="P74">𖼄 <text:s/>𖼐 <text:s/><text:span text:style-name="T148">𖼔</text:span> <text:s/>𖼣</text:p>
+       <text:p text:style-name="P74">𖼄 <text:s/>𖼐 <text:s/><text:span text:style-name="T150">𖼔</text:span> <text:s/>𖼣</text:p>
       </table:table-cell>
      </table:table-row>
      <table:table-row table:style-name="Table2.29">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P82">U+16F<text:span text:style-name="T156">5</text:span><text:span text:style-name="T142">C</text:span> MIAO <text:span text:style-name="T12">VOWEL SIGN</text:span><text:span text:style-name="T25"> </text:span><text:span text:style-name="T12">W</text:span><text:span text:style-name="T34">、</text:span></text:p>
-       <text:p text:style-name="P82"><text:span text:style-name="T146">U+16F6</text:span><text:span text:style-name="T145">0</text:span><text:span text:style-name="T146"> MIAO </text:span><text:span text:style-name="T12">VOWEL SIGN</text:span><text:span text:style-name="T25"> </text:span><text:span text:style-name="T12">O</text:span><text:span text:style-name="T25">EY</text:span><text:span text:style-name="T26">，和</text:span></text:p>
-       <text:p text:style-name="P82">U+16F<text:span text:style-name="T157">7</text:span><text:span text:style-name="T141">3</text:span> MIAO <text:span text:style-name="T12">VOWEL SIGN</text:span><text:span text:style-name="T25"> </text:span><text:span text:style-name="T12">A</text:span><text:span text:style-name="T25">E</text:span><text:span text:style-name="T27">的竖笔靠近中线</text:span></text:p>
+       <text:p text:style-name="P82">U+16F<text:span text:style-name="T158">5</text:span><text:span text:style-name="T144">C</text:span> MIAO <text:span text:style-name="T12">VOWEL SIGN</text:span><text:span text:style-name="T25"> </text:span><text:span text:style-name="T12">W</text:span><text:span text:style-name="T36">、</text:span></text:p>
+       <text:p text:style-name="P82"><text:span text:style-name="T148">U+16F6</text:span><text:span text:style-name="T147">0</text:span><text:span text:style-name="T148"> MIAO </text:span><text:span text:style-name="T12">VOWEL SIGN</text:span><text:span text:style-name="T25"> </text:span><text:span text:style-name="T12">O</text:span><text:span text:style-name="T25">EY</text:span><text:span text:style-name="T26">，和</text:span></text:p>
+       <text:p text:style-name="P82">U+16F<text:span text:style-name="T159">7</text:span><text:span text:style-name="T143">3</text:span> MIAO <text:span text:style-name="T12">VOWEL SIGN</text:span><text:span text:style-name="T25"> </text:span><text:span text:style-name="T12">A</text:span><text:span text:style-name="T25">E</text:span><text:span text:style-name="T27">的竖笔靠近中线</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
-       <text:p text:style-name="P82"><text:span text:style-name="T158">◌</text:span><text:span text:style-name="T50">𖽜</text:span><text:span text:style-name="T52"><text:tab/></text:span><text:span text:style-name="T159">◌</text:span><text:span text:style-name="T160">𖽠</text:span><text:span text:style-name="T52"><text:tab/></text:span><text:span text:style-name="T160">◌</text:span><text:span text:style-name="T50">𖽳</text:span></text:p>
+       <text:p text:style-name="P82"><text:span text:style-name="T160">◌</text:span><text:span text:style-name="T52">𖽜</text:span><text:span text:style-name="T54"><text:tab/></text:span><text:span text:style-name="T161">◌</text:span><text:span text:style-name="T162">𖽠</text:span><text:span text:style-name="T54"><text:tab/></text:span><text:span text:style-name="T162">◌</text:span><text:span text:style-name="T52">𖽳</text:span></text:p>
       </table:table-cell>
      </table:table-row>
      <table:table-row table:style-name="Table2.30">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P109"><text:span text:style-name="T15">小字母</text:span><text:span text:style-name="T33">不缩进大字母</text:span></text:p>
+       <text:p text:style-name="P109"><text:span text:style-name="T15">小字母</text:span><text:span text:style-name="T34">不缩进大字母</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
-       <text:p text:style-name="P36"><text:span text:style-name="T161">𖼖𖽔𖾐<text:tab/>𖼊</text:span><text:span text:style-name="T51">𖽱</text:span></text:p>
+       <text:p text:style-name="P36"><text:span text:style-name="T163">𖼖𖽔𖾐<text:tab/>𖼊</text:span><text:span text:style-name="T53">𖽱</text:span></text:p>
       </table:table-cell>
      </table:table-row>
      <table:table-row table:style-name="Table2.31">
@@ -3049,7 +3058,7 @@
        <text:p text:style-name="P104">ywqa</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P82">U+16F<text:span text:style-name="T145">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T28">和</text:span><text:span text:style-name="T146">U+16F</text:span><text:span text:style-name="T145">10</text:span><text:span text:style-name="T146"> MIAO </text:span><text:span text:style-name="T12">LETTER NA </text:span><text:span text:style-name="T34">用异体字形</text:span></text:p>
+       <text:p text:style-name="P82">U+16F<text:span text:style-name="T147">04</text:span> MIAO <text:span text:style-name="T12">LETTER MA</text:span><text:span text:style-name="T28">和</text:span><text:span text:style-name="T148">U+16F</text:span><text:span text:style-name="T147">10</text:span><text:span text:style-name="T148"> MIAO </text:span><text:span text:style-name="T12">LETTER NA </text:span><text:span text:style-name="T36">用异体字形</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
        <text:p text:style-name="P75">𖼄<text:tab/>𖼐</text:p>
@@ -3067,7 +3076,7 @@
      <table:table-row table:style-name="Table2.35">
       <table:covered-table-cell/>
       <table:table-cell table:style-name="Table2.A2" office:value-type="string">
-       <text:p text:style-name="P37"><text:span text:style-name="T146">U+16F</text:span><text:span text:style-name="T162">35</text:span><text:span text:style-name="T146"> MIAO </text:span><text:span text:style-name="T12">LETTER </text:span><text:span text:style-name="T11">ZH</text:span><text:span text:style-name="T12">A</text:span><text:span text:style-name="T34">用异体字形</text:span></text:p>
+       <text:p text:style-name="P37"><text:span text:style-name="T148">U+16F</text:span><text:span text:style-name="T164">35</text:span><text:span text:style-name="T148"> MIAO </text:span><text:span text:style-name="T12">LETTER </text:span><text:span text:style-name="T11">ZH</text:span><text:span text:style-name="T12">A</text:span><text:span text:style-name="T36">用异体字形</text:span></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table2.C2" office:value-type="string">
        <text:p text:style-name="P80">𖼵</text:p>
@@ -3077,7 +3086,7 @@
     <text:h text:style-name="P121" text:outline-level="1">技术支援</text:h>
     <text:p text:style-name="P22">由于本字体集为免费发行，我们无法提供商业程度的个人技术支援，但如果发现任何问题，务请告诉我们，我们会尝试在将来的新版本内解决。如果有任何改善建议，也欢迎向我们提出。</text:p>
     <text:p text:style-name="P23">请留意本字体集为有经验的电脑用者而设；安装及使用这些字体并不是轻而易举的事。一般来说，由有经验的电脑用者与您一起在电脑前解决问题就是最有效的技术支援。</text:p>
-    <text:p text:style-name="P24"><text:span text:style-name="T130">如有问题需要汇报，请于项目网站</text:span><text:a xlink:type="simple" xlink:href="https://github.com/silnrsi/font-shimenkan/issues" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T130">https://github.com/silnrsi/font-shimenkan/issues</text:span></text:a><text:span text:style-name="T130">上创建新问题，或通过</text:span><text:a xlink:type="simple" xlink:href="https://software.sil.org/about/contact/" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T130">https://software.sil.org/about/contact/</text:span></text:a><text:span text:style-name="T130"> 与我们联系。</text:span></text:p>
+    <text:p text:style-name="P24"><text:span text:style-name="T132">如有问题需要汇报，请于项目网站</text:span><text:a xlink:type="simple" xlink:href="https://github.com/silnrsi/font-shimenkan/issues" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T132">https://github.com/silnrsi/font-shimenkan/issues</text:span></text:a><text:span text:style-name="T132">上创建新问题，或通过</text:span><text:a xlink:type="simple" xlink:href="https://software.sil.org/about/contact/" office:target-frame-name="_blank" xlink:show="new" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T132">https://software.sil.org/about/contact/</text:span></text:a><text:span text:style-name="T132"> 与我们联系。</text:span></text:p>
    </text:section>
   </office:text>
  </office:body>

@@ -8,7 +8,7 @@ Shimenkan 字体集支持各种使用伯格里苗文的书写系统，共有八�
 - Shimenkan GSM -  [ygp] Gepo 白彝文
 - Shimenkan MAS - [sfm] 小花苗文
 - Shimenkan MGS - [hmz] Hmong Shua 歪梳苗文
-- Shimenkan Zonghe - [yna] Aluo 干彝文
+- Shimenkan Zonghe - [yna] Aluo 甘彝文
 - Taogu - [lpo] Lipo 东傈僳文
 
 拉丁字形源自经由 OFL 许可的 Source Sans Pro 字体集（https://github.com/adobe-fonts/source-sans-pro）。苗文字形的设计与拉丁字形融合，同时保持苗文书写系统的特征。本字体项目由 Miao Unicode 项目（https://github.com/phjamr/MiaoUnicode）启发，但并不以其为基础。
