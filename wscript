@@ -1,15 +1,6 @@
-#!/usr/bin/python2
-# encoding: utf-8
-# this is a smith configuration file
-# http://scripts.sil.org/smith
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
-# set some default output folders
-# DOCDIR = ["documentation", "web"]
-
-# set the version control system for srcdist
-VCS = 'git'
-
-# set the font name, version, licensing and description
 APPNAME="Shimenkan"
 DESC_SHORT = "A family of fonts for the Miao (Pollard) script."
 
@@ -30,9 +21,6 @@ langinfo = {
     'lpo' : 'Taogu'
 }
 
-# set up the sile tests (using fontproof)
-# testCommand('sile', cmd='${SILE} -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
-
 def langfontname(f, l):
     return f.replace('Shimenkan', langinfo[l])
 
@@ -51,7 +39,6 @@ for dspace in ('Roman', ):
                 target = "${DS:FILENAME_BASE}.ttf",
                 instanceparams = '-W',
                 opentype = fea("source/${DS:FILENAME_BASE}.fea",
-                                buildusingsilfont = True,
                                 params = '-m source/${DS:FILENAME_BASE}.map',
                                 master = "source/" + fontfamily + ".feax"),
                 pdf = fret(params="-r -oi"),
