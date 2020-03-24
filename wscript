@@ -3,6 +3,11 @@
 
 APPNAME="Shimenkan"
 DESC_SHORT = "A family of fonts for the Miao (Pollard) script."
+PACKAGE_FILES = {
+    'documentation/UsingTheFonts.pdf': '/',
+    'documentation/字体使用说明.pdf': '/',
+    '请先阅读.txt': '/'
+}
 
 # retrieve all the authorship information from one of the master UFOs
 getufoinfo('source/masters/ShimenkanMaster-ExtraLight.ufo')
