@@ -73,7 +73,7 @@
 \proof[size="24pt"]{2 HMD 𖼞𖽺𖾒𖼞𖽺𖼞𖽺𖾏𖼞𖽺𖾐𖼞𖽺𖾑 / 𖼐𖽑 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾏𖼞𖽗𖾐𖼞𖽗𖾑  }
 \setTestFont[language="dflt"]
 \proof[size="24pt"]{3 dflt 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
-\setTestFont[language="x-x-hbotHMD"]
+\setTestFont[language="x-hbotHMD"]
 \proof[size="24pt"]{4 HMD 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖾏𖼇𖽑𖽝𖾏𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
 
 \subsection{LPO}
