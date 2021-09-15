@@ -5,6 +5,7 @@
   <anchor x="308" y="502" name="aboveLC"/>
   <anchor x="240" y="-22" name="belowLC"/>
   <outline>
+    <component base="u"/>
     <contour>
       <point x="463" y="456" type="line"/>
       <point x="498" y="464"/>
@@ -21,6 +22,5 @@
       <point x="491" y="482"/>
       <point x="440" y="478" type="curve"/>
     </contour>
-    <component base="u"/>
   </outline>
 </glyph>

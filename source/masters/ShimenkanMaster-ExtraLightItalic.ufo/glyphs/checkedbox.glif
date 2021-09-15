@@ -3,6 +3,7 @@
   <advance width="760"/>
   <unicode hex="2611"/>
   <outline>
+    <component base="checkbox"/>
     <contour>
       <point x="252" y="100" type="curve"/>
       <point x="292" y="104" type="line"/>
@@ -21,6 +22,5 @@
       <point x="210" y="306"/>
       <point x="239" y="203"/>
     </contour>
-    <component base="checkbox"/>
   </outline>
 </glyph>

@@ -80,7 +80,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/11/18 10:47:36</string>
+  <string>2021/09/14 13:53:44</string>
   <key>openTypeHheaAscender</key>
   <integer>1024</integer>
   <key>openTypeHheaDescender</key>
@@ -148,9 +148,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Black</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Shimenkan Master Black: 2020</string>
+  <string>SIL International: Shimenkan Master Black: 2021</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.001</string>
+  <string>Version 1.090</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -173,6 +173,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>2</integer>
     <integer>2</integer>
     <integer>4</integer>
+  </array>
+  <key>openTypeOS2Selection</key>
+  <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2Type</key>
   <array/>
@@ -252,7 +256,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>1</integer>
+  <integer>90</integer>
   <key>xHeight</key>
   <integer>500</integer>
 </dict>
