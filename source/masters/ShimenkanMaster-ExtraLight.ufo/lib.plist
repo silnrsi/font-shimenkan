@@ -304,6 +304,8 @@
     <string>u16F60.mark.ygp</string>
     <string>u16F73.ygp</string>
     <string>u16F73.mark.ygp</string>
+    <string>u16F5B.ywqa</string>
+    <string>u16F5C.ywqa</string>
     <string>u16F8F</string>
     <string>u16F90</string>
     <string>u16F91</string>
@@ -1078,5 +1080,12 @@
     <string>eight.dnom</string>
     <string>nine.dnom</string>
   </array>
+  <key>public.postscriptNames</key>
+  <dict>
+    <key>u16F5B.ywqa</key>
+    <string>u15F5B.ywqa</string>
+    <key>u16F5C.ywqa</key>
+    <string>u15F5C.ywqa</string>
+  </dict>
 </dict>
 </plist>

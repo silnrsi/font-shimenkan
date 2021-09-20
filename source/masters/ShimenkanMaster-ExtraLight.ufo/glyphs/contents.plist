@@ -1598,6 +1598,8 @@
   <string>u16F_5B_.glif</string>
   <key>u16F5B.mark</key>
   <string>u16F_5B_.mark.glif</string>
+  <key>u16F5B.ywqa</key>
+  <string>u16F_5B_.ywqa.glif</string>
   <key>u16F5C</key>
   <string>u16F_5C_.glif</string>
   <key>u16F5C.mark</key>
@@ -1606,6 +1608,8 @@
   <string>u16F_5C_.mark.ygp.glif</string>
   <key>u16F5C.ygp</key>
   <string>u16F_5C_.ygp.glif</string>
+  <key>u16F5C.ywqa</key>
+  <string>u16F_5C_.ywqa.glif</string>
   <key>u16F5D</key>
   <string>u16F_5D_.glif</string>
   <key>u16F5D.mark</key>
