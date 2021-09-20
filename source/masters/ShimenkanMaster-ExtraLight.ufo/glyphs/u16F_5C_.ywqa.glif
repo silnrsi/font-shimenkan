@@ -9,8 +9,8 @@
   <anchor x="237" y="10" name="FR"/>
   <anchor x="237" y="100" name="K"/>
   <anchor x="0" y="100" name="KB"/>
-  <anchor x="237" y="170" name="S"/>
-  <anchor x="0" y="170" name="SB"/>
+  <anchor x="237" y="125" name="S"/>
+  <anchor x="0" y="125" name="SB"/>
   <anchor x="0" y="160" name="SBR"/>
   <anchor x="0" y="302" name="SBRT"/>
   <anchor x="0" y="312" name="SBT"/>
@@ -21,5 +21,6 @@
   <anchor x="0" y="110" name="WB"/>
   <outline>
     <component base="u16F5C"/>
+    <component base="dot" xOffset="70" yOffset="-280"/>
   </outline>
 </glyph>
