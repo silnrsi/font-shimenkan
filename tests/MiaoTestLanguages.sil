@@ -62,9 +62,9 @@
 \setTestFont[language="x-hbotYWQA"]
 \proof[size="24pt"]{2 YWQA 𖼄𖼐 / 𖼔𖼣 / 𖼵𖼯 / 𖼞𖽗𖾒𖼞𖽗𖼞𖽗𖾐𖼞𖽗𖾑  }
 \setTestFont[language="dflt"]
-\proof[size="24pt"]{3 dflt 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
+\proof[size="24pt"]{3 dflt 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼮𖽙𖽜𖾐𖼮𖽝𖽜𖾐𖼮𖽪𖽛𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
 \setTestFont[language="x-hbotYWQA"]
-\proof[size="24pt"]{4 YWQA 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
+\proof[size="24pt"]{4 YWQA 𖼮𖽪𖾐𖼮𖽑𖽪𖾐 / 𖼮𖽙𖽜𖾐𖼮𖽝𖽜𖾐𖼮𖽪𖽛𖾐 / 𖼇𖽝𖼇𖽑𖽝𖼇𖽝𖽠𖼇𖽑𖽝𖽠 / 𖼽𖽹𖼽𖽑𖽹𖼽𖽹𖾐𖼽𖽑𖽹𖾐 }
 
 \subsection{HMD}
 \setTestFont[language="dflt"]
