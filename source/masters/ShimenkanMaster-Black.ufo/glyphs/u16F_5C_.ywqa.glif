@@ -13,10 +13,10 @@
   <anchor x="0" y="200" name="SB"/>
   <anchor x="0" y="190" name="SBR"/>
   <anchor x="0" y="352" name="SBRT"/>
-  <anchor x="0" y="343" name="SBT"/>
+  <anchor x="0" y="306" name="SBT"/>
   <anchor x="308" y="190" name="SR"/>
   <anchor x="308" y="352" name="SRT"/>
-  <anchor x="308" y="343" name="ST"/>
+  <anchor x="308" y="306" name="ST"/>
   <anchor x="308" y="138" name="W"/>
   <anchor x="0" y="138" name="WB"/>
   <outline>
