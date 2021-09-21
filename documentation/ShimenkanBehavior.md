@@ -203,6 +203,8 @@ V+ @S   |    T    |  T  |  A   |  T  |  T  |  A  |  A  |  T  |  T
 
 Note that this is identical to the preferences for  _V@F no asp_ below.
 
+The vertical position of two vowels (u16F5B, u16F5C) is slightly different for [ywqa]—they are raised so that the bottoms align with the bottom of u16F5D.
+
 #### Elbow vowels (u16F8F) [sfm]
 
 Vowels located at _elbow_ are always positioned _after_ the consonant and possible aspiration.

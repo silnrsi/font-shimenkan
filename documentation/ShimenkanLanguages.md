@@ -141,3 +141,4 @@ V @F + asp                    | under asp
 VV @F no asp                  | tucked
 VV @F + asp                   | under asp
 V locations used              | H S F
+V raised @S (u16F5B, u16F5C)  | yes
