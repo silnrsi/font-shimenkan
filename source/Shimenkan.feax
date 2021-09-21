@@ -10,7 +10,6 @@
 @ASPALL = [@ASP u16F53];
 @OPENFLOOR = [u16F07 u16F08 u16F09 u16F0A u16F0B u16F0C u16F0D u16F37 u16F38 u16F48 u16F49];
 @OPENWAIST = [u16F07 u16F0E u16F0F u16F10 u16F11 u16F12 u16F16 u16F17 u16F2E u16F2F u16F30 u16F32 u16F47 u16F48 u16F4A];
-@NMARKTONES = [@F u16F8F u16F90 @ASPALLMARKS @_H];
 
 @L_4F = [u16F0E_u16F4F u16F10_u16F4F];
 @L_no4F = [u16F0E u16F10];
@@ -397,154 +396,6 @@ do  for a = [K F W];
     }
 
 #############
-# 4 lookups to do spacing marks for spacing of head and foot vowel sequences
-# Limit this to narrow bases
-do  let h = " ".join(g for g in feaclass('H') if ADVx(g) < 2 * ADVx('u16F7B'));
-    { @narrowH = [$h]; }
-
-# Add space to previously inserted zwsp for width of first component
-# and base for last component
-lookup space_leftheadfoot {
-    ignore pos @NMARKTONES @narrowH';
-do  for h = @_H;
-    let t = ADVx(h);
-    let s = int(t/2);
-    {
-        pos @narrowH' <$s 0 $s 0> $h @MARKTONES;
-        pos @narrowH' <$t 0 $t 0> $h @_H @MARKTONES;
-        pos @narrowH' <$t 0 $t 0> $h @_H @_H @MARKTONES;
-    }
-} space_leftheadfoot;
-
-lookup space_rightheadfoot {
-do  for h = @_H;
-    let t = ADVx(h);
-    let s = int(t/2);
-    {
-        pos @narrowH' $s $h u16F91 ZWNBS @H @_H u16F91;
-        pos @narrowH' $s $h u16F91 ZWNBS @H @_H @_H u16F91;
-        pos @narrowH' $s $h u16F91 ZWNBS @H @_H @_H @_H u16F91;
-        pos @narrowH' $s $h u16F92 ZWNBS @H @_H u16F92;
-        pos @narrowH' $s $h u16F92 ZWNBS @H @_H @_H u16F92;
-        pos @narrowH' $s $h u16F92 ZWNBS @H @_H @_H @_H u16F92;
-    }
-    ignore pos @narrowH' @_H @MARKTONES ZWNBS;
-do  for h = @_H;
-    let t = ADVx(h);
-    let s = int(t/2);
-    {
-        pos @narrowH' $s $h @MARKTONES;
-    }
-} space_rightheadfoot;
-
-# Add half the centre width to both sides
-lookup adv_leftheadfoot {
-    ignore pos @NMARKTONES @narrowH';
-do  for h = @_H;
-    let t = ADVx(h);
-    let s = int(t/2);
-    {
-        pos @narrowH' <$s 0 $s 0> @_H $h @_H @MARKTONES;
-    }
-} adv_leftheadfoot;
-
-lookup adv_rightheadfoot {
-do  for h = @_H;
-    let t = ADVx(h);
-    let s = int(t/2);
-    {
-        pos @narrowH' $t @_H $h u16F91 ZWNBS @H @_H u16F91;
-        pos @narrowH' $t @_H $h u16F91 ZWNBS @H @_H @_H u16F91;
-        pos @narrowH' $t @_H $h u16F91 ZWNBS @H @_H @_H @_H u16F91;
-        pos @narrowH' $s @_H $h @_H u16F91 ZWNBS @H @_H u16F91;
-        pos @narrowH' $s @_H $h @_H u16F91 ZWNBS @H @_H @_H u16F91;
-        pos @narrowH' $s @_H $h @_H u16F91 ZWNBS @H @_H @_H @_H u16F91;
-        pos @narrowH' $t @_H $h u16F92 ZWNBS @H @_H u16F92;
-        pos @narrowH' $t @_H $h u16F92 ZWNBS @H @_H @_H u16F92;
-        pos @narrowH' $t @_H $h u16F92 ZWNBS @H @_H @_H @_H u16F92;
-        pos @narrowH' $s @_H $h @_H u16F92 ZWNBS @H @_H u16F92;
-        pos @narrowH' $s @_H $h @_H u16F92 ZWNBS @H @_H @_H u16F92;
-        pos @narrowH' $s @_H $h @_H u16F92 ZWNBS @H @_H @_H @_H u16F92;
-    }
-    ignore pos @narrowH' @_H @_H @MARKTONES ZWNBS;
-    ignore pos @narrowH' @_H @_H @_H @MARKTONES ZWNBS;
-do  for h = @_H;
-    let t = ADVx(h);
-    let s = int(t/2);
-    {
-        pos @narrowH' $t @_H $h @MARKTONES;
-        pos @narrowH' $s @_H $h @_H @MARKTONES;
-    }
-} adv_rightheadfoot;
-
-lookup adv_extra_headfoot {
-do  for h = @_H;
-    let t = ADVx(h);
-    {
-        pos @narrowH' $t @_H @_H $h u16F91 ZWNBS @H @_H u16F91;
-        pos @narrowH' $t @_H @_H $h u16F91 ZWNBS @H @_H @_H u16F91;
-        pos @narrowH' $t @_H @_H $h u16F91 ZWNBS @H @_H @_H @_H u16F91;
-        pos @narrowH' $t @_H @_H $h u16F92 ZWNBS @H @_H u16F92;
-        pos @narrowH' $t @_H @_H $h u16F92 ZWNBS @H @_H @_H u16F92;
-        pos @narrowH' $t @_H @_H $h u16F92 ZWNBS @H @_H @_H @_H u16F92;
-    }
-    ignore pos @narrowH' @_H @_H @_H @MARKTONES ZWNBS;
-do  for h = @_H;
-    let t = ADVx(h);
-    {
-        pos @narrowH' $t @_H @_H $h @MARKTONES;
-    }
-} adv_extra_headfoot;
-
-# Now take away half the width of the base from both
-lookup base_leftheadfoot {
-    ignore pos @NMARKTONES @narrowH';
-do  for b = @narrowH;
-    let s = -int(ADVx(b) / 2);
-    {
-        pos $b' <$s 0 $s 0> @_H @MARKTONES;
-        pos $b' <$s 0 $s 0> @_H @_H @MARKTONES;
-        pos $b' <$s 0 $s 0> @_H @_H @_H @MARKTONES;
-    }
-} base_leftheadfoot;
-
-lookup base_rightheadfoot {
-do  for b = @narrowH;
-    let s = -int(ADVx(b) / 2);
-    {
-        pos $b' $s @_H u16F91 ZWNBS @H @_H u16F91;
-        pos $b' $s @_H u16F91 ZWNBS @H @_H @_H u16F91;
-        pos $b' $s @_H u16F91 ZWNBS @H @_H @_H @_H u16F91;
-        pos $b' $s @_H @_H u16F91 ZWNBS @H @_H u16F91;
-        pos $b' $s @_H @_H u16F91 ZWNBS @H @_H @_H u16F91;
-        pos $b' $s @_H @_H u16F91 ZWNBS @H @_H @_H @_H u16F91;
-        pos $b' $s @_H @_H @_H u16F91 ZWNBS @H @_H u16F91;
-        pos $b' $s @_H @_H @_H u16F91 ZWNBS @H @_H @_H u16F91;
-        pos $b' $s @_H @_H @_H u16F91 ZWNBS @H @_H @_H @_H u16F91;
-        pos $b' $s @_H u16F92 ZWNBS @H @_H u16F92;
-        pos $b' $s @_H u16F92 ZWNBS @H @_H @_H u16F92;
-        pos $b' $s @_H u16F92 ZWNBS @H @_H @_H @_H u16F92;
-        pos $b' $s @_H @_H u16F92 ZWNBS @H @_H u16F92;
-        pos $b' $s @_H @_H u16F92 ZWNBS @H @_H @_H u16F92;
-        pos $b' $s @_H @_H u16F92 ZWNBS @H @_H @_H @_H u16F92;
-        pos $b' $s @_H @_H @_H u16F92 ZWNBS @H @_H u16F92;
-        pos $b' $s @_H @_H @_H u16F92 ZWNBS @H @_H @_H u16F92;
-        pos $b' $s @_H @_H @_H u16F92 ZWNBS @H @_H @_H @_H u16F92;
-    }
-    ignore pos @narrowH' @_H @MARKTONES ZWNBS;
-    ignore pos @narrowH' @_H @_H @MARKTONES ZWNBS;
-    ignore pos @narrowH' @_H @_H @_H @MARKTONES ZWNBS;
-do  for b = @narrowH;
-    let s = -int(ADVx(b) / 2);
-    {
-        pos $b' $s @_H @MARKTONES;
-        pos $b' $s @_H @_H @MARKTONES;
-        pos $b' $s @_H @_H @_H @MARKTONES;
-    }
-} base_rightheadfoot;
-#############
-
-#############
 
 lookup asp_attach {
     pos base @S mark @_SB;
@@ -925,6 +776,55 @@ lookup aspirations_r {
     pos @S u16F53.mark' lookup attach_F;
 } aspirations_r;
 
+#############
+# 4 lookups to do spacing marks for spacing of head and foot vowel sequences
+# Limit this to narrow bases
+do  let h = " ".join(g for g in feaclass('H') if ADVx(g) < 2 * ADVx('u16F7B'));
+    { @narrowH = [$h]; }
+
+# Add space to previously inserted zwsp for width of first component
+# and base for last component
+lookup space_headfoot {
+do  for h = @_H;
+    let s = ADVx(h);
+    {
+        pos ZWNBS' $s @narrowH $h @_H @MARKTONES;
+        pos ZWNBS' $s @narrowH $h @_H @_H @MARKTONES;
+        pos ZWNBS @narrowH' $s @_H $h @MARKTONES;
+        pos ZWNBS @narrowH' $s @_H @_H $h @MARKTONES;
+    }
+} space_headfoot;
+
+# Add half the centre width to both sides
+lookup adv_headfoot {
+do  for h = @_H;
+    let s = int(ADVx(h) / 2);
+    {
+        pos ZWNBS' $s @narrowH' $s @_H $h @_H @MARKTONES;
+    }
+} adv_headfoot;
+
+# Now take away half the width of the base from both
+lookup base_headfoot {
+do  for b = @narrowH;
+    let s = -int(ADVx(b) / 2);
+    {
+        pos ZWNBS' $s $b' $s @_H @_H @MARKTONES;
+        pos ZWNBS' $s $b' $s @_H @_H @_H @MARKTONES;
+    }
+} base_headfoot;
+
+lookup narr_headfoot {
+    ignore pos ZWNBS' @narrowH' @VOWEL_DESC' u16F91';
+do  for b = @narrowH;
+    for m = @_H;
+    let d = int((ADVx(m) - ADVx(b))/2);
+    if d > 25;
+    {
+        pos ZWNBS' $d $b' $d $m @MARKTONES;
+    }
+} narr_headfoot;
+#############
 
 # Shift hanging vowels right for ASP
 # Already attach to HD on base
@@ -1028,14 +928,10 @@ feature kern {
         lookup asp_hf_attach_forward;
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_leftheadfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
-        # lookup narr_headfoot;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
     language YNA exclude_dflt;
@@ -1045,14 +941,10 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_fix_attach;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_leftheadfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
-        # lookup narr_headfoot;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
         lookup right_align_to_asp_W;
@@ -1064,30 +956,22 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_fix_attach;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_leftheadfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
-        # lookup narr_headfoot;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
-    language hmdd exclude_dflt;
+    language HMDD exclude_dflt;
         lookup vowel_attach_hmdd;
         lookup vowel_attach_topright;
         lookup aspirations_r;
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_leftheadfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
-        # lookup narr_headfoot;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
     language HMD exclude_dflt;
@@ -1099,14 +983,10 @@ feature kern {
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
         lookup space_waist_kern_W;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_leftheadfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
-        # lookup narr_headfoot;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
         lookup right_align_to_asp_F;
@@ -1119,15 +999,10 @@ feature kern {
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
         lookup space_waist_kern_W;
-        lookup space_waist_kern_W;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_leftheadfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
-        # lookup narr_headfoot;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
     language YWQA exclude_dflt;
@@ -1138,14 +1013,10 @@ feature kern {
         lookup asp_hf_attach_forward;
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_leftheadfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
-        # lookup narr_headfoot;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
     language LPO exclude_dflt;
@@ -1155,14 +1026,10 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_fix_attach;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_leftheadfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
-        # lookup narr_headfoot;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
     language YGP exclude_dflt;
@@ -1171,14 +1038,10 @@ feature kern {
         lookup aspirations_r;
         lookup asp_hf_attach_right;
         lookup headfoot_vowels;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_leftheadfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
-        # lookup narr_headfoot;
+        lookup space_headfoot;
+        lookup adv_headfoot;
+        lookup base_headfoot;
+        lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
 } kern;

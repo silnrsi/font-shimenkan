@@ -16,7 +16,6 @@
   <anchor x="623" y="680" name="ST"/>
   <anchor x="703" y="320" name="W"/>
   <outline>
-    <component base="u16F1A" xOffset="79"/>
     <contour>
       <point x="289" y="400" type="curve"/>
       <point x="289" y="470" type="line"/>
@@ -45,5 +44,6 @@
       <point x="191" y="400"/>
       <point x="288" y="400"/>
     </contour>
+    <component base="u16F1A" xOffset="79"/>
   </outline>
 </glyph>

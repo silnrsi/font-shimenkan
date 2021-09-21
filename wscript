@@ -13,7 +13,7 @@ PACKAGE_FILES = {
 getufoinfo('source/masters/ShimenkanMaster-ExtraLight.ufo')
 # BUILDLABEL="test"
 
-opts = preprocess_args({'opt' : '--alllangs'}, {'opt' : '--allreglangs'}, {'opt': '--quick'})
+opts = preprocess_args({'opt' : '--alllangs'}, {'opt' : '--allreglangs'})
 
 langinfo = {
     'yna' : 'Shimenkan Zonghe',
@@ -49,8 +49,6 @@ for dspace in ('Roman', ):
                 pdf = fret(params="-r -oi"),
                 script = ['DFLT'],
                 name = "${DS:FAMILYNAME}")
-    if '--quick' in opts:
-        continue
     for l in langinfo.keys():
         packages[l].package_files['langs/' + l + '/*'] = '/'
         packages[l].package_files['documentation/UsingTheFonts.pdf'] = '/'

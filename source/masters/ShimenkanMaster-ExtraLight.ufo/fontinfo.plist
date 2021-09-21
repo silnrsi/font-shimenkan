@@ -148,9 +148,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Extra Light</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Shimenkan Master Extra Light: 2021</string>
+  <string>SIL International: Shimenkan Master Extra Light: 2020</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.090</string>
+  <string>Version 1.001</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -173,10 +173,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>2</integer>
     <integer>2</integer>
     <integer>4</integer>
-  </array>
-  <key>openTypeOS2Selection</key>
-  <array>
-    <integer>7</integer>
   </array>
   <key>openTypeOS2Type</key>
   <array/>
@@ -256,7 +252,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>90</integer>
+  <integer>1</integer>
   <key>xHeight</key>
   <integer>478</integer>
 </dict>
