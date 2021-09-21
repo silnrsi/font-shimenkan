@@ -397,6 +397,306 @@ do  for a = [K F W];
     }
 
 #############
+# 4 lookups to do spacing marks for spacing of head and foot vowel sequences
+# Limit this to narrow bases
+do  let h = " ".join(g for g in feaclass('H') if (ADVx(g) - APx(g, "H")) < ADVx('u16F64'));
+    { @narrowHRight = [$h]; }
+do  let h = " ".join(g for g in feaclass('H') if APx(g, "H") < ADVx('u16F64'));
+    { @narrowHLeft = [$h]; }
+do  let h = " ".join(g for g in feaclass('H') if (ADVx(g) - APx(g, "H")) < 0.5 * ADVx('u16F64'));
+    { @vnarrowHRight = [$h]; }
+do  let h = " ".join(g for g in feaclass('H') if APx(g, "H") < 0.5 * ADVx('u16F64'));
+    { @vnarrowHLeft = [$h]; }
+do  let h = " ".join(g for g in feaclass('H') if (ADVx(g) - APx(g, "H")) < 1.5 * ADVx('u16F64'));
+    { @wnarrowHRight = [$h]; }
+do  let h = " ".join(g for g in feaclass('H') if APx(g, "H") < 1.5 * ADVx('u16F64'));
+    { @wnarrowHLeft = [$h]; }
+do  let h = " ".join(g for g in feaclass('F') if (ADVx(g) - APx(g, "F")) < ADVx('u16F64'));
+    { @narrowFRight = [$h]; }
+do  let h = " ".join(g for g in feaclass('F') if APx(g, "F") < ADVx('u16F64'));
+    { @narrowFLeft = [$h]; }
+do  let h = " ".join(g for g in feaclass('F') if (ADVx(g) - APx(g, "F")) < 0.5 * ADVx('u16F64'));
+    { @vnarrowFRight = [$h]; }
+do  let h = " ".join(g for g in feaclass('F') if APx(g, "F") < 0.5 * ADVx('u16F64'));
+    { @vnarrowFLeft = [$h]; }
+do  let h = " ".join(g for g in feaclass('F') if (ADVx(g) - APx(g, "F")) < 1.5 * ADVx('u16F64'));
+    { @wnarrowFRight = [$h]; }
+do  let h = " ".join(g for g in feaclass('F') if APx(g, "F") < 1.5 * ADVx('u16F64'));
+    { @wnarrowFLeft = [$h]; }
+
+# Add space to previously inserted zwsp for width of first component
+# and base for last component
+lookup space_pairlefthead {
+do  for h = @_H;
+    let t = ADVx(h);
+    {
+        pos @wnarrowHLeft <$t 0 $t 0> $h 0;
+    }
+} space_pairlefthead;
+
+lookup space_pairhalflefthead {
+do  for h = @_H;
+    let t = int(ADVx(h)/2);
+    {
+        pos @wnarrowHLeft <$t 0 $t 0> $h 0;
+    }
+} space_pairhalflefthead;
+
+lookup space_pairrighthead {
+do  for h = @_H;
+    let t = ADVx(h);
+    {
+        pos @wnarrowHLeft $t $h 0;
+    }
+} space_pairrighthead;
+
+lookup space_pairhalfrighthead {
+do  for h = @_H;
+    let t = int(ADVx(h)/2);
+    {
+        pos @wnarrowHLeft $t $h 0;
+    }
+} space_pairhalfrighthead;
+
+lookup space_pairleftfoot {
+do  for h = @_F;
+    let t = ADVx(h);
+    {
+        pos @wnarrowFLeft <$t 0 $t 0> $h 0;
+    }
+} space_pairleftfoot;
+
+lookup space_pairhalfleftfoot {
+do  for h = @_F;
+    let t = int(ADVx(h)/2);
+    {
+        pos @wnarrowFLeft <$t 0 $t 0> $h 0;
+    }
+} space_pairhalfleftfoot;
+
+lookup space_pairrightfoot {
+do  for h = @_F;
+    let t = ADVx(h);
+    {
+        pos @wnarrowFLeft $t $h 0;
+    }
+} space_pairrightfoot;
+
+lookup space_pairhalfrightfoot {
+do  for h = @_F;
+    let t = int(ADVx(h)/2);
+    {
+        pos @wnarrowFLeft $t $h 0;
+    }
+} space_pairhalfrightfoot;
+
+lookup space_leftheadfoot {
+    ignore pos @NMARKTONES @wnarrowHLeft';
+    pos @vnarrowHLeft' lookup space_pairhalflefthead @_H' u16F91;
+    pos @narrowHLeft' lookup space_pairlefthead @_H' @_H u16F91;
+    pos @wnarrowHLeft' lookup space_pairlefthead @_H' @_H @_H u16F91;
+    pos @vnarrowFLeft' lookup space_pairhalfleftfoot @_F' u16F92;
+    pos @narrowFLeft' lookup space_pairleftfoot @_F' @_F u16F92;
+    pos @wnarrowFLeft' lookup space_pairleftfoot @_F' @_F @_F u16F92;
+} space_leftheadfoot;
+
+lookup space_rightheadfoot {
+    pos @vnarrowHRight' lookup space_pairhalfrighthead @_H' u16F91 ZWNBS @H @_H u16F91;
+    pos @vnarrowHRight' lookup space_pairhalfrighthead @_H' u16F91 ZWNBS @H @_H @_H u16F91;
+    pos @vnarrowHRight' lookup space_pairhalfrighthead @_H' u16F91 ZWNBS @H @_H @_H @_H u16F91;
+    pos @vnarrowFRight' lookup space_pairhalfrightfoot @_F' u16F92 ZWNBS @F @_F u16F92;
+    pos @vnarrowFRight' lookup space_pairhalfrightfoot @_F' u16F92 ZWNBS @F @_F @_F u16F92;
+    pos @vnarrowFRight' lookup space_pairhalfrightfoot @_F' u16F92 ZWNBS @F @_F @_F @_F u16F92;
+    ignore pos @vnarrowHRight' @_H u16F91 ZWNBS;
+    ignore pos @vnarrowHRight' @_F u16F92 ZWNBS;
+    pos @vnarrowHRight' lookup space_pairhalfrighthead @_H' u16F91;
+    pos @vnarrowFRight' lookup space_pairhalfrightfoot @_F' u16F92;
+} space_rightheadfoot;
+
+# Add half the centre width to both sides
+lookup adv_pairhalfrighthead {
+do  for h = @_H;
+    let t = int(ADVx(h) / 2);
+    {
+        pos @wnarrowHRight' $t @_H $h;
+    }
+} adv_pairhalfrighthead;
+
+lookup adv_pairrighthead {
+do  for h = @_H;
+    let t = ADVx(h);
+    {
+        pos @wnarrowHRight' $t @_H $h;
+    }
+} adv_pairrighthead;
+
+lookup adv_lefthead {
+    ignore pos @NMARKTONES @narrowHLeft';
+do  for h = @_H;
+    let t = ADVx(h);
+    let s = int(t/2);
+    {
+        pos @wnarrowHLeft' <$s 0 $s 0> @_H $h @_H @MARKTONES;
+    }
+} adv_lefthead;
+
+lookup adv_pairhalfrightfoot {
+do  for h = @_F;
+    let t = int(ADVx(h) / 2);
+    {
+        pos @wnarrowFRight' $t @_F $h;
+    }
+} adv_pairhalfrightfoot;
+
+lookup adv_pairrightfoot {
+do  for h = @_F;
+    let t = ADVx(h);
+    {
+        pos @wnarrowFRight' $t @_F $h;
+    }
+} adv_pairrightfoot;
+
+lookup adv_leftfoot {
+    ignore pos @NMARKTONES @narrowFLeft';
+do  for h = @_F;
+    let t = ADVx(h);
+    let s = int(t/2);
+    {
+        pos @wnarrowFLeft' <$s 0 $s 0> @_F $h @_F @MARKTONES;
+    }
+} adv_leftfoot;
+
+lookup adv_rightheadfoot {
+    pos @narrowHRight' lookup adv_pairrighthead @_H' @_H' u16F91 ZWNBS @H @_H u16F91;
+    pos @narrowHRight' lookup adv_pairrighthead @_H' @_H' u16F91 ZWNBS @H @_H @_H u16F91;
+    pos @narrowHRight' lookup adv_pairrighthead @_H' @_H' u16F91 ZWNBS @H @_H @_H @_H u16F91;
+    pos @narrowHRight' lookup adv_pairhalfrighthead @_H' @_H' @_H u16F91 ZWNBS @H @_H u16F91;
+    pos @narrowHRight' lookup adv_pairhalfrighthead @_H' @_H' @_H u16F91 ZWNBS @H @_H @_H u16F91;
+    pos @narrowHRight' lookup adv_pairhalfrighthead @_H' @_H' @_H u16F91 ZWNBS @H @_H @_H @_H u16F91;
+    pos @narrowFRight' lookup adv_pairrightfoot @_F' @_F' u16F92 ZWNBS @F @_F u16F92;
+    pos @narrowFRight' lookup adv_pairrightfoot @_F' @_F' u16F92 ZWNBS @F @_F @_F u16F92;
+    pos @narrowFRight' lookup adv_pairrightfoot @_F' @_F' u16F92 ZWNBS @F @_F @_F @_F u16F92;
+    pos @narrowFRight' lookup adv_pairhalfrightfoot @_F' @_F' @_F u16F92 ZWNBS @F @_F u16F92;
+    pos @narrowFRight' lookup adv_pairhalfrightfoot @_F' @_F' @_F u16F92 ZWNBS @F @_F @_F u16F92;
+    pos @narrowFRight' lookup adv_pairhalfrightfoot @_F' @_F' @_F u16F92 ZWNBS @F @_F @_F @_F u16F92;
+    ignore pos @narrowHRight' @_H @_H u16F91 ZWNBS;
+    ignore pos @narrowHRight' @_H @_H @_H u16F91 ZWNBS;
+    ignore pos @narrowFRight' @_F @_F u16F92 ZWNBS;
+    ignore pos @narrowFRight' @_F @_F @_F u16F92 ZWNBS;
+    pos @narrowHRight' lookup adv_pairrighthead @_H' @_H' u16F91;
+    pos @narrowHRight' lookup adv_pairhalfrighthead @_H' @_H' @_H u16F91;
+    pos @narrowFRight' lookup adv_pairrightfoot @_F' @_F' u16F92;
+    pos @narrowFRight' lookup adv_pairhalfrightfoot @_F' @_F' @_F u16F92;
+} adv_rightheadfoot;
+
+lookup adv_extrapairhead {
+do  for h = @_H;
+    let t = ADVx(h);
+    {
+        pos @wnarrowHRight' $t @_H @_H $h;
+    }
+} adv_extrapairhead;
+
+lookup adv_extrapairfoot {
+do  for h = @_F;
+    let t = ADVx(h);
+    {
+        pos @wnarrowFRight' $t @_F @_F $h;
+    }
+} adv_extrapairfoot;
+
+lookup adv_extra_headfoot {
+    pos @wnarrowHRight' lookup adv_extrapairhead @_H' @_H' @_H' u16F91 ZWNBS @H @_H u16F91;
+    pos @wnarrowHRight' lookup adv_extrapairhead @_H' @_H' @_H' u16F91 ZWNBS @H @_H @_H u16F91;
+    pos @wnarrowHRight' lookup adv_extrapairhead @_H' @_H' @_H' u16F91 ZWNBS @H @_H @_H @_H u16F91;
+    pos @wnarrowFRight' lookup adv_extrapairfoot @_F' @_F' @_F' u16F92 ZWNBS @F @_F u16F92;
+    pos @wnarrowFRight' lookup adv_extrapairfoot @_F' @_F' @_F' u16F92 ZWNBS @F @_F @_F u16F92;
+    pos @wnarrowFRight' lookup adv_extrapairfoot @_F' @_F' @_F' u16F92 ZWNBS @F @_F @_F @_F u16F92;
+    ignore pos @wnarrowHRight' @_H @_H @_H u16F91 ZWNBS;
+    ignore pos @wnarrowFRight' @_F @_F @_F u16F92 ZWNBS;
+    pos @wnarrowHRight' lookup adv_extrapairhead @_H' @_H' @_H' u16F91;
+    pos @wnarrowFRight' lookup adv_extrapairfoot @_F' @_F' @_F' u16F92;
+} adv_extra_headfoot;
+
+# Now take away half the width of the base from both
+lookup base_headshift {
+do  for b = @wnarrowHLeft;
+    let s = -APx(b, "H");
+    {
+        pos $b' <$s 0 $s 0>;
+    }
+} base_headshift;
+
+lookup base_headadv {
+do  for b = @wnarrowHRight;
+    let s = APx(b, "H") - ADVx(b);
+    {
+        pos $b' $s;
+    }
+} base_headadv;
+
+lookup base_footshift {
+do  for b = @wnarrowFLeft;
+    let s = -APx(b, "F");
+    {
+        pos $b' <$s 0 $s 0>;
+    }
+} base_footshift;
+
+lookup base_footadv {
+do  for b = @wnarrowFRight;
+    let s = APx(b, "F") - ADVx(b);
+    {
+        pos $b' $s;
+    }
+} base_footadv;
+
+lookup base_leftheadfoot {
+    ignore pos @NMARKTONES @wnarrowHLeft';
+    pos @vnarrowHLeft' lookup base_headshift @_H u16F91;
+    pos @narrowHLeft' lookup base_headshift @_H @_H u16F91;
+    pos @wnarrowHLeft' lookup base_headshift @_H @_H @_H u16F91;
+    pos @vnarrowFLeft' lookup base_footshift @_F u16F92;
+    pos @narrowFLeft' lookup base_footshift @_F @_F u16F92;
+    pos @wnarrowFLeft' lookup base_footshift @_F @_F @_F u16F92;
+} base_leftheadfoot;
+
+lookup base_rightheadfoot {
+    pos @vnarrowHRight' lookup base_headadv @_H u16F91 ZWNBS @H @_H u16F91;
+    pos @vnarrowHRight' lookup base_headadv @_H u16F91 ZWNBS @H @_H @_H u16F91;
+    pos @vnarrowHRight' lookup base_headadv @_H u16F91 ZWNBS @H @_H @_H  @_H u16F91;
+    pos @vnarrowHRight' lookup base_headadv @_H u16F92 ZWNBS @H @_H u16F92;
+    pos @vnarrowHRight' lookup base_headadv @_H u16F92 ZWNBS @H @_H @_H u16F92;
+    pos @vnarrowHRight' lookup base_headadv @_H u16F92 ZWNBS @H @_H @_H  @_H u16F92;
+    pos @narrowHRight' lookup base_headadv @_H @_H u16F91 ZWNBS @H @_H u16F91;
+    pos @narrowHRight' lookup base_headadv @_H @_H u16F91 ZWNBS @H @_H @_H u16F91;
+    pos @narrowHRight' lookup base_headadv @_H @_H u16F91 ZWNBS @H @_H @_H  @_H u16F91;
+    pos @narrowFRight' lookup base_footadv @_F @_F u16F92 ZWNBS @F @_F u16F92;
+    pos @narrowFRight' lookup base_footadv @_F @_F u16F92 ZWNBS @F @_F @_F u16F92;
+    pos @narrowFRight' lookup base_footadv @_F @_F u16F92 ZWNBS @F @_F @_F  @_F u16F92;
+    pos @wnarrowFRight' lookup base_footadv @_F @_F @_F u16F91 ZWNBS @F @_F u16F91;
+    pos @wnarrowFRight' lookup base_footadv @_F @_F @_F u16F91 ZWNBS @F @_F @_F u16F91;
+    pos @wnarrowFRight' lookup base_footadv @_F @_F @_F u16F91 ZWNBS @F @_F @_F  @_F u16F91;
+    pos @wnarrowFRight' lookup base_footadv @_F @_F @_F u16F92 ZWNBS @F @_F u16F92;
+    pos @wnarrowFRight' lookup base_footadv @_F @_F @_F u16F92 ZWNBS @F @_F @_F u16F92;
+    pos @wnarrowFRight' lookup base_footadv @_F @_F @_F u16F92 ZWNBS @F @_F @_F  @_F u16F92;
+    ignore pos @vnarrowHRight' @_H u16F91 ZWNBS;
+    ignore pos @narrowHRight' @_H @_H u16F91 ZWNBS;
+    ignore pos @wnarrowHRight' @_H @_H @_H u16F91 ZWNBS;
+    ignore pos @vnarrowHRight' @_H u16F92 ZWNBS;
+    ignore pos @narrowHRight' @_H @_H u16F92 ZWNBS;
+    ignore pos @wnarrowHRight' @_H @_H @_H u16F92 ZWNBS;
+    pos @vnarrowHRight' lookup base_headadv @_H u16F91;
+    pos @narrowHRight' lookup base_headadv @_H @_H u16F91;
+    pos @wnarrowHRight' lookup base_headadv @_H @_H @_H u16F91;
+    pos @vnarrowFRight' lookup base_footadv @_F u16F92;
+    pos @narrowFRight' lookup base_footadv @_F @_F u16F92;
+    pos @wnarrowFRight' lookup base_footadv @_F @_F @_F u16F92;
+} base_rightheadfoot;
+
+#############
+
+#############
 
 lookup asp_attach {
     pos base @S mark @_SB;
@@ -929,10 +1229,15 @@ feature kern {
         lookup asp_hf_attach_forward;
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
-        lookup space_headfoot;
-        lookup adv_headfoot;
-        lookup base_headfoot;
-        lookup narr_headfoot;
+        lookup space_leftheadfoot;
+        lookup space_rightheadfoot;
+        lookup adv_lefthead;
+        lookup adv_leftfoot;
+        lookup adv_rightheadfoot;
+        lookup adv_extra_headfoot;
+        lookup base_leftheadfoot;
+        lookup base_rightheadfoot;
+        # lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
     language YNA exclude_dflt;
@@ -942,10 +1247,15 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_fix_attach;
-        lookup space_headfoot;
-        lookup adv_headfoot;
-        lookup base_headfoot;
-        lookup narr_headfoot;
+        lookup space_leftheadfoot;
+        lookup space_rightheadfoot;
+        lookup adv_lefthead;
+        lookup adv_leftfoot;
+        lookup adv_rightheadfoot;
+        lookup adv_extra_headfoot;
+        lookup base_leftheadfoot;
+        lookup base_rightheadfoot;
+        # lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
         lookup right_align_to_asp_W;
@@ -957,10 +1267,15 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_fix_attach;
-        lookup space_headfoot;
-        lookup adv_headfoot;
-        lookup base_headfoot;
-        lookup narr_headfoot;
+        lookup space_leftheadfoot;
+        lookup space_rightheadfoot;
+        lookup adv_lefthead;
+        lookup adv_leftfoot;
+        lookup adv_rightheadfoot;
+        lookup adv_extra_headfoot;
+        lookup base_leftheadfoot;
+        lookup base_rightheadfoot;
+        # lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
     language HMDD exclude_dflt;
@@ -969,10 +1284,15 @@ feature kern {
         lookup aspirations_r;
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
-        lookup space_headfoot;
-        lookup adv_headfoot;
-        lookup base_headfoot;
-        lookup narr_headfoot;
+        lookup space_leftheadfoot;
+        lookup space_rightheadfoot;
+        lookup adv_lefthead;
+        lookup adv_leftfoot;
+        lookup adv_rightheadfoot;
+        lookup adv_extra_headfoot;
+        lookup base_leftheadfoot;
+        lookup base_rightheadfoot;
+        # lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
     language HMD exclude_dflt;
@@ -984,10 +1304,15 @@ feature kern {
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
         lookup space_waist_kern_W;
-        lookup space_headfoot;
-        lookup adv_headfoot;
-        lookup base_headfoot;
-        lookup narr_headfoot;
+        lookup space_leftheadfoot;
+        lookup space_rightheadfoot;
+        lookup adv_lefthead;
+        lookup adv_leftfoot;
+        lookup adv_rightheadfoot;
+        lookup adv_extra_headfoot;
+        lookup base_leftheadfoot;
+        lookup base_rightheadfoot;
+        # lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
         lookup right_align_to_asp_F;
@@ -1000,10 +1325,16 @@ feature kern {
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
         lookup space_waist_kern_W;
-        lookup space_headfoot;
-        lookup adv_headfoot;
-        lookup base_headfoot;
-        lookup narr_headfoot;
+        lookup space_waist_kern_W;
+        lookup space_leftheadfoot;
+        lookup space_rightheadfoot;
+        lookup adv_lefthead;
+        lookup adv_leftfoot;
+        lookup adv_rightheadfoot;
+        lookup adv_extra_headfoot;
+        lookup base_leftheadfoot;
+        lookup base_rightheadfoot;
+        # lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
     language YWQA exclude_dflt;
@@ -1014,10 +1345,15 @@ feature kern {
         lookup asp_hf_attach_forward;
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
-        lookup space_headfoot;
-        lookup adv_headfoot;
-        lookup base_headfoot;
-        lookup narr_headfoot;
+        lookup space_leftheadfoot;
+        lookup space_rightheadfoot;
+        lookup adv_lefthead;
+        lookup adv_leftfoot;
+        lookup adv_rightheadfoot;
+        lookup adv_extra_headfoot;
+        lookup base_leftheadfoot;
+        lookup base_rightheadfoot;
+        # lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
     language LPO exclude_dflt;
@@ -1027,10 +1363,15 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_fix_attach;
-        lookup space_headfoot;
-        lookup adv_headfoot;
-        lookup base_headfoot;
-        lookup narr_headfoot;
+        lookup space_leftheadfoot;
+        lookup space_rightheadfoot;
+        lookup adv_lefthead;
+        lookup adv_leftfoot;
+        lookup adv_rightheadfoot;
+        lookup adv_extra_headfoot;
+        lookup base_leftheadfoot;
+        lookup base_rightheadfoot;
+        # lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
     language YGP exclude_dflt;
@@ -1039,10 +1380,15 @@ feature kern {
         lookup aspirations_r;
         lookup asp_hf_attach_right;
         lookup headfoot_vowels;
-        lookup space_headfoot;
-        lookup adv_headfoot;
-        lookup base_headfoot;
-        lookup narr_headfoot;
+        lookup space_leftheadfoot;
+        lookup space_rightheadfoot;
+        lookup adv_lefthead;
+        lookup adv_leftfoot;
+        lookup adv_rightheadfoot;
+        lookup adv_extra_headfoot;
+        lookup base_leftheadfoot;
+        lookup base_rightheadfoot;
+        # lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
 } kern;
