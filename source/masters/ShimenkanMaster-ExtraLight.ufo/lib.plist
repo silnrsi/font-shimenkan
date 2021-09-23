@@ -308,6 +308,7 @@
     <string>u16F73.mark.ygp</string>
     <string>u16F5B.ywqa</string>
     <string>u16F5C.ywqa</string>
+    <string>u16F80.ywqa</string>
     <string>u16F8F</string>
     <string>u16F90</string>
     <string>u16F91</string>
@@ -1088,6 +1089,8 @@
     <string>u15F5B.ywqa</string>
     <key>u16F5C.ywqa</key>
     <string>u15F5C.ywqa</string>
+    <key>u16F80.ywqa</key>
+    <string>u15F80.ywqa</string>
   </dict>
 </dict>
 </plist>
