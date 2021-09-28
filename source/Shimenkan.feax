@@ -12,6 +12,17 @@
 @OPENWAIST = [u16F07 u16F0E u16F0F u16F10 u16F11 u16F12 u16F16 u16F17 u16F2E u16F2F u16F30 u16F32 u16F47 u16F48 u16F4A];
 @NMARKTONES = [@F u16F8F u16F90 @ASPALLMARKS @_H];
 
+#@GHHAVOWELS = [u16F54.mark u16F56.mark u16F57.mark u16F58.mark u16F59.mark u16F5A.mark
+#               u16F5B.mark u16F5C.mark u16F5D.mark u16F5E.mark u16F5F.mark u16F60.mark u16F61.mark u16F62.mark u16F63.mark u16F66.mark
+#               u16F67.mark u16F68.mark u16F6A.mark u16F71.mark u16F72.mark u16F73.mark u16F74.mark u16F75.mark u16F76.mark u16F77.mark
+#               u16F78.mark u16F79.mark u16F7A.mark u16F7B.mark u16F7C.mark u16F7D.mark u16F7E.mark u16F7F.mark u16F80.mark u16F81.mark
+#               u16F82.mark u16F83.mark u16F84.mark u16F85.mark u16F86.mark];
+@GHHAVOWELS = [u16F55.mark u16F64.mark u16F65.mark u16F69.mark u16F6B.mark u16F6C.mark u16F6D.mark u16F6E.mark
+               u16F6F.mark u16F70.mark u16F87.mark];
+
+@UANCONS = [u16F00 u16F01 u16F04 u16F05 u16F07 u16F0A u16F0D u16F12 u16F16 u16F1E u16F1F u16F26 u16F28 u16F29 u16F2C u16F2E
+            u16F21 u16F33 u16F35 u16F37 u16F38 u16F39 u16F3A u16F43 u16F44 u16F46];
+
 @L_4F = [u16F0E_u16F4F u16F10_u16F4F];
 @L_no4F = [u16F0E u16F10];
 
@@ -694,6 +705,15 @@ lookup base_rightheadfoot {
     pos @wnarrowFRight' lookup base_footadv @_F @_F @_F u16F92;
 } base_rightheadfoot;
 
+lookup spacekern_headfoot {
+    ignore pos @NMARKTONES @wnarrowHLeft';
+    pos u16F28' lookup space_leftheadfoot lookup space_rightheadfoot lookup base_leftheadfoot lookup base_rightheadfoot [@_H @_F]' @MARKTONES;
+    pos u16F29' lookup space_leftheadfoot lookup space_rightheadfoot lookup base_leftheadfoot lookup base_rightheadfoot @GHHAVOWELS' @MARKTONES;
+    pos @UANCONS' lookup space_leftheadfoot lookup space_rightheadfoot lookup base_leftheadfoot lookup base_rightheadfoot [u16F6C u16F6D]' @MARKTONES;
+    pos [@wnarrowHLeft @wnarrowFLeft]' lookup space_leftheadfoot lookup space_rightheadfoot lookup adv_rightheadfoot lookup base_leftheadfoot lookup base_rightheadfoot [@_H @_F]' [@_H @_F]' @MARKTONES;
+    pos [@wnarrowHLeft @wnarrowFLeft]' lookup space_leftheadfoot lookup space_rightheadfoot lookup adv_rightheadfoot lookup adv_extra_headfoot lookup base_leftheadfoot lookup base_rightheadfoot [@_H @_F]' [@_H @_F]' [@_H @_F]' @MARKTONES;
+} spacekern_headfoot;
+
 #############
 
 #############
@@ -1229,14 +1249,7 @@ feature kern {
         lookup asp_hf_attach_forward;
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_lefthead;
-        lookup adv_leftfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
+        lookup spacekern_headfoot;
         # lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
@@ -1247,14 +1260,7 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_fix_attach;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_lefthead;
-        lookup adv_leftfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
+        lookup spacekern_headfoot;
         # lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
@@ -1267,14 +1273,7 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_fix_attach;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_lefthead;
-        lookup adv_leftfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
+        lookup spacekern_headfoot;
         # lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
@@ -1284,14 +1283,7 @@ feature kern {
         lookup aspirations_r;
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_lefthead;
-        lookup adv_leftfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
+        lookup spacekern_headfoot;
         # lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
@@ -1304,14 +1296,7 @@ feature kern {
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
         lookup space_waist_kern_W;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_lefthead;
-        lookup adv_leftfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
+        lookup spacekern_headfoot;
         # lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
@@ -1325,15 +1310,7 @@ feature kern {
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
         lookup space_waist_kern_W;
-        lookup space_waist_kern_W;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_lefthead;
-        lookup adv_leftfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
+        lookup spacekern_headfoot;
         # lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
@@ -1345,14 +1322,7 @@ feature kern {
         lookup asp_hf_attach_forward;
         lookup asp_hf_attach_left;
         lookup asp_fix_attach;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_lefthead;
-        lookup adv_leftfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
+        lookup spacekern_headfoot;
         # lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
@@ -1363,14 +1333,7 @@ feature kern {
         lookup headfoot_vowels;
         lookup asp_hf_attach_right;
         lookup asp_fix_attach;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_lefthead;
-        lookup adv_leftfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
+        lookup spacekern_headfoot;
         # lookup narr_headfoot;
         lookup low_vowel_wasp;
         lookup hang_attach_spacing;
@@ -1380,14 +1343,7 @@ feature kern {
         lookup aspirations_r;
         lookup asp_hf_attach_right;
         lookup headfoot_vowels;
-        lookup space_leftheadfoot;
-        lookup space_rightheadfoot;
-        lookup adv_lefthead;
-        lookup adv_leftfoot;
-        lookup adv_rightheadfoot;
-        lookup adv_extra_headfoot;
-        lookup base_leftheadfoot;
-        lookup base_rightheadfoot;
+        lookup spacekern_headfoot;
         # lookup narr_headfoot;
         lookup low_vowel_rasp;
         lookup hang_attach_spacing;
