@@ -259,7 +259,6 @@ feature locl {
     language HMD exclude_dflt;
         lookup lig_open;
         lookup lig_point;
-        lookup left_asp_na;
     language LPO exclude_dflt;
         lookup lig_lpo;
         lookup lig_flat;
@@ -273,6 +272,10 @@ feature locl {
         lookup lig_open;
         lookup lig_point;
 } locl;
+
+feature ss01 {
+    lookup left_asp_na;
+} ss01;
 
 ######################
 # Attaching

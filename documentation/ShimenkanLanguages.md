@@ -19,7 +19,7 @@ Behavior                    | Setting
 :---------------------------|:---------
 Open AN (u16F57)            | yes
 Pointed EI (u16F7A)         | yes
-Left Aspiration NA (u16F10) | yes
+Left Aspiration NA (u16F10) | no, but available via ss01 for traditional texts
 Aspiration (u16F51)         | tucked
 V+ @S                       | tucked
 V @F no asp                 | tucked
