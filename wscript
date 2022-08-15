@@ -62,6 +62,7 @@ for dspace in ('Roman', ):
                                             name(langfontname(f.name, l))),
                     opentype = internal(),
                     source = f.target,
+                    axes = f.axes,
                     lang = l,
                     package = packages[l])
             if '--alllangs' not in opts and \
