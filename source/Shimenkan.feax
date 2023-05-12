@@ -26,6 +26,9 @@
 @L_4F = [u16F0E_u16F4F u16F10_u16F4F];
 @L_no4F = [u16F0E u16F10];
 
+@c_mark = [@c_mark u16F7A.mark.point];
+@cno_mark = [@cno_mark u16F7A.point];
+
 do  let c = feaclass("W");
     let subc = filter(lambda g: int(re.sub(r"^u([0-9a-fA-F]+)([._].*)?$", r"\1", g), 16) < 0x16F51, c);
     let l = " ".join(subc);
