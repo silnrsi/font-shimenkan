@@ -41,8 +41,8 @@ be sure to add your name (N), email (E), web-address (W) and description (D).
 This list is sorted by last name in alphabetical order.)
 
 N: SIL font designers and engineers
-E: http://scripts.sil.org/support
-W: http://scripts.sil.org/
+E: https://software.sil.org/about/contact/
+W: https://software.sil.org/wstech/
 D: Graphite, OpenType, and TypeTuner code, and build support
 
 The Shimenkan fonts are maintained by SIL International.

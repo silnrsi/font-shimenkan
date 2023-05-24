@@ -19,7 +19,7 @@ psfsetpsnames -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight
 psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/ShimenkanMaster-ExtraLight.ufo
 
 # Following sync will copy psnames and glyphorder updates to all fonts
-psfsyncmasters --complex source/ShimenkanRoman.designspace source/ShimenkanItalic.designspace  -l source/logs/sync.log
+psfsyncmasters source/ShimenkanRoman.designspace source/ShimenkanItalic.designspace  -l source/logs/sync.log
 
  # Fix problem with non-spacing marks due to glyphsLib bug
 psfremovegliflibkeys source/masters/ShimenkanMaster-ExtraLight.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixXL.log

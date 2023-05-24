@@ -2,7 +2,7 @@
 '''Adds anchors to Miao fonts based on a csv spec (glyphname, anchorset). Based on psfaddanchors.
 Deletes all anchors in listed glyphs and adds those appropriate for the names anchorset.'''
 __url__ = 'http://github.com/silnrsi/font-shimenkan'
-__copyright__ = 'Copyright (c) 2018 SIL International (http://www.sil.org)'
+__copyright__ = 'Copyright (c) 2018 SIL International (https://www.sil.org)'
 __license__ = 'Released under the MIT License (http://opensource.org/licenses/MIT)'
 __author__ = 'Victor Gaultney'
 
