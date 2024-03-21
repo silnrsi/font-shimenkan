@@ -818,6 +818,8 @@
   <string>four.glif</string>
   <key>four.dnom</key>
   <string>four.dnom.glif</string>
+  <key>four.sups</key>
+  <string>four.sups.glif</string>
   <key>fraction</key>
   <string>fraction.glif</string>
   <key>g</key>
