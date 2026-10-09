@@ -8,12 +8,31 @@
 results/**
 buildlinux2/**
 bin/**
+source/backups/*
+.tmp/*
 
 # general backup files
 *~
 *.swp
 *.autosave
 *(Autosaved)*
+
+# temporary fontdocs files
+documentation/source/pdftemp/
+documentation/source/productsite/
+web/*.woff*
+
+# temporary doc image sources
+documentation/assets/images/*.indd
+documentation/assets/images/*.pdf
+documentation/assets/images/*.psd
+
+# temporary interpolation test folder
+variable_ttf/
+
+# diffenator2
+.ninja_log
+build.ninja
 
 
 # OS X
@@ -49,7 +68,8 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
-.idea/
+.idea/*
+.vscode/*
 
 # Shares
 .AppleDB
@@ -93,9 +113,12 @@ $RECYCLE.BIN/
 # Other
 .sass-cache/
 .jekyll-metadata
+tmp/
 
 # Byte-compiled / optimized files
 *.py[co]
 *$py.class
 __pycache__/
 
+# Glyphs.App
+*.glyphs
